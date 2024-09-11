@@ -1,0 +1,21 @@
+@startuml "Caso uso 03: Solicitar cadastro"
+actor "Usuário" as User
+actor "Administrador" as Admin
+
+package "Solicitação de cadastro" {
+    (Acessar página inicial) as C1 
+    (Preencher solicitação) as C2
+    (Responder solicitação) as C3
+
+    User -- C1
+    User --C2
+    Admin -- C3
+    
+
+
+}
+
+    C1 --> C2: "Usuário deve rolar até o fim da página"
+
+
+@enduml

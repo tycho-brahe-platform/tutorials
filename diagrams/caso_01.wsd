@@ -1,0 +1,45 @@
+@startuml "Caso de uso 01"
+
+actor "Usuário" as User
+actor "Administrador da plataforma" as Admin
+
+rectangle CadastroUsuarios {
+   
+    
+    (Solicitar cadastro) --> (Utilizar Link e Código de Acesso)
+    
+    (Criar Corpus) --> (Selecionar Corpus)
+    (Selecionar Corpus) --> (Gerar Convite)
+    (Gerar Convite) --> (Configurar Permissões)
+    (Configurar Permissões) --> (Enviar Código e Link)
+    (Enviar Código e Link) --> (Utilizar Link e Código de Acesso)
+
+ User -- (Solicitar cadastro)
+    
+    Admin -- (Criar Corpus)
+    Admin -- (Selecionar Corpus)
+    Admin -- (Gerar Convite)
+    Admin -- (Configurar Permissões)
+    Admin -- (Enviar Código e Link)
+    User -- (Utilizar Link e Código de Acesso)
+}
+
+rectangle FluxoAlternativoA1 as FA1 {
+    Admin -- (Enviar Link de Onboarding)
+    User -- (Registrar Email via Onboarding)
+    Admin -- (Cadastrar Usuário após Registro)
+    
+    (Enviar Link de Onboarding) --> (Registrar Email via Onboarding)
+    (Registrar Email via Onboarding) --> (Cadastrar Usuário após Registro)
+}
+
+rectangle FluxoAlternativoA2 as FA2 {
+    Admin -- (Selecionar Usuário Existente)
+    Admin -- (Configurar Permissões para Usuário Existente)
+    
+    (Selecionar Usuário Existente) --> (Configurar Permissões para Usuário Existente)
+}
+
+
+
+@enduml
