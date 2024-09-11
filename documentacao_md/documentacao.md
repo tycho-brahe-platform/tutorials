@@ -541,5 +541,22 @@ Descrição dos botões de configuração dos corpora (no corpus management):
 
 - Use lexicon: é utilizado quando há um parser disponível, mas não há um etiquetador automático (que só funciona se houver uma quantidade mínima de palavras para treinamento do etiquetador). No caso de esta condição não estar satisfeita, o analista deve utilizar o léxico para realizar a etiquetagem automática.
 
-- Use grid: ao acessar o catálogo, o usuário tem a possibilidade de apresentação de documentos de duas maneiras: lista, ou grid. Ao habilitar o botão "use grid", o usuário configura a apresentação em grid como default. 
+- Use grid: ao acessar o catálogo, o usuário tem a possibilidade de apresentação de documentos de duas maneiras: lista, ou grid. Ao habilitar o botão "use grid", o usuário configura a apresentação em grid como default, como apresentado na Figura x abaixo:
 
+<figure>
+<img  src = "../imagens/botao_config_corpus_usegrid.png" alt = "Configura corpus: use grid">
+
+<figcaption> Figura x: Configuração de corpora: botão use grid</figcaption>
+
+</figure>
+
+- Use parser: [REVISAR: O Luiz mencionou que iria revisar se este botão está sendo utilizado..a mesma funcionalidade está presente na aba à esquerda]. Este botão habilita a utilização de parser.
+
+- Use category: o botão "use category" habilita a possibilidade de categorização e subcategorização dos corpora (por exemplo, categorização com base em parâmetros demográficos etc), como apresentado na Figura x, com o corpus CE-DOHS selecionado no catálogo. Note-se que a criação dos rótulos para as categorias pode ser realizada por um usuário com permissões de adminstrador 
+
+<figure>
+    <img src = "../imagens/botao_config_corpus_usecategory.png" alt = "Configuração corpus_ use category">
+    <figcaption>Figura x: Configuração de corpora: botão use category</figcaption>
+</figure>
+
+[PAREI EM 17:19 ]
