@@ -37,19 +37,19 @@ SUMÁRIO
     - [Diagrama do Caso de uso 04.01 - Criação de corpora](#diagrama-do-caso-de-uso-0401---criação-de-corpora)
     - [Tutorial: Criação de corpora](#tutorial-criação-de-corpora)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-3)
-      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-1)
-    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver)
-      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal-)
-      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-2)
+    - [Descrição Subcaso de uso 04.2 - Configuração dos corpora](#descrição-subcaso-de-uso-042---configuração-dos-corpora)
+    - [Diagrama do Caso de uso 04.01 - Criação de corpora](#diagrama-do-caso-de-uso-0401---criação-de-corpora-1)
+    - [Tutorial: Criação de corpora](#tutorial-criação-de-corpora-1)
+      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-4)
   - [1. Caso de uso 01 - Cadastro de novos usuários nos corpora da plataforma](#1-caso-de-uso-01---cadastro-de-novos-usuários-nos-corpora-da-plataforma-1)
     - [Descrição Caso de uso 01](#descrição-caso-de-uso-01-1)
     - [Diagrama do Caso de uso 01 - Cadastro](#diagrama-do-caso-de-uso-01---cadastro-1)
     - [Tutorial:](#tutorial)
-      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-4)
-      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-3)
-    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-1)
-      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--1)
-      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-4)
+      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-5)
+      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-1)
+    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver)
+      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal-)
+      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-2)
 
 ## Introdução
 
@@ -393,115 +393,17 @@ Para os administradores, a ferramenta oferece recursos avançados para a criaç�
 Há três formas [REVISAR] para executar a criação de corpora na ferramenta Tycho Brahe:
 
 1. *Translation mode* (Modo traduções) ou *Translation edictor*
-2.  [REVISAR: INSERIR LISTA DE MANEIRAS DE DEV D CORPUS]
+2. [REVISAR: INSERIR LISTA DE MANEIRAS DE DEV D CORPUS]
+Antes de ver em detalhe cada uma das meneiras de criação de corpora, é necessário apresentar quais são as opções disponíveis para configuração dos corpra.
 
-Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a criação de novos corpora, além de tutoriais detalhados que guiam administradores e usuários no uso eficiente da ferramenta, garantindo uma experiência fluida e colaborativa na gestão dos catálogos.
+A seguir, é apresentada uma descrição dos botões de configuração dos corpora (acesso pela ferramenta "Corpora Management"). O acesso à área de configuração dos corpora pode ser realizada a partir da pagina inicial da plataforma em https://www.tycho.iel.unicamp.br/home , acessando-se a ferramenta "Corpora Management", como apresentado na Figura x, a seguir:
 
-### Descrição Subcaso de uso 04.1 - Criação de corpora
+<figure> 
+    <img src = "../imagens/botoes_configuracao_corpora2.png" alt = "Processo de configuração dos corpora: acessando a área de config">
+    <figcaption>Figura x: Acessando área de configuração de corpora </figcaption>
 
-**Atores primários**:
-
-1. Administrador
-2. Usuário
-
-**Pré-requisitos:**
-
-1. Os usuários devem ser previamente cadastrados e ter permissões de edição. Para cadastro, ver Caso de uso 01; para solicitar cadastro, ver Caso de uso 03.
-
-**Fluxo normal:**
-
-1. Acessar a página inicial da plataforma Tycho Brahe, através do link: https://www.tycho.iel.unicamp.br/home .
-2. Na área "Ferramentas", selecionar a ferramente *"Corpus Management"*.
-3. Ao acessar o *"Corpus Management"*, uma lista de corpora disponíveis abre. Clicar em *"+ Create new corpus"*.
-4. Adicionar nome ao novo corpus e clicar em "Confirmar": novo corpus criado.
-
-### Diagrama do Caso de uso 04.01 - Criação de corpora 
-
-
-<figure>
-    <img src="../imagens/caso04_01_diagrama.png"
-         alt="Caso de uso 04.01 - Criação de corpora">
-    <figcaption>Figura 15: Diagrama caso de uso - Criação de corpora</figcaption>
 </figure>
 
-### Tutorial: Criação de corpora
-
-1. Acesse a página inicial da plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/home> .
-2. Na área "Ferramentas", role a página para baixo e selecione a ferramente "Corpus Management", como apresentado na Figura x:
-[INSERIR FIGURA]
-3. Ao acessar o *"Corpus Management"*, uma lista de corpora disponíveis abre. Clique em *"+ Create new corpus"*.
-4. Adicione um nome ao novo corpus e clique em "Confirmar": esta ação finaliza a criação do corpus (Note que estas ações apenas criam o corpus. Para inclusão/edição de documentos, ou seja, alimentar o corpus ver Caso de uso 04.2)
-[PAREI AQUI]
-**Objetivo:**:
-
-#### **Tutorial: Fluxo normal**
-
-1. 
-
-#### **Tutorial: Fluxo Alternativo 
-
-### Tutorial: Guia do Usuário Final (SE HOUVER)
-
-**Objetivo:** 
-#### **Tutorial: Fluxo normal **
-
-1. 
-#### **Tutorial: Fluxo alternativo**
-
-1.
-
-###########rascunho
-## 1. Caso de uso 01 - Cadastro de novos usuários nos corpora da plataforma
-[INTRODUÇÃO]
-### Descrição Caso de uso 01
-
-**Atores primários**:
-
-1.  
-
-**Pré-requisitos:**
-
-1. 
-
-**Fluxo normal:**
-
-1. 
-**Fluxo alternativo:**
-
-**A1** 
-1. 
-**A2** 
-
-1. 
-### Diagrama do Caso de uso 01 - Cadastro
-
-<figure>
-    <img src=""
-         alt="">
-    <figcaption>Figura X: CAPTION</figcaption>
-</figure>
-
-### Tutorial: 
-
-**Objetivo:** 
-
-#### **Tutorial: Fluxo normal**
-
-1. 
-
-#### **Tutorial: Fluxo Alternativo 
-
-### Tutorial: Guia do Usuário Final (SE HOUVER)
-
-**Objetivo:** 
-#### **Tutorial: Fluxo normal **
-
-1. 
-#### **Tutorial: Fluxo alternativo**
-
-1.
-
-Descrição dos botões de configuração dos corpora (no corpus management):
 
 - Public corpus: seleciona se o corpus é disponível ao público em geral ou se é privado.
 - Active: configura se o corpus está ativo;
@@ -586,4 +488,176 @@ Esta ação abre um painel com uma matriz para edição das camadas de edição,
     <figcaption>Figura x: Matriz para edição em camadas </figcaption>
 </figure>
 
-- Use Translations/Use Edictor/Use Designer/Use Transcriber/Use Syntrees/: Estes cinco botões não são excludentes, i.e., podem ser habilitados todos ao mesmo tempo em um determinado corpus. Esta ação disponibiliza todas as ferramentas para utilização no corpus. 
+- Use Translations/Use Edictor/Use Designer/Use Transcriber/Use Syntrees/: Estes cinco botões não são excludentes, i.e., podem ser habilitados todos ao mesmo tempo em um determinado corpus. Esta ação disponibiliza todas as ferramentas para utilização no corpus. (Haeverá seções específicas para cada um dos botões) 
+
+Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a criação de novos corpora, além de tutoriais detalhados que guiam administradores e usuários no uso eficiente da ferramenta, garantindo uma experiência fluida e colaborativa na gestão dos catálogos.
+
+
+### Descrição Subcaso de uso 04.1 - Criação de corpora
+
+**Atores primários**:
+
+1. Administrador
+2. Usuário
+
+**Pré-requisitos:**
+
+1. Os usuários devem ser previamente cadastrados e ter permissões de edição. Para cadastro, ver Caso de uso 01; para solicitar cadastro, ver Caso de uso 03.
+
+**Fluxo normal:**
+
+1. Acessar a página inicial da plataforma Tycho Brahe, através do link: https://www.tycho.iel.unicamp.br/home .
+2. Na área "Ferramentas", selecionar a ferramenta *"Corpus Management"*.
+3. Ao acessar o *"Corpus Management"*, uma lista de corpora disponíveis abre. Clicar em *"+ Create new corpus"*.
+4. Adicionar nome ao novo corpus e clicar em "Confirmar": novo corpus criado.
+
+### Diagrama do Caso de uso 04.01 - Criação de corpora 
+
+
+<figure>
+    <img src="../imagens/caso04_01_diagrama.png"
+         alt="Caso de uso 04.01 - Criação de corpora">
+    <figcaption>Figura 15: Diagrama caso de uso - Criação de corpora</figcaption>
+</figure>
+
+### Tutorial: Criação de corpora
+
+**Objetivo:**: Este tutorial detalha os passos necessários para a criação de novos corpora através da ferramenta *"Corpus management"*
+
+#### **Tutorial: Fluxo normal**
+
+1. Acesse a página inicial da plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/home> .
+
+2. Na área "Ferramentas", role a página para baixo e selecione a ferramenta "Corpus Management", como apresentado na Figura x:
+
+<figure>
+    <img src = "../imagens/ferramentas_corpora_management.png">
+    <figcaption> Figura x: Selecionando a ferrramenta "Corpora Management"</figcaption>
+</figure>
+
+3. Ao acessar o *"Corpus Management"*, uma lista de corpora disponíveis abre. Clique em *"+ Create new corpus"*.
+
+<figure>
+    <img src = "../imagens/criacao_corpus.png">
+    <figcaption>Figura x: Criação de um novo corpus</figcaption>
+</figure>
+
+4. Adicione um nome ao novo corpus e clique em "Confirmar": esta ação finaliza a criação do corpus (Note que estas ações apenas criam o corpus. Para inclusão/edição de documentos, ou seja, alimentar o corpus ver Caso de uso 04.2). Após preencher com o nome desejado, clique em "Confirmar". Esta ação cria um novo corpus, que aparecerá na lista. 
+
+<figure>
+    <img src = "../imagens/criacao_corpus_nome.png">
+    <figcaption>Figura x: Criação de corpus: inserção de nome</figcaption>
+</figure>
+
+
+
+### Descrição Subcaso de uso 04.2 - Configuração dos corpora
+
+**Atores primários**:
+
+1. Administrador
+2. Usuário
+
+**Pré-requisitos:**
+
+1. Os usuários devem ser previamente cadastrados e ter permissões de edição. Para cadastro, ver Caso de uso 01; para solicitar cadastro, ver Caso de uso 03. Um corpus deve ter sido criado previamente (ver caso de uso 04.1).
+
+**Fluxo normal:**
+
+1. Acessar a página inicial da plataforma Tycho Brahe, através do link: https://www.tycho.iel.unicamp.br/home .
+2. Na área "Ferramentas", selecionar a ferramenta *"Corpus Management"*.
+3. Ao acessar o *"Corpus Management"*, uma lista de corpora disponíveis abre. Selecionar o corpus que deseja configurar.
+
+
+### Diagrama do Caso de uso 04.01 - Criação de corpora 
+[PAREI AQUI 13/09]
+
+<figure>
+    <img src=""
+         alt="Caso de uso 04.01 - Criação de corpora">
+    <figcaption>Figura 15: Diagrama caso de uso - Criação de corpora</figcaption>
+</figure>
+
+### Tutorial: Criação de corpora
+
+**Objetivo:**: Este tutorial detalha os passos necessários para a configuração de novos corpora através da ferramenta *"Corpus management"*
+
+#### **Tutorial: Fluxo normal**
+
+1. Acesse a página inicial da plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/home> .
+
+2. Na área "Ferramentas", role a página para baixo e selecione a ferramenta "Corpus Management", como apresentado na Figura x:
+
+<figure>
+    <img src = "">
+    <figcaption> Figura x"</figcaption>
+</figure>
+
+3. Ao acessar o *"Corpus Management"*, uma lista de corpora disponíveis abre. Clique no corpus que deseja configurar.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###########rascunho
+## 1. Caso de uso 01 - Cadastro de novos usuários nos corpora da plataforma
+[INTRODUÇÃO]
+### Descrição Caso de uso 01
+
+**Atores primários**:
+
+1.  
+
+**Pré-requisitos:**
+
+1. 
+
+**Fluxo normal:**
+
+1. 
+**Fluxo alternativo:**
+
+**A1** 
+1. 
+**A2** 
+
+1. 
+### Diagrama do Caso de uso 01 - Cadastro
+
+<figure>
+    <img src=""
+         alt="">
+    <figcaption>Figura X: CAPTION</figcaption>
+</figure>
+
+### Tutorial: 
+
+**Objetivo:** 
+
+#### **Tutorial: Fluxo normal**
+
+1. 
+
+#### **Tutorial: Fluxo Alternativo 
+
+### Tutorial: Guia do Usuário Final (SE HOUVER)
+
+**Objetivo:** 
+#### **Tutorial: Fluxo normal **
+
+1. 
+#### **Tutorial: Fluxo alternativo**
+
+1.
