@@ -7,7 +7,9 @@
 
 <img src = "../imagens/logo_tycho2.png">
 </center>
-***
+
+---
+
 SUMÁRIO
 
 - [DOCUMENTAÇÃO PLATAFORMA TYCHO BRAHE (TYCHO BRAHE PLATAFORM)](#documentação-plataforma-tycho-brahe-tycho-brahe-plataform)
@@ -285,7 +287,7 @@ Se o usuário já estiver cadastrado em outro corpus, siga estas etapas:
 3. **Acessar Página de perfil**: Você será redirecionado para uma página de perfil na plataforma. Como é o primeiro acesso, não haverá corpora vinculados na área “Meus corpora”. Esse acesso salva o seu e-mail na base de dados permitindo que o Admin consiga vincular o seu perfil ao corpus desejado.
 4. **Acesso ao Sistema**: O usuário deve tentar realizar o sign in para certificar-se de que o cadastro foi realizado com sucesso. Se o sign in for bem-sucedido, o usuário poderá acessar o corpus com as permissões definidas pelo administrador.
 
-***
+---
 
 ## 2. Caso de uso 02 - Realizar *Sign in*
 
@@ -317,7 +319,7 @@ O Sign in seguro permite ao usuário acessar a plataforma com segurança. Este p
 
 **Objetivo:** Este tutorial detalha o processo para o usuário realizar o Sign in na plataforma. Em um fluxo normal, o usuário já foi previamente cadastrado com um e-mail Google. Caso contrário, veja Caso de uso 3 - Solicitar cadastro para realizar a solicitação junto aos administradores da plataforma.
 
-***
+---
 
 #### **Tutorial: Fluxo normal**
 
@@ -578,28 +580,45 @@ Esta ação abre um painel com uma matriz para edição dos níveis de edição,
 
 Os botões "Use eDictor Translations"/"Use eDictor"/"Use Designer"/"Use Transcriber" não são excludentes, i.e., podem ser habilitados ao mesmo tempo em um determinado corpus. Esta ação disponibiliza todas as ferramentas para utilização no corpus.
 
-"Use eDictor Translations": Habilita o uso da versão eDictor para trabalhar com corpora paralelos, como apresentado na Figura x a seguir:
+**Use eDictor Translations**: Habilita o uso da versão eDictor para apresentação de corpora paralelos, como apresentado na Figura x a seguir:
 <figure>
     <img src = "../imagens/botao_config_corpus_useedictortranslations1.png" alt = "Use eDictor Translations">
     <figcaption>Figura x: Configuração de corpora: botão Use eDictor Translations - Corpora Paralelos </figcaption>
 </figure>
+<br>
+A configuração do eDictor Tranlations também depende de configurações na aba eDictor na pagina de admin ("Corpora Management"):
+
+- Acesse a página inicial da ferramenta no endereço <https://www.tycho.iel.unicamp.br/home>;
+- Acesse "Corpora Management" na área de Ferramentas.
+- Selecione o corpus que deseja configurar (ou crie um novo corpus em "+ Create New Corpus").
+- Seleciona a aba "eDictor" e "Translations" no canto esquerdo.
+- Clique em "Create": uma caixa com campos de configurações para entradas de tradução abre:
+  - **Order**: aceita número inteiros para configuração da ordem em que as línguas de tradução serão apresentadas;
+  - **Symbol**: preencha com o rótulo desejado;
+  - **Name**: preencha com o nome desejado;
+  - **Reference**: preencha para adicionar uma referência.[REVISAR: PERGUNTAR AO LUIZ PARA QUE SERVE REFERENCE COM MAIS DETALHES]
 
 
+<br>
+<figure>
+    <img src = "../imagens/configura_corpus_admin_translations3.png">
+    <figcaption>Figura x: Configurações de apresentação das traduções no eDictor Translations</figcaption>
+</figure>
+<br>
+Estas configurações habilitam a apresentação dos corpora paralelos como em 2 na Figura x abaixo; Em 3, o usuário pode selecionar qual lingua de tradução deseja que seja apresentada; Em 4, após a seleção de uma sentença, é possível verificar as traduções para a sentença selecionada, além de ser possível realizar edições nas traduções.
+
+<figure>
+    <img src = "../imagens/configura_corpus_admin_translations7.png">
+    <figcaption>Figura x: Resultado configurações de eDictor Translations</figcaption>
+</figure>
+
+**Use eDictor**: o acionamento do botão "Use eDictor" habilita o uso do eDictor tradicional para transcrição e edição.
+
+**Use Designer**: o acionamento deste botão habilita o uso da versão do eDictor para trabalhar com textos de layouts complexos, como jornais.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Use Transcriber**: este botão habilita o uso da versão do eDictor para trabalhar com transcrição de áudio.
+<br><br><br><br><br><br>
 
 
 
@@ -654,3 +673,5 @@ Os botões "Use eDictor Translations"/"Use eDictor"/"Use Designer"/"Use Transcri
 #### **Tutorial: Fluxo alternativo**
 
 1.
+
+
