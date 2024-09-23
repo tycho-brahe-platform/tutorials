@@ -53,7 +53,7 @@ SUMÁRIO
       - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal-)
       - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-2)
   - [Caso de uso 06 - Ferramenta **Use eDictor Translations**](#caso-de-uso-06---ferramenta-use-edictor-translations)
-    - [Descrição Caso de uso 05](#descrição-caso-de-uso-05-1)
+    - [Descrição Caso de uso 06.01 - Inserir texto](#descrição-caso-de-uso-0601---inserir-texto)
     - [Diagrama do Caso de uso 05 - **Use eDictor Translations**](#diagrama-do-caso-de-uso-05---use-edictor-translations)
     - [Tutorial:](#tutorial-1)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-6)
@@ -614,7 +614,7 @@ A configuração do eDictor Tranlations também depende de configurações na ab
 - Selecione o corpus que deseja configurar (ou crie um novo corpus em "+ Create New Corpus").
 - Selecione a aba "eDictor" e "Translations" no canto esquerdo.
 - Clique em "Create": uma caixa com campos de configurações para entradas de tradução abre:
-  - **Order**: aceita número inteiros para configuração da ordem em que as línguas de tradução serão apresentadas;
+  - **Order**: aceita números inteiros para configuração da ordem em que as línguas de tradução serão apresentadas;
   - **Symbol**: preencha com o rótulo desejado;
   - **Name**: preencha com o nome desejado;
   - **Reference**: preencha para adicionar uma referência.[REVISAR: PERGUNTAR AO LUIZ PARA QUE SERVE REFERENCE COM MAIS DETALHES]
@@ -700,7 +700,8 @@ Estas configurações habilitam a apresentação dos corpora paralelos como em 2
 
 ## Caso de uso 06 - Ferramenta **Use eDictor Translations**
 A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para desenvolvimento de corpora com suas traduções nas línguas configuradas e selecionadas pelo usuário. A habilitação desta ferramenta permite, consequentemente, a apresentação dos corpora de forma paralela, ou seja, com originais e traduções de forma paralela e sincronizada.
-### Descrição Caso de uso 05
+
+### Descrição Caso de uso 06.01 - Inserir texto
 
 **Atores primários**:
 
@@ -714,7 +715,17 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
 
 **Fluxo normal:**
 
-1. 
+1. Acessar a página inicial da plataforma Tycho Brahe, através do link: https://www.tycho.iel.unicamp.br/home.
+2. Para acessar o catálogo e a ferramenta de edição para edição filológica e anotação, na área "Ferramentas", selecionar a ferramenta *"eDictor"*.
+3. Com o catálogo aberto, selecionar o corpus que deseja editar.
+4. Acessar "Exibir informações" clicando no ícone com menu no documento do corpus.
+5. Na aba de ações que abre à esquerda, no campo "Continuar a edição do documento", clique na seta para abrir o menu de ferramentas de edição: seleciona o "eDictor Translations".
+6. Selecionar "Inserir texto": 
+7. Inserir o texto fonte (original); selecionar o idioma de tradução; Inserir texto traduzido.
+8. Clicar em "Salvar" para salvar transcrições.
+9. Clique no botão "Sincronizar", para que os textos fonte e alvo sejam apresentados paralelamente.
+10. Clicar em "Apagar" para apagar textos transcritos (Textos já sincronizados são mantidos)
+
 **Fluxo alternativo:**
 
 **A1** 
@@ -821,3 +832,7 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
 DÚVIDAS A TIRAR COM O LUIZ
 
 - No corpora management, selecionado o meu corpus teste, eDictor: incluo novas tags em Edition Category, Morpheme Category, Translation etc, e se apago uma etiqueta em qualquer das categorias, e abro outra, não aparece nada, só aparece após atualização da página.
+
+- Perguntar sobre o Featured corpus
+
+-tem uma outra coisa que precisei ajustar, de menor impacto pra vc agora, mas que é importante no catálogo, em relação às ferramentas
