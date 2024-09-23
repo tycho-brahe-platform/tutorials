@@ -14,7 +14,7 @@ SUMÁRIO
 
 - [DOCUMENTAÇÃO PLATAFORMA TYCHO BRAHE (TYCHO BRAHE PLATAFORM)](#documentação-plataforma-tycho-brahe-tycho-brahe-plataform)
   - [Introdução](#introdução)
-  - [1. Caso de uso 01 - Cadastro de novos usuários nos corpora da plataforma](#1-caso-de-uso-01---cadastro-de-novos-usuários-nos-corpora-da-plataforma)
+  - [Caso de uso 01 - Cadastro de novos usuários nos corpora da plataforma](#caso-de-uso-01---cadastro-de-novos-usuários-nos-corpora-da-plataforma)
     - [Descrição Caso de uso 01](#descrição-caso-de-uso-01)
     - [Diagrama do Caso de uso 01 - Cadastro](#diagrama-do-caso-de-uso-01---cadastro)
     - [Tutorial: Cadastro de Novos Usuários - Guia do Administrador](#tutorial-cadastro-de-novos-usuários---guia-do-administrador)
@@ -24,17 +24,17 @@ SUMÁRIO
     - [Tutorial: Como Se Cadastrar em um Corpus - Guia do Usuário Final](#tutorial-como-se-cadastrar-em-um-corpus---guia-do-usuário-final)
       - [**Tutorial: Fluxo normal (usuários não cadastrados previamente em nenhum dos corpora)**](#tutorial-fluxo-normal-usuários-não-cadastrados-previamente-em-nenhum-dos-corpora)
       - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo)
-  - [2. Caso de uso 02 - Realizar *Sign in*](#2-caso-de-uso-02---realizar-sign-in)
+  - [Caso de uso 02 - Realizar *Sign in*](#caso-de-uso-02---realizar-sign-in)
     - [Descrição do Caso de uso 02](#descrição-do-caso-de-uso-02)
     - [Diagramas do Caso de uso 02 - Sign in](#diagramas-do-caso-de-uso-02---sign-in)
     - [Tutorial: *Sign in* de usuários](#tutorial-sign-in-de-usuários)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-1)
-  - [3. Caso de uso 03 - Solicitar cadastro](#3-caso-de-uso-03---solicitar-cadastro)
+  - [Caso de uso 03 - Solicitar cadastro](#caso-de-uso-03---solicitar-cadastro)
     - [Descrição Caso de uso 03](#descrição-caso-de-uso-03)
     - [Diagramas do Caso de uso 03 - Solicitar cadastro](#diagramas-do-caso-de-uso-03---solicitar-cadastro)
     - [Tutorial: Solicitar cadastro na plataforma](#tutorial-solicitar-cadastro-na-plataforma)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-2)
-  - [4. Caso de uso 04 - Criação, configuração e edição dos corpora](#4-caso-de-uso-04---criação-configuração-e-edição-dos-corpora)
+  - [Caso de uso 04 - Criação, configuração e edição dos corpora](#caso-de-uso-04---criação-configuração-e-edição-dos-corpora)
     - [Descrição Subcaso de uso 04.1 - Criação de corpora](#descrição-subcaso-de-uso-041---criação-de-corpora)
     - [Diagrama do subcaso de uso 04.1 - Criação de corpora](#diagrama-do-subcaso-de-uso-041---criação-de-corpora)
     - [Tutorial: Criação de corpora](#tutorial-criação-de-corpora)
@@ -43,15 +43,33 @@ SUMÁRIO
     - [Diagrama do Caso de uso 04.2 - Configuração de corpora](#diagrama-do-caso-de-uso-042---configuração-de-corpora)
     - [Tutorial: Configuração de corpora](#tutorial-configuração-de-corpora)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-4)
-  - [1. Caso de uso 0X - NOME CASO DE USO](#1-caso-de-uso-0x---nome-caso-de-uso)
-    - [Descrição Caso de uso X](#descrição-caso-de-uso-x)
-    - [Diagrama do Caso de uso 0X - NOME CASO](#diagrama-do-caso-de-uso-0x---nome-caso)
+  - [Caso de uso 05 - Ferramenta **Use eDictor**](#caso-de-uso-05---ferramenta-use-edictor)
+    - [Descrição Caso de uso 05](#descrição-caso-de-uso-05)
+    - [Diagrama do Caso de uso 05 - **Use eDictor**](#diagrama-do-caso-de-uso-05---use-edictor)
     - [Tutorial:](#tutorial)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-5)
       - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-1)
     - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver)
       - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal-)
       - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-2)
+  - [Caso de uso 06 - Ferramenta **Use eDictor Translations**](#caso-de-uso-06---ferramenta-use-edictor-translations)
+    - [Descrição Caso de uso 05](#descrição-caso-de-uso-05-1)
+    - [Diagrama do Caso de uso 05 - **Use eDictor Translations**](#diagrama-do-caso-de-uso-05---use-edictor-translations)
+    - [Tutorial:](#tutorial-1)
+      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-6)
+      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-3)
+    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-1)
+      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--1)
+      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-4)
+  - [1. Caso de uso 0X - NOME CASO DE USO](#1-caso-de-uso-0x---nome-caso-de-uso)
+    - [Descrição Caso de uso X](#descrição-caso-de-uso-x)
+    - [Diagrama do Caso de uso 0X - NOME CASO](#diagrama-do-caso-de-uso-0x---nome-caso)
+    - [Tutorial:](#tutorial-2)
+      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-7)
+      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-5)
+    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-2)
+      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--2)
+      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-6)
 
 ## Introdução
 
@@ -81,7 +99,7 @@ Esta documentação fornecerá instruções detalhadas sobre como utilizar cada 
 
 Nas seções a seguir, serão apresentadas as diversas funcionalidades da plataforma Tycho Brahe. Cada funcionalidade será apresentada com a seguinte estrutura: primeiro, uma pequena introdução; em seguida, são apresentados os casos de uso que representam as funcionalidades no sistema - é apresentada uma descrição de cada, com os atores, pré-requisitos, fluxos normal e alternativos; em seguida, é apresentado um diagrama de Caso de uso da funcionalidade em questão; por fim, um tutorial completo e detalhado de uso da funcionalidade.
 
-## 1. Caso de uso 01 - Cadastro de novos usuários nos corpora da plataforma
+## Caso de uso 01 - Cadastro de novos usuários nos corpora da plataforma
 
 O processo de cadastro na Plataforma Tycho Brahe é um procedimento essencial para garantir o acesso controlado e seguro aos corpora linguísticos. Este processo envolve tanto administradores quanto usuários finais, cada um com papéis específicos no fluxo de cadastro.
 
@@ -289,7 +307,7 @@ Se o usuário já estiver cadastrado em outro corpus, siga estas etapas:
 
 ---
 
-## 2. Caso de uso 02 - Realizar *Sign in*
+## Caso de uso 02 - Realizar *Sign in*
 
 O Sign in seguro permite ao usuário acessar a plataforma com segurança. Este processo envolve somente o usuário previamente cadastrado. Como será apresentado, o usuário terá acesso à plataforma por meio de um login Google. 
 
@@ -341,7 +359,7 @@ O Sign in seguro permite ao usuário acessar a plataforma com segurança. Este p
 <figcaption>Figura 12: Sign in bem-sucedido </figcaption>
 </figure>
 
-## 3. Caso de uso 03 - Solicitar cadastro
+## Caso de uso 03 - Solicitar cadastro
 
 O processo de solicitação de cadastro por meio do formulário permite aos usuários iniciar o procedimento de registro na plataforma. Este caso de uso detalha as etapas necessárias para que um novo usuário envie suas informações pessoais, garantindo que os dados sejam avaliados pelos administradores, validados e armazenados corretamente no sistema. Assim, mediante análise, os administradores podem providenciar o processo de cadastramento de novos usuários.
 
@@ -386,7 +404,7 @@ No caso de interesse de participação no projeto, o usuário deve entrar em con
 <figcaption>Figura 14: Formulário para solicitar cadastro na plataforma</figcaption>
 </figure>
 
-## 4. Caso de uso 04 - Criação, configuração e edição dos corpora
+## Caso de uso 04 - Criação, configuração e edição dos corpora
 
 A ferramenta de criação de corpora é um componente fundamental para a construção e gestão eficiente de coleções de textos destinados a análises linguísticas. Este processo pode ser realizado por Administradores e usuários devidamente cadastrados e com as credenciais corretas (de edição).
 
@@ -478,7 +496,7 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 ### Diagrama do Caso de uso 04.2 - Configuração de corpora
 
 <figure>
-    <img src=""
+    <img src="../imagens/caso04_02_diagrama.png"
          alt="Caso de uso 04.02 - Configuração de corpora">
     <figcaption>Figura 15: Diagrama caso de uso - Configuração de corpora</figcaption>
 </figure>
@@ -501,11 +519,14 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
     <img src = "../imagens/botoes_configuracao_corpora2.png" alt = "Processo de configuração dos corpora: acessando a área de config">
     <figcaption>Figura x: Acessando área de configuração de corpora </figcaption>
 </figure>
+
 A seguir são apresentadas descrições de cada um dos botões de configurações disponíveis.<br><br>
 
 **Public corpus**: seleciona se o corpus é disponível ao público em geral ou se é privado.
 
 **Active**: configura se o corpus está ativo ou inativo;
+
+**Featured Corpus**: [REVISAR: PERGUNTAR AO LUIZ A FUNÇÃO DESTE].
 
 **Use Morphemes**: habilita o uso campos referentes a morfemas, incluindo glossa, nos corpora.
 
@@ -545,7 +566,7 @@ A seguir são apresentadas descrições de cada um dos botões de configuraçõe
 
 </figure>
 
-<br>**Use Category**: o botão "Use Category" habilita a possibilidade de categorização e subcategorização dos corpora (por exemplo, categorização com base em parâmetros demográficos etc), como apresentado na Figura x, com o corpus CE-DOHS selecionado no catálogo. Note-se que a criação dos rótulos para as categorias pode ser realizada por um usuário com permissões de adminstrador 
+<br>**Use Category**: este botão habilita a possibilidade de categorização e subcategorização dos corpora (por exemplo, categorização com base em parâmetros demográficos etc), como apresentado na Figura x, com o corpus CE-DOHS selecionado no catálogo. Note-se que a criação dos rótulos para as categorias pode ser realizada por um usuário com permissões de adminstrador 
 
 <figure>
     <img src = "../imagens/botao_config_corpus_usecategory.png" alt = "Configuração corpus_ Use Category">
@@ -591,7 +612,7 @@ A configuração do eDictor Tranlations também depende de configurações na ab
 - Acesse a página inicial da ferramenta no endereço <https://www.tycho.iel.unicamp.br/home>;
 - Acesse "Corpora Management" na área de Ferramentas.
 - Selecione o corpus que deseja configurar (ou crie um novo corpus em "+ Create New Corpus").
-- Seleciona a aba "eDictor" e "Translations" no canto esquerdo.
+- Selecione a aba "eDictor" e "Translations" no canto esquerdo.
 - Clique em "Create": uma caixa com campos de configurações para entradas de tradução abre:
   - **Order**: aceita número inteiros para configuração da ordem em que as línguas de tradução serão apresentadas;
   - **Symbol**: preencha com o rótulo desejado;
@@ -608,7 +629,7 @@ A configuração do eDictor Tranlations também depende de configurações na ab
 Estas configurações habilitam a apresentação dos corpora paralelos como em 2 na Figura x abaixo; Em 3, o usuário pode selecionar qual lingua de tradução deseja que seja apresentada; Em 4, após a seleção de uma sentença, é possível verificar as traduções para a sentença selecionada, além de ser possível realizar edições nas traduções.
 
 <figure>
-    <img src = "../imagens/configura_corpus_admin_translations7.png">
+    <img src = "../imagens/configura_corpus_admin_translations7.png" width = "600" height = "800">
     <figcaption>Figura x: Resultado configurações de eDictor Translations</figcaption>
 </figure>
 
@@ -620,9 +641,131 @@ Estas configurações habilitam a apresentação dos corpora paralelos como em 2
 **Use Transcriber**: este botão habilita o uso da versão do eDictor para trabalhar com transcrição de áudio.
 <br><br><br><br><br><br>
 
+**Allow POS Tag inclusion**: o acionamento deste botão possibilita adicionar novas etiquetas POS à lista enquanto o usuário edita sentenças no eDictor.
+
+**Default for UD**: habilita que o corpus seja configurado para usar Universal Dependencies como o framework padrão para edição de sentenças.
 
 
+## Caso de uso 05 - Ferramenta **Use eDictor**
 
+[INTRODUÇÃO]
+### Descrição Caso de uso 05
+
+**Atores primários**:
+
+1.  
+
+**Pré-requisitos:**
+
+1. 
+
+**Fluxo normal:**
+
+1. 
+**Fluxo alternativo:**
+
+**A1** 
+1. 
+**A2** 
+
+1. 
+### Diagrama do Caso de uso 05 - **Use eDictor**
+
+<figure>
+    <img src=""
+         alt="">
+    <figcaption>Figura X: CAPTION</figcaption>
+</figure>
+
+### Tutorial: 
+
+**Objetivo:** 
+
+#### **Tutorial: Fluxo normal**
+
+1. 
+
+#### **Tutorial: Fluxo Alternativo 
+
+### Tutorial: Guia do Usuário Final (SE HOUVER)
+
+**Objetivo:** 
+#### **Tutorial: Fluxo normal **
+
+1. 
+#### **Tutorial: Fluxo alternativo**
+
+1.
+
+
+## Caso de uso 06 - Ferramenta **Use eDictor Translations**
+A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para desenvolvimento de corpora com suas traduções nas línguas configuradas e selecionadas pelo usuário. A habilitação desta ferramenta permite, consequentemente, a apresentação dos corpora de forma paralela, ou seja, com originais e traduções de forma paralela e sincronizada.
+### Descrição Caso de uso 05
+
+**Atores primários**:
+
+1. Usuário (com acesso admin ao corpus)
+2. Adminstrador
+
+**Pré-requisitos:**
+
+1. Usuário logado (com permissões de edição no corpus)
+2. Corpus previamente criado e o botão de configuração de parâmetros "Use eDictor Translations" habilitado.
+
+**Fluxo normal:**
+
+1. 
+**Fluxo alternativo:**
+
+**A1** 
+1. 
+**A2** 
+
+1. 
+### Diagrama do Caso de uso 05 - **Use eDictor Translations**
+
+<figure>
+    <img src=""
+         alt="">
+    <figcaption>Figura X: CAPTION</figcaption>
+</figure>
+
+### Tutorial: 
+
+**Objetivo:** 
+
+#### **Tutorial: Fluxo normal**
+
+1. 
+
+#### **Tutorial: Fluxo Alternativo 
+
+### Tutorial: Guia do Usuário Final (SE HOUVER)
+
+**Objetivo:** 
+#### **Tutorial: Fluxo normal **
+
+1. 
+#### **Tutorial: Fluxo alternativo**
+
+1.
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 ###########rascunho  ESTRUTURA BÁSICA PARA REUTILIZAÇÃO
 ## 1. Caso de uso 0X - NOME CASO DE USO
 [INTRODUÇÃO]
@@ -675,3 +818,6 @@ Estas configurações habilitam a apresentação dos corpora paralelos como em 2
 1.
 
 
+DÚVIDAS A TIRAR COM O LUIZ
+
+- No corpora management, selecionado o meu corpus teste, eDictor: incluo novas tags em Edition Category, Morpheme Category, Translation etc, e se apago uma etiqueta em qualquer das categorias, e abro outra, não aparece nada, só aparece após atualização da página.
