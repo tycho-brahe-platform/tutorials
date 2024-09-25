@@ -53,15 +53,15 @@ SUMÁRIO
       - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal-)
       - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-2)
   - [Caso de uso 06 - Ferramenta **Use eDictor Translations**](#caso-de-uso-06---ferramenta-use-edictor-translations)
-    - [Descrição Caso de uso 06.01 - Inserir texto](#descrição-caso-de-uso-0601---inserir-texto)
-    - [Diagrama do Caso de uso 05 - **Use eDictor Translations**](#diagrama-do-caso-de-uso-05---use-edictor-translations)
+    - [Descrição Caso de uso 06.01 - Edição de corpora (Inserir, editar e remover sentenças) \[REVISAR: CONSIDERER SUBDIVIDIR OS CASOS?\]](#descrição-caso-de-uso-0601---edição-de-corpora-inserir-editar-e-remover-sentenças-revisar-considerer-subdividir-os-casos)
+    - [Diagrama do Caso de uso 06.01 - **Use eDictor Translations: Edição de corpora**](#diagrama-do-caso-de-uso-0601---use-edictor-translations-edição-de-corpora)
     - [Tutorial:](#tutorial-1)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-6)
       - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-3)
     - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-1)
       - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--1)
       - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-4)
-  - [1. Caso de uso 0X - NOME CASO DE USO](#1-caso-de-uso-0x---nome-caso-de-uso)
+  - [Caso de uso 0X - NOME CASO DE USO](#caso-de-uso-0x---nome-caso-de-uso)
     - [Descrição Caso de uso X](#descrição-caso-de-uso-x)
     - [Diagrama do Caso de uso 0X - NOME CASO](#diagrama-do-caso-de-uso-0x---nome-caso)
     - [Tutorial:](#tutorial-2)
@@ -526,7 +526,7 @@ A seguir são apresentadas descrições de cada um dos botões de configuraçõe
 
 **Active**: configura se o corpus está ativo ou inativo;
 
-**Featured Corpus**: [REVISAR: PERGUNTAR AO LUIZ A FUNÇÃO DESTE].
+**Featured Corpus**: [REVISAR: PERGUNTAR AO LUIZ A FUNÇÃO DESTE]. Um corpus marcado com esse parâmetro aparece na página principal do Tycho.
 
 **Use Morphemes**: habilita o uso campos referentes a morfemas, incluindo glossa, nos corpora.
 
@@ -573,7 +573,7 @@ A seguir são apresentadas descrições de cada um dos botões de configuraçõe
     <figcaption>Figura x: Configuração de corpora: botão "Use Category"</figcaption>
 </figure>
 
-<br>**Use Edition Tiers**[REVISAR COM O LUIS]: o botão "Use Edition Tiers", contrapondo-se ao "Use Morphemes", habilita a disponibilização de diversos níveis de edição para garantir a máxima fidelidade filológica do texto. Por exemplo, acessando-se o catálogo, selecione o corpus Tycho Brahe do Português Histórico e selecione o documento "Atas dos Brasileiros - Tomo 02", como apresentado na Figura X:
+<br>**Use Edition Tiers**[REVISAR COM O LUIS]: o botão "Use Edition Tiers", habilita a disponibilização de diversos níveis de edição para garantir a máxima fidelidade filológica do texto. Por exemplo, acessando-se o catálogo, selecione o corpus Tycho Brahe do Português Histórico e selecione o documento "Atas dos Brasileiros - Tomo 02", como apresentado na Figura X:
 
 <figure>
     <img src = "../imagens/botao_config_corpus_useeditiontiers1.png" alt = "Configura corpus: botão Use Edition Tiers">
@@ -617,7 +617,7 @@ A configuração do eDictor Tranlations também depende de configurações na ab
   - **Order**: aceita números inteiros para configuração da ordem em que as línguas de tradução serão apresentadas;
   - **Symbol**: preencha com o rótulo desejado;
   - **Name**: preencha com o nome desejado;
-  - **Reference**: preencha para adicionar uma referência.[REVISAR: PERGUNTAR AO LUIZ PARA QUE SERVE REFERENCE COM MAIS DETALHES]
+  - **Reference**: preencha para adicionar uma referência.[REVISAR: ver videos de gravação da reunião] É um campo opcional pa
 
 
 <br>
@@ -639,7 +639,7 @@ Estas configurações habilitam a apresentação dos corpora paralelos como em 2
 
 
 **Use Transcriber**: este botão habilita o uso da versão do eDictor para trabalhar com transcrição de áudio.
-<br><br><br><br><br><br>
+
 
 **Allow POS Tag inclusion**: o acionamento deste botão possibilita adicionar novas etiquetas POS à lista enquanto o usuário edita sentenças no eDictor.
 
@@ -701,7 +701,7 @@ Estas configurações habilitam a apresentação dos corpora paralelos como em 2
 ## Caso de uso 06 - Ferramenta **Use eDictor Translations**
 A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para desenvolvimento de corpora com suas traduções nas línguas configuradas e selecionadas pelo usuário. A habilitação desta ferramenta permite, consequentemente, a apresentação dos corpora de forma paralela, ou seja, com originais e traduções de forma paralela e sincronizada.
 
-### Descrição Caso de uso 06.01 - Inserir texto
+### Descrição Caso de uso 06.01 - Edição de corpora (Inserir, editar e remover sentenças) [REVISAR: CONSIDERER SUBDIVIDIR OS CASOS?]
 
 **Atores primários**:
 
@@ -716,30 +716,40 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
 **Fluxo normal:**
 
 1. Acessar a página inicial da plataforma Tycho Brahe, através do link: https://www.tycho.iel.unicamp.br/home.
-2. Para acessar o catálogo e a ferramenta de edição para edição filológica e anotação, na área "Ferramentas", selecionar a ferramenta *"eDictor"*.
+2. Para acessar o catálogo e a ferramenta de edição para edição filológica e anotação, na área "Ferramentas", selecionar a ferramenta **"eDictor"**.
 3. Com o catálogo aberto, selecionar o corpus que deseja editar.
 4. Acessar "Exibir informações" clicando no ícone com menu no documento do corpus.
 5. Na aba de ações que abre à esquerda, no campo "Continuar a edição do documento", clique na seta para abrir o menu de ferramentas de edição: seleciona o "eDictor Translations".
-6. Selecionar "Inserir texto": 
-7. Inserir o texto fonte (original); selecionar o idioma de tradução; Inserir texto traduzido.
-8. Clicar em "Salvar" para salvar transcrições.
-9. Clique no botão "Sincronizar", para que os textos fonte e alvo sejam apresentados paralelamente.
-10. Clicar em "Apagar" para apagar textos transcritos (Textos já sincronizados são mantidos)
+6. Inserir sentenças:
+   1. Selecionar "Inserir texto".
+   2. Inserir o texto fonte (original); selecionar o idioma de tradução; inserir texto traduzido.
+   3. Clicar em "Salvar" para salvar transcrições.
+   4. Clicar no botão "Sincronizar", para que as sentenças fonte e alvo sejam apresentados paralelamente.
+7. Apagar textos transcritos (ainda não sincronizados):
+   1. Clicar em "Apagar" para apagar textos transcritos (Textos já sincronizados são mantidos)
+8. Editar sentenças sinronizadas:
+   1. Clicar em um par de sentenças.
+   2. Selecionar botão E (eDictor).
+   3. Para editar o original: no quadro, clicar na palavra que desejar atualizar, editar e confirmar.
+   4. Para editar a tradução: rolar a página até o campo de "Traduções", editar o campo com o texto e salvar.
+9. Remover sentenças sincronizadas:
+   1. Selecionar um par de sentenças.
+   2. Clicar em "Remover" e confirmar.
 
 **Fluxo alternativo:**
 
 **A1** 
-1. 
-**A2** 
+1. Acessar a página de catálogo através do link: https://www.tycho.iel.unicamp.br/catalog
+2. Seguir a partir de 3 no Fluxo normal.
 
-1. 
-### Diagrama do Caso de uso 05 - **Use eDictor Translations**
+### Diagrama do Caso de uso 06.01 - **Use eDictor Translations: Edição de corpora**
 
 <figure>
-    <img src=""
+    <img src="../imagens/caso6.01_diagrama.png"
          alt="">
-    <figcaption>Figura X: CAPTION</figcaption>
+    <figcaption>Figura X: Diagrama Caso de uso - Edição de corpora(eDictor Translations) </figcaption>
 </figure>
+[REVISAR:PENSAR EM DESMEMBRAR O DIAGRAMA EM DOIS]
 
 ### Tutorial: 
 
@@ -778,8 +788,10 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
 <br>
 <br>
 ###########rascunho  ESTRUTURA BÁSICA PARA REUTILIZAÇÃO
-## 1. Caso de uso 0X - NOME CASO DE USO
+
+## Caso de uso 0X - NOME CASO DE USO
 [INTRODUÇÃO]
+
 ### Descrição Caso de uso X
 
 **Atores primários**:
@@ -833,6 +845,4 @@ DÚVIDAS A TIRAR COM O LUIZ
 
 - No corpora management, selecionado o meu corpus teste, eDictor: incluo novas tags em Edition Category, Morpheme Category, Translation etc, e se apago uma etiqueta em qualquer das categorias, e abro outra, não aparece nada, só aparece após atualização da página.
 
-- Perguntar sobre o Featured corpus
-
--tem uma outra coisa que precisei ajustar, de menor impacto pra vc agora, mas que é importante no catálogo, em relação às ferramentas
+- tem uma outra coisa que precisei ajustar, de menor impacto pra vc agora, mas que é importante no catálogo, em relação às ferramentas
