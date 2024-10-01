@@ -715,39 +715,41 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
 
 **Fluxo normal:**
 
-1. Acessar a página inicial da plataforma Tycho Brahe, através do link: https://www.tycho.iel.unicamp.br/home.
+1. Acessar a página inicial da plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/home>.
 2. Para acessar o catálogo e a ferramenta de edição para edição filológica e anotação, na área "Ferramentas", selecionar a ferramenta **"eDictor"**.
 3. Com o catálogo aberto, selecionar o corpus que deseja editar.
 4. Acessar "Exibir informações" clicando no ícone com menu no documento do corpus.
-5. Na aba de ações que abre à esquerda, no campo "Continuar a edição do documento", clique na seta para abrir o menu de ferramentas de edição: seleciona o "eDictor Translations".
+5. Na aba de ações que abre à esquerda, no campo "Continuar a edição do documento", clique na seta para abrir o menu de ferramentas de edição: selecionar o "eDictor Translations".
 6. Inserir sentenças:
    1. Selecionar "Inserir texto".
    2. Inserir o texto fonte (original); selecionar o idioma de tradução; inserir texto traduzido.
    3. Clicar em "Salvar" para salvar transcrições.
    4. Clicar no botão "Sincronizar", para que as sentenças fonte e alvo sejam apresentados paralelamente.
 7. Apagar textos transcritos (ainda não sincronizados):
-   1. Clicar em "Apagar" para apagar textos transcritos (Textos já sincronizados são mantidos)
+   1. Selecionar "Inserir texto"
+   2. Clicar em "Apagar" para apagar textos transcritos (Textos já sincronizados são mantidos)
 8. Editar sentenças sinronizadas:
    1. Clicar em um par de sentenças.
    2. Selecionar botão E (eDictor).
    3. Para editar o original: no quadro, clicar na palavra que desejar atualizar, editar e confirmar.
    4. Para editar a tradução: rolar a página até o campo de "Traduções", editar o campo com o texto e salvar.
-9. Remover sentenças sincronizadas:
+9.  Remover sentenças sincronizadas:
    1. Selecionar um par de sentenças.
    2. Clicar em "Remover" e confirmar.
 
 **Fluxo alternativo:**
 
-**A1** 
-1. Acessar a página de catálogo através do link: https://www.tycho.iel.unicamp.br/catalog
+**A1**
+
+1. Acessar a página de catálogo através do link: <https://www.tycho.iel.unicamp.br/catalog>
 2. Seguir a partir de 3 no Fluxo normal.
 
 ### Diagrama do Caso de uso 06.01 - **Use eDictor Translations: Edição de corpora**
 
 <figure>
-    <img src="../imagens/caso6.01_diagrama.png"
+    <img src="../imagens/caso6.01.1_diagrama.png"
          alt="">
-    <figcaption>Figura X: Diagrama Caso de uso - Edição de corpora(eDictor Translations) </figcaption>
+    <figcaption>Figura X: Diagrama Caso de uso 6.01 - Edição de corpora (eDictor Translations) </figcaption>
 </figure>
 [REVISAR:PENSAR EM DESMEMBRAR O DIAGRAMA EM DOIS]
 
