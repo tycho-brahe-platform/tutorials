@@ -445,7 +445,7 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 
 ### Tutorial: Criação de corpora
 
-**Objetivo:**: Este tutorial detalha os passos necessários para a criação de novos corpora através da ferramenta *"Corpus management"*
+**Objetivo**: Este tutorial detalha os passos necessários para a criação de novos corpora através da ferramenta *"Corpus management"*
 
 #### **Tutorial: Fluxo normal**
 
@@ -700,6 +700,7 @@ Estas configurações habilitam a apresentação dos corpora paralelos como em 2
 
 ## Caso de uso 06 - Ferramenta **Use eDictor Translations**
 A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para desenvolvimento de corpora com suas traduções nas línguas configuradas e selecionadas pelo usuário. A habilitação desta ferramenta permite, consequentemente, a apresentação dos corpora de forma paralela, ou seja, com originais e traduções de forma paralela e sincronizada.
+[REVISAR: AVALIAR SE FUTURAMENTE VOU INSERIR AS OUTRAS FUNCIONALIDADES DE EDIÇÃO DOS CORPORA AQUI: EDITAR ETIQUETAS DAS DIVERSAS CAMADAS ETC]
 
 ### Descrição Caso de uso 06.01 - Edição de corpora (Inserir, editar e remover sentenças) [REVISAR: CONSIDERER SUBDIVIDIR OS CASOS?]
 
@@ -720,7 +721,7 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
 3. Com o catálogo aberto, selecionar o corpus que deseja editar.
 4. Acessar "Exibir informações" clicando no ícone com menu no documento do corpus.
 5. Na aba de ações que abre à esquerda, no campo "Continuar a edição do documento", clique na seta para abrir o menu de ferramentas de edição: selecionar o "eDictor Translations".
-6. Inserir sentenças:
+6. Inserir textos (sentenças):
    1. Selecionar "Inserir texto".
    2. Inserir o texto fonte (original); selecionar o idioma de tradução; inserir texto traduzido.
    3. Clicar em "Salvar" para salvar transcrições.
@@ -728,38 +729,94 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
 7. Apagar textos transcritos (ainda não sincronizados):
    1. Selecionar "Inserir texto"
    2. Clicar em "Apagar" para apagar textos transcritos (Textos já sincronizados são mantidos)
-8. Editar sentenças sinronizadas:
-   1. Clicar em um par de sentenças.
+8. Editar sentenças sincronizadas:
+   1. Selecionar um par de sentenças.
    2. Selecionar botão E (eDictor).
    3. Para editar o original: no quadro, clicar na palavra que desejar atualizar, editar e confirmar.
    4. Para editar a tradução: rolar a página até o campo de "Traduções", editar o campo com o texto e salvar.
-9.  Remover sentenças sincronizadas:
+9. Remover sentenças sincronizadas:
    1. Selecionar um par de sentenças.
    2. Clicar em "Remover" e confirmar.
 
 **Fluxo alternativo:**
 
-**A1**
+**A1** 
 
 1. Acessar a página de catálogo através do link: <https://www.tycho.iel.unicamp.br/catalog>
 2. Seguir a partir de 3 no Fluxo normal.
+
+**A2** Alternativa para inserção de sentenças
+
+Seguir o fluxo normal de 1 a 5, ou o fluxo A1, para acesso à ferramenta eDictor Translations. Para um fluxo alternativo de inserção de novas sentenças:
+
+1. Selecionar um par de sentenças.
+2. Clicar no botão "Adicionar nova".
+3. Uma caixa de diaĺogo se abre: clicar em "confirmar".
+4. No campo superior "digite a transcrição aqui", preencher.
+5. Preencher as traduções e clicar no botão verde para salvar.
+6. Clicar em "adicionar nova sentença"
+
 
 ### Diagrama do Caso de uso 06.01 - **Use eDictor Translations: Edição de corpora**
 
 <figure>
     <img src="../imagens/caso6.01.1_diagrama.png"
-         alt="">
+         alt="Caso de uso 6.01." width="250" height="450">
     <figcaption>Figura X: Diagrama Caso de uso 6.01 - Edição de corpora (eDictor Translations) </figcaption>
 </figure>
-[REVISAR:PENSAR EM DESMEMBRAR O DIAGRAMA EM DOIS]
+
+<figure>
+    <img src = "../imagens/caso6.01.2_diagrama.png" width="650" height="550">
+    <figcaption>Figura x: Cont. Diagrama Caso de uso 6.01 - Ações no corpus</figcaption>
+</figure>
 
 ### Tutorial: 
 
-**Objetivo:** 
+**Objetivo:** Este tutorial detalha os procedimentos necessários para a edição de corpora usando a ferramenta **"eDictor Translations"**. 
 
 #### **Tutorial: Fluxo normal**
 
-1. 
+1. Acessar a página inicial da plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/home>.
+2. Para acessar o catálogo e a ferramenta de edição para edição filológica e anotação, na área "Ferramentas", selecionar a ferramenta **"eDictor"**.
+3. Com o catálogo aberto, selecionar o corpus que deseja editar.
+4. Acessar "Exibir informações" clicando no ícone com menu no documento do corpus.
+5. Na aba de ações que abre à esquerda, no campo "Continuar a edição do documento", clique na seta para abrir o menu de ferramentas de edição: selecionar o "eDictor Translations".
+6. Inserir textos (sentenças):
+   1. Selecionar "Inserir texto".
+   2. Inserir o texto fonte (original); selecionar o idioma de tradução; inserir texto traduzido.
+   3. Clicar em "Salvar" para salvar transcrições.
+   4. Clicar no botão "Sincronizar", para que as sentenças fonte e alvo sejam apresentados paralelamente.
+7. Apagar textos transcritos (ainda não sincronizados):
+   1. Selecionar "Inserir texto"
+   2. Clicar em "Apagar" para apagar textos transcritos (Textos já sincronizados são mantidos)
+8. Editar sentenças sincronizadas:
+   1. Selecionar um par de sentenças.
+   2. Selecionar botão E (eDictor).
+   3. Para editar o original: no quadro, clicar na palavra que desejar atualizar, editar e confirmar.
+   4. Para editar a tradução: rolar a página até o campo de "Traduções", editar o campo com o texto e salvar.
+9. Remover sentenças sincronizadas:
+   1. Selecionar um par de sentenças.
+   2. Clicar em "Remover" e confirmar.
+
+
+
+
+#########################
+note left of  (Preencher textos)
+Inserir o texto fonte (original);
+Selecionar o idioma de tradução; 
+Inserir texto traduzido e salvar as transcrições.
+end note
+
+note bottom of (Clicar em "Sincronizar")
+Sentenças fonte e alvo 
+são apresentados paralelamente.
+end note
+
+note bottom of (Selecionar "Remover" e confirmar)
+Clicar em "confirmar" para remover a sentença
+selecionada
+end note
 
 #### **Tutorial: Fluxo Alternativo 
 

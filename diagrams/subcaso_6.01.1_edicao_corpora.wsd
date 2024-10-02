@@ -1,7 +1,7 @@
 @startuml "Caso de uso 6.01 - Edição dos corpora"
 
 actor "Usuário/Admin" as User 
-
+User -- EdiçãoCorpora_eDictorTranslations
 package EdiçãoCorpora_eDictorTranslations  {
          (Acessar página inicial)-->(Selecionar Ferramenta eDictor)
          (Selecionar Ferramenta eDictor)-->(Selecionar corpus)
@@ -10,23 +10,13 @@ package EdiçãoCorpora_eDictorTranslations  {
          
          package AcoesNoCorpus as Acoes{
             
-         (Selecionar o "eDictor Translations")-->(Inserir Sentenças)
-         (Selecionar o "eDictor Translations")-->(Apagar Sentenças)
-         (Selecionar o "eDictor Translations")--> (Editar Sentenças Sincronizadas)
-         (Selecionar o "eDictor Translations")-->(Remover Sentenças Sincronizadas)
-}
-
+         (...)
 
         
 }
-
+(Selecionar o "eDictor Translations")-->Acoes
  
-User -- (Acessar página inicial)
-User -- (Selecionar Ferramenta eDictor)
-User--(Selecionar corpus)
-User--(Acessar "Exibir informações")
-User--(Selecionar o "eDictor Translations")
-User -- (Acoes)
+
 @enduml
 
 
