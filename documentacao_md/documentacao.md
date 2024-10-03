@@ -2,7 +2,7 @@
 
 <center>
 <figure>
-<img src="../imagens/logo_tycho1.png" width="250" height="250">
+<img src="../imagens/logo_tycho1.png" width=220 height=220>
 </figure>
 
 <img src = "../imagens/logo_tycho2.png">
@@ -52,7 +52,7 @@ SUMÁRIO
     - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver)
       - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal-)
       - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-2)
-  - [Caso de uso 06 - Ferramenta **Use eDictor Translations**](#caso-de-uso-06---ferramenta-use-edictor-translations)
+  - [Caso de uso 06 - Ferramenta **eDictor Translations**](#caso-de-uso-06---ferramenta-edictor-translations)
     - [Descrição Caso de uso 06.01 - Edição de corpora (Inserir, editar e remover sentenças) \[REVISAR: CONSIDERER SUBDIVIDIR OS CASOS?\]](#descrição-caso-de-uso-0601---edição-de-corpora-inserir-editar-e-remover-sentenças-revisar-considerer-subdividir-os-casos)
     - [Diagrama do Caso de uso 06.01 - **Use eDictor Translations: Edição de corpora**](#diagrama-do-caso-de-uso-0601---use-edictor-translations-edição-de-corpora)
     - [Tutorial:](#tutorial-1)
@@ -376,9 +376,9 @@ O processo de solicitação de cadastro por meio do formulário permite aos usu�
 
 No caso de interesse de participação no projeto, o usuário deve entrar em contato por meio do formulário no fim da página inicial do projeto.
 
-1. O usuário acessa a página inicial da plataforma Tycho Brahe, disponível no link: <https://www.tycho.iel.unicamp.br/home>.
-2. O usuário rola a página até chegar ao final.
-3. O usuário preenche o formulário com seu Nome, E-mail, Assunto, Mensagem (descrevendo seus interesses e motivos para associar-se, por exemplo).
+1. Acessar a página inicial da plataforma Tycho Brahe, disponível no link: <https://www.tycho.iel.unicamp.br/home>.
+2. Rolar a página até a área do formulário.
+3. Preencher o formulário com seu Nome, E-mail, Assunto, Mensagem (descrevendo seus interesses e motivos para associar-se, por exemplo).
 4. Os Administradores devem entrar em contato sobre a solicitação e informar detalhes do procedimento de cadastro (Caso de uso 01)
 
 ### Diagramas do Caso de uso 03 - Solicitar cadastro
@@ -698,7 +698,7 @@ Estas configurações habilitam a apresentação dos corpora paralelos como em 2
 1.
 
 
-## Caso de uso 06 - Ferramenta **Use eDictor Translations**
+## Caso de uso 06 - Ferramenta **eDictor Translations**
 A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para desenvolvimento de corpora com suas traduções nas línguas configuradas e selecionadas pelo usuário. A habilitação desta ferramenta permite, consequentemente, a apresentação dos corpora de forma paralela, ou seja, com originais e traduções de forma paralela e sincronizada.
 [REVISAR: AVALIAR SE FUTURAMENTE VOU INSERIR AS OUTRAS FUNCIONALIDADES DE EDIÇÃO DOS CORPORA AQUI: EDITAR ETIQUETAS DAS DIVERSAS CAMADAS ETC]
 
@@ -723,9 +723,10 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
 5. Na aba de ações que abre à esquerda, no campo "Continuar a edição do documento", clique na seta para abrir o menu de ferramentas de edição: selecionar o "eDictor Translations".
 6. Inserir textos (sentenças):
    1. Selecionar "Inserir texto".
-   2. Inserir o texto fonte (original); selecionar o idioma de tradução; inserir texto traduzido.
+   2. Inserir o texto fonte (original); selecionar o idioma de tradução; inserir texto traduzido. (Nota: sentenças a serem sincronizadas em paralelo podem ser separadas por quebra de linha).
    3. Clicar em "Salvar" para salvar transcrições.
    4. Clicar no botão "Sincronizar", para que as sentenças fonte e alvo sejam apresentados paralelamente.
+   5. Clicar em "Inserir sentenças" para inserir sentenças paralelas no documento do corpus.
 7. Apagar textos transcritos (ainda não sincronizados):
    1. Selecionar "Inserir texto"
    2. Clicar em "Apagar" para apagar textos transcritos (Textos já sincronizados são mantidos)
@@ -776,25 +777,64 @@ Seguir o fluxo normal de 1 a 5, ou o fluxo A1, para acesso à ferramenta eDictor
 
 #### **Tutorial: Fluxo normal**
 
-1. Acessar a página inicial da plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/home>.
-2. Para acessar o catálogo e a ferramenta de edição para edição filológica e anotação, na área "Ferramentas", selecionar a ferramenta **"eDictor"**.
-3. Com o catálogo aberto, selecionar o corpus que deseja editar.
-4. Acessar "Exibir informações" clicando no ícone com menu no documento do corpus.
-5. Na aba de ações que abre à esquerda, no campo "Continuar a edição do documento", clique na seta para abrir o menu de ferramentas de edição: selecionar o "eDictor Translations".
-6. Inserir textos (sentenças):
-   1. Selecionar "Inserir texto".
-   2. Inserir o texto fonte (original); selecionar o idioma de tradução; inserir texto traduzido.
-   3. Clicar em "Salvar" para salvar transcrições.
-   4. Clicar no botão "Sincronizar", para que as sentenças fonte e alvo sejam apresentados paralelamente.
+1. Acesse a página inicial da plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/home>.
+
+2. Para acessar o catálogo e a ferramenta de edição filológica e anotação, role a página até a área "Ferramentas" e selecione a ferramenta **"eDictor"**.
+
+<figure>
+    <img src = "../imagens/selecionar_edictor.png" alt = "Selecionando a ferramenta eDictor">
+    <figcaption>Figura x: Selecionando a ferramenta eDictor</figcaption>
+</figure>
+
+3. Com o catálogo aberto, clique sobre o nome do corpus e como em [1] para abrir a lista suspensa com os corpora disponíveis e selecione o corpus que deseja editar [2], como na Figura x:
+
+<figure>
+    <img src = "../imagens/edictor_selecionando_corpus.png" >
+    <figcaption>Figura x: Selecionando um corpus no catálogo</figcaption>
+</figure>
+
+4. Após selecionar o corpus que deseja editar, acesse "Exibir informações" clicando no ícone com menu (menu com seis pontos) no documento do corpus.
+
+<figure>
+    <img src ="../imagens/edict_trans_exibir_info.png">
+    <figcaption>Figura x: Acessando "Exibir informações"</figcaption>
+</figure>
+
+5. Na aba de "Ações" , na menu que abre à esquerda, no campo "Continuar a edição do documento", clique na seta para abrir o menu de ferramentas de edição: selecionar o "eDictor Translations" (Nota: o botão de configuração de parâmetros "Use eDictor Translations" deve estar habilitado para habilitar a edição através do **eDictor Translations**).
+<figure>
+    <img src = "../imagens/exib_info_selecionando_ferramentas_edicao.png">
+    <figcaption>Figura x: Ações - Abrir edição com "eDictor Translations"</figcaption>
+</figure>
+
+6. Para inserir textos (sentenças):
+   1. Selecione o botão "Inserir texto".
+   2. Preencha o campo que apresenta "Digite ou cole o texto no idioma original" com o texto fonte (original); selecione o idioma de tradução; preencha o campo "Digite ou cole o texto traduzido em: [idioma selecionado para tradução]" com o texto traduzido.
+   3. Clique em "Salvar" para salvar transcrições.
+   4. Clique no botão "Sincronizar", para que as sentenças fonte e alvo sejam sincronizadas apresentadas paralelamente.
+   5. Clique em "Inserir sentenças" para que as sentenças sincronizadas sejam inseridas no documento do corpus.
 7. Apagar textos transcritos (ainda não sincronizados):
-   1. Selecionar "Inserir texto"
-   2. Clicar em "Apagar" para apagar textos transcritos (Textos já sincronizados são mantidos)
-8. Editar sentenças sincronizadas:
+   1. Selecione "Inserir texto"
+   2. Clique em "Apagar" para apagar textos transcritos (Textos já sincronizados são mantidos)
+   3. . Clique em "voltar" para retornar ao documento com suas sentenças paralelas.
+
+Para 6 e 7, ver Figuras x e x, a seguir:
+
+<figure>
+    <img src = "../imagens/edictor_trans_acoes_edicao.png">
+    <figcaption>Figura x: Ações no eDictor Translations - Inserir texto/Apagar/Sincronizar</figcaption>
+</figure>
+
+<figure>
+    <img src = "../imagens/edict_trans_sentencas_sincronizadas_inseridas.png">
+    <figcaption>Figura x: </figcaption>
+</figure>
+
+8. Editar sentenças sincronizadas [REVISAR: LUIS MODIFICOU A MANEIRA DE EDIÇÃO - NÃO PARECE TER SURTIDO EFEITO AINDA A MUDANÇAS. AGUARDAR ATUALIZAÇÃO]:
    1. Selecionar um par de sentenças.
    2. Selecionar botão E (eDictor).
    3. Para editar o original: no quadro, clicar na palavra que desejar atualizar, editar e confirmar.
    4. Para editar a tradução: rolar a página até o campo de "Traduções", editar o campo com o texto e salvar.
-9. Remover sentenças sincronizadas:
+9.  Remover sentenças sincronizadas:
    1. Selecionar um par de sentenças.
    2. Clicar em "Remover" e confirmar.
 
