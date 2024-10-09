@@ -24,10 +24,10 @@ SUMÁRIO
     - [Tutorial: Como Se Cadastrar em um Corpus - Guia do Usuário Final](#tutorial-como-se-cadastrar-em-um-corpus---guia-do-usuário-final)
       - [**Tutorial: Fluxo normal (usuários não cadastrados previamente em nenhum dos corpora)**](#tutorial-fluxo-normal-usuários-não-cadastrados-previamente-em-nenhum-dos-corpora)
       - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo)
-  - [Caso de uso 02 - Realizar *Sign in*](#caso-de-uso-02---realizar-sign-in)
+  - [Caso de uso 02 - Realizar _Sign in_](#caso-de-uso-02---realizar-sign-in)
     - [Descrição do Caso de uso 02](#descrição-do-caso-de-uso-02)
     - [Diagramas do Caso de uso 02 - Sign in](#diagramas-do-caso-de-uso-02---sign-in)
-    - [Tutorial: *Sign in* de usuários](#tutorial-sign-in-de-usuários)
+    - [Tutorial: _Sign in_ de usuários](#tutorial-sign-in-de-usuários)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-1)
   - [Caso de uso 03 - Solicitar cadastro](#caso-de-uso-03---solicitar-cadastro)
     - [Descrição Caso de uso 03](#descrição-caso-de-uso-03)
@@ -131,11 +131,11 @@ Nos tópicos a seguir, será detalhado o caso de uso para o cadastro de novos us
 5. O Admin acessa botão “Invite” e clica em “+ Add new”
 6. O Admin cria um “convite” para associação ao corpus:
 7. Admin configura parâmetros de permissão de usuário:
-    1. Insere um título “Title”
-    2. Seleciona nível da permissão “Role” (edição ou admin)
-    3. Seleciona número de convidados (1 - N): no caso de criação de convites N > 1, o contador decresce à medida que usuários se cadastram utilizando o código de acesso;
-    4. Seleciona “Status” (active/inactive)
-    5. Confirma
+   1. Insere um título “Title”
+   2. Seleciona nível da permissão “Role” (edição ou admin)
+   3. Seleciona número de convidados (1 - N): no caso de criação de convites N > 1, o contador decresce à medida que usuários se cadastram utilizando o código de acesso;
+   4. Seleciona “Status” (active/inactive)
+   5. Confirma
 8. O sistema cria um link de “onboarding” e um código de acesso.
 9. Admin copia o código e o link de onboarding e envia ao potencial usuário;
 10. O usuário utiliza o link de “onboading”; clica no botão “Eu possuo um código de acesso”, preenche com o código e confirma, o que resulta em usuário cadastrado.
@@ -147,20 +147,20 @@ Nos tópicos a seguir, será detalhado o caso de uso para o cadastro de novos us
 1. Admin envia link “/onboarding” para usuário;
 2. Usuário entra no link “/onboarding” para automaticamente cadastrar email na base de dados da plataforma (no primeiro acesso, o usuário verifica uma mensagem de acesso negado ao corpus);
 3. Na área /admin, o Admin acessa o corpus, seleciona o botão “Users”, clica em botão “+ Add new” ;
-    1. Admin seleciona email respectivo ao usuário a ser cadastrado (super-usuários e e-mails já cadastrados no corpus não são apresentados como opção);
+   1. Admin seleciona email respectivo ao usuário a ser cadastrado (super-usuários e e-mails já cadastrados no corpus não são apresentados como opção);
 4. Admin configura parâmetros da permissão de usuário:
-    1. Admin seleciona o tipo de permissão (edição ou admin);
-    2. Admin seleciona status (active ou inactive);
-    3. Admin confirma cadastro do usuário no corpus;
+   1. Admin seleciona o tipo de permissão (edição ou admin);
+   2. Admin seleciona status (active ou inactive);
+   3. Admin confirma cadastro do usuário no corpus;
 
 **A2** - **Alternativo ao passo 4 (Usuário já presente na base de dados, vinculado a outro corpus)**
 
 1. Na área /admin, o Admin acessa o corpus, seleciona o botão “Users”, clica em botão “+ Add new” ;
-    1. Admin seleciona e-mail respectivo ao usuário a ser cadastrado (super-usuários e emails já cadastrados no corpus não são apresentados como opção para seleção);
+   1. Admin seleciona e-mail respectivo ao usuário a ser cadastrado (super-usuários e emails já cadastrados no corpus não são apresentados como opção para seleção);
 2. Admin configura parâmetros da permissão de usuário:
-    1. Admin seleciona o tipo de permissão (edição ou admin);
-    2. Admin seleciona status (active ou inactive);
-    3. Admin confirma cadastro do usuário ao corpus;
+   1. Admin seleciona o tipo de permissão (edição ou admin);
+   2. Admin seleciona status (active ou inactive);
+   3. Admin confirma cadastro do usuário ao corpus;
 
 ### Diagrama do Caso de uso 01 - Cadastro
 
@@ -178,7 +178,7 @@ Nos tópicos a seguir, será detalhado o caso de uso para o cadastro de novos us
 
 Antes de iniciar o processo de cadastro de um usuário, certifique-se de que o corpus ao qual o usuário será associado já tenha sido criado.
 
-1. **Acesso ao Sistema**: Faça login na plataforma com sua conta de administrador, através do link <!--(VERIFICAR SE POSSO INSERIR O LINK) --> “/admin”
+1. **Acesso ao Sistema**: Faça login na plataforma com sua conta de administrador, através do link <!--(REVISAR: VERIFICAR SE POSSO DEIXAR O LINK) --> “/admin”: <https://www.tycho.iel.unicamp.br/admin>
 2. **Verificar Corpora**: Os corpora disponíveis na plataforma aparecem na página inicial de Admin, listados com os campos: Nome, Type, Status No. of documents, No. of words, No. of users. Navegue até a seção de gerenciamento de corpora para verificar se o corpus está disponível (note que são exibidos 10 resultados por página, e que pode haver várias páginas de corpora - então navegue em todas as páginas para verificar a presença de um corpus). Previamente, o usuário já deve ter realizado contado com a coordenação do projeto solicitando sua associação a determinado corpus. A coordenação então entra em contato com o administrador solicitando associação/cadastro a um determinado corpus. Veja a Figura 2 abaixo:
 
 <figure>
@@ -187,7 +187,7 @@ Antes de iniciar o processo de cadastro de um usuário, certifique-se de que o c
 </figure>
 
 3. **Selecionar o Corpus**: Na interface de administração, selecione o corpus ao qual o novo usuário será associado. A Figura 3 a seguir apresenta o catálogo de corpora disponíveis para acesso. Ao clicar em um dos corpora, o usuário é redirecionado ao corpus específico, como apresentado na Figura 4, como apresentado no topo da página “Corpus: Demonstration”.
-Na primeira tela após a seleção do corpus, no inventário, são apresentadas informações gerais sobre o corpus, como nome, um atalho URL, os parsers etc.
+   Na primeira tela após a seleção do corpus, no inventário, são apresentadas informações gerais sobre o corpus, como nome, um atalho URL, os parsers etc.
 
 <figure>
     <img src = "../imagens/selecionando_corpus_demo.png" alt = "Corpus selecionado">
@@ -219,14 +219,15 @@ Ao acessar o “Access Control”, a plataforma apresenta uma página com os atu
 5. **Criar Convite de acesso**: Na aba "Access Control", clique no botão "Invites" e depois em “ + Add new”.
 6. **Realizar as configurações da permissão:**
 
-    1. **Inserir título:**  Escolha um título para o convite no campo “Title”
-    2. **Definir Quantidade de Convites**: Escolha se o convite será para um único usuário ou para múltiplos usuários (o contador de convites disponíveis será atualizado conforme os usuários se registrarem).
-    3. **Definir o tipo de permissão:** Selecione o tipo de permissão “Role” que o usuário terá:
-        - **Edição**: O usuário poderá editar o corpus.
-        - **Admin**: O usuário terá permissões de administrador no corpus.
-    4. **Status do Usuário**: Selecione o status do usuário:
-        - **Active**: O usuário terá acesso ativo ao corpus.
-        - **Inactive**: O usuário estará registrado, mas sem acesso ativo.
+   1. **Inserir título:** Escolha um título para o convite no campo “Title”
+   2. **Definir Quantidade de Convites**: Escolha se o convite será para um único usuário ou para múltiplos usuários (o contador de convites disponíveis será atualizado conforme os usuários se registrarem).
+   3. **Definir o tipo de permissão:** Selecione o tipo de permissão “Role” que o usuário terá:
+      - **Edição**: O usuário poderá editar o corpus.
+      - **Admin**: O usuário terá permissões de administrador no corpus.
+   4. **Status do Usuário**: Selecione o status do usuário:
+      - **Active**: O usuário terá acesso ativo ao corpus.
+      - **Inactive**: O usuário estará registrado, mas sem acesso ativo.
+
 7. **Confirmar as Configurações de permissão**: Após configurar as permissões clicar em "Confirmar".
 
 <figure>
@@ -245,7 +246,7 @@ Ao acessar o “Access Control”, a plataforma apresenta uma página com os atu
 </figure>
 
 10. **Enviar o Convite**: Envie o link de "/onboarding" e o código de acesso ao usuário potencial, via e-mail ou outro meio de comunicação apropriado.
-11. Usuário recém cadastrado deve logar-se novamente para verificar se i cadastri foi bemsucedido.
+11. Usuário recém cadastrado deve logar-se novamente para verificar se o cadastro foi bem-sucedido.
 
 #### **Tutorial: Fluxo Alternativo 1 - Usuário não presente na Base de Dados**
 
@@ -256,12 +257,12 @@ Se o usuário ainda não estiver na base de dados da plataforma, siga estas etap
 
 <!--INSERIR IMAGEM-->
 
-3. **Adicionar Novo Usuário**: Na tela /admin, selecione o corpus. No painel de "Access Control", com o botão “Users” selecionado, clique em "+ Add New" para adicionar o usuário à base de dados.
+3. **Adicionar Novo Usuário**: Na tela /admin (<https://www.tycho.iel.unicamp.br/admin>) <!-- REVISAR:MANTER LINK?-->, selecione o corpus. No painel de "Access Control", com o botão “Users” selecionado, clique em "+ Add New" para adicionar o usuário à base de dados.
 4. **Selecionar o E-mail do Usuário**: No campo de busca, preencha o nome ou e-mail do usuário (são apresentados candidatos salvos na base de dados com base no termo de busca preenchido). Escolha o nome/e-mail do usuário que você deseja cadastrar no menu drop down.
 
 <figure>
     <img src = "../imagens/selecao_usuario_lista.png" alt="Seleção de usuário já presente na base">
-    <figcaption>Figura 9: Vincular usuário ao corpus</figcaption>
+    <figcaption>Figura x: Vincular usuário ao corpus</figcaption>
 
 </figure>
 
@@ -272,8 +273,8 @@ Se o usuário ainda não estiver na base de dados da plataforma, siga estas etap
 
 Se o usuário já estiver cadastrado em outro corpus, siga estas etapas:
 
-1. **Adicionar novo usuário**: No painel de "Access Control", com o botão “Users” selecionado, clique em "+ Add New". (Ver Figura 9)
-2. **Selecionar o e-mail do usuário**: Escolha o e-mail do usuário na lista (super-usuários e e-mails já cadastrados no corpus não aparecerão como opção). (Ver Figura 9)
+1. **Adicionar novo usuário**: Acesse o link "admin" <https://www.tycho.iel.unicamp.br/admin> e selecione um corpus. No painel de "Access Control", com o botão “Users” selecionado, clique em "+ Add New". (Ver Figura x acima)
+2. **Selecionar o e-mail do usuário**: Escolha o e-mail do usuário na lista (super-usuários e e-mails já cadastrados no corpus não aparecerão como opção). (Ver Figura x acima)
 3. **Configurar Permissões e Confirmar**: Siga o Passo 6 (.3 e .4) do fluxo normal para configurar as permissões e confirme o cadastro.
 
 ---
@@ -307,9 +308,9 @@ Se o usuário já estiver cadastrado em outro corpus, siga estas etapas:
 
 ---
 
-## Caso de uso 02 - Realizar *Sign in*
+## Caso de uso 02 - Realizar _Sign in_
 
-O Sign in seguro permite ao usuário acessar a plataforma com segurança. Este processo envolve somente o usuário previamente cadastrado. Como será apresentado, o usuário terá acesso à plataforma por meio de um login Google. 
+O Sign in seguro permite ao usuário acessar a plataforma com segurança. Este processo envolve somente o usuário previamente cadastrado. Como será apresentado, o usuário terá acesso à plataforma por meio de um login Google.
 
 ### Descrição do Caso de uso 02
 
@@ -319,7 +320,7 @@ O Sign in seguro permite ao usuário acessar a plataforma com segurança. Este p
 
 **Pré-requisitos:**
 
-1. Para realizar o *sign in*, é necessário que o usuário tenha sido previamente cadastrado com um e-mail da google (.gmail). Para solicitar o cadastramento, veja Caso de uso 03 O *sign in* é feito com o perfil google logado do usuário uma vez que o e-email tenha sido cadastrado na plataforma Tycho Brahe.
+1. Para realizar o _sign in_, é necessário que o usuário tenha sido previamente cadastrado com um e-mail da google (.gmail). Para solicitar o cadastramento, veja Caso de uso 03 O _sign in_ é feito com o perfil google logado do usuário uma vez que o e-email tenha sido cadastrado na plataforma Tycho Brahe.
 
 **Fluxo normal (usuário já cadastrado na plataforma):**
 
@@ -333,7 +334,7 @@ O Sign in seguro permite ao usuário acessar a plataforma com segurança. Este p
 <figcaption>Figura 10: Diagrama Caso de uso 02</figcaption>
 </figure>
 
-### Tutorial: *Sign in* de usuários
+### Tutorial: _Sign in_ de usuários
 
 **Objetivo:** Este tutorial detalha o processo para o usuário realizar o Sign in na plataforma. Em um fluxo normal, o usuário já foi previamente cadastrado com um e-mail Google. Caso contrário, veja Caso de uso 3 - Solicitar cadastro para realizar a solicitação junto aos administradores da plataforma.
 
@@ -390,7 +391,7 @@ No caso de interesse de participação no projeto, o usuário deve entrar em con
 
 ### Tutorial: Solicitar cadastro na plataforma
 
-**Objetivo:**  Este tutorial detalha o processo para solicitar o cadastramento na plataforma. Em um fluxo normal, o usuário entra na página principal da plataforma e preenche o formulário fixado no final da página e aguarda contato dos administradores.
+**Objetivo:** Este tutorial detalha o processo para solicitar o cadastramento na plataforma. Em um fluxo normal, o usuário entra na página principal da plataforma e preenche o formulário fixado no final da página e aguarda contato dos administradores.
 
 #### **Tutorial: Fluxo normal**
 
@@ -412,9 +413,9 @@ Para os administradores, a ferramenta oferece recursos avançados para a criaç�
 
 Há três formas [REVISAR] para executar a criação de corpora na ferramenta Tycho Brahe:
 
-1. *Translation mode* (Modo traduções) ou *Translation eDictor*
+1. _Translation mode_ (Modo traduções) ou _Translation eDictor_
 2. [REVISAR: INSERIR LISTA DE MANEIRAS DE DEV DE CORPUS]
-   
+
 Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a criação e configuração de novos corpora, além de tutoriais detalhados que guiam administradores e usuários no uso eficiente da ferramenta, garantindo uma experiência fluida e colaborativa na gestão dos catálogos.
 
 ### Descrição Subcaso de uso 04.1 - Criação de corpora
@@ -431,11 +432,11 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 **Fluxo normal:**
 
 1. Acessar a página inicial da plataforma Tycho Brahe, através do link: https://www.tycho.iel.unicamp.br/home .
-2. Na área "Ferramentas", selecionar a ferramenta *"Corpora Management"*.
-3. Ao acessar o *"Corpus Management"*, uma lista de corpora disponíveis abre. Clicar em *"+ Create new corpus"*.
+2. Na área "Ferramentas", selecionar a ferramenta _"Corpora Management"_.
+3. Ao acessar o _"Corpus Management"_, uma lista de corpora disponíveis abre. Clicar em _"+ Create new corpus"_.
 4. Adicionar nome ao novo corpus e clicar em "Confirmar": novo corpus criado.
 
-### Diagrama do subcaso de uso 04.1 - Criação de corpora 
+### Diagrama do subcaso de uso 04.1 - Criação de corpora
 
 <figure>
     <img src="../imagens/caso04_01_diagrama.png"
@@ -445,7 +446,7 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 
 ### Tutorial: Criação de corpora
 
-**Objetivo**: Este tutorial detalha os passos necessários para a criação de novos corpora através da ferramenta *"Corpus management"*
+**Objetivo**: Este tutorial detalha os passos necessários para a criação de novos corpora através da ferramenta _"Corpus management"_
 
 #### **Tutorial: Fluxo normal**
 
@@ -458,21 +459,19 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
     <figcaption> Figura x: Selecionando a ferrramenta "Corpora Management"</figcaption>
 </figure>
 
-3. Ao acessar o *"Corpus Management"*, uma lista de corpora disponíveis abre. Clique em *"+ Create new corpus"*.
+3. Ao acessar o _"Corpus Management"_, uma lista de corpora disponíveis abre. Clique em _"+ Create new corpus"_.
 
 <figure>
     <img src = "../imagens/criacao_corpus.png">
     <figcaption>Figura x: Criação de um novo corpus</figcaption>
 </figure>
 
-4. Adicione um nome ao novo corpus e clique em "Confirmar": esta ação finaliza a criação do corpus (Note que estas ações apenas criam o corpus. Para inclusão/edição de documentos, ou seja, alimentar o corpus ver Caso de uso 04.2). Após preencher com o nome desejado, clique em "Confirmar". Esta ação cria um novo corpus, que aparecerá na lista. 
+4. Adicione um nome ao novo corpus e clique em "Confirmar": esta ação finaliza a criação do corpus (Note que estas ações apenas criam o corpus. Para inclusão/edição de documentos, ou seja, alimentar o corpus ver Caso de uso 04.2). Após preencher com o nome desejado, clique em "Confirmar". Esta ação cria um novo corpus, que aparecerá na lista.
 
 <figure>
     <img src = "../imagens/criacao_corpus_nome.png">
     <figcaption>Figura x: Criação de corpus: inserção de nome</figcaption>
 </figure>
-
-
 
 ### Descrição Subcaso de uso 04.2 - Configuração dos corpora
 
@@ -488,10 +487,9 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 **Fluxo normal:**
 
 1. Acessar a página inicial da plataforma Tycho Brahe, através do link: https://www.tycho.iel.unicamp.br/home .
-2. Na área "Ferramentas", selecionar a ferramenta *"Corpora Management"*.
-3. Ao acessar o *"Corpora Management"*, uma lista de corpora disponíveis abre. Selecionar o corpus que deseja configurar.
+2. Na área "Ferramentas", selecionar a ferramenta _"Corpora Management"_.
+3. Ao acessar o _"Corpora Management"_, uma lista de corpora disponíveis abre. Selecionar o corpus que deseja configurar.
 4. Selecionar a aba **"Parâmetros"**: abre-se uma caixa com botões de alternância para a realização de configurações do corpus.
-
 
 ### Diagrama do Caso de uso 04.2 - Configuração de corpora
 
@@ -503,15 +501,15 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 
 ### Tutorial: Configuração de corpora
 
-**Objetivo:**: Este tutorial detalha os passos necessários para a configuração dos corpora através da ferramenta *"Corpora management"*
+**Objetivo:**: Este tutorial detalha os passos necessários para a configuração dos corpora através da ferramenta _"Corpora management"_
 
 #### **Tutorial: Fluxo normal**
 
 1. Acesse a página inicial da plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/home> .
 
-2. Na área "Ferramentas", role a página para baixo e selecione a ferramenta *"Corpora Management"*, como apresentado na Figura x:
+2. Na área "Ferramentas", role a página para baixo e selecione a ferramenta _"Corpora Management"_, como apresentado na Figura x:
 
-3. Ao acessar o *"Corpora Management"*, uma lista de corpora disponíveis abre. Clique no corpus que deseja configurar.
+3. Ao acessar o _"Corpora Management"_, uma lista de corpora disponíveis abre. Clique no corpus que deseja configurar.
 
 4. Clique em "Parâmetros": uma caixa com botões de alternância se abre, disponibilizando diversos botões de alternância para configuração dos corpora.
 
@@ -536,15 +534,16 @@ A seguir são apresentadas descrições de cada um dos botões de configuraçõe
     <figcaption>Figura X: Configuração de corpora: botão "Use Morphemes"</figcaption>
 </figure>
 
-<br>**Use Sound**: a habilita o uso de áudio no corpus. 
-  - Como podemos observar na Figura x abaixo, a habilitação do botão "Use Sound" habitila uma seção de Áudio, que permite ao analista incluir o áudio a ser transcrito.
-  
-    ![Configuração de corpora: botão "Use Sound"](../imagens/botao_config_corpus_usesound.png)
+<br>**Use Sound**: a habilita o uso de áudio no corpus.
+
+- Como podemos observar na Figura x abaixo, a habilitação do botão "Use Sound" habitila uma seção de Áudio, que permite ao analista incluir o áudio a ser transcrito.
+
+  ![Configuração de corpora: botão "Use Sound"](../imagens/botao_config_corpus_usesound.png)
   Figura X: Configuração de corpora: botão "Use Sound"
 
-<br>  
+<br>
 
--  O "Use Sound" também habilita, na ferramenta "eDictor", um botão para dar play nos áudios associados às sentenças do documento selecionado, como observamos na Figura x abaixo:
+- O "Use Sound" também habilita, na ferramenta "eDictor", um botão para dar play nos áudios associados às sentenças do documento selecionado, como observamos na Figura x abaixo:
   ![Configuração de corpora: botão "Use Sound" 2](../imagens/botao_config_corpus_usesound2.png)
   Figura X: Configuração de corpora: botão "Use Sound"(no eDictor)
 
@@ -566,7 +565,7 @@ A seguir são apresentadas descrições de cada um dos botões de configuraçõe
 
 </figure>
 
-<br>**Use Category**: este botão habilita a possibilidade de categorização e subcategorização dos corpora (por exemplo, categorização com base em parâmetros demográficos etc), como apresentado na Figura x, com o corpus CE-DOHS selecionado no catálogo. Note-se que a criação dos rótulos para as categorias pode ser realizada por um usuário com permissões de adminstrador 
+<br>**Use Category**: este botão habilita a possibilidade de categorização e subcategorização dos corpora (por exemplo, categorização com base em parâmetros demográficos etc), como apresentado na Figura x, com o corpus CE-DOHS selecionado no catálogo. Note-se que a criação dos rótulos para as categorias pode ser realizada por um usuário com permissões de adminstrador
 
 <figure>
     <img src = "../imagens/botao_config_corpus_usecategory.png" alt = "Configuração corpus_ Use Category">
@@ -579,7 +578,6 @@ A seguir são apresentadas descrições de cada um dos botões de configuraçõe
     <img src = "../imagens/botao_config_corpus_useeditiontiers1.png" alt = "Configura corpus: botão Use Edition Tiers">
     <figcaption>Figura x: Configuração de corpora: botão "Use Edition Tiers"
 </figure>
-
 
 <figure>
     <img src = "../imagens/botao_config_corpus_useeditiontiers2.png" alt = "Configura corpus: botão Use Edition Tiers 2">
@@ -602,6 +600,7 @@ Esta ação abre um painel com uma matriz para edição dos níveis de edição,
 Os botões "Use eDictor Translations"/"Use eDictor"/"Use Designer"/"Use Transcriber" não são excludentes, i.e., podem ser habilitados ao mesmo tempo em um determinado corpus. Esta ação disponibiliza todas as ferramentas para utilização no corpus.
 
 **Use eDictor Translations**: Habilita o uso da versão eDictor para apresentação de corpora paralelos, como apresentado na Figura x a seguir:
+
 <figure>
     <img src = "../imagens/botao_config_corpus_useedictortranslations1.png" alt = "Use eDictor Translations">
     <figcaption>Figura x: Configuração de corpora: botão Use eDictor Translations - Corpora Paralelos </figcaption>
@@ -618,7 +617,6 @@ A configuração do eDictor Tranlations também depende de configurações na ab
   - **Symbol**: preencha com o rótulo desejado;
   - **Name**: preencha com o nome desejado;
   - **Reference**: preencha para adicionar uma referência.[REVISAR: ver videos de gravação da reunião] É um campo opcional pa
-
 
 <br>
 <figure>
@@ -637,38 +635,36 @@ Estas configurações habilitam a apresentação dos corpora paralelos como em 2
 
 **Use Designer**: o acionamento deste botão habilita o uso da versão do eDictor para trabalhar com textos de layouts complexos, como jornais.
 
-
 **Use Transcriber**: este botão habilita o uso da versão do eDictor para trabalhar com transcrição de áudio.
-
 
 **Allow POS Tag inclusion**: o acionamento deste botão possibilita adicionar novas etiquetas POS à lista enquanto o usuário edita sentenças no eDictor.
 
 **Default for UD**: habilita que o corpus seja configurado para usar Universal Dependencies como o framework padrão para edição de sentenças.
 
-
 ## Caso de uso 05 - Ferramenta **Use eDictor**
 
 [INTRODUÇÃO]
+
 ### Descrição Caso de uso 05
 
 **Atores primários**:
 
-1.  
+1.
 
 **Pré-requisitos:**
 
-1. 
+1.
 
 **Fluxo normal:**
 
-1. 
-**Fluxo alternativo:**
+1.  **Fluxo alternativo:**
 
-**A1** 
-1. 
-**A2** 
+**A1**
 
-1. 
+1.  **A2**
+
+1.
+
 ### Diagrama do Caso de uso 05 - **Use eDictor**
 
 <figure>
@@ -677,28 +673,30 @@ Estas configurações habilitam a apresentação dos corpora paralelos como em 2
     <figcaption>Figura X: CAPTION</figcaption>
 </figure>
 
-### Tutorial: 
+### Tutorial:
 
-**Objetivo:** 
+**Objetivo:**
 
 #### **Tutorial: Fluxo normal**
 
-1. 
+1.
 
-#### **Tutorial: Fluxo Alternativo 
+#### \*\*Tutorial: Fluxo Alternativo
 
 ### Tutorial: Guia do Usuário Final (SE HOUVER)
 
-**Objetivo:** 
+**Objetivo:**
+
 #### **Tutorial: Fluxo normal **
 
-1. 
+1.
+
 #### **Tutorial: Fluxo alternativo**
 
 1.
 
-
 ## Caso de uso 06 - Ferramenta **eDictor Translations**
+
 A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para desenvolvimento de corpora com suas traduções nas línguas configuradas e selecionadas pelo usuário. A habilitação desta ferramenta permite, consequentemente, a apresentação dos corpora de forma paralela, ou seja, com originais e traduções de forma paralela e sincronizada.
 [REVISAR: AVALIAR SE FUTURAMENTE VOU INSERIR AS OUTRAS FUNCIONALIDADES DE EDIÇÃO DOS CORPORA AQUI: EDITAR ETIQUETAS DAS DIVERSAS CAMADAS ETC]
 
@@ -741,7 +739,7 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
 
 **Fluxo alternativo:**
 
-**A1** 
+**A1**
 
 1. Acessar a página de catálogo através do link: <https://www.tycho.iel.unicamp.br/catalog>
 2. Seguir a partir de 3 no Fluxo normal.
@@ -757,7 +755,6 @@ Seguir o fluxo normal de 1 a 5, ou o fluxo A1, para acesso à ferramenta eDictor
 5. Preencher as traduções e clicar no botão verde para salvar.
 6. Clicar em "adicionar nova sentença"
 
-
 ### Diagrama do Caso de uso 06.01 - **Use eDictor Translations: Edição de corpora**
 
 <figure>
@@ -771,9 +768,9 @@ Seguir o fluxo normal de 1 a 5, ou o fluxo A1, para acesso à ferramenta eDictor
     <figcaption>Figura x: Cont. Diagrama Caso de uso 6.01 - Ações no corpus</figcaption>
 </figure>
 
-### Tutorial: 
+### Tutorial:
 
-**Objetivo:** Este tutorial detalha os procedimentos necessários para a edição de corpora usando a ferramenta **"eDictor Translations"**. 
+**Objetivo:** Este tutorial detalha os procedimentos necessários para a edição de corpora usando a ferramenta **"eDictor Translations"**.
 
 #### **Tutorial: Fluxo normal**
 
@@ -823,10 +820,10 @@ Para 6 e 7, ver Figuras x e x, a seguir:
     <img src = "../imagens/edictor_trans_acoes_edicao.png">
     <figcaption>Figura x: Ações no eDictor Translations - Inserir texto/Apagar/Sincronizar</figcaption>
 </figure>
-
+<br>
 <figure>
     <img src = "../imagens/edict_trans_sentencas_sincronizadas_inseridas.png">
-    <figcaption>Figura x: </figcaption>
+    <figcaption>Figura x: Sentenças sincronizadas e inseridas no documento</figcaption>
 </figure>
 
 8. Editar sentenças sincronizadas [REVISAR: LUIS MODIFICOU A MANEIRA DE EDIÇÃO - NÃO PARECE TER SURTIDO EFEITO AINDA A MUDANÇAS. AGUARDAR ATUALIZAÇÃO]:
@@ -834,22 +831,19 @@ Para 6 e 7, ver Figuras x e x, a seguir:
    2. Selecionar botão E (eDictor).
    3. Para editar o original: no quadro, clicar na palavra que desejar atualizar, editar e confirmar.
    4. Para editar a tradução: rolar a página até o campo de "Traduções", editar o campo com o texto e salvar.
-9.  Remover sentenças sincronizadas:
-   1. Selecionar um par de sentenças.
-   2. Clicar em "Remover" e confirmar.
-
-
-
+9. Remover sentenças sincronizadas:
+10. Selecionar um par de sentenças.
+11. Clicar em "Remover" e confirmar.
 
 #########################
-note left of  (Preencher textos)
+note left of (Preencher textos)
 Inserir o texto fonte (original);
-Selecionar o idioma de tradução; 
+Selecionar o idioma de tradução;
 Inserir texto traduzido e salvar as transcrições.
 end note
 
 note bottom of (Clicar em "Sincronizar")
-Sentenças fonte e alvo 
+Sentenças fonte e alvo
 são apresentados paralelamente.
 end note
 
@@ -858,58 +852,59 @@ Clicar em "confirmar" para remover a sentença
 selecionada
 end note
 
-#### **Tutorial: Fluxo Alternativo 
+#### \*\*Tutorial: Fluxo Alternativo
 
 ### Tutorial: Guia do Usuário Final (SE HOUVER)
 
-**Objetivo:** 
+**Objetivo:**
+
 #### **Tutorial: Fluxo normal **
 
-1. 
+1.
+
 #### **Tutorial: Fluxo alternativo**
 
-1.
-teste
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-###########rascunho  ESTRUTURA BÁSICA PARA REUTILIZAÇÃO
+1.  <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    ###########rascunho  ESTRUTURA BÁSICA PARA REUTILIZAÇÃO
 
 ## Caso de uso 0X - NOME CASO DE USO
+
 [INTRODUÇÃO]
 
 ### Descrição Caso de uso X
 
 **Atores primários**:
 
-1.  
+1.
 
 **Pré-requisitos:**
 
-1. 
+1.
 
 **Fluxo normal:**
 
-1. 
-**Fluxo alternativo:**
+1.  **Fluxo alternativo:**
 
-**A1** 
-1. 
-**A2** 
+**A1**
 
-1. 
+1.  **A2**
+
+1.
+
 ### Diagrama do Caso de uso 0X - NOME CASO
 
 <figure>
@@ -918,26 +913,27 @@ teste
     <figcaption>Figura X: CAPTION</figcaption>
 </figure>
 
-### Tutorial: 
+### Tutorial:
 
-**Objetivo:** 
+**Objetivo:**
 
 #### **Tutorial: Fluxo normal**
 
-1. 
+1.
 
-#### **Tutorial: Fluxo Alternativo 
+#### \*\*Tutorial: Fluxo Alternativo
 
 ### Tutorial: Guia do Usuário Final (SE HOUVER)
 
-**Objetivo:** 
-#### **Tutorial: Fluxo normal **
+**Objetivo:**
 
-1. 
-#### **Tutorial: Fluxo alternativo**
+#### **Tutorial: Fluxo normal **
 
 1.
 
+#### **Tutorial: Fluxo alternativo**
+
+1.
 
 DÚVIDAS A TIRAR COM O LUIZ
 
