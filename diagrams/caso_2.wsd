@@ -2,12 +2,9 @@
 actor Usuario
 
 package "Sign in" as FN{
-  Usuario -- (Acessar página inicial) : https://www.tycho.iel.unicamp.br/home
-  Usuario -- (Clicar em "Sign in as")
-  Usuario -- (Selecionar conta Google)
-
-  (Acessar página inicial)-->(Clicar em "Sign in as")
-  (Clicar em "Sign in as")-->(Selecionar conta Google)
+ 
+  (Acessar página inicial)-->(Clicar em "Fazer login com o Google")
+  (Clicar em "Fazer login com o Google")-->(Selecionar conta Google)
 }
 
 note left of Usuario
@@ -17,9 +14,10 @@ note left of Usuario
 end note
 
 package "Fluxo Alternativo:usuário não cadastrado" as FA1 {
-  Usuario -- (Solicitar cadastramento) : Caso de uso 03
+  Usuario -- FA1: Caso de uso 03
+  (Solicitar cadastramento)
 }
-
+Usuario -- FN
  FN <|--  FA1
 
 @enduml

@@ -21,12 +21,12 @@ SUMÁRIO
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal)
       - [**Tutorial: Fluxo Alternativo 1 - Usuário não presente na Base de Dados**](#tutorial-fluxo-alternativo-1---usuário-não-presente-na-base-de-dados)
       - [**Tutorial: Fluxo Alternativo 2 - Usuário já presente na Base de Dados, vinculado a outro corpus**](#tutorial-fluxo-alternativo-2---usuário-já-presente-na-base-de-dados-vinculado-a-outro-corpus)
-    - [Tutorial: Como Se Cadastrar em um Corpus - Guia do Usuário Final](#tutorial-como-se-cadastrar-em-um-corpus---guia-do-usuário-final)
+    - [Tutorial: Como se cadastrar em um corpus - Guia do usuário final](#tutorial-como-se-cadastrar-em-um-corpus---guia-do-usuário-final)
       - [**Tutorial: Fluxo normal (usuários não cadastrados previamente em nenhum dos corpora)**](#tutorial-fluxo-normal-usuários-não-cadastrados-previamente-em-nenhum-dos-corpora)
       - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo)
-  - [Caso de uso 02 - Realizar _Sign in_](#caso-de-uso-02---realizar-sign-in)
-    - [Descrição do Caso de uso 02](#descrição-do-caso-de-uso-02)
-    - [Diagramas do Caso de uso 02 - Sign in](#diagramas-do-caso-de-uso-02---sign-in)
+  - [Caso de uso 02 - Realizar _Sign in_ na Área Reservada](#caso-de-uso-02---realizar-sign-in-na-área-reservada)
+    - [Descrição do Caso de uso 02 - Realizar _Sign in_ na Área Reservada](#descrição-do-caso-de-uso-02---realizar-sign-in-na-área-reservada)
+    - [Diagramas do Caso de uso 02 - _Sign in_](#diagramas-do-caso-de-uso-02---sign-in)
     - [Tutorial: _Sign in_ de usuários](#tutorial-sign-in-de-usuários)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-1)
   - [Caso de uso 03 - Solicitar cadastro](#caso-de-uso-03---solicitar-cadastro)
@@ -255,7 +255,7 @@ Se o usuário ainda não estiver na base de dados da plataforma, siga estas etap
 1. **Envio do Link de Onboarding**: Envie o link "/onboarding" para o usuário.
 2. **Cadastro Inicial do Usuário**: O usuário acessa o link, e ao tentar se cadastrar, o sistema mostrará uma mensagem de acesso negado ao corpus.
 
-<!--INSERIR IMAGEM-->
+<!--REVISAR:INSERIR IMAGEM-->
 
 3. **Adicionar Novo Usuário**: Na tela /admin (<https://www.tycho.iel.unicamp.br/admin>) <!-- REVISAR:MANTER LINK?-->, selecione o corpus. No painel de "Access Control", com o botão “Users” selecionado, clique em "+ Add New" para adicionar o usuário à base de dados.
 4. **Selecionar o E-mail do Usuário**: No campo de busca, preencha o nome ou e-mail do usuário (são apresentados candidatos salvos na base de dados com base no termo de busca preenchido). Escolha o nome/e-mail do usuário que você deseja cadastrar no menu drop down.
@@ -279,7 +279,7 @@ Se o usuário já estiver cadastrado em outro corpus, siga estas etapas:
 
 ---
 
-### Tutorial: Como Se Cadastrar em um Corpus - Guia do Usuário Final
+### Tutorial: Como se cadastrar em um corpus - Guia do usuário final
 
 **Objetivo:** Este tutorial detalha o processo para os usuários se cadastrarem em um corpus da plataforma, utilizando o link de "/onboarding" e código de acesso fornecido pelo administrador, ou apenas o link "/onboarding" .
 
@@ -308,11 +308,16 @@ Se o usuário já estiver cadastrado em outro corpus, siga estas etapas:
 
 ---
 
-## Caso de uso 02 - Realizar _Sign in_
+<!--REVISAR CRÍTICO - MUDANÇAS NA PLATAFORMA-->
 
-O Sign in seguro permite ao usuário acessar a plataforma com segurança. Este processo envolve somente o usuário previamente cadastrado. Como será apresentado, o usuário terá acesso à plataforma por meio de um login Google.
+## Caso de uso 02 - Realizar _Sign in_ na Área Reservada
 
-### Descrição do Caso de uso 02
+O Sign in seguro permite ao usuário acessar a plataforma com segurança.
+Este processo envolve somente o usuário previamente cadastrado.
+Como será apresentado, o usuário terá acesso à plataforma por meio de um login Google.
+A Área Reservada dá acesso ao Catálogo, eDictor, Syntrees, Parser e Centro Administrativo.
+
+### Descrição do Caso de uso 02 - Realizar _Sign in_ na Área Reservada
 
 **Ator primário**:
 
@@ -320,14 +325,15 @@ O Sign in seguro permite ao usuário acessar a plataforma com segurança. Este p
 
 **Pré-requisitos:**
 
-1. Para realizar o _sign in_, é necessário que o usuário tenha sido previamente cadastrado com um e-mail da google (.gmail). Para solicitar o cadastramento, veja Caso de uso 03 O _sign in_ é feito com o perfil google logado do usuário uma vez que o e-email tenha sido cadastrado na plataforma Tycho Brahe.
+1. Para realizar o _sign in_, é necessário que o usuário tenha sido previamente cadastrado com um e-mail da google (.gmail). Para solicitar o cadastramento, veja Caso de uso 03. O _sign in_ é feito com o perfil google do usuário uma vez que o e-email tenha sido cadastrado na plataforma Tycho Brahe.
 
 **Fluxo normal (usuário já cadastrado na plataforma):**
 
 1. O usuário acessa a página inicial da plataforma Tycho Brahe no endereço <https://www.tycho.iel.unicamp.br/home> .
-2. O usuário clica no botão “Sign in as” e abre uma janela para selecionar a conta Google com a qual deseja realizar o sign in na plataforma Tycho Brahe (conta já cadastrada no processo de cadastro na plataforma).
+2. O usuário acessa a "Área Reservada".
+3. O usuário clica no botão “Fazer login com o Google” e abre-se uma janela de seleção a conta Google com a qual deseja realizar o sign in na plataforma Tycho Brahe (conta já cadastrada no processo de cadastro na plataforma). No caso de não ser o primeiro _sign in_, a conta já utilizada anteriormente já aparece como primeira opção.
 
-### Diagramas do Caso de uso 02 - Sign in
+### Diagramas do Caso de uso 02 - _Sign in_
 
 <figure>
 <img src = "../imagens/caso02_diagrama.png" alt = "Caso 02">
@@ -343,19 +349,26 @@ O Sign in seguro permite ao usuário acessar a plataforma com segurança. Este p
 #### **Tutorial: Fluxo normal**
 
 1. Acesse a página inicial da plataforma Tycho Brahe, disponível no link: <https://www.tycho.iel.unicamp.br/home>.
-2. No canto superior direito, selecione o botão de “Sign in” (o usuário é redirecionado a uma janela para selecionar a conta Google para continuar.
-3. Selecione a conta, preencha as credenciais Google (se não estiver logado) e confirme.
+2. Na área de Ferramentas, selecione o botão de “Área Reservada”. (o usuário é redirecionado a uma janela para preencher credenciais da conta Google para continuar.
 
 <figure>
 <img src = "../imagens/tycho_home_signin.png" alt = "Tela de signin">
 
-<figcaption>Figura 11: Tela inicial - Sign in</figcaption>
+<figcaption>Figura X:  Sign in Área Reservada</figcaption>
 </figure>
 
-4. Se o “Sign in” for bem-sucedido, a foto do perfil Google do usuário aparecerá no canto superior direito:
+3. Clique em "Fazer login com o Google". Selecione uma conta já logada anteriormente, ou preencha as credenciais Google (se não tiver logado anteriormente) e clique em "Próxima". Preencha a senha e confirme.
 
 <figure>
-<img src = "../imagens/usuario_perfil.png" alt = "Sign in bem-sucedido">
+<img src = "../imagens/tycho_home_signin2.png" alt = "Tela de signin">
+
+<figcaption>Figura X: Login in com o Google</figcaption>
+</figure>
+
+4. Se o “_Sign in_” for bem-sucedido, o usuário é direcionado à sua página de perfil, que apresenta suas informações, os corpora associados ao seu perfil e o nível de acesso:
+
+<figure>
+<img src = "../imagens/area_reservada_perfil.png" alt = "Sign in bem-sucedido">
 
 <figcaption>Figura 12: Sign in bem-sucedido </figcaption>
 </figure>
@@ -378,7 +391,7 @@ O processo de solicitação de cadastro por meio do formulário permite aos usu�
 No caso de interesse de participação no projeto, o usuário deve entrar em contato por meio do formulário no fim da página inicial do projeto.
 
 1. Acessar a página inicial da plataforma Tycho Brahe, disponível no link: <https://www.tycho.iel.unicamp.br/home>.
-2. Rolar a página até a área do formulário.
+2. Rolar a página até a área do formulário "Entre em contato".
 3. Preencher o formulário com seu Nome, E-mail, Assunto, Mensagem (descrevendo seus interesses e motivos para associar-se, por exemplo).
 4. Os Administradores devem entrar em contato sobre a solicitação e informar detalhes do procedimento de cadastro (Caso de uso 01)
 
@@ -396,25 +409,25 @@ No caso de interesse de participação no projeto, o usuário deve entrar em con
 #### **Tutorial: Fluxo normal**
 
 1. Acesse a página inicial da plataforma Tycho Brahe, disponível no link: <https://www.tycho.iel.unicamp.br/home>.
-2. Role a página até chegar ao final.
+2. Role a página até chegar na área "Entre em contato".
 3. Preencha o formulário com seu Nome, E-mail, Assunto, Mensagem (descrevendo seus interesses e motivos para associar-se, por exemplo).
 
 <figure>
 <img src = "../imagens/solicitar_cadastro.png" alt = "SOlicitar cadastro">
 
-<figcaption>Figura 14: Formulário para solicitar cadastro na plataforma</figcaption>
+<figcaption>Figura x: Formulário para solicitar cadastro na plataforma</figcaption>
 </figure>
 
 ## Caso de uso 04 - Criação, configuração e edição dos corpora
 
-A ferramenta de criação de corpora é um componente fundamental para a construção e gestão eficiente de coleções de textos destinados a análises linguísticas. Este processo pode ser realizado por Administradores e usuários devidamente cadastrados e com as credenciais corretas (de edição).
+A ferramenta de gestão de corpora é um componente fundamental para a construção e configuração eficiente de coleções de textos destinados a análises linguísticas. Este processo pode ser realizado por Administradores e usuários devidamente cadastrados e com as credenciais corretas (de edição).
 
 Para os administradores, a ferramenta oferece recursos avançados para a criação e configuração dos corpora, atribuição de permissões e gerenciamento etc.
 
-Há três formas [REVISAR] para executar a criação de corpora na ferramenta Tycho Brahe:
+Há três formas <!-- <-[REVISAR CRÍTICO: INSERIR LISTA DE MANEIRAS DE DEV DE CORPUS]--> para executar a criação de corpora na ferramenta Tycho Brahe:
 
 1. _Translation mode_ (Modo traduções) ou _Translation eDictor_
-2. [REVISAR: INSERIR LISTA DE MANEIRAS DE DEV DE CORPUS]
+2. [REVISAR: INSERIR]
 
 Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a criação e configuração de novos corpora, além de tutoriais detalhados que guiam administradores e usuários no uso eficiente da ferramenta, garantindo uma experiência fluida e colaborativa na gestão dos catálogos.
 
@@ -427,14 +440,13 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 
 **Pré-requisitos:**
 
-1. Os usuários devem ser previamente cadastrados e ter permissões de edição. Para cadastro, ver Caso de uso 01; para solicitar cadastro, ver Caso de uso 03.
+1. Os usuários devem ser previamente cadastrados e ter permissões de administrador. <!--REVISAR CRÍTICO: SOMENTE ADMINS PODEM CRIAR NOVOS CORPORA?-->
 
 **Fluxo normal:**
 
-1. Acessar a página inicial da plataforma Tycho Brahe, através do link: https://www.tycho.iel.unicamp.br/home .
-2. Na área "Ferramentas", selecionar a ferramenta _"Corpora Management"_.
-3. Ao acessar o _"Corpus Management"_, uma lista de corpora disponíveis abre. Clicar em _"+ Create new corpus"_.
-4. Adicionar nome ao novo corpus e clicar em "Confirmar": novo corpus criado.
+1. Acessar a página inicial de /admin na plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/admin> (e realizar o _log in_).<!--REVISAR CRÍTICO: SÓ CONSIGO CRIAR A PARTIR DO LINK MESMO?-->
+2. Na janela que se abre uma lista de corpora disponíveis é apresentada. Clicar em _"+ Create new corpus"_.
+3. Adicionar nome ao novo corpus e clicar em "Confirmar": novo corpus criado.
 
 ### Diagrama do subcaso de uso 04.1 - Criação de corpora
 
@@ -446,27 +458,20 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 
 ### Tutorial: Criação de corpora
 
-**Objetivo**: Este tutorial detalha os passos necessários para a criação de novos corpora através da ferramenta _"Corpus management"_
+**Objetivo**: Este tutorial detalha os passos necessários para a criação de novos corpora através através do link de administrador.
 
 #### **Tutorial: Fluxo normal**
 
-1. Acesse a página inicial da plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/home> .
+1. Acesse a página inicial de administrador da plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/admin> e realize o login com a conta Google (se não estiver logado).
 
-2. Na área "Ferramentas", role a página para baixo e selecione a ferramenta "Corpus Management", como apresentado na Figura x:
-
-<figure>
-    <img src = "../imagens/ferramentas_corpora_management.png">
-    <figcaption> Figura x: Selecionando a ferrramenta "Corpora Management"</figcaption>
-</figure>
-
-3. Ao acessar o _"Corpus Management"_, uma lista de corpora disponíveis abre. Clique em _"+ Create new corpus"_.
+2. Ao acessar a página de adminstrador, uma lista de corpora disponíveis abre. Clique em _"+ Create new corpus"_.
 
 <figure>
     <img src = "../imagens/criacao_corpus.png">
     <figcaption>Figura x: Criação de um novo corpus</figcaption>
 </figure>
 
-4. Adicione um nome ao novo corpus e clique em "Confirmar": esta ação finaliza a criação do corpus (Note que estas ações apenas criam o corpus. Para inclusão/edição de documentos, ou seja, alimentar o corpus ver Caso de uso 04.2). Após preencher com o nome desejado, clique em "Confirmar". Esta ação cria um novo corpus, que aparecerá na lista.
+3. Adicione um nome ao novo corpus e clique em "Confirmar": esta ação finaliza a criação do corpus (Note que estas ações apenas criam o corpus. Para inclusão/edição de documentos, ou seja, alimentar o corpus ver Caso de uso 04.2). Após preencher com o nome desejado, clique em "Confirmar". Esta ação cria um novo corpus, que aparecerá na lista.
 
 <figure>
     <img src = "../imagens/criacao_corpus_nome.png">
@@ -482,7 +487,7 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 
 **Pré-requisitos:**
 
-1. Os usuários devem ser previamente cadastrados e ter permissões de edição. Para cadastro, ver Caso de uso 01; para solicitar cadastro, ver Caso de uso 03. Um corpus deve ter sido criado previamente (ver caso de uso 04.1).
+1. Os usuários devem ser previamente cadastrados e ter permissões de administrador. Para cadastro, ver Caso de uso 01; para solicitar cadastro, ver Caso de uso 03. Um corpus deve ter sido criado previamente (ver caso de uso 04.1).
 
 **Fluxo normal:**
 
@@ -933,10 +938,8 @@ end note
 
 #### **Tutorial: Fluxo alternativo**
 
-1.
+1.  <!--
+    DÚVIDAS A TIRAR COM O LUIZ
 
-DÚVIDAS A TIRAR COM O LUIZ
-
-- No corpora management, selecionado o meu corpus teste, eDictor: incluo novas tags em Edition Category, Morpheme Category, Translation etc, e se apago uma etiqueta em qualquer das categorias, e abro outra, não aparece nada, só aparece após atualização da página.
-
-- tem uma outra coisa que precisei ajustar, de menor impacto pra vc agora, mas que é importante no catálogo, em relação às ferramentas
+COMO DELETAR UM CORPUS?
+-->

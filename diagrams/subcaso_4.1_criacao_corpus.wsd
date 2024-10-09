@@ -4,9 +4,7 @@ actor "Usuário" as User
 package CriaçãoCorpora {
    
     
-    (Acessar página inicial) --> (Selecionar Ferramenta Corpus Management)
-
-    (Selecionar Ferramenta Corpus Management) --> (Acessar + Create new corpus)
+    (Acessar página admin) --> (Acessar + Create new corpus)
 
    (Acessar + Create new corpus) --> (Adicionar nome ao novo corpus) 
 }
@@ -14,15 +12,15 @@ package CriaçãoCorpora {
 
 note left of User
   Pré-requisitos:
-  1. Usuário cadastrado com e-mail Google (.gmail)
-  2. Usuário logado no perfil Google
+  1. Usuário admin cadastrado com 
+    conta Google e logado
 end note
 
 note right of (Adicionar nome ao novo corpus)
 Clicar em "confirmar"
 end note
 
-User -- (Acessar página inicial):  https://www.tycho.iel.unicamp.br/home
-User -- (Selecionar Ferramenta Corpus Management)
-User --  (Acessar + Create new corpus)
+User -- CriaçãoCorpora :  https://www.tycho.iel.unicamp.br/admin
+
+
 @enduml
