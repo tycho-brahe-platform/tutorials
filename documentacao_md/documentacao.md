@@ -404,8 +404,6 @@ No caso de interesse de participação no projeto, o usuário deve entrar em con
 
 ### Tutorial: Solicitar cadastro na plataforma
 
-**Objetivo:** Este tutorial detalha o processo para solicitar o cadastramento na plataforma. Em um fluxo normal, o usuário entra na página principal da plataforma e preenche o formulário fixado no final da página e aguarda contato dos administradores.
-
 #### **Tutorial: Fluxo normal**
 
 1. Acesse a página inicial da plataforma Tycho Brahe, disponível no link: <https://www.tycho.iel.unicamp.br/home>.
@@ -444,7 +442,7 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 
 **Fluxo normal:**
 
-1. Acessar a página inicial de /admin na plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/admin> (e realizar o _log in_).<!--REVISAR CRÍTICO: SÓ CONSIGO CRIAR A PARTIR DO LINK MESMO?-->
+1. Acessar a página inicial de /admin na plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/admin> (e realizar o _log in_).<!--REVISAR CRÍTICO: SÓ CONSIGO CRIAR A PARTIR DO LINK ADMIN MESMO? Ou um usuário normal, por meio da área reservada consegue criar um corpus sem ser adminstrador? consegui criar com o perfil alternativo do google que não é adminstrador, mas não consigo acessar a página de gestão pelo perfil-->
 2. Na janela que se abre uma lista de corpora disponíveis é apresentada. Clicar em _"+ Create new corpus"_.
 3. Adicionar nome ao novo corpus e clicar em "Confirmar": novo corpus criado.
 
@@ -482,6 +480,8 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 
 **Atores primários**:
 
+<!--REVISAR CRÍTICO: VERIFICAR SOBRE AS CREDENCIAIS NECESSÁRIAS SE UM USUÁRIO NORMAL, MAS COM ACESSO ADMIN CONSEGUE REALIZAR CONFITURAÇÕES-->
+
 1. Administrador
 2. Usuário (com permissão de admin no corpus)
 
@@ -491,37 +491,67 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 
 **Fluxo normal:**
 
-1. Acessar a página inicial da plataforma Tycho Brahe, através do link: https://www.tycho.iel.unicamp.br/home .
-2. Na área "Ferramentas", selecionar a ferramenta _"Corpora Management"_.
-3. Ao acessar o _"Corpora Management"_, uma lista de corpora disponíveis abre. Selecionar o corpus que deseja configurar.
-4. Selecionar a aba **"Parâmetros"**: abre-se uma caixa com botões de alternância para a realização de configurações do corpus.
+1. Acessar a página inicial da plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/home>.
+2. Na área "Ferramentas", selecionar "Área Reservada".
+3. Na página de perfil que se abre, os corpora disponíveis, vinculados ao usuário, são apresentados. O usuário deve selecionar o corpus que deseja configurar e clicar no botão "Admin" na área de "Acesso rápido".
+4. Na janela que se abre, selecionar a aba "Parâmetros": abre-se uma caixa com botões de alternância para a realização de configurações de parâmetros do corpus.
+
+**Fluxo alternativo:**
+
+**A1** - **Acesso direto pelo link de administrador**
+
+1. Acessar o link de administrador: <https://www.tycho.iel.unicamp.br/admin>.
+2. Navegar até o corpus desejado e selecionar (abre página de gestão do corpus).
+3. Retomar a partir do passo 4 do Fluxo normal e realizar as configurações de parâmetros do corpus.
 
 ### Diagrama do Caso de uso 04.2 - Configuração de corpora
 
 <figure>
     <img src="../imagens/caso04_02_diagrama.png"
          alt="Caso de uso 04.02 - Configuração de corpora">
-    <figcaption>Figura 15: Diagrama caso de uso - Configuração de corpora</figcaption>
+    <figcaption>Figura x: Diagrama caso de uso - Configuração de corpora</figcaption>
 </figure>
 
 ### Tutorial: Configuração de corpora
 
-**Objetivo:**: Este tutorial detalha os passos necessários para a configuração dos corpora através da ferramenta _"Corpora management"_
+**Objetivo:**: Este tutorial detalha os passos necessários para a configuração dos corpora.
 
 #### **Tutorial: Fluxo normal**
 
 1. Acesse a página inicial da plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/home> .
 
-2. Na área "Ferramentas", role a página para baixo e selecione a ferramenta _"Corpora Management"_, como apresentado na Figura x:
+2. Navegue até a área "Ferramentas" e selecione "Área Reservada".
 
-3. Ao acessar o _"Corpora Management"_, uma lista de corpora disponíveis abre. Clique no corpus que deseja configurar.
+<figure>    
+    <img src = "../imagens/acesso_area_reservada.png">
+    <figcaption>Figura x: Acessando "Área Reservada"</figcaption>
+</figure>
 
-4. Clique em "Parâmetros": uma caixa com botões de alternância se abre, disponibilizando diversos botões de alternância para configuração dos corpora.
+3. Na página de perfil que se abre, os corpora disponíveis, vinculados ao usuário, são apresentados. Selecione o corpus que deseja configurar e clique no botão "Admin" na área de "Acesso rápido".
+
+<figure>
+<img src = "../imagens/acesso_rapido_admin.png">
+<figcaption>Figura x: Acesso rápido - botão "Admin" </figcaption>
+</figure>
+
+4. Clique em "Parâmetros": uma caixa com botões de alternância se abre, disponibilizando diversos botões de alternância para configuração do corpus.
 
 <figure> 
-    <img src = "../imagens/botoes_configuracao_corpora2.png" alt = "Processo de configuração dos corpora: acessando a área de config">
+    <img src = "../imagens/parametros_corpus.png" alt = "Pârametros corpus">
     <figcaption>Figura x: Acessando área de configuração de corpora </figcaption>
 </figure>
+
+**Tutorial: Fluxo alternativo:**
+
+**A1** - **Acesso direto pelo link de administrador**
+
+1. Acesse o link de administrador: <https://www.tycho.iel.unicamp.br/admin>.
+2. Navegue até o corpus desejado e selecione (isto abre a página de gestão do corpus).
+<figure>
+<img src="../imagens/configura_parametro_FA1.png" >
+<figcaption>Figura x: Acesso configuração de parâmetros - Fluxo alternativo 1</figcaption>
+</figure>
+3. Retomar a partir do passo 4 do Fluxo normal e realizar as configurações de parâmetros do corpus.
 
 A seguir são apresentadas descrições de cada um dos botões de configurações disponíveis.<br><br>
 
@@ -529,7 +559,12 @@ A seguir são apresentadas descrições de cada um dos botões de configuraçõe
 
 **Active**: configura se o corpus está ativo ou inativo;
 
-**Featured Corpus**: [REVISAR: PERGUNTAR AO LUIZ A FUNÇÃO DESTE]. Um corpus marcado com esse parâmetro aparece na página principal do Tycho.
+**Featured Corpus**: Um corpus marcado com esse parâmetro aparece na página principal da plataforma, na área "Corpora em Destaque".
+
+<figure>
+<img src="../imagens/corpora_em_destaque.png" >
+<figcaption>Figura x: Corpora em Destaque</figcaption>
+</figure>
 
 **Use Morphemes**: habilita o uso campos referentes a morfemas, incluindo glossa, nos corpora.
 
@@ -621,18 +656,18 @@ A configuração do eDictor Tranlations também depende de configurações na ab
   - **Order**: aceita números inteiros para configuração da ordem em que as línguas de tradução serão apresentadas;
   - **Symbol**: preencha com o rótulo desejado;
   - **Name**: preencha com o nome desejado;
-  - **Reference**: preencha para adicionar uma referência.[REVISAR: ver videos de gravação da reunião] É um campo opcional pa
+  - **Reference**: preencha para adicionar uma referência.<!--[REVISAR: ver videos de gravação da reunião]-->
 
 <br>
 <figure>
-    <img src = "../imagens/configura_corpus_admin_translations3.png">
+    <img src = "../imagens/configura_corpus_admin_translations3.png"  width=1000>
     <figcaption>Figura x: Configurações de apresentação das traduções no eDictor Translations</figcaption>
 </figure>
 <br>
 Estas configurações habilitam a apresentação dos corpora paralelos como em 2 na Figura x abaixo; Em 3, o usuário pode selecionar qual lingua de tradução deseja que seja apresentada; Em 4, após a seleção de uma sentença, é possível verificar as traduções para a sentença selecionada, além de ser possível realizar edições nas traduções.
 
 <figure>
-    <img src = "../imagens/configura_corpus_admin_translations7.png" width = "600" height = "800">
+    <img src = "../imagens/configura_corpus_admin_translations7.png" >
     <figcaption>Figura x: Resultado configurações de eDictor Translations</figcaption>
 </figure>
 
@@ -941,5 +976,7 @@ end note
 1.  <!--
     DÚVIDAS A TIRAR COM O LUIZ
 
-COMO DELETAR UM CORPUS?
+COMO DELETAR UM CORPUS? AINDA NÃO IMPLEMENTADO
+
+PERGUNTAR PRO LUIZ, DE MANEIRA GERAL, SOBRE AS CREDENCIAIS NECESSÁRIAS PARA REALIZAR ALGUMAS TAREFAS DE GESTÃO DOS CORPORA
 -->

@@ -5,18 +5,21 @@ actor "Usuário/Admin" as User
 package ConfiguraçãoCorpora {
    
     
-    (Acessar página inicial) --> (Selecionar Ferramenta Corpus Management)
+    (Acessar página inicial) --> (Selecionar Ferramenta "Área reservada")
 
-    (Selecionar Ferramenta Corpus Management) --> (Selecionar corpus e aba "Parâmetros")
+    (Selecionar Ferramenta "Área reservada") --> (Clicar botão "Admin" no corpus desejado)
+    
+    (Clicar botão "Admin" no corpus desejado)-->(Selecionar "Parâmetros")
 
-   (Selecionar corpus e aba "Parâmetros") --> (Realizar configurações)
+   (Selecionar "Parâmetros") --> (Realizar configurações)
 }
 
 
 note right of User
   Pré-requisitos:
-  1. Usuário cadastrado com e-mail Google (.gmail)
-  2. Usuário logado no perfil Google
+  1. Usuário com credenciais de "admin" 
+  cadastrado com conta Google 
+  2. Usuário logado
 end note
 
 note right of (Realizar configurações)
@@ -42,8 +45,6 @@ note right of (Adicionar nome ao novo corpus)
 Clicar em "confirmar"
 end note
  '/
-User -- (Acessar página inicial):  https://www.tycho.iel.unicamp.br/home
-User -- (Selecionar Ferramenta Corpus Management)
-User-- (Selecionar corpus e aba "Parâmetros")
-User -- (Realizar configurações)
+User -- ConfiguraçãoCorpora:  https://www.tycho.iel.unicamp.br/home
+
 @enduml
