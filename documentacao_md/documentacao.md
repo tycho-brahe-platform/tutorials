@@ -186,7 +186,7 @@ Nos tópicos a seguir, será detalhado o caso de uso para o cadastro de novos us
 1. Usuário (com permissão admin no corpus alvo)
 2. Administrador da plataforma (Super-usuário com acesso a todos os corpora);
 
-Note-se a distinção entre Administrador e Usuário com permissão de administrador (admin) em corpora específicos. O Administrador da plataforma tem permissões mais abrangentes de gestão geral na na plataforma, tendo acesso mais irrestrito aos corpora. Do contrário, o Usuário com permissão de admin em um determinado corpus não goza dos mesmos privilégios, tendo permissão de gestão apenas em corpora específicos.
+Note-se a distinção entre Administrador e Usuário com permissão de administrador (admin) em corpora específicos. O Administrador da plataforma tem permissões mais abrangentes de gestão geral na na plataforma, tendo acesso mais irrestrito aos corpora. Do contrário, o Usuário com permissão de admin em um determinado corpus não goza dos mesmos privilégios, tendo permissão de gestão apenas em corpora específicos, aos quais é associado.
 
 **Pré-requisitos:**
 
@@ -200,7 +200,7 @@ Note-se a distinção entre Administrador e Usuário com permissão de administr
 1. O corpus é previamente criado por um Administrador ou Usuário com permissões de admin no corpus (professor, instituição coordenadora do subprojeto/corpus).
 2. Usuário não está previamente cadastrado em nenhum corpus (não está na base de dados da plataforma).
 3. O Administrador (ou Usuário admin) realiza **login** com a conta Google.
-4. O Administrador (ou Usuário admin) seleciona um corpus.
+4. O Administrador seleciona um corpus, ou o Usuário admin seleciona "Área reservada" e seleciona a ferramente "Admin" e seleciona um corpus para gerenciar.
 5. O Administrador (ou Usuário admin) acessa a aba de “Access control”.
 6. O Administrador (ou Usuário admin) acessa botão “Invite” e clica em “+ Add new”.
 7. O Administrador (ou Usuário admin) cria um “convite” para associação ao corpus.
@@ -252,73 +252,62 @@ Note-se a distinção entre Administrador e Usuário com permissão de administr
 
 Antes de iniciar o processo de cadastro de um usuário, certifique-se de que o corpus ao qual o usuário será associado já tenha sido criado.
 
-1. **Acesso ao Sistema**: Há duas maneira de acessar o sistema.
-   1. No caso de acesso por um Administrador sem associação a nenhum corpus na plataforma: faça login na plataforma com sua conta de Administrador (_login_ com a conta Google), através do link <!--(REVISAR: VERIFICAR SE POSSO DEIXAR O LINK) --> “/admin”: <https://www.tycho.iel.unicamp.br/admin>. Este link redireciona o Administrador à janela de login com a conta Google.
-   2. No caso de acesso por um Usuário com permissão de admin nos corpora alvo: seguir tutorial de Caso de Uso 00 - para acesso à area de perfil do usuário.
-   <!--PAREI AQUI 14/10 - CONTINUAR A REVISÃO DAS TELAS DE ACESSO POR MEIO DO ADMIN OU POR MEIO DO PERFIL-->
-2. **Verificar Corpora**: Os corpora disponíveis para o Administrador aparecem na página inicial do Administrador, listados com os campos: Nome, Type, Status No. of documents, No. of words, No. of users. Navegue até a seção de gerenciamento de corpora para verificar se o corpus está disponível (note que são exibidos 10 resultados por página, e que pode haver várias páginas de corpora - então navegue em todas as páginas para verificar a presença de um corpus). Previamente, o usuário já deve ter realizado contato com a coordenação do projeto solicitando sua associação a determinado corpus. A coordenação então entra em contato com o administrador solicitando associação/cadastro a um determinado corpus. Veja a Figura 2 abaixo:
+1.  **Acesso ao Sistema**: Há duas maneira de acessar o sistema de gerenciamento dos corpora.
 
-<figure>
-    <img src = "../imagens/corpus_selecionado.png" alt = "Corpus selecionado">
-    <figcaption>Figura 2: Lista de corpora disponíveis na plataforma</figcaption>
-</figure>
+    1. No caso de acesso por um Administrador sem associação a nenhum corpus na plataforma: faça login na plataforma com sua conta de Administrador (_login_ com a conta Google), através do link <!--(REVISAR: VERIFICAR SE POSSO DEIXAR O LINK) --> “/admin”: <https://www.tycho.iel.unicamp.br/admin>. Este link redireciona o Administrador à janela de login com a conta Google.
+    2. No caso de acesso por um Usuário com permissão de admin nos corpora alvos: seguir tutorial de Caso de Uso 00 - para acesso à area de perfil do usuário.
 
-3. **Selecionar o Corpus**: Na interface de administração, selecione o corpus ao qual o novo usuário será associado. A Figura 3 a seguir apresenta o catálogo de corpora disponíveis para acesso. Ao clicar em um dos corpora, o usuário é redirecionado ao corpus específico, como apresentado na Figura 4, como apresentado no topo da página “Corpus: Demonstration”.
-   Na primeira tela após a seleção do corpus, no inventário, são apresentadas informações gerais sobre o corpus, como nome, um atalho URL, os parsers etc.
+2.  **Verificar Corpora**:
 
-<figure>
-    <img src = "../imagens/selecionando_corpus_demo.png" alt = "Corpus selecionado">
-    <figcaption>Figura 3: Corpus Demonstration selecionado</figcaption>
-</figure>
+    1. **Administrador**: todos os corpora disponíveis para o Administrador aparecem na sua página inicial, através do link <https://www.tycho.iel.unicamp.br/admin> (e devido login), listados com os campos: Nome, Type, Status No. of documents, No. of words, No. of users. Verifique se o corpus que deseja gerenciar está disponível (note que são exibidos 10 resultados por página, e que pode haver várias páginas de corpora - então navegue em todas as páginas para verificar a presença do corpus alvo).<br><br>!["t"](../imagens/corpus_selecionado.png)
+       Figura x: Tela inicial Administrador.<br><br>
+    2. **Usuário com permissão de admin**: O Usuário admin tem acesso aos corpora aos quais está vínculado após o acesso pela "Área reservada" e o seu login, como em [2], e acesso a área de gerenciamento do corpus através do botão "Admin" (em [3]), como apresentado na Figura x a seguir:<br><br>
+       !["Acesso aos corpora por Usuário admin"](../imagens/perfil_plataforma.png)
+       Figura x: Tela inicial perfil - Área reservada
 
-<figure>
-    <img src = "../imagens/pag_inicial_corpus_selec.png" >
-    <figcaption>Figura 4: Pagina de apresentação do corpus Demonstration </figcaption>
+    Previamente, o usuário já deve ter realizado contato com a coordenação do projeto solicitando sua associação a determinado corpus. A coordenação então entra em contato com o administrador solicitando associação/cadastro a um determinado corpus. Veja a Figura 2 abaixo:
 
-</figure>
+3.  **Selecionar o Corpus**:
 
-4. **Acessar "Access Control**: No painel do corpus, clique na aba "Access Control" para gerenciar as permissões de acesso.
+    1. Na interface de Administrador, selecione o corpus ao qual o novo usuário será associado. A Figura x a seguir apresenta o catálogo de corpora disponíveis para acesso. Ao clicar em um dos corpora, o usuário é redirecionado ao corpus específico, como apresentado na Figura x, como apresentado no topo da página “Corpus: Demonstration”.
+       !["Acessanco corpus pelo Administrador"](../imagens/selecionando_corpus_demo.png)
+       Figura x: Corpus Demonstration selecionado
+    1. No caso do Usuário com permissão admin em determinados corpora, há duas maneiras de acessar a área de gerenciamento: na área "Meus corpora" na página incial do perfil, em "Acesso rápido", clique em "Admin"; ou na área "Minhas Ferramentas", selecione "Admin":<br><br>!["Acesso à área de administração corpora"](../imagens/acesso_rapido_admin.png)
+       Figura x: Acesso à área de administração dos corpra.<br><br>
 
-<figure>
-    <img src="../imagens/corpus_selecionado_access_control.png">
-    <figcaption>Figura 4: Pagina inicial do corpus selecionado - Controle de acesso</figcaption>
+4.  **Acessar "Access Control**: Na primeira tela de administração do corpus, são apresentadas informações gerais, como nome, um atalho URL, os parsers etc. No painel do corpus, clique na aba "Access Control" para gerenciar as permissões de acesso.<![](../imagens/corpus_selecionado_access_control.png)
+    Figura x: Pagina inicial do corpus selecionado - Controle de acesso<br><br>
 
-</figure>
+    Ao acessar o “Access Control”, a plataforma apresenta uma página com os atuais usuários com permissões no corpus selecionado, como mostra a Figura a seguir. Com botão “Users” selecionado, é apresentado o usuário com os seguintes campos - “Name”, “status”, “Role”.
 
-Ao acessar o “Access Control”, a plataforma apresenta uma página com os atuais usuários com permissões no corpus selecionado, como mostra a Figura a seguir. Com botão “Users” selecionado, é apresentado o usuário com os seguintes campos - “Name”, “status”, “Role”.
+        !["Área de controle de acesso"](../imagens/access_control_acessado.png)
 
-<figure>
-    <img src = "../imagens/access_control_acessado.png">
-    <figcaption>Figura 5: Área de Controle de acesso</figcaption>
+    Figura 5: Área de Controle de acesso
 
-</figure>
+5.  **Criar Convite de acesso**: Na aba "Access Control", clique no botão "Invites" e depois em “ + Add new”.
+6.  **Realizar as configurações da permissão:**
 
-5. **Criar Convite de acesso**: Na aba "Access Control", clique no botão "Invites" e depois em “ + Add new”.
-6. **Realizar as configurações da permissão:**
+    1. **Inserir título:** Escolha um título para o convite no campo “Title”
+    2. **Definir Quantidade de Convites**: Escolha se o convite será para um único usuário ou para múltiplos usuários (o contador de convites disponíveis será atualizado conforme os usuários se registrarem).
+    3. **Definir o tipo de permissão:** Selecione o tipo de permissão “Role” que o usuário terá:
+       - **Edição**: O usuário poderá editar o corpus.
+       - **Admin**: O usuário terá permissões de administrador no corpus.
+    4. **Status do Usuário**: Selecione o status do usuário:
+       - **Active**: O usuário terá acesso ativo ao corpus.
+       - **Inactive**: O usuário estará registrado, mas sem acesso ativo.
 
-   1. **Inserir título:** Escolha um título para o convite no campo “Title”
-   2. **Definir Quantidade de Convites**: Escolha se o convite será para um único usuário ou para múltiplos usuários (o contador de convites disponíveis será atualizado conforme os usuários se registrarem).
-   3. **Definir o tipo de permissão:** Selecione o tipo de permissão “Role” que o usuário terá:
-      - **Edição**: O usuário poderá editar o corpus.
-      - **Admin**: O usuário terá permissões de administrador no corpus.
-   4. **Status do Usuário**: Selecione o status do usuário:
-      - **Active**: O usuário terá acesso ativo ao corpus.
-      - **Inactive**: O usuário estará registrado, mas sem acesso ativo.
+7.  **Confirmar as Configurações de permissão**: Após configurar as permissões clicar em "Confirmar".
 
-7. **Confirmar as Configurações de permissão**: Após configurar as permissões clicar em "Confirmar".
+        !["Cria a configura convite"](../imagens/invites.png)
 
-<figure>
-    <img src = "../imagens/invites.png">
-    <figcaption>Figura 6: Criação e configuração de convite de acesso</figcaption>
+    Figura x: Criação e configuração de convite de acesso<br><br>
 
-</figure>
+8.  **Gerar Link e Código**: O sistema gerará automaticamente um link de "onboarding" e um código de acesso.
+9.  **Copiar Informações para enviar ao usuário**: Copie o link de onboarding e o código de acesso gerados. O botão “click here to copy to clipboard” copia o código de acesso.
 
-8. **Gerar Link e Código**: O sistema gerará automaticamente um link de "onboarding" e um código de acesso.
-9. **Copiar Informações para enviar ao usuário**: Copie o link de onboarding e o código de acesso gerados. O botão “click here to copy to clipboard” copia o código de acesso.
+        !["Tela de convite gerado"](../imagens/convite_codigo.png)
 
-<figure>
-    <img src = "../imagens/convite_codigo.png" alt = "Tela de convite gerado">
-    <figcaption>Figura 7: Código de acesso gerado automaticamente</figcaption>
+    Figura x: Código de acesso gerado automaticamente
 
 </figure>
 
@@ -327,21 +316,17 @@ Ao acessar o “Access Control”, a plataforma apresenta uma página com os atu
 
 #### **Tutorial: Fluxo Alternativo 1 - Usuário não presente na Base de Dados**
 
-Se o usuário ainda não estiver na base de dados da plataforma, siga estas etapas adicionais:
+Se o usuário ainda não estiver na base de dados da plataforma, siga estas etapas alternativas:
 
 1. **Envio do Link de Onboarding**: Envie o link "/onboarding" para o usuário.
 2. **Cadastro Inicial do Usuário**: O usuário acessa o link, e ao tentar se cadastrar, o sistema mostrará uma mensagem de acesso negado ao corpus.
 
 <!--REVISAR:INSERIR IMAGEM-->
 
-3. **Adicionar Novo Usuário**: Na tela /admin (<https://www.tycho.iel.unicamp.br/admin>) <!-- REVISAR:MANTER LINK?-->, selecione o corpus. No painel de "Access Control", com o botão “Users” selecionado, clique em "+ Add New" para adicionar o usuário à base de dados.
+3. **Adicionar Novo Usuário**: Na tela /admin (<https://www.tycho.iel.unicamp.br/admin>) <!-- REVISAR:MANTER LINK?-->, selecione o corpus ou por meio da "Área reservada"(selecione o "Acesso rápido"-"Admin"). No painel de "Access Control", com o botão “Users” selecionado, clique em "+ Add New" para adicionar o usuário à base de dados.
 4. **Selecionar o E-mail do Usuário**: No campo de busca, preencha o nome ou e-mail do usuário (são apresentados candidatos salvos na base de dados com base no termo de busca preenchido). Escolha o nome/e-mail do usuário que você deseja cadastrar no menu drop down.
-
-<figure>
-    <img src = "../imagens/selecao_usuario_lista.png" alt="Seleção de usuário já presente na base">
-    <figcaption>Figura x: Vincular usuário ao corpus</figcaption>
-
-</figure>
+   !["Vincular usuário presente na base de dados ao corpus"](../imagens/selecao_usuario_lista.png)
+   Figura x: Vincular usuário ao corpus
 
 5. **Configurar Permissões e Confirmar**: Siga o Passo 5 (c e d) do fluxo normal para configurar as permissões e confirme o cadastro.
 6. Usuário recém cadastrado deve logar-se novamente para verificar sucesso de cadastro.
@@ -350,7 +335,7 @@ Se o usuário ainda não estiver na base de dados da plataforma, siga estas etap
 
 Se o usuário já estiver cadastrado em outro corpus, siga estas etapas:
 
-1. **Adicionar novo usuário**: Acesse o link "admin" <https://www.tycho.iel.unicamp.br/admin> e selecione um corpus. No painel de "Access Control", com o botão “Users” selecionado, clique em "+ Add New". (Ver Figura x acima)
+1. **Adicionar novo usuário**: Acesse o link "admin" <https://www.tycho.iel.unicamp.br/admin> e selecione um corpus, ou por meio da "Área reservada"(selecione o "Acesso rápido"-"Admin"). No painel de "Access Control", com o botão “Users” selecionado, clique em "+ Add New". (Ver Figura x acima)
 2. **Selecionar o e-mail do usuário**: Escolha o e-mail do usuário na lista (super-usuários e e-mails já cadastrados no corpus não aparecerão como opção). (Ver Figura x acima)
 3. **Configurar Permissões e Confirmar**: Siga o Passo 6 (.3 e .4) do fluxo normal para configurar as permissões e confirme o cadastro.
 
@@ -368,13 +353,10 @@ Se o usuário já estiver cadastrado em outro corpus, siga estas etapas:
 4. **Código de Acesso**: Na página de perfil, clique no botão "Eu possuo um código de acesso".
 5. **Preencher o Código**: Insira o código de acesso fornecido no campo correspondente.
 6. **Confirmar Cadastro**: Após preencher o código, clique em "Confirmar".
+   !["Preenchendo código de acesso"](../imagens/preencher_codigo_acesso.png)
+   Figura 9: Tela de inserção de código de acesso. <br><br>
 
-<figure>
-    <img src = "../imagens/preencher_codigo_acesso.png" alt = "Preenchendo código de acesso">
-    <figcaption>Figura 9: Tela de inserção de código de acesso</figcaption>
-</figure>
-
-7. **Acesso ao Sistema**: O usuário deve tentar realizar o sign in para certificar-se de que o cadastro foi realizado com sucesso. Se o sign in for bem-sucedido, o usuário poderá acessar o corpus com as permissões definidas pelo administrador.
+7. **Acesso ao Sistema**: O usuário deve tentar realizar o sign in para certificar-se de que o cadastro foi realizado com sucesso. Se o sign in for bem-sucedido, o usuário poderá acessar o corpus com as permissões definidas pelo administrador do corpus.
 
 #### **Tutorial: Fluxo alternativo**
 
@@ -385,6 +367,7 @@ Se o usuário já estiver cadastrado em outro corpus, siga estas etapas:
 
 ---
 
+ <!--PAREI AQUI 15/10 - CONTINUAR A REVISÃO DAS TELAS DE ACESSO POR MEIO DO ADMIN OU POR MEIO DO PERFIL-->
 <!--REVISAR CRÍTICO - MUDANÇAS NA PLATAFORMA-->
 
 ## Caso de uso 02 - Realizar _Sign in_ na Área Reservada
@@ -604,11 +587,11 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
     <figcaption>Figura x: Acessando "Área Reservada"</figcaption>
 </figure>
 
-3. Na página de perfil que se abre, os corpora disponíveis, vinculados ao usuário, são apresentados. Selecione o corpus que deseja configurar e clique no botão "Admin" na área de "Acesso rápido".
+3. Na página de perfil que se abre, os corpora disponíveis, vinculados ao usuário, são apresentados. Selecione o corpus que deseja configurar e clique no botão "Admin" na área de "Acesso rápido" ou "Admin" na área "Minhas Ferramentas" e selecione o corpus que deseja configurar.
 
 <figure>
 <img src = "../imagens/acesso_rapido_admin.png">
-<figcaption>Figura x: Acesso rápido - botão "Admin" </figcaption>
+<figcaption>Figura x: Acesso rápido - botões "Admin" </figcaption>
 </figure>
 
 4. Clique em "Parâmetros": uma caixa com botões de alternância se abre, disponibilizando diversos botões de alternância para configuração do corpus.
