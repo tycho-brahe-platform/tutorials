@@ -3,10 +3,12 @@
 actor "Usuário/Admin" as User 
 User -- EdiçãoCorpora_eDictorTranslations
 package EdiçãoCorpora_eDictorTranslations  {
-         (Acessar página inicial)-->(Selecionar Ferramenta eDictor)
-         (Selecionar Ferramenta eDictor)-->(Selecionar corpus)
-         (Selecionar corpus)-->(Acessar "Exibir informações")
-         (Acessar "Exibir informações")-->(Selecionar o "eDictor Translations")
+        (Acessar página inicial) --> (Selecionar Ferramenta "Área reservada"): https://www.tycho.iel.unicamp.br/home
+
+        (Selecionar Ferramenta "Área reservada") --> (Selecionar Ferramenta eDictor)
+        (Selecionar Ferramenta eDictor)-->(Selecionar corpus e documento)
+        (Selecionar corpus e documento)-->(Acessar "Exibir informações")
+        (Acessar "Exibir informações")-->(Selecionar o "eDictor Translations")
          
          package AcoesNoCorpus as Acoes{
             
@@ -14,9 +16,15 @@ package EdiçãoCorpora_eDictorTranslations  {
 
         
 }
+
+
 (Selecionar o "eDictor Translations")-->Acoes
  
+package FluxoAlternativo{
 
+(Acessar catálogo) --> (Selecionar corpus e documento): https://www.tycho.iel.unicamp.br/catalog
+
+}
 @enduml
 
 

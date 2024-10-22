@@ -32,7 +32,7 @@ SUMÁRIO
       - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-1)
   - [Caso de uso 02 - Realizar _Sign in_ na Área Reservada](#caso-de-uso-02---realizar-sign-in-na-área-reservada)
     - [Descrição do Caso de uso 02 - Realizar _Sign in_ na Área Reservada](#descrição-do-caso-de-uso-02---realizar-sign-in-na-área-reservada)
-    - [Diagramas do Caso de uso 02 - _Sign in_](#diagramas-do-caso-de-uso-02---sign-in)
+    - [Diagramas do Caso de uso 02 - Sign in](#diagramas-do-caso-de-uso-02---sign-in)
     - [Tutorial: _Sign in_ de usuários](#tutorial-sign-in-de-usuários)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-2)
   - [Caso de uso 03 - Solicitar cadastro](#caso-de-uso-03---solicitar-cadastro)
@@ -63,19 +63,6 @@ SUMÁRIO
     - [Diagrama do Caso de uso 06.01 - **Use eDictor Translations: Edição de corpora**](#diagrama-do-caso-de-uso-0601---use-edictor-translations-edição-de-corpora)
     - [Tutorial:](#tutorial-2)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-7)
-      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-4)
-    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-1)
-      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--1)
-      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-5)
-  - [Caso de uso 0X - NOME CASO DE USO](#caso-de-uso-0x---nome-caso-de-uso)
-    - [Descrição Caso de uso X](#descrição-caso-de-uso-x)
-    - [Diagrama do Caso de uso 0X - NOME CASO](#diagrama-do-caso-de-uso-0x---nome-caso)
-    - [Tutorial:](#tutorial-3)
-      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-8)
-      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-6)
-    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-2)
-      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--2)
-      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-7)
 
 ## Introdução
 
@@ -393,12 +380,10 @@ A Área Reservada dá acesso ao Catálogo, eDictor, Syntrees, Parser e Centro Ad
 2. O usuário acessa a "Área Reservada".
 3. O usuário clica no botão “Fazer login com o Google” e abre-se uma janela de seleção a conta Google com a qual deseja realizar o sign in na plataforma Tycho Brahe (conta já cadastrada no processo de cadastro na plataforma). No caso de não ser o primeiro _sign in_, a conta já utilizada anteriormente já aparece como primeira opção.
 
-### Diagramas do Caso de uso 02 - _Sign in_
+### Diagramas do Caso de uso 02 - Sign in
 
-<figure>
-<img src = "../imagens/caso02_diagrama.png" alt = "Caso 02">
-<figcaption>Figura 10: Diagrama Caso de uso 02</figcaption>
-</figure>
+!["Diagrama Caso de uso 02"](../imagens/caso02_diagrama.png)
+Figura 10: Diagrama Caso de uso 02
 
 ### Tutorial: _Sign in_ de usuários
 
@@ -798,6 +783,7 @@ Estas configurações habilitam a apresentação dos corpora paralelos como em 2
 ## Caso de uso 06 - Ferramenta **eDictor Translations**
 
 A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para desenvolvimento de corpora com suas traduções nas línguas configuradas e selecionadas pelo usuário. A habilitação desta ferramenta permite, consequentemente, a apresentação dos corpora de forma paralela, ou seja, com originais e traduções de forma paralela e sincronizada.
+
 <!--[REVISAR: AVALIAR SE FUTURAMENTE VOU INSERIR AS OUTRAS FUNCIONALIDADES DE EDIÇÃO DOS CORPORA AQUI: EDITAR ETIQUETAS DAS DIVERSAS CAMADAS ETC]-->
 
 ### Descrição Caso de uso 06.01 - Edição de corpora (Inserir, editar e remover sentenças) <!--[REVISAR: CONSIDERER SUBDIVIDIR OS CASOS?]-->
@@ -820,23 +806,41 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
 4. Com o catálogo aberto, selecionar o corpus e documento que deseja editar.
 5. Acessar "Exibir informações" clicando no ícone com menu no documento do corpus.
 6. Na aba de ações que abre à esquerda, no campo "Continuar a edição do documento", clique na seta para abrir o menu de ferramentas de edição: selecionar o "eDictor Translations".
-7. Inserir textos (sentenças):
-   1. Selecionar "Inserir texto".
-   2. Inserir o texto fonte (original); selecionar o idioma de tradução; inserir texto traduzido. (Nota: sentenças a serem sincronizadas em paralelo podem ser separadas por quebra de linha).
-   3. Clicar em "Salvar" para salvar transcrições.
-   4. Clicar no botão "Sincronizar", para que as sentenças fonte e alvo sejam apresentados paralelamente.
-   5. Clicar em "Inserir sentenças" para inserir sentenças paralelas no documento do corpus.
-8. Apagar textos transcritos (ainda não sincronizados):
-   1. Selecionar "Inserir texto"
-   2. Clicar em "Apagar" para apagar textos transcritos (Textos já sincronizados são mantidos)
-9. Editar sentenças sincronizadas:
-   1. Selecionar um par de sentenças.
-   2. Selecionar botão E (eDictor).
-   3. Para editar o original: no quadro, clicar na palavra que desejar atualizar, editar e confirmar.
-   4. Para editar a tradução: rolar a página até o campo de "Traduções", editar o campo com o texto e salvar.
-10. Remover sentenças sincronizadas:
-   1. Selecionar um par de sentenças.
-   2. Clicar em "Remover" e confirmar.
+   1. Inserir textos (sentenças):
+      1. Selecionar "Inserir texto".
+      2. Inserir o texto fonte (original); selecionar o idioma de tradução; inserir texto traduzido. (Nota: sentenças a serem sincronizadas em paralelo podem ser separadas por quebra de linha).
+      3. Clicar em "Salvar" para salvar transcrições.
+      4. Clicar no botão "Sincronizar", para que as sentenças fonte e alvo sejam apresentados paralelamente.
+      5. Clicar em "Inserir sentenças" para inserir sentenças paralelas no documento do corpus.
+   2. Apagar textos transcritos (ainda não sincronizados):
+      1. Selecionar "Inserir texto"
+      2. Clicar em "Apagar" para apagar textos transcritos (Textos já sincronizados são mantidos)
+   3. Editar sentenças sincronizadas:
+      1. Via botão E - eDictor:
+         1. Selecionar um par de sentenças.
+         2. Selecionar botão E (eDictor).
+         3. Para editar o original: no quadro, clicar no ícone de "lápis" (edição) da palavra que desejar, editar a palavra e confirmar.
+         4. Para editar a tradução: rolar a página até o campo de "Traduções", editar o campo com o texto e salvar.
+         5. Para outras edições da palavra: clicar em "...",
+            1. "Inserir": inserir palavra á direita
+            2. "Dividir": dividir palavra em duas
+            3. "Unir": unir palavras
+            4. "Variações" <!--REVISAR: NÃO SURTE EFEITO-->
+            5. "Remover": remover palavra
+         6. Para edições da sentença, clicar em "...":
+            1. "Dividir": dividir sentença em duas (após token selecionado)
+            2. "Unir": unir com sentença seguinte
+      2. Via botão UD:
+         1. Selecionar um par de sentenças.
+         2. Selecionar botão UD (Dependências Universais).
+         3. Para editar o original: no quadro, na linha da palavra desejada clicar no ícone de lápis (edição) da palavra que desejar, editar a palavra e confirmar.
+         4. Para editar a tradução: não há edição de tradução com o botão UD selecionado.
+         5. Para incluir palavra: na linha da palavra selecionada, clicar em "+", editar o campo e confirmar.
+         6. Para aplicar informações de um token a todos tokens similares do documento: na linha da palavra objetivo, clicar no ícone de "cópia"
+         7. Para deletar: na linha da palavra, clicar no ícone com "lixeira" e confirmar.
+   4. Remover sentenças sincronizadas:
+      1. Selecionar um par de sentenças.
+      2. Clicar em no ícone de "lixeira" (remover) e confirmar.
 
 **Fluxo alternativo:**
 
@@ -865,7 +869,7 @@ Seguir o fluxo normal de 1 a 5, ou o fluxo A1, para acesso à ferramenta eDictor
 </figure>
 
 !["Caso de uso 6.01 - Ações no corpus"](../imagens/caso6.01.2_diagrama.png)
-Figura x: Cont. Diagrama Caso de uso 6.01 - Ações no corpus
+Figura x: Cont. Diagrama Caso de uso 6.01 - Ações no corpus <!--REVISAR: VOU TER DE MODIFICAR ESTA FIGURA NÃO SEI SE VALE A PENA-->
 
 ### Tutorial:
 
@@ -876,73 +880,58 @@ Figura x: Cont. Diagrama Caso de uso 6.01 - Ações no corpus
 1. Acesse a página inicial da plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/home> .
 
 2. Navegue até a área "Ferramentas" e selecione "Área Reservada".
-!["Acessando área reservada"](../imagens/acesso_area_reservada.png)
-Figura x: Acessando "Área Reservada"<br><br>
+   !["Acessando área reservada"](../imagens/acesso_area_reservada.png)
+   Figura x: Acessando "Área Reservada"<br><br>
 
 3. Na página de perfil que se abre, os corpora disponíveis, vinculados ao usuário, são apresentados. Selecione o corpus que deseja configurar e clique no botão "eDictor" na área de "Acesso rápido" ou "eDictor" na área "Minhas Ferramentas" e selecione o corpus que deseja configurar.
-!["Selecionando o eDictor"](../imagens/acesso_rapido_edictor.png)
-Figura x: Selecionando a ferramenta eDictor <br><br>
+   !["Selecionando o eDictor"](../imagens/acesso_rapido_edictor.png)
+   Figura x: Selecionando a ferramenta eDictor <br><br>
 
 4. Com o catálogo aberto, clique sobre o nome do corpus e como em [1] para abrir a lista suspensa com os corpora disponíveis e selecione o corpus que deseja editar [2], como na Figura x:
-!["Selecionando um corpus no catálogo"](../imagens/edictor_selecionando_corpus.png)
-Figura x: Selecionando um corpus no catálogo</figcaption><br><br>
+   !["Selecionando um corpus no catálogo"](../imagens/edictor_selecionando_corpus.png)
+   Figura x: Selecionando um corpus no catálogo</figcaption><br><br>
 
 5. Após selecionar o corpus que deseja editar, acesse "Exibir informações" clicando no ícone com menu (menu com seis pontos) no documento do corpus.
-!["Acessando "Exibir informações"](../imagens/edict_trans_exibir_info.png)
-Figura x: Acessando "Exibir informações"<br><br>
+   !["Acessando "Exibir informações"](../imagens/edict_trans_exibir_info.png)
+   Figura x: Acessando "Exibir informações"<br><br>
 
 6. Na aba de "Ações" , na menu que abre à esquerda, no campo "Continuar a edição do documento", clique na seta para abrir o menu de ferramentas de edição: selecionar o "eDictor Translations" (Nota: o botão de configuração de parâmetros "Use eDictor Translations" deve estar habilitado para habilitar a edição através do **eDictor Translations**).
-!["Abrir edição com "eDictor Translations""](../imagens/exib_info_selecionando_ferramentas_edicao.png)
-Figura x: Ações - Abrir edição com "eDictor Translations"<br><br>
+   !["Abrir edição com "eDictor Translations""](../imagens/exib_info_selecionando_ferramentas_edicao.png)
+   Figura x: Ações - Abrir edição com "eDictor Translations"<br><br>
 
-7. Para inserir textos (sentenças):
-   1. Selecione o botão "Inserir texto".
-   2. Preencha o campo que apresenta "Digite ou cole o texto no idioma original" com o texto fonte (original); selecione o idioma de tradução; preencha o campo "Digite ou cole o texto traduzido em: [idioma selecionado para tradução]" com o texto traduzido.
-   3. Clique em "Salvar" para salvar transcrições.
-   4. Clique no botão "Sincronizar", para que as sentenças fonte e alvo sejam sincronizadas apresentadas paralelamente.
-   5. Clique em "Inserir sentenças" para que as sentenças sincronizadas sejam inseridas no documento do corpus.
-8. Apagar textos transcritos (ainda não sincronizados):
-   1. Selecione "Inserir texto"
-   2. Clique em "Apagar" para apagar textos transcritos (Textos já sincronizados são mantidos)
-   3. . Clique em "voltar" para retornar ao documento com suas sentenças paralelas.
+   1. Para inserir textos (sentenças):
+      1. Selecione o botão "Inserir texto".
+      2. Preencha o campo que apresenta "Digite ou cole o texto no idioma original" com o texto fonte (original); selecione o idioma de tradução; preencha o campo "Digite ou cole o texto traduzido em: [idioma selecionado para tradução]" com o texto traduzido.
+      3. Clique em "Salvar" para salvar transcrições.
+      4. Clique no botão "Sincronizar", para que as sentenças fonte e alvo sejam sincronizadas apresentadas paralelamente.
+      5. Clique em "Inserir sentenças" para que as sentenças sincronizadas sejam inseridas no documento do corpus.
+   2. Apagar textos transcritos (ainda não sincronizados):
+      1. Selecione "Inserir texto"
+      2. Clique em "Apagar" para apagar textos transcritos (Textos já sincronizados são mantidos)
+      3. . Clique em "voltar" para retornar ao documento com suas sentenças paralelas.
 
-Para 7 e 8, ver Figuras x e x, a seguir:
+   Para 7 e 8, ver Figuras x e x, a seguir:
 
-<figure>
-    <img src = "../imagens/edictor_trans_acoes_edicao.png">
-    <figcaption>Figura x: Ações no eDictor Translations</figcaption>
-</figure>
+      <figure>
+          <img src = "../imagens/edictor_trans_acoes_edicao.png">
+          <figcaption>Figura x: Ações no eDictor Translations</figcaption>
+      </figure>
 
-<figure>
-    <img src = "../imagens/edict_trans_sentencas_sincronizadas_inseridas.png">
-    <figcaption>Figura x: Sentenças sincronizadas e inseridas no documento</figcaption>
-</figure>
+      <figure>
+          <img src = "../imagens/edict_trans_sentencas_sincronizadas_inseridas.png">
+          <figcaption>Figura x: Sentenças sincronizadas e inseridas no documento</figcaption>
+      </figure>
 
-9. Editar sentenças sincronizadas [REVISAR: LUIS MODIFICOU A MANEIRA DE EDIÇÃO - NÃO PARECE TER SURTIDO EFEITO AINDA A MUDANÇAS. AGUARDAR ATUALIZAÇÃO]: <!--PAREI AQUI - 21 OUTUBRO-->
-   1. Selecionar um par de sentenças.
-   2. Selecionar botão E (eDictor).
-   3. Para editar o original: no quadro, clicar na palavra que desejar atualizar, editar e confirmar.
-   4. Para editar a tradução: rolar a página até o campo de "Traduções", editar o campo com o texto e salvar.
-10. Remover sentenças sincronizadas:
-11.  Selecionar um par de sentenças.
-12.  Clicar em "Remover" e confirmar.
+   3. Editar sentenças sincronizadas: 1. Via botão E - eDictor: 1. Com um corpus e documento selecionado, selecione um par de sentenças.
+      ![""]() 2. Selecione botão E (eDictor). 3. Para editar o original: no quadro, clique no ícone de "lápis" (edição) da palavra que desejar, editar a palavra e confirmar. 4. Para editar a tradução: rolar a página até o campo de "Traduções", editar o campo com o texto e salvar. 5. Para outras edições da palavra: clicar em "...", 1. "Inserir": inserir palavra á direita 2. "Dividir": dividir palavra em duas 3. "Unir": unir palavras 4. "Variações" <!--REVISAR: NÃO SURTE EFEITO--> 5. "Remover": remover palavra 6. Para edições da sentença, clicar em "...": 1. "Dividir": dividir sentença em duas (após token selecionado) 2. "Unir": unir com sentença seguinte 2. Via botão UD: 1. Selecionar um par de sentenças. 2. Selecionar botão UD (Dependências Universais). 3. Para editar o original: no quadro, na linha da palavra desejada clicar no ícone de lápis (edição) da palavra que desejar, editar a palavra e confirmar. 4. Para editar a tradução: não há edição de tradução com o botão UD selecionado. 5. Para incluir palavra: na linha da palavra selecionada, clicar em "+", editar o campo e confirmar. 6. Para aplicar informações de um token a todos tokens similares do documento: na linha da palavra objetivo, clicar no ícone de "cópia" 7. Para deletar: na linha da palavra, clicar no ícone com "lixeira" e confirmar.
+
+   4. Remover sentenças sincronizadas:
+      1. Selecionar um par de sentenças.
+      2. Clicar em no ícone de "lixeira" (remover) e confirmar.
 
 #########################
-note left of (Preencher textos)
-Inserir o texto fonte (original);
-Selecionar o idioma de tradução;
-Inserir texto traduzido e salvar as transcrições.
-end note
 
-note bottom of (Clicar em "Sincronizar")
-Sentenças fonte e alvo
-são apresentados paralelamente.
-end note
-
-note bottom of (Selecionar "Remover" e confirmar)
-Clicar em "confirmar" para remover a sentença
-selecionada
-end note
+<!--
 
 #### \*\*Tutorial: Fluxo Alternativo
 
@@ -1025,7 +1014,7 @@ end note
 
 #### **Tutorial: Fluxo alternativo**
 
-1.  <!--
+1.
     DÚVIDAS A TIRAR COM O LUIZ
 
 COMO DELETAR UM CORPUS? AINDA NÃO IMPLEMENTADO
