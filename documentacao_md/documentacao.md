@@ -64,6 +64,15 @@ SUMÁRIO
     - [Tutorial:](#tutorial-2)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-7)
       - [**Tutorial: Fluxo alternativo:**](#tutorial-fluxo-alternativo-4)
+  - [Caso de uso 07 - FERRAMENTA DE BUSCA](#caso-de-uso-07---ferramenta-de-busca)
+    - [Descrição Caso de uso X](#descrição-caso-de-uso-x)
+    - [Diagrama do Caso de uso 0X - NOME CASO](#diagrama-do-caso-de-uso-0x---nome-caso)
+    - [Tutorial:](#tutorial-3)
+      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-8)
+      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-5)
+    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-1)
+      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--1)
+      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-6)
 
 ## Introdução
 
@@ -268,9 +277,9 @@ Antes de iniciar o processo de cadastro de um usuário, certifique-se de que o c
 
     Ao acessar o “Access Control”, a plataforma apresenta uma página com os atuais usuários com permissões no corpus selecionado, como mostra a Figura a seguir. Com botão “Users” selecionado, é apresentado o usuário com os seguintes campos - “Name”, “status”, “Role”.
 
-        !["Área de controle de acesso"](../imagens/access_control_acessado.png)
+!["Área de controle de acesso"](../imagens/access_control_acessado.png)
 
-    Figura 5: Área de Controle de acesso
+Figura 5: Área de Controle de acesso
 
 5.  **Criar Convite de acesso**: Na aba "Access Control", clique no botão "Invites" e depois em “ + Add new”.
 6.  **Realizar as configurações da permissão:**
@@ -286,16 +295,14 @@ Antes de iniciar o processo de cadastro de um usuário, certifique-se de que o c
 
 7.  **Confirmar as Configurações de permissão**: Após configurar as permissões clicar em "Confirmar".
 
-        !["Cria a configura convite"](../imagens/invites.png)
+!["Cria a configura convite"](../imagens/invites.png)
+Figura x: Criação e configuração de convite de acesso<br><br>
 
-    Figura x: Criação e configuração de convite de acesso<br><br>
+8. **Gerar Link e Código**: O sistema gerará automaticamente um link de "onboarding" e um código de acesso.
+9. **Copiar Informações para enviar ao usuário**: Copie o link de onboarding e o código de acesso gerados. O botão “click here to copy to clipboard” copia o código de acesso.
 
-8.  **Gerar Link e Código**: O sistema gerará automaticamente um link de "onboarding" e um código de acesso.
-9.  **Copiar Informações para enviar ao usuário**: Copie o link de onboarding e o código de acesso gerados. O botão “click here to copy to clipboard” copia o código de acesso.
-
-        !["Tela de convite gerado"](../imagens/convite_codigo.png)
-
-    Figura x: Código de acesso gerado automaticamente
+!["Tela de convite gerado"](../imagens/convite_codigo.png)
+Figura x: Código de acesso gerado automaticamente
 
 </figure>
 
@@ -971,9 +978,73 @@ Siga o fluxo normal de 1 a 5, ou o fluxo A1, para acesso à ferramenta eDictor T
 Sentença e tradução adicionadas:
 ![alt](../imagens/edictor_adicionar_sentença_3.png)
 
-#########################
+## Caso de uso 07 - FERRAMENTA DE BUSCA
 
-<!--
+A ferramenta de busca permite ao usuário realizar buscas nos corpora disponíveis na plataforma Tycho Brahe. Há dois tipos de busca disponíveis na plataforma: **Pesquisa simples** e **Pesquisa sintática**. A busca simples permite que o usuário utilize a sintaxe de expressões regulares (regex) para realizar buscas. Por outro lado, a busca sintática permite dois modos de busca: utilizando os campos com listas _dropdown_, que apresentam opções para a seleção da busca; ou escrevendo a busca utilizando padrão de sintaxe do _corpus search_ <!--REVISAR: VER COM O LUIS SE É ISSO MESMO QUE UTILIZA - CORPUS SEARCH?-->
+
+### Descrição Caso de uso X
+
+**Atores primários**:
+
+1. Usuário (geral). <!--REVISAR: verificar se qualquer pessoa pode realizar busca, sem a necessidade de ser cadastrado na plataforma-->
+
+**Pré-requisitos:**
+
+1. Os corpora devem estar com o status "completed" e serem públicos ("public").
+
+**Fluxo normal:**
+
+1. Acessar a página _home_ da plataforma Tycho Brahe através do link: <https://www.tycho.iel.unicamp.br/home>.
+2. Na área de "Ferramentas", acessar "Search".
+3. Escolher um dos corpora para realizar a busca.
+4. Escolher o tipo de busca que será realizada: **Pesquisa simples** ou **Pesquisa sintática**. No caso de escolher **Pesquisa sintática**, escolher o modo (selecionar rótulos nas listas ou escrever a expressão de busca).
+   1. **Pesquisa simples**:
+      1. Selecionar o botão **Pesquisa simples**
+      2. Preencher o campo com a expressão de busca utilizando sintaxe de expressão regular (regex).
+      3. Clicar em "Executar pesquisa"
+   2. **Pesquisa sintática**:
+      1. Selecionar **Pesquisa sintática**.
+      2. Selecionar quais padrões serão aplicados na busca pelos colocados:
+         1. Nas listas suspensa, escolher entre: palavra, categoria sintática, categoria vazia ou POS.
+         2. A depender da seleção anterior, preencher se for "palavra"; ou iniciar o preenchimento e selecionar a partir da lista suspensa se for por categorias sintática, vazia ou POS.
+         3. Selecionar qual a relação estabelecida entre os colocados objetos da busca: _dominates, existsm hasSister, iDominates, inDominates, iPrecedes, inPrecedes, precedes_.
+      3. É possível adicionar mais buscas ao clicar no ícone "+" e deletar padrão de busca ao clicar na "lixeira".
+      4. Clicar em "Executar Pesquisa"
+      5. É posível abrir um campo livre de preenchimento para executar busca com padrão de sintaxe do _corpus search_: clicar em "escreva sua pesquisa".
+         1. Preencher com o padão de busca.
+         2. Clicar em "Converter texto" para converter busca para campos preenchidos na "Pesquisa sintática"<!--REVISAR: AVISAR AO LUIS QUE QUANDO PREENCHO NO CAMPO LIVRE E CONVERTO PARA A BUSCA E REALIZO ESTÁ DANDO ERRO-->
+
+Para qualquer tipo de busca, é possível realizar algumas configurações:
+
+1. Clicar no ícone de "configurações" no canto direito superior.
+   1. Metadados
+   2. Documentos: selecionar um documento para limitar a busca a um documento específico (pode aumentar velocidade de resposta da requisição).
+   3. Exportar: selecionar o formato para exportar os resultados da pesquisa.
+   4. Consultas: verificar consultas salvas.
+   5. Definições <!--REVISAR: VERIFICAR QUAIS SÃO AS DEFINIÇÕES POSSÍVEIS AQUI-->
+      **Fluxo alternativo:**
+
+**A1**
+
+1.  **A2**
+
+1.
+
+### Diagrama do Caso de uso 0X - NOME CASO
+
+<figure>
+    <img src=""
+         alt="">
+    <figcaption>Figura X: CAPTION</figcaption>
+</figure>
+
+### Tutorial:
+
+**Objetivo:**
+
+#### **Tutorial: Fluxo normal**
+
+1.
 
 #### \*\*Tutorial: Fluxo Alternativo
 
@@ -987,22 +1058,9 @@ Sentença e tradução adicionadas:
 
 #### **Tutorial: Fluxo alternativo**
 
-1.  <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    ###########rascunho  ESTRUTURA BÁSICA PARA REUTILIZAÇÃO
+#########################
+
+<!--###########rascunho  ESTRUTURA BÁSICA PARA REUTILIZAÇÃO
 
 ## Caso de uso 0X - NOME CASO DE USO
 
