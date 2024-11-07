@@ -64,9 +64,9 @@ SUMÁRIO
     - [Tutorial:](#tutorial-2)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-7)
       - [**Tutorial: Fluxo alternativo:**](#tutorial-fluxo-alternativo-4)
-  - [Caso de uso 07 - FERRAMENTA DE BUSCA](#caso-de-uso-07---ferramenta-de-busca)
-    - [Descrição Caso de uso X](#descrição-caso-de-uso-x)
-    - [Diagrama do Caso de uso 0X - NOME CASO](#diagrama-do-caso-de-uso-0x---nome-caso)
+  - [Caso de uso 07 - Ferramenta de Pesquisa](#caso-de-uso-07---ferramenta-de-pesquisa)
+    - [Descrição Caso de uso 07 - Ferramenta de Pesquisa](#descrição-caso-de-uso-07---ferramenta-de-pesquisa)
+    - [Diagrama do Caso de uso 07 - FERRAMENTA DE PESQUISA](#diagrama-do-caso-de-uso-07---ferramenta-de-pesquisa)
     - [Tutorial:](#tutorial-3)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-8)
       - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-5)
@@ -978,11 +978,11 @@ Siga o fluxo normal de 1 a 5, ou o fluxo A1, para acesso à ferramenta eDictor T
 Sentença e tradução adicionadas:
 ![alt](../imagens/edictor_adicionar_sentença_3.png)
 
-## Caso de uso 07 - FERRAMENTA DE BUSCA
+## Caso de uso 07 - Ferramenta de Pesquisa
 
-A ferramenta de busca permite ao usuário realizar buscas nos corpora disponíveis na plataforma Tycho Brahe. Há dois tipos de busca disponíveis na plataforma: **Pesquisa simples** e **Pesquisa sintática**. A busca simples permite que o usuário utilize a sintaxe de expressões regulares (regex) para realizar buscas. Por outro lado, a busca sintática permite dois modos de busca: utilizando os campos com listas _dropdown_, que apresentam opções para a seleção da busca; ou escrevendo a busca utilizando padrão de sintaxe do _corpus search_ <!--REVISAR: VER COM O LUIS SE É ISSO MESMO QUE UTILIZA - CORPUS SEARCH?-->
+A Ferramenta de Pesquisa possibilita ao usuário realizar pesquisas nos corpora disponíveis na plataforma Tycho Brahe. Há dois tipos de busca disponíveis na plataforma: **Pesquisa simples** e **Pesquisa sintática**. A Pesquisa Simples possibilita que o usuário utilize a sintaxe de expressões regulares (regex) para realizar buscas. Por outro lado, a Pesquisa Sintática disponibiliza dois modos de busca: um modo direto, utilizando os campos com listas suspensas, que apresentam opções para as seleções pertinentes para a pesquisa; ou um modo que possibilita a escrita livre da busca utilizando padrão de sintaxe do _corpus search_, e posterior conversão do texto livre para o modo anterior<!--REVISAR: VER COM O LUIS SE É ISSO MESMO QUE UTILIZA - CORPUS SEARCH?-->
 
-### Descrição Caso de uso X
+### Descrição Caso de uso 07 - Ferramenta de Pesquisa
 
 **Atores primários**:
 
@@ -990,61 +990,96 @@ A ferramenta de busca permite ao usuário realizar buscas nos corpora disponíve
 
 **Pré-requisitos:**
 
-1. Os corpora devem estar com o status "completed" e serem públicos ("public").
+1. Os corpora devem estar com o status "completed" e serem públicos ("_public_").
 
 **Fluxo normal:**
 
 1. Acessar a página _home_ da plataforma Tycho Brahe através do link: <https://www.tycho.iel.unicamp.br/home>.
 2. Na área de "Ferramentas", acessar "Search".
-3. Escolher um dos corpora para realizar a busca.
-4. Escolher o tipo de busca que será realizada: **Pesquisa simples** ou **Pesquisa sintática**. No caso de escolher **Pesquisa sintática**, escolher o modo (selecionar rótulos nas listas ou escrever a expressão de busca).
+3. Escolher um dos corpora para realizar a pesquisa.
+4. Escolher o tipo de busca que será realizada: **Pesquisa simples** ou **Pesquisa sintática**.
+
    1. **Pesquisa simples**:
       1. Selecionar o botão **Pesquisa simples**
       2. Preencher o campo com a expressão de busca utilizando sintaxe de expressão regular (regex).
       3. Clicar em "Executar pesquisa"
-   2. **Pesquisa sintática**:
-      1. Selecionar **Pesquisa sintática**.
-      2. Selecionar quais padrões serão aplicados na busca pelos colocados:
-         1. Nas listas suspensa, escolher entre: palavra, categoria sintática, categoria vazia ou POS.
-         2. A depender da seleção anterior, preencher se for "palavra"; ou iniciar o preenchimento e selecionar a partir da lista suspensa se for por categorias sintática, vazia ou POS.
-         3. Selecionar qual a relação estabelecida entre os colocados objetos da busca: _dominates, existsm hasSister, iDominates, inDominates, iPrecedes, inPrecedes, precedes_.
-      3. É possível adicionar mais buscas ao clicar no ícone "+" e deletar padrão de busca ao clicar na "lixeira".
-      4. Clicar em "Executar Pesquisa"
-      5. É posível abrir um campo livre de preenchimento para executar busca com padrão de sintaxe do _corpus search_: clicar em "escreva sua pesquisa".
-         1. Preencher com o padão de busca.
+   2. **Pesquisa sintática** - escolher um dos modos da pesquisa Modo 1- Default: selecionar rótulos nas listas suspensas; Modo 2 - Escreva sua pesquisa: escrever a expressão de busca e converter):
+      1. Modo 1 - Default
+         1. Selecionar **Pesquisa sintática**.
+         2. Selecionar quais padrões serão aplicados na busca pelos colocados:
+            1. Nas listas suspensa, escolher entre: palavra, categoria sintática, categoria vazia ou POS.
+            2. A depender da seleção anterior, preencher se for "palavra"; ou iniciar o preenchimento e selecionar a partir da lista suspensa se for por categorias sintática, vazia ou POS.
+            3. Selecionar qual a relação estabelecida entre os colocados objetos da busca: _dominates, exists hasSister, iDominates, inDominates, iPrecedes, inPrecedes, precedes_.
+         3. É possível adicionar mais buscas ao clicar no ícone "+" e deletar padrão de busca ao clicar na "lixeira".
+         4. Clicar em "Executar Pesquisa"
+      2. Modo 2 - Escreva sua pesquisa. É posível abrir um campo livre para preenchimento para executar busca com padrão de sintaxe do _corpus search_: clicar em "escreva sua pesquisa".
+         1. Preencher com o padão de busca (sintaxe _corpus search_).
          2. Clicar em "Converter texto" para converter busca para campos preenchidos na "Pesquisa sintática"<!--REVISAR: AVISAR AO LUIS QUE QUANDO PREENCHO NO CAMPO LIVRE E CONVERTO PARA A BUSCA E REALIZO ESTÁ DANDO ERRO-->
 
 Para qualquer tipo de busca, é possível realizar algumas configurações:
 
 1. Clicar no ícone de "configurações" no canto direito superior.
-   1. Metadados
+   1. Metadados <!--REVISAR: encontrei onde se preenche os metadados no admin, configurações (mas não entendi quais os tipos de dados são para serem preenchidos e não sei como isto impacta na hora da pesquisa) -->
    2. Documentos: selecionar um documento para limitar a busca a um documento específico (pode aumentar velocidade de resposta da requisição).
    3. Exportar: selecionar o formato para exportar os resultados da pesquisa.
    4. Consultas: verificar consultas salvas.
    5. Definições <!--REVISAR: VERIFICAR QUAIS SÃO AS DEFINIÇÕES POSSÍVEIS AQUI-->
-      **Fluxo alternativo:**
 
-**A1**
+### Diagrama do Caso de uso 07 - FERRAMENTA DE PESQUISA
 
-1.  **A2**
-
-1.
-
-### Diagrama do Caso de uso 0X - NOME CASO
-
-<figure>
-    <img src=""
-         alt="">
-    <figcaption>Figura X: CAPTION</figcaption>
-</figure>
+![Caso de uso 07](../imagens/caso07_diagrama.png)
+Figura x: Diagrama Caso de Uso 07 - Ferramenta de Pesquisa
 
 ### Tutorial:
 
 **Objetivo:**
+Este tutorial dem o objetivo de detalhar os procedimentos necessários para a realização de pesquisas nos corpora disponíveis na plataforma Tycho Brahe.
 
 #### **Tutorial: Fluxo normal**
 
-1.
+1. Acesse a página _home_ da plataforma Tycho Brahe através do link: <https://www.tycho.iel.unicamp.br/home>.
+2. Na área de "Ferramentas", acesse a Ferramenta "Search".
+
+![Ferramenta pesquisa](../imagens/busca_01.png)
+Figura x: Ferramenta de Pesquisa
+
+3. Escolha um dos corpora para realizar a busca.
+
+![Seleção corpus para pesquisa](../imagens/busca_2.png)
+Figura x: Selecionando corpus para realizar uma pesquisa. 4. Escolha o tipo de pesquisa que deseja realizar: **Pesquisa simples** ou **Pesquisa sintática**.
+
+1.  **Pesquisa simples**:
+    1. Selecione o botão **Pesquisa simples**
+    2. Preencha o campo com a expressão de busca utilizando sintaxe de expressão regular (regex).
+    3. Clique em "Executar pesquisa"
+
+![Pesquisa simples](../imagens/busca_7.png)
+Figura x: Relizando uma Pesquisa Simples.
+A pesquisa realizada no exemplo na Figura x acima retorna o seguinte resultado no corpus de Teste.
+
+![Resultado pesquisa](../imagens/busca_9.png)
+
+1.  **Pesquisa sintática** - escolha um dos modos da pesquisa Modo 1- Default: este modo disponibiliza listas suspensas com os tipos de tags/pesquisa pré-determinadas (Palavra, Categoria Sintática, Categoria Vazia, Etiqueta POS), uma lista suspensa com o tipo de relação entre os colocados (_dominates, exists hasSister_ etc); Modo 2 - Escreva sua pesquisa: é possível escrever a expressão de pesquisa e converter para o modo anterior antes de realizar a pesquisa):
+    1. Modo 1 - Default
+       1. Selecione **Pesquisa sintática**.
+       2. Selecione quais padrões serão aplicados na busca pelos colocados:
+          1. Nas listas suspensa, escolher entre: Palavra, Categoria sintática, Categoria Vazia ou Etiqueta POS.
+          2. A depender da seleção anterior: se selecionar "Palavra", preencha o campo com a palavra desejada a ser pesquisada; Se a pesquisa for por Categorias sintática, Categoria vazia ou Etiqueta POS, inicie o preenchimento da tag desejada e selecione a tag pertinente a partir da lista suspensa.
+          3. Selecione qual a relação estabelecida entre os colocados objetos da pesquisa: _dominates, exists hasSister, iDominates, inDominates, iPrecedes, inPrecedes, precedes_.
+       3. É possível adicionar mais buscas ao clicar no ícone "+" e deletar padrão de busca ao clicar na "lixeira".
+       4. Clique em "Executar Pesquisa"
+    2. Modo 2 - Escreva sua pesquisa. É posível abrir um campo livre para preenchimento para executar busca com padrão de sintaxe do _corpus search_: clique em "escreva sua pesquisa".
+       1. Preencha o campo com o padão de pesquisa desejado (seguindo a sintaxe do _corpus search_).
+       2. Clique em "Converter texto" para converter busca para campos preenchidos na "Pesquisa sintática" default<!--REVISAR: AVISAR AO LUIS QUE QUANDO PREENCHO NO CAMPO LIVRE E CONVERTO PARA A BUSCA E REALIZO ESTÁ DANDO ERRO-->
+
+Para qualquer tipo de busca, é possível realizar algumas configurações:
+
+1. Clique no ícone de "configurações" no canto direito superior.
+   1. Metadados <!--REVISAR: encontrei onde se preenche os metadados no admin, configurações (mas não entendi quais os tipos de dados são para serem preenchidos e não sei como isto impacta na hora da pesquisa) -->
+   2. Documentos: selecione um documento para limitar a pesquisa a documentos específicos (pode aumentar velocidade de resposta da requisição).
+   3. Exportar: selecione o formato para exportar os resultados da pesquisa.
+   4. Consultas: verifique consultas salvas.
+   5. Definições <!--REVISAR: VERIFICAR QUAIS SÃO AS DEFINIÇÕES POSSÍVEIS AQUI-->
 
 #### \*\*Tutorial: Fluxo Alternativo
 
