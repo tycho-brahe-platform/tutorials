@@ -21,7 +21,7 @@ SUMÁRIO
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal)
       - [**Tutorial: Fluxo Alternativo**](#tutorial-fluxo-alternativo)
   - [Caso de uso 01 - Cadastro de novos usuários nos corpora da plataforma](#caso-de-uso-01---cadastro-de-novos-usuários-nos-corpora-da-plataforma)
-    - [Descrição Caso de uso 01](#descrição-caso-de-uso-01)
+    - [Descrição Caso de uso 01 - Cadastro de novos usuários nos corpora da plataforma](#descrição-caso-de-uso-01---cadastro-de-novos-usuários-nos-corpora-da-plataforma)
     - [Diagrama do Caso de uso 01 - Cadastro](#diagrama-do-caso-de-uso-01---cadastro)
     - [Tutorial: Cadastro de Novos Usuários - Guia do Administrador](#tutorial-cadastro-de-novos-usuários---guia-do-administrador)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-1)
@@ -69,10 +69,43 @@ SUMÁRIO
     - [Diagrama do Caso de uso 07 - FERRAMENTA DE PESQUISA](#diagrama-do-caso-de-uso-07---ferramenta-de-pesquisa)
     - [Tutorial:](#tutorial-3)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-8)
+  - [Caso de uso 08 - Visualizador de corpora](#caso-de-uso-08---visualizador-de-corpora)
+    - [Descrição Caso de uso 08](#descrição-caso-de-uso-08)
+    - [Diagrama do Caso de uso 08 - Visualizador de corpora](#diagrama-do-caso-de-uso-08---visualizador-de-corpora)
+    - [Tutorial:](#tutorial-4)
+      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-9)
       - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-5)
     - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-1)
       - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--1)
       - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-6)
+  - [Caso de uso 09 - Synviewer](#caso-de-uso-09---synviewer)
+    - [Descrição Caso de uso X](#descrição-caso-de-uso-x)
+    - [Diagrama do Caso de uso 09 - Synviewer](#diagrama-do-caso-de-uso-09---synviewer)
+    - [Tutorial:](#tutorial-5)
+      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-10)
+      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-7)
+    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-2)
+      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--2)
+      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-8)
+  - [as](#as)
+  - [Caso de uso 10 - Parser ](#caso-de-uso-10---parser-)
+    - [Descrição Caso de uso 10](#descrição-caso-de-uso-10)
+    - [Diagrama do Caso de uso 10 - Parser](#diagrama-do-caso-de-uso-10---parser)
+    - [Tutorial:](#tutorial-6)
+      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-11)
+      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-9)
+    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-3)
+      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--3)
+      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-10)
+  - [Caso de uso 11 - IO (Importação e Exportação)](#caso-de-uso-11---io-importação-e-exportação)
+    - [Descrição Caso de uso 11 - IO (Importação e Exportação)](#descrição-caso-de-uso-11---io-importação-e-exportação)
+    - [Diagrama do Caso de uso 11 - IO (Importação e Exportação)](#diagrama-do-caso-de-uso-11---io-importação-e-exportação)
+    - [Tutorial:](#tutorial-7)
+      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-12)
+      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-11)
+    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-4)
+      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--4)
+      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-12)
 
 ## Introdução
 
@@ -101,6 +134,8 @@ Entre as principais características da Plataforma Tycho Brahe, destacam-se:
 Esta documentação fornecerá instruções detalhadas sobre como utilizar cada uma dessas funcionalidades, além de orientações sobre o acesso à plataforma, gerenciamento de usuários e boas práticas para o uso eficiente do sistema.
 
 Nas seções a seguir, serão apresentadas as diversas funcionalidades da plataforma Tycho Brahe. Cada funcionalidade será apresentada com a seguinte estrutura: primeiro, uma pequena introdução; em seguida, são apresentados os casos de uso que representam as funcionalidades no sistema - é apresentada uma descrição de cada, com os atores, pré-requisitos, fluxos normal e alternativos; em seguida, é apresentado um diagrama de Caso de uso da funcionalidade em questão; por fim, um tutorial completo e detalhado de uso da funcionalidade.
+
+---
 
 ## Caso de Uso 00 - Acesso à tela inicial de perfil do usuário
 
@@ -166,6 +201,8 @@ Observe que para cada um dos corpora disponíveis para trabalho pelo usuário, s
 1. Acesse o link da plataforma/perfil <https://www.tycho.iel.unicamp.br/platform> diretamente, sem passar pela página inicial da plataforma e acessar a "Área reservada".
 2. Retome a partir do passo 3 do Fluxo normal
 
+---
+
 ## Caso de uso 01 - Cadastro de novos usuários nos corpora da plataforma
 
 O processo de cadastro na Plataforma Tycho Brahe é um procedimento essencial para garantir o acesso controlado e seguro aos corpora linguísticos. Este processo envolve tanto administradores quanto usuários finais, cada um com papéis específicos no fluxo de cadastro.
@@ -176,7 +213,7 @@ O sistema oferece flexibilidade para lidar com diferentes cenários, como usuár
 
 Nos tópicos a seguir, será detalhado o caso de uso para o cadastro de novos usuários, bem como tutoriais passo a passo tanto para administradores quanto para usuários finais, garantindo uma compreensão completa do processo de cadastro na Plataforma Tycho Brahe.
 
-### Descrição Caso de uso 01
+### Descrição Caso de uso 01 - Cadastro de novos usuários nos corpora da plataforma
 
 **Atores primários**:
 
@@ -334,8 +371,6 @@ Se o usuário já estiver cadastrado em outro corpus, siga estas etapas:
 2. **Selecionar o e-mail do usuário**: Escolha o e-mail do usuário na lista (super-usuários e e-mails já cadastrados no corpus não aparecerão como opção). (Ver Figura x acima)
 3. **Configurar Permissões e Confirmar**: Siga o Passo 6 (.3 e .4) do fluxo normal para configurar as permissões e confirme o cadastro.
 
----
-
 ### Tutorial: Como se cadastrar em um corpus - Guia do usuário final
 
 **Objetivo:** Este tutorial detalha o processo para os usuários se cadastrarem em um corpus da plataforma, utilizando o link de "/onboarding" e código de acesso fornecido pelo administrador, ou apenas o link "/onboarding" .
@@ -361,9 +396,6 @@ Se o usuário já estiver cadastrado em outro corpus, siga estas etapas:
 4. **Acesso ao Sistema**: O usuário deve tentar realizar o sign in para certificar-se de que o cadastro foi realizado com sucesso. Se o sign in for bem-sucedido, o usuário poderá acessar o corpus com as permissões definidas pelo administrador.
 
 ---
-
- <!--PAREI AQUI 15/10 - CONTINUAR A REVISÃO DAS TELAS DE ACESSO POR MEIO DO ADMIN OU POR MEIO DO PERFIL-->
-<!--REVISAR CRÍTICO - MUDANÇAS NA PLATAFORMA-->
 
 ## Caso de uso 02 - Realizar _Sign in_ na Área Reservada
 
@@ -397,8 +429,6 @@ Figura 10: Diagrama Caso de uso 02
 
 **Objetivo:** Este tutorial detalha o processo para o usuário realizar o Sign in na plataforma. Em um fluxo normal, o usuário já foi previamente cadastrado com um e-mail Google. Caso contrário, veja Caso de uso 3 - Solicitar cadastro para realizar a solicitação junto aos administradores da plataforma.
 
----
-
 #### **Tutorial: Fluxo normal**
 
 1. Acesse a página inicial da plataforma Tycho Brahe, disponível no link: <https://www.tycho.iel.unicamp.br/home>.
@@ -425,6 +455,8 @@ Figura 10: Diagrama Caso de uso 02
 
 <figcaption>Figura 12: Sign in bem-sucedido </figcaption>
 </figure>
+
+---
 
 ## Caso de uso 03 - Solicitar cadastro
 
@@ -468,6 +500,8 @@ No caso de interesse de participação no projeto, o usuário deve entrar em con
 
 <figcaption>Figura x: Formulário para solicitar cadastro na plataforma</figcaption>
 </figure>
+
+---
 
 ## Caso de uso 04 - Criação, configuração e edição dos corpora
 
@@ -734,6 +768,8 @@ Estas configurações habilitam a apresentação dos corpora paralelos como em 2
 
 **Default for UD**: habilita que o corpus seja configurado para usar Universal Dependencies como o framework padrão para edição de sentenças.
 
+---
+
 ## Caso de uso 05 - Ferramenta **Use eDictor**
 
 [INTRODUÇÃO]
@@ -787,6 +823,8 @@ Estas configurações habilitam a apresentação dos corpora paralelos como em 2
 #### **Tutorial: Fluxo alternativo**
 
 1.
+
+---
 
 ## Caso de uso 06 - Ferramenta **eDictor Translations**
 
@@ -978,6 +1016,8 @@ Siga o fluxo normal de 1 a 5, ou o fluxo A1, para acesso à ferramenta eDictor T
 Sentença e tradução adicionadas:
 ![alt](../imagens/edictor_adicionar_sentença_3.png)
 
+---
+
 ## Caso de uso 07 - Ferramenta de Pesquisa
 
 A Ferramenta de Pesquisa possibilita ao usuário realizar pesquisas nos corpora disponíveis na plataforma Tycho Brahe. Há dois tipos de busca disponíveis na plataforma: **Pesquisa simples** e **Pesquisa sintática**. A Pesquisa Simples possibilita que o usuário utilize a sintaxe de expressões regulares (regex) para realizar buscas. Por outro lado, a Pesquisa Sintática disponibiliza dois modos de busca: um modo direto, utilizando os campos com listas suspensas, que apresentam opções para as seleções pertinentes para a pesquisa; ou um modo que possibilita a escrita livre da busca utilizando padrão de sintaxe do _corpus search_, e posterior conversão do texto livre para o modo anterior<!--REVISAR: VER COM O LUIS SE É ISSO MESMO QUE UTILIZA - CORPUS SEARCH?-->
@@ -1007,8 +1047,8 @@ A Ferramenta de Pesquisa possibilita ao usuário realizar pesquisas nos corpora 
       1. Modo 1 - Default
          1. Selecionar **Pesquisa sintática**.
          2. Selecionar quais padrões serão aplicados na busca pelos colocados:
-            1. Nas listas suspensa, escolher entre: palavra, categoria sintática, categoria vazia ou POS.
-            2. A depender da seleção anterior, preencher se for "palavra"; ou iniciar o preenchimento e selecionar a partir da lista suspensa se for por categorias sintática, vazia ou POS.
+            1. Nas listas suspensas, escolher entre: Palavra, Categoria sintática, Categoria vazia ou Etiqueta POS.
+            2. A depender da seleção anterior, preencher se for "palavra"; ou iniciar o preenchimento e selecionar a partir da lista suspensa se for por categorias sintática, vazia ou Etiqueta POS.
             3. Selecionar qual a relação estabelecida entre os colocados objetos da busca: _dominates, exists hasSister, iDominates, inDominates, iPrecedes, inPrecedes, precedes_.
          3. É possível adicionar mais buscas ao clicar no ícone "+" e deletar padrão de busca ao clicar na "lixeira".
          4. Clicar em "Executar Pesquisa"
@@ -1048,29 +1088,39 @@ Figura x: Ferramenta de Pesquisa
 ![Seleção corpus para pesquisa](../imagens/busca_2.png)
 Figura x: Selecionando corpus para realizar uma pesquisa. 4. Escolha o tipo de pesquisa que deseja realizar: **Pesquisa simples** ou **Pesquisa sintática**.
 
-1.  **Pesquisa simples**:
-    1. Selecione o botão **Pesquisa simples**
-    2. Preencha o campo com a expressão de busca utilizando sintaxe de expressão regular (regex).
-    3. Clique em "Executar pesquisa"
+**Pesquisa simples**:
+
+1. Selecione o botão **Pesquisa simples**
+2. Preencha o campo com a expressão de busca utilizando sintaxe de expressão regular (regex).
+3. Clique em "Executar pesquisa"
 
 ![Pesquisa simples](../imagens/busca_7.png)
 Figura x: Relizando uma Pesquisa Simples.
 A pesquisa realizada no exemplo na Figura x acima retorna o seguinte resultado no corpus de Teste.
 
 ![Resultado pesquisa](../imagens/busca_9.png)
+Figura x: Resultado de uma busca simples.
 
-1.  **Pesquisa sintática** - escolha um dos modos da pesquisa Modo 1- Default: este modo disponibiliza listas suspensas com os tipos de tags/pesquisa pré-determinadas (Palavra, Categoria Sintática, Categoria Vazia, Etiqueta POS), uma lista suspensa com o tipo de relação entre os colocados (_dominates, exists hasSister_ etc); Modo 2 - Escreva sua pesquisa: é possível escrever a expressão de pesquisa e converter para o modo anterior antes de realizar a pesquisa):
-    1. Modo 1 - Default
-       1. Selecione **Pesquisa sintática**.
-       2. Selecione quais padrões serão aplicados na busca pelos colocados:
-          1. Nas listas suspensa, escolher entre: Palavra, Categoria sintática, Categoria Vazia ou Etiqueta POS.
-          2. A depender da seleção anterior: se selecionar "Palavra", preencha o campo com a palavra desejada a ser pesquisada; Se a pesquisa for por Categorias sintática, Categoria vazia ou Etiqueta POS, inicie o preenchimento da tag desejada e selecione a tag pertinente a partir da lista suspensa.
-          3. Selecione qual a relação estabelecida entre os colocados objetos da pesquisa: _dominates, exists hasSister, iDominates, inDominates, iPrecedes, inPrecedes, precedes_.
-       3. É possível adicionar mais buscas ao clicar no ícone "+" e deletar padrão de busca ao clicar na "lixeira".
-       4. Clique em "Executar Pesquisa"
-    2. Modo 2 - Escreva sua pesquisa. É posível abrir um campo livre para preenchimento para executar busca com padrão de sintaxe do _corpus search_: clique em "escreva sua pesquisa".
-       1. Preencha o campo com o padão de pesquisa desejado (seguindo a sintaxe do _corpus search_).
-       2. Clique em "Converter texto" para converter busca para campos preenchidos na "Pesquisa sintática" default<!--REVISAR: AVISAR AO LUIS QUE QUANDO PREENCHO NO CAMPO LIVRE E CONVERTO PARA A BUSCA E REALIZO ESTÁ DANDO ERRO-->
+**Pesquisa sintática** - escolha um dos modos da pesquisa Modo 1- Default: este modo disponibiliza listas suspensas com os tipos de tags/pesquisa pré-determinadas (Palavra, Categoria Sintática, Categoria Vazia, Etiqueta POS), uma lista suspensa com o tipo de relação entre os colocados (_dominates, exists hasSister_ etc); Modo 2 - Escreva sua pesquisa: é possível escrever a expressão de pesquisa e converter para o modo anterior antes de realizar a pesquisa):
+
+**Modo 1 - Default**
+
+1. Selecione **Pesquisa sintática**.
+2. Selecione quais padrões serão aplicados na busca pelos colocados:
+   1. Nas listas suspensa, escolher entre: Palavra, Categoria sintática, Categoria Vazia ou Etiqueta POS.
+   2. A depender da seleção anterior: se selecionar "Palavra", preencha o campo com a palavra desejada a ser pesquisada; Se a pesquisa for por Categorias sintática, Categoria vazia ou Etiqueta POS, inicie o preenchimento da tag desejada e selecione a tag pertinente a partir da lista suspensa.
+   3. Selecione qual a relação estabelecida entre os colocados objetos da pesquisa: _dominates, exists hasSister, iDominates, inDominates, iPrecedes, inPrecedes, precedes_.<!--REVISAR: INSERIR DEFINICÃO DE CADA UMA DESSAS PALAVRAS CHAVES?-->
+3. É possível adicionar mais buscas ao clicar no ícone "+" e deletar padrão de busca ao clicar na "lixeira".
+4. Clique em "Executar Pesquisa".
+
+![Pesquisa sintática](../imagens/busca_8.png)
+Figura x: Realizando uma Pesquisa Sintática
+
+**Modo 2 - Escreva sua pesquisa**. É posível abrir um campo livre para preenchimento para executar busca com padrão de sintaxe do _corpus search_:
+
+1. Clique em "escreva sua pesquisa".
+2. Preencha o campo com o padão de pesquisa desejado (seguindo a sintaxe do _corpus search_).
+3. Clique em "Converter texto" para converter busca para campos preenchidos na "Pesquisa sintática" default<!--REVISAR: AVISAR AO LUIS QUE QUANDO PREENCHO NO CAMPO LIVRE E CONVERTO PARA A BUSCA E REALIZO ESTÁ DANDO ERRO-->
 
 Para qualquer tipo de busca, é possível realizar algumas configurações:
 
@@ -1080,6 +1130,51 @@ Para qualquer tipo de busca, é possível realizar algumas configurações:
    3. Exportar: selecione o formato para exportar os resultados da pesquisa.
    4. Consultas: verifique consultas salvas.
    5. Definições <!--REVISAR: VERIFICAR QUAIS SÃO AS DEFINIÇÕES POSSÍVEIS AQUI-->
+   <!--REVISAR: aguardar reunião com Luiz para entender melhor esta parte de configurações-->
+
+---
+
+<!--REVISAR: CASOS DE USO A SEREM INCLUÍDOS-->
+
+## Caso de uso 08 - Visualizador de corpora
+
+[INTRODUÇÃO]
+
+### Descrição Caso de uso 08
+
+**Atores primários**:
+
+1.
+
+**Pré-requisitos:**
+
+1.
+
+**Fluxo normal:**
+
+1.  **Fluxo alternativo:**
+
+**A1**
+
+1.  **A2**
+
+1.
+
+### Diagrama do Caso de uso 08 - Visualizador de corpora
+
+<figure>
+    <img src=""
+         alt="">
+    <figcaption>Figura X: CAPTION</figcaption>
+</figure>
+
+### Tutorial:
+
+**Objetivo:**
+
+#### **Tutorial: Fluxo normal**
+
+1.
 
 #### \*\*Tutorial: Fluxo Alternativo
 
@@ -1093,9 +1188,180 @@ Para qualquer tipo de busca, é possível realizar algumas configurações:
 
 #### **Tutorial: Fluxo alternativo**
 
-#########################
+1.
+
+---
+
+## Caso de uso 09 - Synviewer
+
+[INTRODUÇÃO]
+
+### Descrição Caso de uso X
+
+**Atores primários**:
+
+1.
+
+**Pré-requisitos:**
+
+1.
+
+**Fluxo normal:**
+
+1.  **Fluxo alternativo:**
+
+**A1**
+
+1.  **A2**
+
+1.
+
+### Diagrama do Caso de uso 09 - Synviewer
+
+<figure>
+    <img src=""
+         alt="">
+    <figcaption>Figura X: CAPTION</figcaption>
+</figure>
+
+### Tutorial:
+
+**Objetivo:**
+
+#### **Tutorial: Fluxo normal**
+
+1.
+
+#### \*\*Tutorial: Fluxo Alternativo
+
+### Tutorial: Guia do Usuário Final (SE HOUVER)
+
+**Objetivo:**
+
+#### **Tutorial: Fluxo normal **
+
+1.
+
+#### **Tutorial: Fluxo alternativo**
+
+1.  as
+
+---
+
+## Caso de uso 10 - Parser <!--Criação, edição e gerenciamento das regras dos parsers-->
+
+[INTRODUÇÃO]
+
+### Descrição Caso de uso 10
+
+**Atores primários**:
+
+1.
+
+**Pré-requisitos:**
+
+1.
+
+**Fluxo normal:**
+
+1.  **Fluxo alternativo:**
+
+**A1**
+
+1.  **A2**
+
+1.
+
+### Diagrama do Caso de uso 10 - Parser
+
+<figure>
+    <img src=""
+         alt="">
+    <figcaption>Figura X: CAPTION</figcaption>
+</figure>
+
+### Tutorial:
+
+**Objetivo:**
+
+#### **Tutorial: Fluxo normal**
+
+1.
+
+#### \*\*Tutorial: Fluxo Alternativo
+
+### Tutorial: Guia do Usuário Final (SE HOUVER)
+
+**Objetivo:**
+
+#### **Tutorial: Fluxo normal **
+
+1.
+
+#### **Tutorial: Fluxo alternativo**
+
+1.
+
+---
+
+## Caso de uso 11 - IO (Importação e Exportação)
+
+[INTRODUÇÃO]
+
+### Descrição Caso de uso 11 - IO (Importação e Exportação)
+
+**Atores primários**:
+
+1.
+
+**Pré-requisitos:**
+
+1.
+
+**Fluxo normal:**
+
+1.  **Fluxo alternativo:**
+
+**A1**
+
+1.  **A2**
+
+1.
+
+### Diagrama do Caso de uso 11 - IO (Importação e Exportação)
+
+<figure>
+    <img src=""
+         alt="">
+    <figcaption>Figura X: CAPTION</figcaption>
+</figure>
+
+### Tutorial:
+
+**Objetivo:**
+
+#### **Tutorial: Fluxo normal**
+
+1.
+
+#### \*\*Tutorial: Fluxo Alternativo
+
+### Tutorial: Guia do Usuário Final (SE HOUVER)
+
+**Objetivo:**
+
+#### **Tutorial: Fluxo normal **
+
+1.
+
+#### **Tutorial: Fluxo alternativo**
+
+1.  #########################
 
 <!--###########rascunho  ESTRUTURA BÁSICA PARA REUTILIZAÇÃO
+
+
+
 
 ## Caso de uso 0X - NOME CASO DE USO
 
@@ -1150,6 +1416,11 @@ Para qualquer tipo de busca, é possível realizar algumas configurações:
 #### **Tutorial: Fluxo alternativo**
 
 1.
+
+
+
+
+
     DÚVIDAS A TIRAR COM O LUIZ
 
 COMO DELETAR UM CORPUS? AINDA NÃO IMPLEMENTADO
