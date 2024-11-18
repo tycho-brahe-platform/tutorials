@@ -87,7 +87,6 @@ SUMÁRIO
     - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-2)
       - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--2)
       - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-8)
-  - [as](#as)
   - [Caso de uso 10 - Parser ](#caso-de-uso-10---parser-)
     - [Descrição Caso de uso 10](#descrição-caso-de-uso-10)
     - [Diagrama do Caso de uso 10 - Parser](#diagrama-do-caso-de-uso-10---parser)
@@ -772,21 +771,49 @@ Estas configurações habilitam a apresentação dos corpora paralelos como em 2
 
 ## Caso de uso 05 - Ferramenta **Use eDictor**
 
-[INTRODUÇÃO]
+A ferramenta _**use edictor**_ habilita ao usuário o uso do **eDictor** tradicional para realizar transcrições e edições de novos corpora.
 
 ### Descrição Caso de uso 05
 
 **Atores primários**:
 
-1.
+1. Usuário com permissões de editor no corpus.
+2. Administrador (com permissão de editor no corpus alvo)
 
 **Pré-requisitos:**
 
-1.
+1. Usuário logado (com permissões de edição no corpus)
+2. Corpus previamente criado e o botão de configuração de parâmetros "Use eDictor" habilitado.
 
 **Fluxo normal:**
 
-1.  **Fluxo alternativo:**
+1. Habilitar o **use eDictor** na página de Admin.
+2. Verificar existência de documento, ou adicionar novo documento para transcrição e edição.
+   1. Clicar em "+Adicionar novo documento".
+   2. Preencher nome do novo documento.
+   3. Selecionar Ferramenta de edição (dentre use eDictor ou eDictor Translation) - Para este caso de uso selecionar a primeira.
+3. Realizar o upload de um arquivo de imagem de onde pretende realizar a transcrição: do lado esquerdo da página que abre após a criação do documento, clicar em "clique aqui para realizar o upload. Selecionar imagem e confirmar.
+4. Transcrições:
+   **Manual**: Clicar o botão "Transcrição" para abrir o campo de preenchimento manual das transcrições do texto da imagem inserida.
+   **Automática**: Clicar o botão "extrair texto de imagem" no canto superior direito para realizar a transcrição automática a partir do texto da imagem.
+5. Preencher transcrições e salvar.
+6. Clicar ícone de "ir para o modo edição" para preparar o texto para receber edições.
+7. Etiquetagem e outras edições:
+   **Manual**: Clicar sobre palavra que deseja editar e realizar as edições desejadas:
+
+- Operações: inserir palavras, dividir, juntar com a próxima, spliter, remover.
+- Observações: adicionar observações.
+- Notas de rodapé: adicionar notas de rodapé
+- Edição da palavra original.
+- Etiqueta POS.
+- Flexão
+- Botão de alternância para "Ignorar para análise automática".
+- Botão de alternância para "Marcar esta palavra para ser revisada".
+- Operações de edição: junção e segmentação
+- Níveis de edição: grafia, expansão, correção, pontuação, ilegível, modernização, padronização, flexão.
+  **Automática**: <!--PAREI AQUI - 18/11/2024-->
+
+**Fluxo alternativo:**
 
 **A1**
 
