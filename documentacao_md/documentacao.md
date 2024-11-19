@@ -801,18 +801,26 @@ A ferramenta _**use edictor**_ habilita ao usuário o uso do **eDictor** tradici
 7. Etiquetagem e outras edições:
    **Manual**: Clicar sobre palavra que deseja editar e realizar as edições desejadas:
 
-- Operações: inserir palavras, dividir, juntar com a próxima, spliter, remover.
-- Observações: adicionar observações.
-- Notas de rodapé: adicionar notas de rodapé
-- Edição da palavra original.
-- Etiqueta POS.
-- Flexão
-- Botão de alternância para "Ignorar para análise automática".
-- Botão de alternância para "Marcar esta palavra para ser revisada".
-- Operações de edição: junção e segmentação
-- Níveis de edição: grafia, expansão, correção, pontuação, ilegível, modernização, padronização, flexão.
-  **Automática**: <!--PAREI AQUI - 18/11/2024-->
+   - Operações: inserir palavras, dividir, juntar com a próxima, spliter, remover.
+   - Observações: adicionar observações.
+   - Notas de rodapé: adicionar notas de rodapé
+   - Edição da palavra original.
+   - Etiqueta POS.
+   - Flexão
+   - Botão de alternância para "Ignorar para análise automática".
+   - Botão de alternância para "Marcar esta palavra para ser revisada".
+   - Operações de edição: junção e segmentação
+   - Níveis de edição: grafia, expansão, correção, pontuação, ilegível, modernização, padronização, flexão.
 
+**Automática**: há duas maneiras de acessar as orações para realizar o _parser_ e revisar/editar a etiquetagem. Ao acessar o "exibir informações" do documento, selecionar:
+
+- **"Continuar anotação sintática"** (Continue a partir da última sentença revisada): Ao acessar, os sistema apresenta a primeira sentença do documento (e se o parser já tiver sido aplicado previamente, sua árvore). É possível navegar entre as sentenças através das setas do lado direito superior.
+  1. Para realizar o _parser_ na sentença selecionada é necessário que um parser tenha sido associado ao corpus previamente. Em caso afirmativo, clicar em no ícone de "parser" no canto superior direito.
+  2. É possível editar os nós da árvore sintática: clicar sobre o nó desejado e selecionar a etiqueta adequada.
+
+Outras informações a ações são disponibilizadas neste tela: abrir comentários, ver manuais de anotação sintática, salvar, desfazer/refazer, aplicar layout, histórico, juntar à próxima sentença, debugar parser, e por fim, marcar status de revisão de etiquetagem da sentença.
+
+-**Revisar etiquetas POS**: 
 **Fluxo alternativo:**
 
 **A1**
