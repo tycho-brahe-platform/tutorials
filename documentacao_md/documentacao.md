@@ -787,7 +787,7 @@ A ferramenta _**use edictor**_ habilita ao usuário o uso do **eDictor** tradici
 
 **Fluxo normal:**
 
-1. Habilitar o **use eDictor** na página de Admin.
+1. Verificar (ou Habilitar) o **use eDictor** na página de /admin do corpus, na aba de parâmetros.
 2. Verificar existência de documento, ou adicionar novo documento para transcrição e edição.
    1. Clicar em "+Adicionar novo documento".
    2. Preencher nome do novo documento.
@@ -814,20 +814,18 @@ A ferramenta _**use edictor**_ habilita ao usuário o uso do **eDictor** tradici
 
 **Automática**: há duas maneiras de acessar as orações para realizar o _parser_ e revisar/editar a etiquetagem. Ao acessar o "exibir informações" do documento, selecionar:
 
-- **"Continuar anotação sintática"** (Continue a partir da última sentença revisada): Ao acessar, os sistema apresenta a primeira sentença do documento (e se o parser já tiver sido aplicado previamente, sua árvore). É possível navegar entre as sentenças através das setas do lado direito superior.
-  1. Para realizar o _parser_ na sentença selecionada é necessário que um parser tenha sido associado ao corpus previamente. Em caso afirmativo, clicar em no ícone de "parser" no canto superior direito.
+- **"Continuar anotação sintática"** (Continue a partir da última sentença revisada): Ao acessar esta área, a plataforma apresenta a primeira sentença do documento (e se o parser já tiver sido aplicado previamente, apresenta também a árvore que corresponde à sentença). É possível navegar entre as sentenças através das setas do lado direito superior.
+  1. Para rodar o _parser_ na sentença selecionada é necessário que um parser tenha sido associado ao corpus previamente. Em caso afirmativo, clicar em no ícone de "parser" no canto superior direito.
   2. É possível editar os nós da árvore sintática: clicar sobre o nó desejado e selecionar a etiqueta adequada.
 
-Outras informações a ações são disponibilizadas neste tela: abrir comentários, ver manuais de anotação sintática, salvar, desfazer/refazer, aplicar layout, histórico, juntar à próxima sentença, debugar parser, e por fim, marcar status de revisão de etiquetagem da sentença.
+Outras informações a ações são disponibilizadas neste tela: abrir comentários, ver manuais de anotação sintática, salvar, desfazer/refazer, aplicar layout, histórico, juntar à próxima sentença, debugar _parser_, e por fim, marcar status de revisão de etiquetagem da sentença (a fazer, como pronta, para revisão).
 
--**Revisar etiquetas POS**: 
-**Fluxo alternativo:**
+- **Revisar etiquetas POS**: Ao se acessar esta área, a plataforma apresenta as sentenças do documento para que o usuário possar realizar uma revisão da etiquetagem. Se o _parsing_ já tiver sido previamente realizado na sentença, ela apresenta as etiquetas atribuídas. Do contrário, a camada de etiquetagem POS fica com _vazio_ atribuído a todas os tokens.
 
-**A1**
-
-1.  **A2**
-
-1.
+  1. Para rodar o parser na sentença desejada (caso a sentença ainda não tenha sido etiquetada), clicar no ícone "▶️" do lado esquerdo da sentença alvo.
+  2. É possível também realizar edições manuais em cada uma das etiquetas nas palavras da sentença: clicar sobre a etiqueta (ou "vazio"), selecionar a etiqueta desejada e inflexão e confirmar.
+  3. Revisar sentença etiquetada e marcar status (a fazer, como pronta, para revisão.)
+     É possível ainda realizar outras ações: desfazer edição, ir para o eDictor, filtrar.
 
 ### Diagrama do Caso de uso 05 - **Use eDictor**
 
@@ -843,7 +841,63 @@ Outras informações a ações são disponibilizadas neste tela: abrir comentár
 
 #### **Tutorial: Fluxo normal**
 
-1.
+1. Verifique (ou Habilite) o **use eDictor** na página de /admin do corpus, na aba de parâmetros.
+
+![Use eDictor habilitado](../imagens/use_edictor_1.png)
+Figura x: Habilitando o use eDictor.
+
+2. Verifique se o documento que deseja editar está no corpus, ou adicione novo documento para transcrição e edição.
+   1. Clique em "+Adicionar novo documento".
+   2. Preencha o nome do novo documento.
+   3. Selecione a Ferramenta de edição desejada para o documento (dentre use eDictor ou eDictor Translation) - Para este caso de uso selecione o use eDictor.
+
+![Adicionar documento](../imagens/use_edictor_2.png)
+Figura x: Adicionando documento para use eDictor.
+
+3. Realize o upload de um arquivo de imagem de onde pretende realizar a transcrição: do lado esquerdo da página que abre após a criação do documento, clique em "clique aqui para realizar o upload", selecione imagem e confirme.
+
+![Upload arquivo para transcrição](../imagens/use_edictor_3.png)
+Figura x: Upload de documento para eDictor.
+
+![Seleciona arquivo](../imagens/use_edictor_3.png)
+Figura x: Selecionando arquivo para eDictor.
+
+![Confirma arquivo](../imagens/use_edictor_4-5.png)
+Figura x: Envio do aquivo para eDictor.
+
+4. Transcrições:
+   **Manual**: Clicar o botão "Transcrição" para abrir o campo de preenchimento manual das transcrições do texto da imagem inserida.
+   **Automática**: Clicar o botão "extrair texto de imagem" no canto superior direito para realizar a transcrição automática a partir do texto da imagem.
+5. Preencher transcrições e salvar.
+6. Clicar ícone de "ir para o modo edição" para preparar o texto para receber edições.
+7. Etiquetagem e outras edições:
+   **Manual**: Clicar sobre palavra que deseja editar e realizar as edições desejadas:
+
+   - Operações: inserir palavras, dividir, juntar com a próxima, spliter, remover.
+   - Observações: adicionar observações.
+   - Notas de rodapé: adicionar notas de rodapé
+   - Edição da palavra original.
+   - Etiqueta POS.
+   - Flexão
+   - Botão de alternância para "Ignorar para análise automática".
+   - Botão de alternância para "Marcar esta palavra para ser revisada".
+   - Operações de edição: junção e segmentação
+   - Níveis de edição: grafia, expansão, correção, pontuação, ilegível, modernização, padronização, flexão.
+
+**Automática**: há duas maneiras de acessar as orações para realizar o _parser_ e revisar/editar a etiquetagem. Ao acessar o "exibir informações" do documento, selecionar:
+
+- **"Continuar anotação sintática"** (Continue a partir da última sentença revisada): Ao acessar esta área, a plataforma apresenta a primeira sentença do documento (e se o parser já tiver sido aplicado previamente, apresenta também a árvore que corresponde à sentença). É possível navegar entre as sentenças através das setas do lado direito superior.
+  1. Para rodar o _parser_ na sentença selecionada é necessário que um parser tenha sido associado ao corpus previamente. Em caso afirmativo, clicar em no ícone de "parser" no canto superior direito.
+  2. É possível editar os nós da árvore sintática: clicar sobre o nó desejado e selecionar a etiqueta adequada.
+
+Outras informações a ações são disponibilizadas neste tela: abrir comentários, ver manuais de anotação sintática, salvar, desfazer/refazer, aplicar layout, histórico, juntar à próxima sentença, debugar _parser_, e por fim, marcar status de revisão de etiquetagem da sentença (a fazer, como pronta, para revisão).
+
+- **Revisar etiquetas POS**: Ao se acessar esta área, a plataforma apresenta as sentenças do documento para que o usuário possar realizar uma revisão da etiquetagem. Se o _parsing_ já tiver sido previamente realizado na sentença, ela apresenta as etiquetas atribuídas. Do contrário, a camada de etiquetagem POS fica com _vazio_ atribuído a todas os tokens.
+
+  1. Para rodar o parser na sentença desejada (caso a sentença ainda não tenha sido etiquetada), clicar no ícone "▶️" do lado esquerdo da sentença alvo.
+  2. É possível também realizar edições manuais em cada uma das etiquetas nas palavras da sentença: clicar sobre a etiqueta (ou "vazio"), selecionar a etiqueta desejada e inflexão e confirmar.
+  3. Revisar sentença etiquetada e marcar status (a fazer, como pronta, para revisão.)
+     É possível ainda realizar outras ações: desfazer edição, ir para o eDictor, filtrar.
 
 #### \*\*Tutorial: Fluxo Alternativo
 
