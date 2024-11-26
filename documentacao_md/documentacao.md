@@ -859,30 +859,39 @@ Figura x: Adicionando documento para use eDictor.
 ![Upload arquivo para transcrição](../imagens/use_edictor_3.png)
 Figura x: Upload de documento para eDictor.
 
-![Seleciona arquivo](../imagens/use_edictor_3.png)
-Figura x: Selecionando arquivo para eDictor.
-
 ![Confirma arquivo](../imagens/use_edictor_4-5.png)
 Figura x: Envio do aquivo para eDictor.
 
 4. Transcrições:
-   **Manual**: Clicar o botão "Transcrição" para abrir o campo de preenchimento manual das transcrições do texto da imagem inserida.
-   **Automática**: Clicar o botão "extrair texto de imagem" no canto superior direito para realizar a transcrição automática a partir do texto da imagem.
-5. Preencher transcrições e salvar.
-6. Clicar ícone de "ir para o modo edição" para preparar o texto para receber edições.
-7. Etiquetagem e outras edições:
-   **Manual**: Clicar sobre palavra que deseja editar e realizar as edições desejadas:
+   **Manual**: Clique o botão "Transcrição" para abrir o campo de preenchimento manual das transcrições do texto da imagem inserida.
 
-   - Operações: inserir palavras, dividir, juntar com a próxima, spliter, remover.
-   - Observações: adicionar observações.
-   - Notas de rodapé: adicionar notas de rodapé
-   - Edição da palavra original.
-   - Etiqueta POS.
-   - Flexão
-   - Botão de alternância para "Ignorar para análise automática".
-   - Botão de alternância para "Marcar esta palavra para ser revisada".
-   - Operações de edição: junção e segmentação
-   - Níveis de edição: grafia, expansão, correção, pontuação, ilegível, modernização, padronização, flexão.
+![EDictor transcrição](../imagens/use_edictor_6.png)
+
+**Automática**: Clique o botão "extrair texto de imagem"(T), no canto superior direito, para realizar a transcrição automática a partir da imagem com texto.
+
+![Extração texto de imagem](../imagens/use_edictor_11.png)
+Figura x: Transcrição automática - extrair texto da imagem
+
+5. Preenchidas as transcrições, manualmente ou automaticamente, salve as alterações clicando no ícone em [2].
+
+![Salvar transcrição](../imagens/use_edictor_7.png)
+Figura x: Salvando uma transcrição .
+
+6. Clique no ícone de "ir para o modo edição" para preparar o texto para receber edições.
+
+![Selecionando edição](../imagens/use_edictor_8.png) 7. Etiquetagem e outras edições:
+**Manual**: Clicar sobre palavra que deseja editar e realizar as edições desejadas:
+
+- Operações: inserir palavras, dividir, juntar com a próxima, spliter, remover.
+- Observações: adicionar observações.
+- Notas de rodapé: adicionar notas de rodapé
+- Edição da palavra original.
+- Etiqueta POS.
+- Flexão
+- Botão de alternância para "Ignorar para análise automática".
+- Botão de alternância para "Marcar esta palavra para ser revisada".
+- Operações de edição: junção e segmentação
+- Níveis de edição: grafia, expansão, correção, pontuação, ilegível, modernização, padronização, flexão.
 
 **Automática**: há duas maneiras de acessar as orações para realizar o _parser_ e revisar/editar a etiquetagem. Ao acessar o "exibir informações" do documento, selecionar:
 
