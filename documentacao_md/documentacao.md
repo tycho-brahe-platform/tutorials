@@ -879,11 +879,38 @@ Figura x: Salvando uma transcrição .
 
 6. Clique no ícone de "ir para o modo edição" para preparar o texto para receber edições.
 
-![Selecionando edição](../imagens/use_edictor_8.png) 7. Etiquetagem e outras edições:
-**Manual**: Clicar sobre palavra que deseja editar e realizar as edições desejadas:
+![Selecionando edição](../imagens/use_edictor_8.png)
+Figura x: Preparando texto para edição
 
-- Operações: inserir palavras, dividir, juntar com a próxima, spliter, remover.
+7. Etiquetagem e outras edições:
+   **Manual**: Clicar sobre palavra que deseja editar e realizar as edições desejadas:
+
+   **Operações**:
+   ![Menu operações](../imagens/use_edictor_24.png)
+
+- **Inserir palavras**: selecionada uma palavra da sentença, no menu "Operações" seleciona "inserir". Uma tela com espaço para preencher palavras a serem inseridas se abre. Preencha as palavras que deseja adicionar e confirme. Note que as palavras preenchidas serão inseridas após a palavra selecionada para edição na sentença;
+
+![Inserir palavras](../imagens/use_edictor_25-26.png)
+
+- **Dividir**: Divida a palavra selecionada em duas ou mais (separadas por espaços). As palavras separadas por espaços serão incluídas como novos _tokens_ na sentença e todas as informações dar parseamento serão redefinidas.
+
+![Dividir tokens](../imagens/use_edictor_27-28.png)
+Figura x: Dividindo palavras.
+
+- **Juntar com a próxima**: Com a palavra que será junta e a operação "juntar com a próxima" selecionadas, clique em "Confirmar" para juntar as palavras. Note que a palavra selecionada se juntará à seguinte na sentença e informações de parseamento serão redefinidas.
+
+![Juntar à próxima](../imagens/use_edictor_29-30.png)
+Figura x: Juntar com a próxima palavra.
+
+- **Spliter**: É possível adicionar ou remover spliter de um par de palavras. <!--[ REVISAR: VER COM O LUIZ COMO FUNCIONA - NÃO PARECE ESTAR FUNCIONAMENTO?]-->
+- **Remover** uma palavra: Selecione a palavra que deseja remover, clique em "remover" e confirme.
+
+![Remoção de palavra](../imagens/use_edictor_31.png)
+
 - Observações: adicionar observações.
+
+![Observações](../imagens/use_edictor_32.png)
+
 - Notas de rodapé: adicionar notas de rodapé
 - Edição da palavra original.
 - Etiqueta POS.
