@@ -902,16 +902,21 @@ Figura x: Dividindo palavras.
 ![Juntar à próxima](../imagens/use_edictor_29-30.png)
 Figura x: Juntar com a próxima palavra.
 
-- **Spliter**: É possível adicionar ou remover spliter de um par de palavras. <!--[ REVISAR: VER COM O LUIZ COMO FUNCIONA - NÃO PARECE ESTAR FUNCIONAMENTO?]-->
+- **Spliter**: é possível adicionar ou remover spliter de um par de palavras. <!--[ REVISAR: VER COM O LUIZ COMO FUNCIONA - NÃO PARECE ESTAR FUNCIONAMENTO?]-->
 - **Remover** uma palavra: Selecione a palavra que deseja remover, clique em "remover" e confirme.
 
 ![Remoção de palavra](../imagens/use_edictor_31.png)
+Figura x: Remoção de palavras.
 
-- Observações: adicionar observações.
+- **Observações**: é possível adicionar observações nas palavras. Clique em "Observações", preencha o campo com as observações desejadas e confirme. As palavras com observações serão grifadas no eDictor e as observações são apresentadas ao usuário passar o cursor sobre a palavra grifada.
 
 ![Observações](../imagens/use_edictor_32.png)
+Figura x: Incluindo observações.
 
-- Notas de rodapé: adicionar notas de rodapé
+- **Notas de rodapé**: é possível, também, adicionar notas de rodapé nas palavras. Com a palavra selecionada, clique em "Notas de rodapé". Preencha o campo com as notas desejadas e confirme. O token recebe um índice superior e a nota correspondente aparece no rodapé do eDictor.
+
+![Notas de rodapé](../imagens/use_edictor_33-34.png)
+
 - Edição da palavra original.
 - Etiqueta POS.
 - Flexão
