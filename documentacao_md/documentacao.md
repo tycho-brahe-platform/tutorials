@@ -883,7 +883,7 @@ Figura x: Salvando uma transcrição .
 Figura x: Preparando texto para edição
 
 7. Etiquetagem e outras edições:
-   **Manual**: Clicar sobre palavra que deseja editar e realizar as edições desejadas:
+   **Edições manuais**: Clicar sobre palavra que deseja editar e realizar as edições desejadas:
 
    **Operações**:
    ![Menu operações](../imagens/use_edictor_24.png)
@@ -916,16 +916,49 @@ Figura x: Incluindo observações.
 - **Notas de rodapé**: é possível, também, adicionar notas de rodapé nas palavras. Com a palavra selecionada, clique em "Notas de rodapé". Preencha o campo com as notas desejadas e confirme. O token recebe um índice superior e a nota correspondente aparece no rodapé do eDictor.
 
 ![Notas de rodapé](../imagens/use_edictor_33-34.png)
+Figura x: Notas de rodapé
 
-- Edição da palavra original.
-- Etiqueta POS.
-- Flexão
-- Botão de alternância para "Ignorar para análise automática".
-- Botão de alternância para "Marcar esta palavra para ser revisada".
-- Operações de edição: junção e segmentação
-- Níveis de edição: grafia, expansão, correção, pontuação, ilegível, modernização, padronização, flexão.
+- **Edição da palavra original**: é possível realizar uma edição na palavra selecionada. Selecione a palavra desejada; no campo "Palavra original" realize as edições desejadas e clique em "Salvar".
 
-**Automática**: há duas maneiras de acessar as orações para realizar o _parser_ e revisar/editar a etiquetagem. Ao acessar o "exibir informações" do documento, selecionar:
+![Editar palavra original](../imagens/use_edictor_36.png)
+Figura x: Editando as palavras originais.
+
+- **Etiqueta POS**: selecione a palavra que deseja etiquetar; clique sobre o campo "Etiquetas POS" para abrir um menu suspenso com as opçõs de etiquetas POS; selecione a etiqueta apropriada; clique em "Salvar".
+
+![Etiquetas POS](../imagens/use_edictor_36-37.png)
+Figura x: Etiquetando POS.
+
+- **Flexão**: além da etiqueta POS, também é possível marcar etiquetas de flexão (1,2,3S e 1,2,3P). Clique no campo "Flexão" para abrir o menu suspenso; selecione a flexão desejada e clique em "Salvar".
+
+![Flexão](../imagens/use_edictor_38-39.png)
+Figura x: Etiquetas de flexão
+
+- **Ignorar para análise automática**: esta botão de alternância marca a palavra selecionada para ser ignorada pela análise automática. Essa operação altera a estrutura sintática e todas as informações de análise são redefinidas. Com a palavra selecionada, clique no botão de alternância "Ignorar para análise automática", leia a mensagem de aviso e clique em "Confirmar".
+
+![Ignorar para análise automática](../imagens/use_edictor_40.png)
+Figura X: Ignorar palavra para análise automática.
+
+- "**Marcar esta palavra para ser revisada**": este botão de alternância grifa a palavra, marcando-a como palavra a ser revisada.
+
+![Marcar para revisão](../imagens/use_edictor_41.png)
+Figura x: Marcar palavra para revisão
+
+- **Operações de edição**:
+  <!--[REVISAR: pedir Luiz exemplos de segmentação e junção para entender melhor o objetivo destas funcionalidades-->
+  - junção: é possível inserir junções. Selecione uma palavra, preencha o campo "junção" e clique no botão azul para confirmar.
+  - segmentação: é possível incluir segmentações. Selecione a palavra, preencha o campo "segmentação" e clique no botão azul para confirmar.
+
+![Junção e segmentação](../imagens/use_edictor_42.png)
+Figura x: Junção e Segmentação.
+
+- **Níveis de edição**: é possível preencher diversos níveis de edição da palavra selecionada.Selecione a palavra desejada, preencha os diversos Níveis de edição: grafia, expansão, correção, pontuação, ilegível, modernização, padronização, flexão. A palavra cujo preenchimento dos níveis de edição for realizado fica grifada, e as informações são apresentadas sob contato do cursor.
+
+![Níveis de edição](../imagens/use_edictor_43-44.png.png)
+Figura x: Níveis de edição.
+
+<!--PAREI AQUI: 2/12-->
+
+**Edições automáticaa**: há duas maneiras de acessar as orações para realizar o _parser_ e revisar/editar a etiquetagem. Ao acessar o "exibir informações" do documento, selecionar:
 
 - **"Continuar anotação sintática"** (Continue a partir da última sentença revisada): Ao acessar esta área, a plataforma apresenta a primeira sentença do documento (e se o parser já tiver sido aplicado previamente, apresenta também a árvore que corresponde à sentença). É possível navegar entre as sentenças através das setas do lado direito superior.
   1. Para rodar o _parser_ na sentença selecionada é necessário que um parser tenha sido associado ao corpus previamente. Em caso afirmativo, clicar em no ícone de "parser" no canto superior direito.
@@ -933,7 +966,7 @@ Figura x: Incluindo observações.
 
 Outras informações a ações são disponibilizadas neste tela: abrir comentários, ver manuais de anotação sintática, salvar, desfazer/refazer, aplicar layout, histórico, juntar à próxima sentença, debugar _parser_, e por fim, marcar status de revisão de etiquetagem da sentença (a fazer, como pronta, para revisão).
 
-- **Revisar etiquetas POS**: Ao se acessar esta área, a plataforma apresenta as sentenças do documento para que o usuário possar realizar uma revisão da etiquetagem. Se o _parsing_ já tiver sido previamente realizado na sentença, ela apresenta as etiquetas atribuídas. Do contrário, a camada de etiquetagem POS fica com _vazio_ atribuído a todas os tokens.
+- **Revisar etiquetas POS**: Ao se acessar esta área, a plataforma apresenta as sentenças do documento para que o usuário possar realizar uma revisão da etiquetagem. Se o _parsing_ já tiver sido previamente realizado na sentença, ela apresenta as etiquetas atribuídas. Do contrário, a camada de etiquetagem POS fica com a etiqueta "vazio" atribuída a todas os tokens.
 
   1. Para rodar o parser na sentença desejada (caso a sentença ainda não tenha sido etiquetada), clicar no ícone "▶️" do lado esquerdo da sentença alvo.
   2. É possível também realizar edições manuais em cada uma das etiquetas nas palavras da sentença: clicar sobre a etiqueta (ou "vazio"), selecionar a etiqueta desejada e inflexão e confirmar.
