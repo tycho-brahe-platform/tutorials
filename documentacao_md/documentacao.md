@@ -1204,7 +1204,7 @@ A Ferramenta de Pesquisa possibilita ao usuário realizar pesquisas nos corpora 
 
    1. **Pesquisa simples**:
       1. Selecionar o botão **Pesquisa simples**
-      2. Preencher o campo com a expressão de busca utilizando sintaxe de expressão regular (regex).
+      2. Preencher o campo com a expressão de busca utilizando partes de palavra, palavra completa, palavra + POS, múltiplas palavras, múltiplas palavras em sequência, múltiplas palavras com etiquetas POS, palavra + experssão regular ou múltiplas palavras com expressão regular.
       3. Clicar em "Executar pesquisa"
    2. **Pesquisa sintática** - escolher um dos modos da pesquisa Modo 1- Default: selecionar rótulos nas listas suspensas; Modo 2 - Escreva sua pesquisa: escrever a expressão de busca e converter):
       1. Modo 1 - Default
@@ -1254,8 +1254,9 @@ Figura x: Selecionando corpus para realizar uma pesquisa. 4. Escolha o tipo de p
 **Pesquisa simples**:
 
 1. Selecione o botão **Pesquisa simples**
-2. Preencha o campo com a expressão de busca utilizando sintaxe de expressão regular (regex).
-3. Clique em "Executar pesquisa"
+2. Preencha o campo com a expressão de busca utilizando partes de palavra, palavra completa, palavra + POS, múltiplas palavras, múltiplas palavras em sequência, múltiplas palavras com etiquetas POS, palavra + experssão regular ou múltiplas palavras com expressão regular.
+
+![Tipos de busca](../imagens/busca_simples_exs.png) 3. Clique em "Executar pesquisa"
 
 ![Pesquisa simples](../imagens/busca_7.png)
 Figura x: Relizando uma Pesquisa Simples.
