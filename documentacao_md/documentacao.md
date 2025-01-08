@@ -14,9 +14,9 @@ SUMÁRIO
 
 - [DOCUMENTAÇÃO PLATAFORMA TYCHO BRAHE (TYCHO BRAHE PLATAFORM)](#documentação-plataforma-tycho-brahe-tycho-brahe-plataform)
   - [Introdução](#introdução)
-  - [Caso de Uso 00 - Acesso à tela inicial de perfil do usuário](#caso-de-uso-00---acesso-à-tela-inicial-de-perfil-do-usuário)
-    - [Descrição Caso de uso 00 - Acesso à tela inicial de perfil do usuário](#descrição-caso-de-uso-00---acesso-à-tela-inicial-de-perfil-do-usuário)
-    - [Diagrama do Caso de uso 00 - Acesso à tela inicial de perfil do usuário](#diagrama-do-caso-de-uso-00---acesso-à-tela-inicial-de-perfil-do-usuário)
+  - [Caso de Uso 00 - Sign in e acesso à tela inicial de perfil do usuário cadastrado](#caso-de-uso-00---sign-in-e-acesso-à-tela-inicial-de-perfil-do-usuário-cadastrado)
+    - [Descrição Caso de uso 00 - Sign in e acesso à tela inicial de perfil do usuário](#descrição-caso-de-uso-00---sign-in-e-acesso-à-tela-inicial-de-perfil-do-usuário)
+    - [Diagrama do Caso de uso 00 - Sign in e acesso à tela inicial de perfil do usuário](#diagrama-do-caso-de-uso-00---sign-in-e-acesso-à-tela-inicial-de-perfil-do-usuário)
     - [Tutorial:](#tutorial)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal)
       - [**Tutorial: Fluxo Alternativo**](#tutorial-fluxo-alternativo)
@@ -30,77 +30,72 @@ SUMÁRIO
     - [Tutorial: Como se cadastrar em um corpus - Guia do usuário final](#tutorial-como-se-cadastrar-em-um-corpus---guia-do-usuário-final)
       - [**Tutorial: Fluxo normal (usuários não cadastrados previamente em nenhum dos corpora)**](#tutorial-fluxo-normal-usuários-não-cadastrados-previamente-em-nenhum-dos-corpora)
       - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-1)
-  - [Caso de uso 02 - Realizar _Sign in_ na Área Reservada](#caso-de-uso-02---realizar-sign-in-na-área-reservada)
-    - [Descrição do Caso de uso 02 - Realizar _Sign in_ na Área Reservada](#descrição-do-caso-de-uso-02---realizar-sign-in-na-área-reservada)
-    - [Diagramas do Caso de uso 02 - Sign in](#diagramas-do-caso-de-uso-02---sign-in)
-    - [Tutorial: _Sign in_ de usuários](#tutorial-sign-in-de-usuários)
-      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-2)
-  - [Caso de uso 03 - Solicitar cadastro](#caso-de-uso-03---solicitar-cadastro)
-    - [Descrição Caso de uso 03](#descrição-caso-de-uso-03)
-    - [Diagramas do Caso de uso 03 - Solicitar cadastro](#diagramas-do-caso-de-uso-03---solicitar-cadastro)
+  - [Caso de uso 02 - Solicitar cadastro](#caso-de-uso-02---solicitar-cadastro)
+    - [Descrição Caso de uso 02](#descrição-caso-de-uso-02)
+    - [Diagramas do Caso de uso 02 - Solicitar cadastro](#diagramas-do-caso-de-uso-02---solicitar-cadastro)
     - [Tutorial: Solicitar cadastro na plataforma](#tutorial-solicitar-cadastro-na-plataforma)
-      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-3)
-  - [Caso de uso 04 - Criação, configuração e edição dos corpora](#caso-de-uso-04---criação-configuração-e-edição-dos-corpora)
-    - [Descrição Subcaso de uso 04.1 - Criação de corpora](#descrição-subcaso-de-uso-041---criação-de-corpora)
-    - [Diagrama do subcaso de uso 04.1 - Criação de corpora](#diagrama-do-subcaso-de-uso-041---criação-de-corpora)
+      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-2)
+  - [Caso de uso 03 - Criação, configuração e edição dos corpora](#caso-de-uso-03---criação-configuração-e-edição-dos-corpora)
+    - [Descrição Subcaso de uso 03.1 - Criação de corpora](#descrição-subcaso-de-uso-031---criação-de-corpora)
+    - [Diagrama do Subcaso de uso 03.1 - Criação de corpora](#diagrama-do-subcaso-de-uso-031---criação-de-corpora)
     - [Tutorial: Criação de corpora](#tutorial-criação-de-corpora)
-      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-4)
-    - [Descrição Subcaso de uso 04.2 - Configuração dos corpora](#descrição-subcaso-de-uso-042---configuração-dos-corpora)
-    - [Diagrama do Caso de uso 04.2 - Configuração de corpora](#diagrama-do-caso-de-uso-042---configuração-de-corpora)
+      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-3)
+    - [Descrição Subcaso de uso 03.2 - Configuração dos corpora](#descrição-subcaso-de-uso-032---configuração-dos-corpora)
+    - [Diagrama do Caso de uso 03.2 - Configuração de corpora](#diagrama-do-caso-de-uso-032---configuração-de-corpora)
     - [Tutorial: Configuração de corpora](#tutorial-configuração-de-corpora)
-      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-5)
-  - [Caso de uso 05 - Ferramenta **Use eDictor**](#caso-de-uso-05---ferramenta-use-edictor)
-    - [Descrição Caso de uso 05](#descrição-caso-de-uso-05)
-    - [Diagrama do Caso de uso 05 - **Use eDictor**](#diagrama-do-caso-de-uso-05---use-edictor)
+      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-4)
+  - [Caso de uso 04 - Ferramenta **Use eDictor**](#caso-de-uso-04---ferramenta-use-edictor)
+    - [Descrição Caso de uso 04](#descrição-caso-de-uso-04)
+    - [Diagrama do Caso de uso 04 - **Use eDictor**](#diagrama-do-caso-de-uso-04---use-edictor)
     - [Tutorial:](#tutorial-1)
-      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-6)
+      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-5)
       - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-2)
     - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver)
       - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal-)
       - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-3)
-  - [Caso de uso 06 - Ferramenta **eDictor Translations**](#caso-de-uso-06---ferramenta-edictor-translations)
-    - [Descrição Caso de uso 06.01 - Edição de corpora (Inserir, editar e remover sentenças) ](#descrição-caso-de-uso-0601---edição-de-corpora-inserir-editar-e-remover-sentenças-)
-    - [Diagrama do Caso de uso 06.01 - **Use eDictor Translations: Edição de corpora**](#diagrama-do-caso-de-uso-0601---use-edictor-translations-edição-de-corpora)
+  - [Caso de uso 05 - Ferramenta **eDictor Translations**](#caso-de-uso-05---ferramenta-edictor-translations)
+    - [Descrição Subcaso de uso 05.01 - Edição de corpora (Inserir, editar e remover sentenças) ](#descrição-subcaso-de-uso-0501---edição-de-corpora-inserir-editar-e-remover-sentenças-)
+    - [Diagrama do Subcaso de uso 05.01 - **Use eDictor Translations: Edição de corpora**](#diagrama-do-subcaso-de-uso-0501---use-edictor-translations-edição-de-corpora)
     - [Tutorial:](#tutorial-2)
-      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-7)
+      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-6)
       - [**Tutorial: Fluxo alternativo:**](#tutorial-fluxo-alternativo-4)
-  - [Caso de uso 07 - Ferramenta de Pesquisa](#caso-de-uso-07---ferramenta-de-pesquisa)
-    - [Descrição Caso de uso 07 - Ferramenta de Pesquisa](#descrição-caso-de-uso-07---ferramenta-de-pesquisa)
-    - [Diagrama do Caso de uso 07 - FERRAMENTA DE PESQUISA](#diagrama-do-caso-de-uso-07---ferramenta-de-pesquisa)
+  - [Caso de uso 06 - Ferramenta de Pesquisa](#caso-de-uso-06---ferramenta-de-pesquisa)
+    - [Descrição Caso de uso 06 - Ferramenta de Pesquisa](#descrição-caso-de-uso-06---ferramenta-de-pesquisa)
+    - [Diagrama do Caso de uso 06 - FERRAMENTA DE PESQUISA](#diagrama-do-caso-de-uso-06---ferramenta-de-pesquisa)
     - [Tutorial:](#tutorial-3)
-      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-8)
-  - [Caso de uso 08 - Visualizador de corpora](#caso-de-uso-08---visualizador-de-corpora)
-    - [Descrição Caso de uso 08](#descrição-caso-de-uso-08)
-    - [Diagrama do Caso de uso 08 - Visualizador de corpora](#diagrama-do-caso-de-uso-08---visualizador-de-corpora)
+      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-7)
+  - [Caso de uso 07 - Visualizador de corpora](#caso-de-uso-07---visualizador-de-corpora)
+    - [Descrição Caso de uso 07](#descrição-caso-de-uso-07)
+    - [Diagrama do Caso de uso 07 - Visualizador de corpora](#diagrama-do-caso-de-uso-07---visualizador-de-corpora)
     - [Tutorial:](#tutorial-4)
-      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-9)
+      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-8)
       - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-5)
     - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-1)
       - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--1)
       - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-6)
-  - [Caso de uso 09 - Synviewer](#caso-de-uso-09---synviewer)
+  - [Caso de uso 08 - Synviewer](#caso-de-uso-08---synviewer)
     - [Descrição Caso de uso X](#descrição-caso-de-uso-x)
-    - [Diagrama do Caso de uso 09 - Synviewer](#diagrama-do-caso-de-uso-09---synviewer)
+    - [Diagrama do Caso de uso 08- Synviewer](#diagrama-do-caso-de-uso-08--synviewer)
     - [Tutorial:](#tutorial-5)
-      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-10)
+      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-9)
       - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-7)
     - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-2)
       - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--2)
       - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-8)
-  - [Caso de uso 10 - Parser ](#caso-de-uso-10---parser-)
-    - [Descrição Caso de uso 10](#descrição-caso-de-uso-10)
-    - [Diagrama do Caso de uso 10 - Parser](#diagrama-do-caso-de-uso-10---parser)
+  - [Caso de uso 09 - Parser ](#caso-de-uso-09---parser-)
+    - [Descrição Caso de uso 09](#descrição-caso-de-uso-09)
+    - [Diagrama do Caso de uso 09 - Parser](#diagrama-do-caso-de-uso-09---parser)
     - [Tutorial:](#tutorial-6)
-      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-11)
+      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-10)
       - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-9)
     - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-3)
       - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--3)
       - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-10)
-  - [Caso de uso 11 - IO (Importação e Exportação)](#caso-de-uso-11---io-importação-e-exportação)
-    - [Descrição Caso de uso 11 - IO (Importação e Exportação)](#descrição-caso-de-uso-11---io-importação-e-exportação)
-    - [Diagrama do Caso de uso 11 - IO (Importação e Exportação)](#diagrama-do-caso-de-uso-11---io-importação-e-exportação)
+  - [Caso de uso 10 - IO (Importação e Exportação)](#caso-de-uso-10---io-importação-e-exportação)
+    - [Descrição Caso de uso 10 - IO (Importação e Exportação)](#descrição-caso-de-uso-10---io-importação-e-exportação)
+    - [Diagrama do Caso de uso 10 - IO (Importação e Exportação)](#diagrama-do-caso-de-uso-10---io-importação-e-exportação)
     - [Tutorial:](#tutorial-7)
-      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-12)
+      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-11)
       - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-11)
     - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-4)
       - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--4)
@@ -108,7 +103,7 @@ SUMÁRIO
 
 ## Introdução
 
-A Plataforma Tycho Brahe representa um marco na área de linguística computacional, oferecendo um ambiente online integrado para a criação, análise e gestão de corpora linguísticos anotados sintaticamente. Esta ferramenta abrange todo o processo de
+A Plataforma Tycho Brahe é uma ferramenta avançada para o estudo e análise linguística, oferecendo um ambiente online integrado para a criação, análise e gestão de corpora linguísticos anotados sintaticamente. A plataforma abrange todo o processo de
 desenvolvimento de corpora, desde a etapa inicial de transcrição até a aplicação de técnicas avançadas de processamento linguístico, anotação e busca.
 
 Dentre as funcionalidades mais notáveis da Plataforma Tycho Brahe, citam-se:
@@ -121,7 +116,7 @@ Dentre as funcionalidades mais notáveis da Plataforma Tycho Brahe, citam-se:
 
 A Plataforma Tycho Brahe desempenha um papel crucial na preservação e no estudo de línguas ameaçadas. Sua flexibilidade e abrangência a tornam uma ferramenta valiosa para linguistas, educadores e comunidades linguísticas, promovendo avanços tanto na pesquisa acadêmica quanto na manutenção da diversidade linguística.
 
-Este documento detalha o uso da Plataforma Tycho Brahe, uma ferramenta avançada para o estudo e análise linguística. A plataforma oferece uma gama de funcionalidades projetadas para facilitar a pesquisa e o trabalho com corpora linguísticos.
+Este documento detalha o uso da Plataforma Tycho Brahe. A plataforma oferece uma gama de funcionalidades projetadas para facilitar a pesquisa e o trabalho com corpora linguísticos.
 
 Entre as principais características da Plataforma Tycho Brahe, destacam-se:
 
@@ -136,15 +131,20 @@ Nas seções a seguir, serão apresentadas as diversas funcionalidades da plataf
 
 ---
 
-## Caso de Uso 00 - Acesso à tela inicial de perfil do usuário
+## Caso de Uso 00 - Sign in e acesso à tela inicial de perfil do usuário cadastrado
 
-A tela inicial do perfil do usuário, acessada por meio do link "Área reservada", na página inicial da plataforma, apresenta as seguintes informações.
+O Sign in permite ao usuário acessar a plataforma com segurança.
+Este processo envolve somente o usuário previamente cadastrado.
+Como será apresentado, o usuário terá acesso à plataforma por meio de um _login_ Google.
+A Área Reservada dá acesso ao Catálogo, eDictor, Syntrees, Parser e Centro Administrativo.
+
+A tela inicial de perfil do usuário cadastrado, acessada por meio do link "Área reservada", na página inicial da plataforma, apresenta as seguintes informações.
 
 1. **Meu Perfil**, com Informações do usuário, como e-mail, Nome, Informações acadêmicas e Idioma de preferência.
 2. **Meus corpora**, que apresenta os corpora disponíveis associados ao perfil logado.
 3. **Minhas Ferrametentas**, que disponibiliza as ferramentas disponíveis para o usuário logado, de acordo com as permissões de acesso configuradas.
 
-### Descrição Caso de uso 00 - Acesso à tela inicial de perfil do usuário
+### Descrição Caso de uso 00 - Sign in e acesso à tela inicial de perfil do usuário
 
 **Atores primários**:
 
@@ -153,7 +153,7 @@ A tela inicial do perfil do usuário, acessada por meio do link "Área reservada
 
 **Pré-requisitos:**
 
-1. Usuário deve estar logado; Para uso de algumas ferramentas, usuário deve ter permissão de admin.
+1. Usuário cadastrado deve estar logado; Para uso de algumas ferramentas, usuário deve ter permissão de admin.
 
 **Fluxo normal:**
 
@@ -168,27 +168,37 @@ A tela inicial do perfil do usuário, acessada por meio do link "Área reservada
 1. Usuário acessa o link <https://www.tycho.iel.unicamp.br/platform> diretamente, sem passar pela página inicial da plataforma e "Área reservada".
 2. Retoma a partir do passo 3 do Fluxo normal
 
-### Diagrama do Caso de uso 00 - Acesso à tela inicial de perfil do usuário
+### Diagrama do Caso de uso 00 - Sign in e acesso à tela inicial de perfil do usuário
 
 !["Diagrama acesso ao perfil"](../imagens/perfil_usuario.png)
-Figura x: Diagrama do Caso de Uso 00 - Acesso à tela inicial de perfil do usuário.
+Figura x: Diagrama do Caso de Uso 00 - Sign in e acesso à tela inicial de perfil do usuário.
 
 ### Tutorial:
 
 **Objetivo:**
-Este tutorial detalha os fluxos para acesso à tela de perfil do usuário.
+Este tutorial detalha o processo para o usuário realizar o Sign in na plataforma e acessar a tela inicial do perfil do usuário. Em um fluxo normal, o usuário já foi previamente cadastrado com um e-mail Google. Caso contrário, veja Caso de uso 02 - Solicitar cadastro para realizar a solicitação junto aos administradores da plataforma.
 
 #### **Tutorial: Fluxo normal**
 
 1. Acesse a página _home_ da plataforma através do link: <https://www.tycho.iel.unicamp.br/home>.
 2. Na área de "Ferramentas", o Usuário acessa "Área reservada" para ser redirecionado ao _login_.
 
-!["Acessando Área reservada"](../imagens/acesso_area_reservada.png)
+!["Acessando Área reservada"](../imagens/tycho_home_signin.png)
 Figura x: Acessando "Área reservada".
 
-3. Realize o _login_ com o Google. Após _login_ o Usuário é redirecionado à página inicial do perfil, onde são dispostas as áreas **Meu Perfil**, com Informações do usuário, como e-mail, Nome, Informações acadêmicas e Idioma de preferência, que podem eventualmente serem editadas <!-- REVISAR CRÍTICO: avisar ao Luiz que as edições não são perpetuadas na base, não ficam salvas-->, **Meus corpora**, que apresenta os corpora disponíveis associados ao perfil logado e **Minhas Ferrametentas**, que disponibiliza as ferramentas disponíveis para o usuário logado, de acordo com as permissões de acesso configuradas.
+3. Realize o _login_ com o Google. Selecione a conta salva no sistema ou preencha os dados da sua conta Google cadastrada na Plataforma Tycho Brahe.
 
-!["Tela de perfil do usuário"](../imagens/perfil_plataforma.png)
+![Login google](../imagens/login_google.png)
+Figura x: Seleção de conta Google
+
+Ou
+
+![Tela de login](../imagens/tycho_home_signin2.png)
+Figura X: Login in com o Google</figcaption>
+
+4. Após _login_ o Usuário é redirecionado à página inicial do perfil, onde são dispostas as áreas **Meu Perfil**, com Informações do usuário, como e-mail, Nome, Informações acadêmicas e Idioma de preferência, que podem eventualmente ser editadas <!-- REVISAR CRÍTICO: avisar ao Luiz que as edições não são perpetuadas na base, não ficam salvas-->, **Meus corpora**, que apresenta os corpora disponíveis associados ao perfil logado e **Minhas Ferrametentas**, que disponibiliza as ferramentas disponíveis para o usuário logado, de acordo com as permissões de acesso configuradas.
+
+!["Tela de perfil do usuário"](../imagens/area_reservada_perfil.png)
 Figure x: Tela inicial - perfil de usuário
 
 Observe que para cada um dos corpora disponíveis para trabalho pelo usuário, são também disponibilizados botões de acesso rápido:
@@ -197,14 +207,14 @@ Observe que para cada um dos corpora disponíveis para trabalho pelo usuário, s
 
 #### **Tutorial: Fluxo Alternativo**
 
-1. Acesse o link da plataforma/perfil <https://www.tycho.iel.unicamp.br/platform> diretamente, sem passar pela página inicial da plataforma e acessar a "Área reservada".
+1. Acesse o link da plataforma/perfil <https://www.tycho.iel.unicamp.br/platform> diretamente, sem passar pela página inicial da plataforma e acesse a "Área reservada".
 2. Retome a partir do passo 3 do Fluxo normal
 
 ---
 
 ## Caso de uso 01 - Cadastro de novos usuários nos corpora da plataforma
 
-O processo de cadastro na Plataforma Tycho Brahe é um procedimento essencial para garantir o acesso controlado e seguro aos corpora linguísticos. Este processo envolve tanto administradores quanto usuários finais, cada um com papéis específicos no fluxo de cadastro.
+O processo de cadastro na Plataforma Tycho Brahe é um procedimento essencial para garantir o acesso controlado e seguro aos corpora. Este processo envolve tanto administradores quanto usuários finais, cada um com papéis específicos no fluxo de cadastro.
 
 Para os administradores, o processo inclui a criação de convites, configuração de permissões e envio de links de "onboarding" para novos usuários. Já para os usuários finais, o processo consiste em receber o convite, acessar o link de "onboarding" e inserir o código de acesso fornecido.
 
@@ -294,7 +304,7 @@ Antes de iniciar o processo de cadastro de um usuário, certifique-se de que o c
 
     1. **Administrador**: todos os corpora disponíveis para o Administrador aparecem na sua página inicial, através do link <https://www.tycho.iel.unicamp.br/admin> (e devido login), listados com os campos: Nome, Type, Status No. of documents, No. of words, No. of users. Verifique se o corpus que deseja gerenciar está disponível (note que são exibidos 10 resultados por página, e que pode haver várias páginas de corpora - então navegue em todas as páginas para verificar a presença do corpus alvo).<br><br>!["t"](../imagens/corpus_selecionado.png)
        Figura x: Tela inicial Administrador.<br><br>
-    2. **Usuário com permissão de admin**: O Usuário admin tem acesso aos corpora aos quais está vínculado após o acesso pela "Área reservada" e o seu login, como em [2], e acesso a área de gerenciamento do corpus através do botão "Admin" (em [3]), como apresentado na Figura x a seguir:<br><br>
+    2. **Usuário com permissão de admin**: O Usuário admin tem acesso aos corpora aos quais está vínculado após o acesso pela "Área reservada" e o seu login, como no Caso de uso 00 -Tutorial:fluxo normal [2], e acesso à área de gerenciamento do corpus através do botão "Admin" na área "Meus corpora" (em Caso de uso 00 - Tutorial: fluxo normal[4]), como apresentado na Figura x a seguir:<br><br>
        !["Acesso aos corpora por Usuário admin"](../imagens/perfil_plataforma.png)
        Figura x: Tela inicial perfil - Área reservada
 
@@ -311,7 +321,7 @@ Antes de iniciar o processo de cadastro de um usuário, certifique-se de que o c
 4.  **Acessar "Access Control**: Na primeira tela de administração do corpus, são apresentadas informações gerais, como nome, um atalho URL, os parsers etc. No painel do corpus, clique na aba "Access Control" para gerenciar as permissões de acesso.<![](../imagens/corpus_selecionado_access_control.png)
     Figura x: Pagina inicial do corpus selecionado - Controle de acesso<br><br>
 
-    Ao acessar o “Access Control”, a plataforma apresenta uma página com os atuais usuários com permissões no corpus selecionado, como mostra a Figura a seguir. Com botão “Users” selecionado, é apresentado o usuário com os seguintes campos - “Name”, “status”, “Role”.
+    Ao acessar o “Access Control”, a plataforma apresenta uma página com os atuais usuários com permissões no corpus selecionado, como mostra a Figura x a seguir. Com botão “Users” selecionado, é apresentado o usuário com os seguintes campos - “Name”, “status”, “Role”.
 
 !["Área de controle de acesso"](../imagens/access_control_acessado.png)
 
@@ -354,13 +364,13 @@ Se o usuário ainda não estiver na base de dados da plataforma, siga estas etap
 
 <!--REVISAR:INSERIR IMAGEM-->
 
-3. **Adicionar Novo Usuário**: Na tela /admin (<https://www.tycho.iel.unicamp.br/admin>) <!-- REVISAR:MANTER LINK?-->, selecione o corpus ou por meio da "Área reservada"(selecione o "Acesso rápido"-"Admin"). No painel de "Access Control", com o botão “Users” selecionado, clique em "+ Add New" para adicionar o usuário à base de dados.
-4. **Selecionar o E-mail do Usuário**: No campo de busca, preencha o nome ou e-mail do usuário (são apresentados candidatos salvos na base de dados com base no termo de busca preenchido). Escolha o nome/e-mail do usuário que você deseja cadastrar no menu drop down.
+1. **Adicionar Novo Usuário**: Na tela /admin (<https://www.tycho.iel.unicamp.br/admin>) <!-- REVISAR:MANTER LINK?-->, selecione o corpus ou por meio da "Área reservada"(selecione o "Acesso rápido"-"Admin"). No painel de "Access Control", com o botão “Users” selecionado, clique em "+ Add New" para adicionar o usuário.
+2. **Selecionar o E-mail do Usuário**: No campo de busca, preencha o nome ou e-mail do usuário (são apresentados candidatos salvos na base de dados com base no termo de busca preenchido). Escolha o nome/e-mail do usuário que você deseja cadastrar no menu drop down.
    !["Vincular usuário presente na base de dados ao corpus"](../imagens/selecao_usuario_lista.png)
    Figura x: Vincular usuário ao corpus
 
-5. **Configurar Permissões e Confirmar**: Siga o Passo 5 (c e d) do fluxo normal para configurar as permissões e confirme o cadastro.
-6. Usuário recém cadastrado deve logar-se novamente para verificar sucesso de cadastro.
+3. **Configurar Permissões e Confirmar**: Siga o Passos 6 e 7 do fluxo normal para configurar as permissões e confirme o cadastro.
+4. Usuário recém cadastrado deve logar-se novamente para verificar sucesso de cadastro.
 
 #### **Tutorial: Fluxo Alternativo 2 - Usuário já presente na Base de Dados, vinculado a outro corpus**
 
@@ -368,7 +378,7 @@ Se o usuário já estiver cadastrado em outro corpus, siga estas etapas:
 
 1. **Adicionar novo usuário**: Acesse o link "admin" <https://www.tycho.iel.unicamp.br/admin> e selecione um corpus, ou por meio da "Área reservada"(selecione o "Acesso rápido"-"Admin"). No painel de "Access Control", com o botão “Users” selecionado, clique em "+ Add New". (Ver Figura x acima)
 2. **Selecionar o e-mail do usuário**: Escolha o e-mail do usuário na lista (super-usuários e e-mails já cadastrados no corpus não aparecerão como opção). (Ver Figura x acima)
-3. **Configurar Permissões e Confirmar**: Siga o Passo 6 (.3 e .4) do fluxo normal para configurar as permissões e confirme o cadastro.
+3. **Configurar Permissões e Confirmar**: Siga o Passo 6 e 7 do fluxo normal para configurar as permissões e confirme o cadastro.
 
 ### Tutorial: Como se cadastrar em um corpus - Guia do usuário final
 
@@ -383,85 +393,24 @@ Se o usuário já estiver cadastrado em outro corpus, siga estas etapas:
 5. **Preencher o Código**: Insira o código de acesso fornecido no campo correspondente.
 6. **Confirmar Cadastro**: Após preencher o código, clique em "Confirmar".
    !["Preenchendo código de acesso"](../imagens/preencher_codigo_acesso.png)
-   Figura 9: Tela de inserção de código de acesso. <br><br>
+   Figura x: Tela de inserção de código de acesso. <br><br>
 
-7. **Acesso ao Sistema**: O usuário deve tentar realizar o sign in para certificar-se de que o cadastro foi realizado com sucesso. Se o sign in for bem-sucedido, o usuário poderá acessar o corpus com as permissões definidas pelo administrador do corpus.
+7. **Acesso ao Sistema**: O usuário deve tentar realizar o _sign in_ para certificar-se de que o cadastro foi realizado com sucesso. Se o _sign in_ for bem-sucedido, o usuário poderá acessar o corpus com as permissões definidas pelo seu administrador.
 
 #### **Tutorial: Fluxo alternativo**
 
 1. **Receber Link onboarding**: Aguarde o e-mail ou mensagem com o link de "onboarding" enviado pelo administrador da plataforma.
 2. **Acessar o link**: No e-mail ou mensagem recebida, copie o link de "/onboarding" fornecido pelo administrador, insira no navegador.
 3. **Acessar Página de perfil**: Você será redirecionado para uma página de perfil na plataforma. Como é o primeiro acesso, não haverá corpora vinculados na área “Meus corpora”. Esse acesso salva o seu e-mail na base de dados permitindo que o Admin consiga vincular o seu perfil ao corpus desejado.
-4. **Acesso ao Sistema**: O usuário deve tentar realizar o sign in para certificar-se de que o cadastro foi realizado com sucesso. Se o sign in for bem-sucedido, o usuário poderá acessar o corpus com as permissões definidas pelo administrador.
+4. **Acesso ao Sistema**: O usuário deve tentar realizar o _sign in_ para certificar-se de que o cadastro foi realizado com sucesso. Se o _sign in_ for bem-sucedido, o usuário poderá acessar o corpus com as permissões definidas pelo administrador.
 
 ---
 
-## Caso de uso 02 - Realizar _Sign in_ na Área Reservada
-
-O Sign in seguro permite ao usuário acessar a plataforma com segurança.
-Este processo envolve somente o usuário previamente cadastrado.
-Como será apresentado, o usuário terá acesso à plataforma por meio de um login Google.
-A Área Reservada dá acesso ao Catálogo, eDictor, Syntrees, Parser e Centro Administrativo.
-
-### Descrição do Caso de uso 02 - Realizar _Sign in_ na Área Reservada
-
-**Ator primário**:
-
-1. Usuário
-
-**Pré-requisitos:**
-
-1. Para realizar o _sign in_, é necessário que o usuário tenha sido previamente cadastrado com um e-mail da google (.gmail). Para solicitar o cadastramento, veja Caso de uso 03. O _sign in_ é feito com o perfil google do usuário uma vez que o e-email tenha sido cadastrado na plataforma Tycho Brahe.
-
-**Fluxo normal (usuário já cadastrado na plataforma):**
-
-1. O usuário acessa a página inicial da plataforma Tycho Brahe no endereço <https://www.tycho.iel.unicamp.br/home> .
-2. O usuário acessa a "Área Reservada".
-3. O usuário clica no botão “Fazer login com o Google” e abre-se uma janela de seleção a conta Google com a qual deseja realizar o sign in na plataforma Tycho Brahe (conta já cadastrada no processo de cadastro na plataforma). No caso de não ser o primeiro _sign in_, a conta já utilizada anteriormente já aparece como primeira opção.
-
-### Diagramas do Caso de uso 02 - Sign in
-
-!["Diagrama Caso de uso 02"](../imagens/caso02_diagrama.png)
-Figura 10: Diagrama Caso de uso 02
-
-### Tutorial: _Sign in_ de usuários
-
-**Objetivo:** Este tutorial detalha o processo para o usuário realizar o Sign in na plataforma. Em um fluxo normal, o usuário já foi previamente cadastrado com um e-mail Google. Caso contrário, veja Caso de uso 3 - Solicitar cadastro para realizar a solicitação junto aos administradores da plataforma.
-
-#### **Tutorial: Fluxo normal**
-
-1. Acesse a página inicial da plataforma Tycho Brahe, disponível no link: <https://www.tycho.iel.unicamp.br/home>.
-2. Na área de Ferramentas, selecione o botão de “Área Reservada”. (o usuário é redirecionado a uma janela para preencher credenciais da conta Google para continuar.
-
-<figure>
-<img src = "../imagens/tycho_home_signin.png" alt = "Tela de signin">
-
-<figcaption>Figura X:  Sign in Área Reservada</figcaption>
-</figure>
-
-3. Clique em "Fazer login com o Google". Selecione uma conta já logada anteriormente, ou preencha as credenciais Google (se não tiver logado anteriormente) e clique em "Próxima". Preencha a senha e confirme.
-
-<figure>
-<img src = "../imagens/tycho_home_signin2.png" alt = "Tela de signin">
-
-<figcaption>Figura X: Login in com o Google</figcaption>
-</figure>
-
-4. Se o “_Sign in_” for bem-sucedido, o usuário é direcionado à sua página de perfil, que apresenta suas informações, os corpora associados ao seu perfil e o nível de acesso:
-
-<figure>
-<img src = "../imagens/area_reservada_perfil.png" alt = "Sign in bem-sucedido">
-
-<figcaption>Figura 12: Sign in bem-sucedido </figcaption>
-</figure>
-
----
-
-## Caso de uso 03 - Solicitar cadastro
+## Caso de uso 02 - Solicitar cadastro
 
 O processo de solicitação de cadastro por meio do formulário permite aos usuários iniciar o procedimento de registro na plataforma. Este caso de uso detalha as etapas necessárias para que um novo usuário envie suas informações pessoais, garantindo que os dados sejam avaliados pelos administradores, validados e armazenados corretamente no sistema. Assim, mediante análise, os administradores podem providenciar o processo de cadastramento de novos usuários.
 
-### Descrição Caso de uso 03
+### Descrição Caso de uso 02
 
 **Ator primário**:
 
@@ -479,11 +428,11 @@ No caso de interesse de participação no projeto, o usuário deve entrar em con
 3. Preencher o formulário com seu Nome, E-mail, Assunto, Mensagem (descrevendo seus interesses e motivos para associar-se, por exemplo).
 4. Os Administradores devem entrar em contato sobre a solicitação e informar detalhes do procedimento de cadastro (Caso de uso 01)
 
-### Diagramas do Caso de uso 03 - Solicitar cadastro
+### Diagramas do Caso de uso 02 - Solicitar cadastro
 
 <figure>
 <img src = "../imagens/caso03_diagrama.png" alt = "Caso de uso 03">
-<figcaption>Figura 13: Diagrama do Caso de uso 03</figcaption>
+<figcaption>Figura 13: Diagrama do Caso de uso 02</figcaption>
 </figure>
 
 ### Tutorial: Solicitar cadastro na plataforma
@@ -502,7 +451,7 @@ No caso de interesse de participação no projeto, o usuário deve entrar em con
 
 ---
 
-## Caso de uso 04 - Criação, configuração e edição dos corpora
+## Caso de uso 03 - Criação, configuração e edição dos corpora
 
 A ferramenta de gestão de corpora é um componente fundamental para a construção e configuração eficiente de coleções de textos destinados a análises linguísticas. Este processo pode ser realizado por Administradores e usuários devidamente cadastrados e com as credenciais corretas (de edição).
 
@@ -515,7 +464,7 @@ Há três formas <!-- <-[REVISAR CRÍTICO: INSERIR LISTA DE MANEIRAS DE DEV DE C
 
 Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a criação e configuração de novos corpora, além de tutoriais detalhados que guiam administradores e usuários no uso eficiente da ferramenta, garantindo uma experiência fluida e colaborativa na gestão dos catálogos.
 
-### Descrição Subcaso de uso 04.1 - Criação de corpora
+### Descrição Subcaso de uso 03.1 - Criação de corpora
 
 **Atores primários**:
 
@@ -532,11 +481,11 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 2. Na janela que se abre uma lista de corpora disponíveis é apresentada. Clicar em _"+ Create new corpus"_.
 3. Adicionar nome ao novo corpus e clicar em "Confirmar": novo corpus criado.
 
-### Diagrama do subcaso de uso 04.1 - Criação de corpora
+### Diagrama do Subcaso de uso 03.1 - Criação de corpora
 
 <figure>
     <img src="../imagens/caso04_01_diagrama.png"
-         alt="Caso de uso 04.01 - Criação de corpora">
+         alt="Caso de uso 03.01 - Criação de corpora">
     <figcaption>Figura 15: Diagrama caso de uso - Criação de corpora</figcaption>
 </figure>
 
@@ -555,14 +504,14 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
     <figcaption>Figura x: Criação de um novo corpus</figcaption>
 </figure>
 
-3. Adicione um nome ao novo corpus e clique em "Confirmar": esta ação finaliza a criação do corpus (Note que estas ações apenas criam o corpus. Para inclusão/edição de documentos, ou seja, alimentar o corpus ver Caso de uso 04.2). Após preencher com o nome desejado, clique em "Confirmar". Esta ação cria um novo corpus, que aparecerá na lista.
+3. Adicione um nome ao novo corpus e clique em "Confirmar": esta ação finaliza a criação do corpus (Note que estas ações apenas criam o corpus. Para inclusão/edição de documentos, ou seja, alimentar o corpus ver Caso de uso 03.2). Após preencher com o nome desejado, clique em "Confirmar". Esta ação cria um novo corpus, que aparecerá na lista.
 
 <figure>
     <img src = "../imagens/criacao_corpus_nome.png">
     <figcaption>Figura x: Criação de corpus: inserção de nome</figcaption>
 </figure>
 
-### Descrição Subcaso de uso 04.2 - Configuração dos corpora
+### Descrição Subcaso de uso 03.2 - Configuração dos corpora
 
 **Atores primários**:
 
@@ -573,7 +522,7 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 
 **Pré-requisitos:**
 
-1. Os usuários devem ser previamente cadastrados e ter permissões de administrador. Para cadastro, ver Caso de uso 01; para solicitar cadastro, ver Caso de uso 03. Um corpus deve ter sido criado previamente (ver caso de uso 04.1).
+1. Os usuários devem ser previamente cadastrados e ter permissões de administrador. Para cadastro, ver Caso de uso 01; para solicitar cadastro, ver Caso de uso 02. Um corpus deve ter sido criado previamente (ver caso de uso 03.1).
 
 **Fluxo normal:**
 
@@ -590,11 +539,11 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 2. Navegar até o corpus desejado e selecionar (abre página de gestão do corpus).
 3. Retomar a partir do passo 4 do Fluxo normal e realizar as configurações de parâmetros do corpus.
 
-### Diagrama do Caso de uso 04.2 - Configuração de corpora
+### Diagrama do Caso de uso 03.2 - Configuração de corpora
 
 <figure>
     <img src="../imagens/caso04_02_diagrama.png"
-         alt="Caso de uso 04.02 - Configuração de corpora">
+         alt="Caso de uso 03.02 - Configuração de corpora">
     <figcaption>Figura x: Diagrama caso de uso - Configuração de corpora</figcaption>
 </figure>
 
@@ -769,11 +718,11 @@ Estas configurações habilitam a apresentação dos corpora paralelos como em 2
 
 ---
 
-## Caso de uso 05 - Ferramenta **Use eDictor**
+## Caso de uso 04 - Ferramenta **Use eDictor**
 
 A ferramenta _**use edictor**_ habilita ao usuário o uso do **eDictor** tradicional para realizar transcrições e edições de novos corpora.
 
-### Descrição Caso de uso 05
+### Descrição Caso de uso 04
 
 **Atores primários**:
 
@@ -827,7 +776,7 @@ Outras informações a ações são disponibilizadas neste tela: abrir comentár
   3. Revisar sentença etiquetada e marcar status (a fazer, como pronta, para revisão.)
      É possível ainda realizar outras ações: desfazer edição, ir para o eDictor, filtrar.
 
-### Diagrama do Caso de uso 05 - **Use eDictor**
+### Diagrama do Caso de uso 04 - **Use eDictor**
 
 <figure>
     <img src=""
@@ -989,13 +938,13 @@ Outras informações a ações são disponibilizadas neste tela: abrir comentár
 
 ---
 
-## Caso de uso 06 - Ferramenta **eDictor Translations**
+## Caso de uso 05 - Ferramenta **eDictor Translations**
 
 A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para desenvolvimento de corpora com suas traduções nas línguas configuradas e selecionadas pelo usuário. A habilitação desta ferramenta permite, consequentemente, a apresentação dos corpora de forma paralela, ou seja, com originais e traduções de forma paralela e sincronizada.
 
 <!--[REVISAR: AVALIAR SE FUTURAMENTE VOU INSERIR AS OUTRAS FUNCIONALIDADES DE EDIÇÃO DOS CORPORA AQUI: EDITAR ETIQUETAS DAS DIVERSAS CAMADAS ETC]-->
 
-### Descrição Caso de uso 06.01 - Edição de corpora (Inserir, editar e remover sentenças) <!--[REVISAR: CONSIDERER SUBDIVIDIR OS CASOS?]-->
+### Descrição Subcaso de uso 05.01 - Edição de corpora (Inserir, editar e remover sentenças) <!--[REVISAR: CONSIDERER SUBDIVIDIR OS CASOS?]-->
 
 **Atores primários**:
 
@@ -1069,15 +1018,15 @@ Seguir o fluxo normal de 1 a 5, ou o fluxo A1, para acesso à ferramenta eDictor
 5. Preencher as traduções e clicar no botão verde para salvar.
 6. Clicar em "adicionar nova sentença"
 
-### Diagrama do Caso de uso 06.01 - **Use eDictor Translations: Edição de corpora**
+### Diagrama do Subcaso de uso 05.01 - **Use eDictor Translations: Edição de corpora**
 
 <figure>
     <img src="../imagens/caso6.01.1_diagrama.png"
-         alt="Caso de uso 6.01." width="250" height="450">
+         alt="Caso de uso 5.01." width="250" height="450">
     <figcaption>Figura X: Diagrama Caso de uso 6.01 - Edição de corpora (eDictor Translations) </figcaption>
 </figure>
 
-!["Caso de uso 6.01 - Ações no corpus"](../imagens/caso6.01.2_diagrama.png)
+!["Caso de uso 5.01 - Ações no corpus"](../imagens/caso6.01.2_diagrama.png)
 Figura x: Cont. Diagrama Caso de uso 6.01 - Ações no corpus <!--REVISAR: VOU TER DE MODIFICAR ESTA FIGURA NÃO SEI SE VALE A PENA-->
 
 ### Tutorial:
@@ -1181,11 +1130,11 @@ Sentença e tradução adicionadas:
 
 ---
 
-## Caso de uso 07 - Ferramenta de Pesquisa
+## Caso de uso 06 - Ferramenta de Pesquisa
 
 A Ferramenta de Pesquisa possibilita ao usuário realizar pesquisas nos corpora disponíveis na plataforma Tycho Brahe. Há dois tipos de busca disponíveis na plataforma: **Pesquisa simples** e **Pesquisa sintática**. A Pesquisa Simples possibilita que o usuário utilize a sintaxe de expressões regulares (regex) para realizar buscas. Por outro lado, a Pesquisa Sintática disponibiliza dois modos de busca: um modo direto, utilizando os campos com listas suspensas, que apresentam opções para as seleções pertinentes para a pesquisa; ou um modo que possibilita a escrita livre da busca utilizando padrão de sintaxe do _corpus search_, e posterior conversão do texto livre para o modo anterior<!--REVISAR: VER COM O LUIS SE É ISSO MESMO QUE UTILIZA - CORPUS SEARCH?-->
 
-### Descrição Caso de uso 07 - Ferramenta de Pesquisa
+### Descrição Caso de uso 06 - Ferramenta de Pesquisa
 
 **Atores primários**:
 
@@ -1228,10 +1177,10 @@ Para qualquer tipo de busca, é possível realizar algumas configurações:
    4. Consultas: verificar consultas salvas.
    5. Definições <!--REVISAR: VERIFICAR QUAIS SÃO AS DEFINIÇÕES POSSÍVEIS AQUI-->
 
-### Diagrama do Caso de uso 07 - FERRAMENTA DE PESQUISA
+### Diagrama do Caso de uso 06 - FERRAMENTA DE PESQUISA
 
-![Caso de uso 07](../imagens/caso07_diagrama.png)
-Figura x: Diagrama Caso de Uso 07 - Ferramenta de Pesquisa
+![Caso de uso 06](../imagens/caso07_diagrama.png)
+Figura x: Diagrama Caso de Uso 06 - Ferramenta de Pesquisa
 
 ### Tutorial:
 
@@ -1300,11 +1249,11 @@ Para qualquer tipo de busca, é possível realizar algumas configurações:
 
 <!--REVISAR: CASOS DE USO A SEREM INCLUÍDOS-->
 
-## Caso de uso 08 - Visualizador de corpora
+## Caso de uso 07 - Visualizador de corpora
 
 [INTRODUÇÃO]
 
-### Descrição Caso de uso 08
+### Descrição Caso de uso 07
 
 **Atores primários**:
 
@@ -1324,7 +1273,7 @@ Para qualquer tipo de busca, é possível realizar algumas configurações:
 
 1.
 
-### Diagrama do Caso de uso 08 - Visualizador de corpora
+### Diagrama do Caso de uso 07 - Visualizador de corpora
 
 <figure>
     <img src=""
@@ -1356,7 +1305,7 @@ Para qualquer tipo de busca, é possível realizar algumas configurações:
 
 ---
 
-## Caso de uso 09 - Synviewer
+## Caso de uso 08 - Synviewer
 
 [INTRODUÇÃO]
 
@@ -1380,7 +1329,7 @@ Para qualquer tipo de busca, é possível realizar algumas configurações:
 
 1.
 
-### Diagrama do Caso de uso 09 - Synviewer
+### Diagrama do Caso de uso 08- Synviewer
 
 <figure>
     <img src=""
@@ -1412,11 +1361,11 @@ Para qualquer tipo de busca, é possível realizar algumas configurações:
 
 ---
 
-## Caso de uso 10 - Parser <!--Criação, edição e gerenciamento das regras dos parsers-->
+## Caso de uso 09 - Parser <!--Criação, edição e gerenciamento das regras dos parsers-->
 
 [INTRODUÇÃO]
 
-### Descrição Caso de uso 10
+### Descrição Caso de uso 09
 
 **Atores primários**:
 
@@ -1436,7 +1385,7 @@ Para qualquer tipo de busca, é possível realizar algumas configurações:
 
 1.
 
-### Diagrama do Caso de uso 10 - Parser
+### Diagrama do Caso de uso 09 - Parser
 
 <figure>
     <img src=""
@@ -1468,11 +1417,11 @@ Para qualquer tipo de busca, é possível realizar algumas configurações:
 
 ---
 
-## Caso de uso 11 - IO (Importação e Exportação)
+## Caso de uso 10 - IO (Importação e Exportação)
 
 [INTRODUÇÃO]
 
-### Descrição Caso de uso 11 - IO (Importação e Exportação)
+### Descrição Caso de uso 10 - IO (Importação e Exportação)
 
 **Atores primários**:
 
@@ -1492,7 +1441,7 @@ Para qualquer tipo de busca, é possível realizar algumas configurações:
 
 1.
 
-### Diagrama do Caso de uso 11 - IO (Importação e Exportação)
+### Diagrama do Caso de uso 10 - IO (Importação e Exportação)
 
 <figure>
     <img src=""
