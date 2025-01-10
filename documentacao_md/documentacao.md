@@ -49,16 +49,12 @@ SUMÁRIO
     - [Diagrama do Caso de uso 04 - **Use eDictor**](#diagrama-do-caso-de-uso-04---use-edictor)
     - [Tutorial:](#tutorial-1)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-5)
-      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-2)
-    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver)
-      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal-)
-      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-3)
   - [Caso de uso 05 - Ferramenta **eDictor Translations**](#caso-de-uso-05---ferramenta-edictor-translations)
     - [Descrição Subcaso de uso 05.01 - Edição de corpora (Inserir, editar e remover sentenças) ](#descrição-subcaso-de-uso-0501---edição-de-corpora-inserir-editar-e-remover-sentenças-)
     - [Diagrama do Subcaso de uso 05.01 - **Use eDictor Translations: Edição de corpora**](#diagrama-do-subcaso-de-uso-0501---use-edictor-translations-edição-de-corpora)
     - [Tutorial:](#tutorial-2)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-6)
-      - [**Tutorial: Fluxo alternativo:**](#tutorial-fluxo-alternativo-4)
+      - [**Tutorial: Fluxo alternativo:**](#tutorial-fluxo-alternativo-2)
   - [Caso de uso 06 - Ferramenta de Pesquisa](#caso-de-uso-06---ferramenta-de-pesquisa)
     - [Descrição Caso de uso 06 - Ferramenta de Pesquisa](#descrição-caso-de-uso-06---ferramenta-de-pesquisa)
     - [Diagrama do Caso de uso 06 - FERRAMENTA DE PESQUISA](#diagrama-do-caso-de-uso-06---ferramenta-de-pesquisa)
@@ -69,37 +65,33 @@ SUMÁRIO
     - [Diagrama do Caso de uso 07 - Visualizador de corpora](#diagrama-do-caso-de-uso-07---visualizador-de-corpora)
     - [Tutorial:](#tutorial-4)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-8)
-      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-5)
-    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-1)
-      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--1)
-      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-6)
   - [Caso de uso 08 - Synviewer](#caso-de-uso-08---synviewer)
     - [Descrição Caso de uso X](#descrição-caso-de-uso-x)
     - [Diagrama do Caso de uso 08- Synviewer](#diagrama-do-caso-de-uso-08--synviewer)
     - [Tutorial:](#tutorial-5)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-9)
-      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-7)
-    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-2)
-      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--2)
-      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-8)
+      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-3)
+    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver)
+      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal-)
+      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-4)
   - [Caso de uso 09 - Parser ](#caso-de-uso-09---parser-)
     - [Descrição Caso de uso 09](#descrição-caso-de-uso-09)
     - [Diagrama do Caso de uso 09 - Parser](#diagrama-do-caso-de-uso-09---parser)
     - [Tutorial:](#tutorial-6)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-10)
-      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-9)
-    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-3)
-      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--3)
-      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-10)
+      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-5)
+    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-1)
+      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--1)
+      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-6)
   - [Caso de uso 10 - IO (Importação e Exportação)](#caso-de-uso-10---io-importação-e-exportação)
     - [Descrição Caso de uso 10 - IO (Importação e Exportação)](#descrição-caso-de-uso-10---io-importação-e-exportação)
     - [Diagrama do Caso de uso 10 - IO (Importação e Exportação)](#diagrama-do-caso-de-uso-10---io-importação-e-exportação)
     - [Tutorial:](#tutorial-7)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-11)
-      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-11)
-    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-4)
-      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--4)
-      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-12)
+      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-7)
+    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-2)
+      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--2)
+      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-8)
 
 ## Introdução
 
@@ -281,11 +273,8 @@ Note-se a distinção entre Administrador e Usuário com permissão de administr
 
 ### Diagrama do Caso de uso 01 - Cadastro
 
-<figure>
-    <img src="../imagens/caso01_diagrama.png"
-         alt="Caso de uso 01:cadastro">
-    <figcaption>Figura 1: Caso de uso 01 - Cadastro</figcaption>
-</figure>
+![Caso de uso 01:cadastro](../imagens/caso01_diagrama.png)
+Figura x: Caso de uso 01 - Cadastro
 
 ### Tutorial: Cadastro de Novos Usuários - Guia do Administrador
 
@@ -430,10 +419,8 @@ No caso de interesse de participação no projeto, o usuário deve entrar em con
 
 ### Diagramas do Caso de uso 02 - Solicitar cadastro
 
-<figure>
-<img src = "../imagens/caso03_diagrama.png" alt = "Caso de uso 03">
-<figcaption>Figura 13: Diagrama do Caso de uso 02</figcaption>
-</figure>
+![Caso de uso 03](../imagens/caso03_diagrama.png)
+Figura 13: Diagrama do Caso de uso 02
 
 ### Tutorial: Solicitar cadastro na plataforma
 
@@ -443,11 +430,8 @@ No caso de interesse de participação no projeto, o usuário deve entrar em con
 2. Role a página até chegar na área "Entre em contato".
 3. Preencha o formulário com seu Nome, E-mail, Assunto, Mensagem (descrevendo seus interesses e motivos para associar-se, por exemplo).
 
-<figure>
-<img src = "../imagens/solicitar_cadastro.png" alt = "SOlicitar cadastro">
-
-<figcaption>Figura x: Formulário para solicitar cadastro na plataforma</figcaption>
-</figure>
+![Solicitar cadastro](../imagens/solicitar_cadastro.png)
+Figura x: Formulário para solicitar cadastro na plataforma
 
 ---
 
@@ -481,13 +465,12 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 2. Na janela que se abre uma lista de corpora disponíveis é apresentada. Clicar em _"+ Create new corpus"_.
 3. Adicionar nome ao novo corpus e clicar em "Confirmar": novo corpus criado.
 
+**Nota**: este processo apenas cria o corpus. Sua alimentação pode ser realizada de diferentes formas a depender do tipo de material disponível (textos em papel, áudios, arquivos .txt, arquivos .csv - com ou sem traduções), das configurações estabelecidas (Caso de uso 03.2). É necessário que haja uma interação com a equipe responsável pelo desenvolvimento da plataforma para que a melhor estratégia de importação de dados seja escolhida e aplicada. Cada um dos tipos de importação/transcrição de dados linguísticos será discutido separadamente nesta documentação.
+
 ### Diagrama do Subcaso de uso 03.1 - Criação de corpora
 
-<figure>
-    <img src="../imagens/caso04_01_diagrama.png"
-         alt="Caso de uso 03.01 - Criação de corpora">
-    <figcaption>Figura 15: Diagrama caso de uso - Criação de corpora</figcaption>
-</figure>
+![Caso de uso 03.01 - Criação de corpora](../imagens/caso04_01_diagrama.png)
+Figura 15: Diagrama caso de uso - Criação de corpora
 
 ### Tutorial: Criação de corpora
 
@@ -499,17 +482,15 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 
 2. Ao acessar a página de adminstrador, uma lista de corpora disponíveis abre. Clique em _"+ Create new corpus"_.
 
-<figure>
-    <img src = "../imagens/criacao_corpus.png">
-    <figcaption>Figura x: Criação de um novo corpus</figcaption>
-</figure>
+![Criação novo corpus](../imagens/criacao_corpus.png)"
+Figura x: Criação de um novo corpus
 
 3. Adicione um nome ao novo corpus e clique em "Confirmar": esta ação finaliza a criação do corpus (Note que estas ações apenas criam o corpus. Para inclusão/edição de documentos, ou seja, alimentar o corpus ver Caso de uso 03.2). Após preencher com o nome desejado, clique em "Confirmar". Esta ação cria um novo corpus, que aparecerá na lista.
 
-<figure>
-    <img src = "../imagens/criacao_corpus_nome.png">
-    <figcaption>Figura x: Criação de corpus: inserção de nome</figcaption>
-</figure>
+![Criação corpus: inserir nome](../imagens/criacao_corpus_nome.png)
+Figura x: Criação de corpus: inserção de nome
+
+**Nota**: este processo apenas cria o corpus. Sua alimentação (importação de dados/transcrição de áudios/extração de dados a partir de textos impressos etc.) pode ser realizada de diferentes formas a depender do tipo de material disponível (textos em papel, áudios, arquivos .txt, arquivos .csv - com ou sem traduções), das configurações estabelecidas (Caso de uso 03.2). É necessário que haja uma interação com a equipe responsável pelo desenvolvimento da plataforma para que a melhor estratégia de importação de dados seja escolhida e aplicada. Cada um dos tipos de importação/transcrição de dados linguísticos será discutido separadamente nesta documentação.
 
 ### Descrição Subcaso de uso 03.2 - Configuração dos corpora
 
@@ -541,15 +522,12 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 
 ### Diagrama do Caso de uso 03.2 - Configuração de corpora
 
-<figure>
-    <img src="../imagens/caso04_02_diagrama.png"
-         alt="Caso de uso 03.02 - Configuração de corpora">
-    <figcaption>Figura x: Diagrama caso de uso - Configuração de corpora</figcaption>
-</figure>
+![Caso de uso 03.02 - Configuração de corpora](../imagens/caso04_02_diagrama.png)
+Figura x: Diagrama caso de uso - Configuração de corpora
 
 ### Tutorial: Configuração de corpora
 
-**Objetivo:**: Este tutorial detalha os passos necessários para a configuração dos corpora.
+**Objetivo:**: Este tutorial detalha os passos necessários para a configuração dos corpora. As configurações são responsáveis por determinar desde o status dos corpora, grau de privacidade, tipo de display do corpus na plataforma, tipos de ferramentas habilitadas para o corpus etc.
 
 #### **Tutorial: Fluxo normal**
 
@@ -557,38 +535,31 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 
 2. Navegue até a área "Ferramentas" e selecione "Área Reservada".
 
-<figure>    
-    <img src = "../imagens/acesso_area_reservada.png">
-    <figcaption>Figura x: Acessando "Área Reservada"</figcaption>
-</figure>
+![Acesso área reservada](../imagens/acesso_area_reservada.png)
+Figura x: Acessando "Área Reservada"
 
 3. Na página de perfil que se abre, os corpora disponíveis, vinculados ao usuário, são apresentados. Selecione o corpus que deseja configurar e clique no botão "Admin" na área de "Acesso rápido" ou "Admin" na área "Minhas Ferramentas" e selecione o corpus que deseja configurar.
 
-<figure>
-<img src = "../imagens/acesso_rapido_admin.png">
-<figcaption>Figura x: Acesso rápido - botões "Admin" </figcaption>
-</figure>
+![Acesso rápido](../imagens/acesso_rapido_admin.png)
+Figura x: Acesso rápido - botões "Admin"
 
-4. Clique em "Parâmetros": uma caixa com botões de alternância se abre, disponibilizando diversos botões de alternância para configuração do corpus.
+4. Clique em "Parâmetros": uma caixa se abre, disponibilizando diversos botões de alternância para configuração do corpus.
 
-<figure> 
-    <img src = "../imagens/parametros_corpus.png" alt = "Pârametros corpus">
-    <figcaption>Figura x: Acessando área de configuração de corpora </figcaption>
-</figure>
+![Parâmetros do corpus](../imagens/parametros_corpus.png)
+Figura x: Acessando área de configuração de corpora
 
 **Tutorial: Fluxo alternativo:**
 
 **A1** - **Acesso direto pelo link de administrador**
 
 1. Acesse o link de administrador: <https://www.tycho.iel.unicamp.br/admin>.
-2. Navegue até o corpus desejado e selecione (isto abre a página de gestão do corpus).
-<figure>
-<img src="../imagens/configura_parametro_FA1.png" >
-<figcaption>Figura x: Acesso configuração de parâmetros - Fluxo alternativo 1</figcaption>
-</figure>
-3. Retomar a partir do passo 4 do Fluxo normal e realizar as configurações de parâmetros do corpus.
+2. Navegue até o corpus desejado e o selecione, clicando sobre ele (isto abre a página de gestão do corpus).
 
-A seguir são apresentadas descrições de cada um dos botões de configurações disponíveis.<br><br>
+![Acesso config parâmetors fluxo altern](../imagens/configura_parametro_FA1.png)
+Figura x: Acesso configuração de parâmetros - Fluxo alternativo 1
+
+3. Retomar a partir do passo 4 do Fluxo normal e realizar as configurações de parâmetros do corpus.<br>
+   A seguir são apresentadas descrições de cada um dos botões de configurações disponíveis.<br>
 
 **Public corpus**: seleciona se o corpus é disponível ao público em geral ou se é privado.
 
@@ -596,91 +567,64 @@ A seguir são apresentadas descrições de cada um dos botões de configuraçõe
 
 **Featured Corpus**: Um corpus marcado com esse parâmetro aparece na página principal da plataforma, na área "Corpora em Destaque".
 
-<figure>
-<img src="../imagens/corpora_em_destaque.png" >
-<figcaption>Figura x: Corpora em Destaque</figcaption>
-</figure>
+![Corpra em destaque](../imagens/corpora_em_destaque.png)
+Figura x: Corpora em corpora_em_destaque
 
 **Use Morphemes**: habilita o uso campos referentes a morfemas, incluindo glossa, nos corpora.
-
-<figure>
-    <img src="../imagens/botao_config_corpus_usesplit.png"
-         alt="Configura corpus: Use Morphemes">
-    <figcaption>Figura X: Configuração de corpora: botão "Use Morphemes"</figcaption>
-</figure>
+![Configura corpus: Use Morphemes](../imagens/botao_config_corpus_usesplit.png)
+Figura X: Configuração de corpora: botão "Use Morphemes"
 
 <br>**Use Sound**: a habilita o uso de áudio no corpus.
 
-- Como podemos observar na Figura x abaixo, a habilitação do botão "Use Sound" habitila uma seção de Áudio, que permite ao analista incluir o áudio a ser transcrito.
+- Como podemos observar na Figura x abaixo, a habilitação do botão "Use Sound" habitila uma seção de Áudio, que permite ao analista incluir o áudio a ser transcrito (ou o áudio correspondente à transcrição da sentença selecionada).
 
   ![Configuração de corpora: botão "Use Sound"](../imagens/botao_config_corpus_usesound.png)
   Figura X: Configuração de corpora: botão "Use Sound"
 
 <br>
 
-- O "Use Sound" também habilita, na ferramenta "eDictor", um botão para dar play nos áudios associados às sentenças do documento selecionado, como observamos na Figura x abaixo:
+- O **"Use Sound"** também habilita, na ferramenta "eDictor", um botão de _play_ para ser tocar os áudios associados às sentenças do documento selecionado, como observamos na Figura x abaixo:
   ![Configuração de corpora: botão "Use Sound" 2](../imagens/botao_config_corpus_usesound2.png)
   Figura X: Configuração de corpora: botão "Use Sound"(no eDictor)
 
 <br>**Use Translations**: o botão "Use Translations" habilita a seção de Traduções no eDictor, como apresentado na Figura x:
 
-<figure>
-    <img src = "../imagens/botao_config_corpus_usetranslation.png" alt = "Configura corpus: Use Translations">
-    <figcaption> Figura x: Configuração de corpora: botão "Use Translations"  </figcaption>
-</figure>
+![Configura corpus: Use Translations](../imagens/botao_config_corpus_usetranslation.png)
+Figura x: Configuração de corpora: botão "Use Translations"
 
-<br>**Use Lexicon**: é utilizado quando há um parser disponível, mas não há um etiquetador automático (que só funciona se houver uma quantidade mínima de palavras para treinamento do etiquetador). No caso de esta condição não estar satisfeita, o analista deve utilizar o léxico para realizar a etiquetagem automática.
+**Use Lexicon**: é utilizado quando há um parser disponível, mas não há um etiquetador automático (que só funciona se houver uma quantidade mínima de palavras para treinamento do etiquetador). No caso de esta condição não estar satisfeita, o analista deve utilizar o léxico para realizar a etiquetagem automática.
 
 **Use Grid**: ao acessar o catálogo, o usuário tem a possibilidade de apresentação de documentos de duas maneiras: lista, ou grid. Ao habilitar o botão "Use Grid", o usuário configura a apresentação em grid como default, como apresentado na Figura x abaixo:
 
-<figure>
-<img  src = "../imagens/botao_config_corpus_usegrid.png" alt = "Configura corpus: Use Grid">
+![Configura corpus: Use Grid](../imagens/botao_config_corpus_usegrid.png)
+Figura x: Configuração de corpora: botão "Use Grid"
 
-<figcaption> Figura x: Configuração de corpora: botão "Use Grid"</figcaption>
+**Use Category**: este botão habilita a possibilidade de categorização e subcategorização dos corpora (por exemplo, categorização com base em parâmetros demográficos etc), como apresentado na Figura x, com o corpus CE-DOHS selecionado no catálogo. Note-se que a criação dos rótulos para as categorias pode ser realizada por um usuário com permissões de adminstrador
 
-</figure>
+![Configuração corpus_ Use Category](../imagens/botao_config_corpus_usecategory.png)
+Figura x: Configuração de corpora: botão "Use Category"
 
-<br>**Use Category**: este botão habilita a possibilidade de categorização e subcategorização dos corpora (por exemplo, categorização com base em parâmetros demográficos etc), como apresentado na Figura x, com o corpus CE-DOHS selecionado no catálogo. Note-se que a criação dos rótulos para as categorias pode ser realizada por um usuário com permissões de adminstrador
+**Use Edition Tiers**<!--[REVISAR COM O LUIS]-->: este botão habilita a disponibilização de diversos níveis de edição para garantir a máxima fidelidade filológica do texto. Por exemplo, acessando-se o catálogo, selecione o corpus Tycho Brahe do Português Histórico e selecione o documento "Atas dos Brasileiros - Tomo 02", como apresentado na Figura X:
 
-<figure>
-    <img src = "../imagens/botao_config_corpus_usecategory.png" alt = "Configuração corpus_ Use Category">
-    <figcaption>Figura x: Configuração de corpora: botão "Use Category"</figcaption>
-</figure>
+![Configura corpus: Use edition tiers](../imagens/botao_config_corpus_useeditiontiers1.png)Figura x: Configuração de corpora: botão "Use Edition Tiers"
 
-<br>**Use Edition Tiers**[REVISAR COM O LUIS]: o botão "Use Edition Tiers", habilita a disponibilização de diversos níveis de edição para garantir a máxima fidelidade filológica do texto. Por exemplo, acessando-se o catálogo, selecione o corpus Tycho Brahe do Português Histórico e selecione o documento "Atas dos Brasileiros - Tomo 02", como apresentado na Figura X:
+![Configura corpus: botão Use Edition Tiers 2](../imagens/botao_config_corpus_useeditiontiers2.png)
+Figura x: Configuração de corpora: botão "Use Edition Tiers" (abrindo a ferramenta).
 
-<figure>
-    <img src = "../imagens/botao_config_corpus_useeditiontiers1.png" alt = "Configura corpus: botão Use Edition Tiers">
-    <figcaption>Figura x: Configuração de corpora: botão "Use Edition Tiers"
-</figure>
-
-<figure>
-    <img src = "../imagens/botao_config_corpus_useeditiontiers2.png" alt = "Configura corpus: botão Use Edition Tiers 2">
-    <figcaption>Figura x: Configuração de corpora: botão "Use Edition Tiers (abrindo a ferramenta)."</figcaption>
-
-</figure>
-
-<figure>
-    <img src = "../imagens/botao_config_corpus_useeditiontiers3_4.png" alt = "Configura corpus: botao Use Edition Tiers 4">
-    <figcaption>Figura x: Configuração de corpora  botão "Use Edition Tiers: "</figcaption>
-</figure>
+![Configura corpus: botao Use Edition Tiers 4](../imagens/botao_config_corpus_useeditiontiers3_4.png)
+Figura x: Configuração de corpora botão "Use Edition Tiers"
 
 Esta ação abre um painel com uma matriz para edição dos níveis de edição, como mostra a Figura x. Note-se: na mesma tela que seria análoga à sentença com o "Use Morphemes" selecionado, são apresentadas os níveis de edição.
 
-<figure>
-    <img src = "../imagens/botao_config_corpus_useeditiontiers5.png" >
-    <figcaption>Figura x: Matriz para edição em níveis de edição </figcaption>
-</figure>
+![Matriz para edição: edition tiers](../imagens/botao_config_corpus_useeditiontiers5.png)
+Figura x: Matriz para edição em níveis de edição
 
 Os botões "Use eDictor Translations"/"Use eDictor"/"Use Designer"/"Use Transcriber" não são excludentes, i.e., podem ser habilitados ao mesmo tempo em um determinado corpus. Esta ação disponibiliza todas as ferramentas para utilização no corpus.
 
 **Use eDictor Translations**: Habilita o uso da versão eDictor para apresentação de corpora paralelos, como apresentado na Figura x a seguir:
+![Use eDictor Translations](../imagens/botao_config_corpus_useedictortranslations1.png)
+Figura x: Configuração de corpora: botão Use eDictor Translations - Corpora paralelos
 
-<figure>
-    <img src = "../imagens/botao_config_corpus_useedictortranslations1.png" alt = "Use eDictor Translations">
-    <figcaption>Figura x: Configuração de corpora: botão Use eDictor Translations - Corpora Paralelos </figcaption>
-</figure>
-<br>
 A configuração do eDictor Tranlations também depende de configurações na aba eDictor na pagina de admin ("Corpora Management"):
 
 - Acesse a página inicial da ferramenta no endereço <https://www.tycho.iel.unicamp.br/home>;
@@ -694,17 +638,16 @@ A configuração do eDictor Tranlations também depende de configurações na ab
   - **Reference**: preencha para adicionar uma referência.<!--[REVISAR: ver videos de gravação da reunião]-->
 
 <br>
-<figure>
-    <img src = "../imagens/configura_corpus_admin_translations3.png"  width=1000>
-    <figcaption>Figura x: Configurações de apresentação das traduções no eDictor Translations</figcaption>
+
+![Apresentação das traduções no eDictor Translations](../imagens/configura_corpus_admin_translations3.png)
+Figura x: Configurações de </figcaption>
+
 </figure>
 <br>
-Estas configurações habilitam a apresentação dos corpora paralelos como em 2 na Figura x abaixo; Em 3, o usuário pode selecionar qual lingua de tradução deseja que seja apresentada; Em 4, após a seleção de uma sentença, é possível verificar as traduções para a sentença selecionada, além de ser possível realizar edições nas traduções.
+Estas configurações habilitam a apresentação dos corpora paralelos como em [2] na Figura x abaixo; Em [3], o usuário pode selecionar qual lingua de tradução deseja que seja apresentada; Em [4], após a seleção de uma sentença, é possível verificar as traduções para a sentença selecionada, além de ser possível realizar edições nas traduções.
 
-<figure>
-    <img src = "../imagens/configura_corpus_admin_translations7.png" >
-    <figcaption>Figura x: Resultado configurações de eDictor Translations</figcaption>
-</figure>
+![Configura corpus:resultadis edictor translations](../imagens/configura_corpus_admin_translations7.png)
+Figura x: Resultado configurações de eDictor Translations
 
 **Use eDictor**: o acionamento do botão "Use eDictor" habilita o uso do eDictor tradicional para transcrição e edição.
 
@@ -720,7 +663,7 @@ Estas configurações habilitam a apresentação dos corpora paralelos como em 2
 
 ## Caso de uso 04 - Ferramenta **Use eDictor**
 
-A ferramenta _**use edictor**_ habilita ao usuário o uso do **eDictor** tradicional para realizar transcrições e edições de novos corpora.
+A ferramenta **Use eDictor** habilita ao usuário o uso do **eDictor** tradicional para realizar transcrições e edições de novos corpora.
 
 ### Descrição Caso de uso 04
 
@@ -745,7 +688,7 @@ A ferramenta _**use edictor**_ habilita ao usuário o uso do **eDictor** tradici
 4. Transcrições:
    **Manual**: Clicar o botão "Transcrição" para abrir o campo de preenchimento manual das transcrições do texto da imagem inserida.
    **Automática**: Clicar o botão "extrair texto de imagem" no canto superior direito para realizar a transcrição automática a partir do texto da imagem.
-5. Preencher transcrições e salvar.
+5. Preencher transcrições (ou revisar transcrições extraídas automaticamente de um arquivo de imagem) e salvar.
 6. Clicar ícone de "ir para o modo edição" para preparar o texto para receber edições.
 7. Etiquetagem e outras edições:
    **Manual**: Clicar sobre palavra que deseja editar e realizar as edições desejadas:
@@ -761,20 +704,20 @@ A ferramenta _**use edictor**_ habilita ao usuário o uso do **eDictor** tradici
    - Operações de edição: junção e segmentação
    - Níveis de edição: grafia, expansão, correção, pontuação, ilegível, modernização, padronização, flexão.
 
-**Automática**: há duas maneiras de acessar as orações para realizar o _parser_ e revisar/editar a etiquetagem. Ao acessar o "exibir informações" do documento, selecionar:
+   **Automática**: há duas maneiras de acessar as orações para realizar o _parser_ e revisar/editar a etiquetagem. Ao acessar o "exibir informações" do documento, selecionar:
 
-- **"Continuar anotação sintática"** (Continue a partir da última sentença revisada): Ao acessar esta área, a plataforma apresenta a primeira sentença do documento (e se o parser já tiver sido aplicado previamente, apresenta também a árvore que corresponde à sentença). É possível navegar entre as sentenças através das setas do lado direito superior.
-  1. Para rodar o _parser_ na sentença selecionada é necessário que um parser tenha sido associado ao corpus previamente. Em caso afirmativo, clicar em no ícone de "parser" no canto superior direito.
-  2. É possível editar os nós da árvore sintática: clicar sobre o nó desejado e selecionar a etiqueta adequada.
+   - **Continuar anotação sintática** (Continue a partir da última sentença revisada): Ao acessar esta área, a plataforma apresenta a primeira sentença do documento (e se o parser já tiver sido aplicado previamente, apresenta também a árvore que corresponde à sentença). É possível navegar entre as sentenças através das setas do lado direito superior.
+     1. Para rodar o _parser_ na sentença selecionada é necessário que um parser tenha sido associado ao corpus previamente. Em caso afirmativo, clicar em no ícone de "parser" no canto superior direito.
+     2. É possível editar os nós da árvore sintática: clicar sobre o nó desejado e selecionar a etiqueta adequada.
 
-Outras informações a ações são disponibilizadas neste tela: abrir comentários, ver manuais de anotação sintática, salvar, desfazer/refazer, aplicar layout, histórico, juntar à próxima sentença, debugar _parser_, e por fim, marcar status de revisão de etiquetagem da sentença (a fazer, como pronta, para revisão).
+   Outras informações a ações são disponibilizadas neste tela: abrir comentários, ver manuais de anotação sintática, salvar, desfazer/refazer, aplicar layout, histórico, juntar à próxima sentença, debugar _parser_, e por fim, marcar status de revisão de etiquetagem da sentença (a fazer, como pronta, para revisão).
 
-- **Revisar etiquetas POS**: Ao se acessar esta área, a plataforma apresenta as sentenças do documento para que o usuário possar realizar uma revisão da etiquetagem. Se o _parsing_ já tiver sido previamente realizado na sentença, ela apresenta as etiquetas atribuídas. Do contrário, a camada de etiquetagem POS fica com _vazio_ atribuído a todas os tokens.
+   - **Revisar etiquetas POS**: Ao se acessar esta área, a plataforma apresenta as sentenças do documento para que o usuário possar realizar uma revisão da etiquetagem. Se o _parsing_ já tiver sido previamente realizado na sentença, ela apresenta as etiquetas atribuídas. Do contrário, a camada de etiquetagem POS fica com _vazio_ atribuído a todas os tokens.
 
-  1. Para rodar o parser na sentença desejada (caso a sentença ainda não tenha sido etiquetada), clicar no ícone "▶️" do lado esquerdo da sentença alvo.
-  2. É possível também realizar edições manuais em cada uma das etiquetas nas palavras da sentença: clicar sobre a etiqueta (ou "vazio"), selecionar a etiqueta desejada e inflexão e confirmar.
-  3. Revisar sentença etiquetada e marcar status (a fazer, como pronta, para revisão.)
-     É possível ainda realizar outras ações: desfazer edição, ir para o eDictor, filtrar.
+     1. Para rodar o parser na sentença desejada (caso a sentença ainda não tenha sido etiquetada), clicar no ícone "▶️" do lado esquerdo da sentença alvo.
+     2. É possível também realizar edições manuais em cada uma das etiquetas nas palavras da sentença: clicar sobre a etiqueta (ou "vazio"), selecionar a etiqueta desejada e inflexão e confirmar.
+     3. Revisar sentença etiquetada e marcar status (a fazer, como pronta, para revisão.)
+        É possível ainda realizar outras ações: desfazer edição, ir para o eDictor, filtrar.
 
 ### Diagrama do Caso de uso 04 - **Use eDictor**
 
@@ -905,9 +848,7 @@ Figura x: Junção e Segmentação.
 ![Níveis de edição](../imagens/use_edictor_43-44.png.png)
 Figura x: Níveis de edição.
 
-<!--PAREI AQUI: 2/12-->
-
-**Edições automáticaa**: há duas maneiras de acessar as orações para realizar o _parser_ e revisar/editar a etiquetagem. Ao acessar o "exibir informações" do documento, selecionar:
+**Edições automáticas**: há duas maneiras de acessar as orações para realizar o _parser_ e revisar/editar a etiquetagem. Ao acessar o "exibir informações" do documento, selecionar:
 
 - **"Continuar anotação sintática"** (Continue a partir da última sentença revisada): Ao acessar esta área, a plataforma apresenta a primeira sentença do documento (e se o parser já tiver sido aplicado previamente, apresenta também a árvore que corresponde à sentença). É possível navegar entre as sentenças através das setas do lado direito superior.
   1. Para rodar o _parser_ na sentença selecionada é necessário que um parser tenha sido associado ao corpus previamente. Em caso afirmativo, clicar em no ícone de "parser" no canto superior direito.
@@ -921,20 +862,6 @@ Outras informações a ações são disponibilizadas neste tela: abrir comentár
   2. É possível também realizar edições manuais em cada uma das etiquetas nas palavras da sentença: clicar sobre a etiqueta (ou "vazio"), selecionar a etiqueta desejada e inflexão e confirmar.
   3. Revisar sentença etiquetada e marcar status (a fazer, como pronta, para revisão.)
      É possível ainda realizar outras ações: desfazer edição, ir para o eDictor, filtrar.
-
-#### \*\*Tutorial: Fluxo Alternativo
-
-### Tutorial: Guia do Usuário Final (SE HOUVER)
-
-**Objetivo:**
-
-#### **Tutorial: Fluxo normal **
-
-1.
-
-#### **Tutorial: Fluxo alternativo**
-
-1.
 
 ---
 
@@ -1020,11 +947,8 @@ Seguir o fluxo normal de 1 a 5, ou o fluxo A1, para acesso à ferramenta eDictor
 
 ### Diagrama do Subcaso de uso 05.01 - **Use eDictor Translations: Edição de corpora**
 
-<figure>
-    <img src="../imagens/caso6.01.1_diagrama.png"
-         alt="Caso de uso 5.01." width="250" height="450">
-    <figcaption>Figura X: Diagrama Caso de uso 6.01 - Edição de corpora (eDictor Translations) </figcaption>
-</figure>
+![Caso de uso 5.01.](../imagens/caso6.01.1_diagrama.png)
+Figura X: Diagrama Caso de uso 6.01 - Edição de corpora (eDictor Translations)
 
 !["Caso de uso 5.01 - Ações no corpus"](../imagens/caso6.01.2_diagrama.png)
 Figura x: Cont. Diagrama Caso de uso 6.01 - Ações no corpus <!--REVISAR: VOU TER DE MODIFICAR ESTA FIGURA NÃO SEI SE VALE A PENA-->
@@ -1082,7 +1006,7 @@ Figura x: Cont. Diagrama Caso de uso 6.01 - Ações no corpus <!--REVISAR: VOU T
             1. Clique em "inserir": inserir palavra á direita da palavra selecionada, preencha o campo e confirme!["edições palavra"](../imagens/edictor_edicao_sent_sincronizadas7.png)
             2. Clique em "dividir": dividir palavra em dois tokens distintos![""](../imagens/edictor_edicao_sent_sincronizadas8-9.png)
             3. Clique em "unir" para unir o toke selecionado ao token seguinte na sentença: ![""](../imagens/edictor_edicao_sent_sincronizadas10.png)
-            4. "Variações" <!--REVISAR: NÃO SURTE EFEITO-->
+            4. Clique em "Variações": o botão de variações apresenta todas as variações de etiquetas e glossas utilizadas para a palavra e salvas no banco de dados. Este botão permite um preenchimento mais rápido das informações sobre a palavra selecionada.
             5. Clique em "remover": remover palavra.![""](../imagens/edictor_edicao_sent_sincronizadas11.png)
          6. Para edições da sentença, clicar em "...":
             1. "Dividir": dividir sentença em duas (após token selecionado)
@@ -1106,16 +1030,17 @@ Figura x: Cont. Diagrama Caso de uso 6.01 - Ações no corpus <!--REVISAR: VOU T
 1. Acesse a página de catálogo através do link: <https://www.tycho.iel.unicamp.br/catalog> :
 
 ![""](../imagens/edictor_edicao_sent_sincronizadas18.png)
+Figura x: Acesso a catálogo
 
 2. Siga a partir do item 3 do Fluxo normal.
 
-**A2** Alternativa para inserção de sentenças
+**A2** - Alternativa para inserção de sentenças
 
 Siga o fluxo normal de 1 a 5, ou o fluxo A1, para acesso à ferramenta eDictor Translations. Para um fluxo alternativo de inserção de novas sentenças:
 
-1. Selecionar um par de sentenças.
-2. Clicar no botão "Adicionar nova".
-3. Uma caixa de diaĺogo se abre: clicar em "confirmar".
+1. Selecione um par de sentenças.
+2. Clique no botão "Adicionar nova".
+3. Uma caixa de diaĺogo se abre: clique em "confirmar".
 
 ![""](../imagens/edictor_adicionar_sentença_1.png)
 
@@ -1203,9 +1128,23 @@ Figura x: Selecionando corpus para realizar uma pesquisa. 4. Escolha o tipo de p
 **Pesquisa simples**:
 
 1. Selecione o botão **Pesquisa simples**
-2. Preencha o campo com a expressão de busca utilizando partes de palavra, palavra completa, palavra + POS, múltiplas palavras, múltiplas palavras em sequência, múltiplas palavras com etiquetas POS, palavra + experssão regular ou múltiplas palavras com expressão regular.
+2. Preencha o campo com a expressão de busca utilizando partes de palavra, palavra completa, palavra + POS, múltiplas palavras (não necessariamente em sequência), múltiplas palavras em sequência, múltiplas palavras com etiquetas POS (não necessariamente em sequência), palavra + expressão regular ou múltiplas palavras com expressão regular.
 
-![Tipos de busca](../imagens/busca_simples_exs.png) 3. Clique em "Executar pesquisa"
+| Tipo de consulta                                                    | Exemplo             |
+| ------------------------------------------------------------------- | ------------------- |
+| Parte de palavra                                                    | ejiwa               |
+| Palavra inteira                                                     | "ejiwajegi"         |
+| Palavra + etiqueta POS                                              | ejiwajegi/N         |
+| Múltiplas palavras (não necessariamente em sequência)               | ica ejiwajegi       |
+| Múltiplas palavras em sequência                                     | "ica ejiwajegi"     |
+| Múltiplas palavras com etiquetas (não necessariamente em sequência) | ica/D ejiwajegi/N   |
+| Múltiplas palavras em sequência com etiquetas                       | "ica/D ejiwajegi/D" |
+| Palavra com expressão regular                                       | ica.\*ejiwajegi     |
+| Múltiplas palavras com expressão regular                            |                     |
+
+<!--Revisar com o Luiz sobre as expressões regulares, não funciona todos os tipos de buscas-->
+
+3. Clique em "Executar pesquisa"
 
 ![Pesquisa simples](../imagens/busca_7.png)
 Figura x: Relizando uma Pesquisa Simples.
@@ -1251,27 +1190,35 @@ Para qualquer tipo de busca, é possível realizar algumas configurações:
 
 ## Caso de uso 07 - Visualizador de corpora
 
-[INTRODUÇÃO]
+O visualizador de corpora da plataforma Tycho Brahe oferece uma interface acessível e prática para a exploração dos corpora disponíveis. Essa funcionalidade está aberta a todos os usuários, incluindo aqueles que não possuem cadastro na plataforma, promovendo a democratização do acesso aos dados linguísticos desenvolvidos no projeto.
+
+Com o visualizador, é possível:
+
+- Examinar anotações realizadas nos corpora, como etiquetas (POS) e anotações sintáticas.
+- Visualizar e exportar representações gráficas, como árvores sintáticas, diretamente a partir da ferramenta, permitindo maior flexibilidade para estudos e apresentações.
+- Acessar áudios disponíveis (quando se aplicar).
+- Visualizar traduções das sentenças analizadas (quando se aplicar).
+  Essas funcionalidades são ideais para pesquisadores, estudantes e interessados em linguística que desejam explorar os corpora de forma detalhada e aproveitar os recursos sem barreiras iniciais de acesso.
 
 ### Descrição Caso de uso 07
 
 **Atores primários**:
 
-1.
+1.Usuários em geral
 
 **Pré-requisitos:**
 
-1.
+1.Sem pré-requisitos
 
 **Fluxo normal:**
 
-1.  **Fluxo alternativo:**
-
-**A1**
-
-1.  **A2**
-
-1.
+1. Acessar a página inicial da plataforma Tycho Brahe no endereço <https://www.tycho.iel.unicamp.br/home>.
+2. Clicar no "Vizualizador" na área de "Ferramentas".
+3. Selecionar um dos corpora disponíveis na lista.
+   1. São apresentadas informações como número de documentos e número de palavras nos corpora.
+4. Navegar pela lista de documentos. Selecionar um documento.
+5. Selecionar a sentença desejada.
+   1. São apresentadas informações como etiquetas POS, traduções, áudios disponíveis e árvore/estrutura sintática.
 
 ### Diagrama do Caso de uso 07 - Visualizador de corpora
 
@@ -1284,24 +1231,55 @@ Para qualquer tipo de busca, é possível realizar algumas configurações:
 ### Tutorial:
 
 **Objetivo:**
+Este tutorial tem como objetivo guiar os usuários no uso do visualizador de corpora da plataforma Tycho Brahe. Ao final, o usuário será capaz de:
+
+- Acessar o visualizador, mesmo sem cadastro na plataforma.
+- Navegar pelas anotações disponíveis nos corpora.
+- Visualizar e exportar árvores sintáticas desejadas para uso externo.
 
 #### **Tutorial: Fluxo normal**
 
-1.
+1. Acesse a página inicial da plataforma Tycho Brahe no endereço <https://www.tycho.iel.unicamp.br/home>.
+2. Clique no "Vizualizador" na área de "Ferramentas".
 
-#### \*\*Tutorial: Fluxo Alternativo
+![Acessando visualizador](../imagens/vizualizador/vizualizador_1.png)
+Figura x: Acessando o Visulizador de corpus.
 
-### Tutorial: Guia do Usuário Final (SE HOUVER)
+3. Selecione um dos corpora disponíveis na lista.
+   1. São apresentadas informações como número de documentos e número de palavras nos corpora.
 
-**Objetivo:**
+![Seleção de corpora para visualização](../imagens/vizualizador/visualizador_2.png)
 
-#### **Tutorial: Fluxo normal **
+4. Navegue pela lista de documentose e selecione um documento. Há alguma ícones que disponibilizam algumas funcionalidades:
 
-1.
+- Filtragem de documentos por palavra ou status:
 
-#### **Tutorial: Fluxo alternativo**
+![Filtragem de docs](../imagens/vizualizador/visualizador_3.png)
+Figura x: Filtragem de documentos no Visualizador
 
-1.
+- Documentos dispostos em forma de grade ou lista:
+
+![Docs em grade](../imagens/vizualizador/visualizador_4.png)
+Figura x: Disposição de documentos em grade.
+
+![Docs em lista](../imagens/vizualizador/visualizador_5.png)
+Figura x: Disposição de documentos em lista.
+
+- Botão de compartilhamento de link do corpus:
+
+![Link corpus](../imagens/vizualizador/visualizador_6.png)
+Figura x: Compartilhamento do link do corpus.
+
+5. Após a seleção do documento desejado, as sentenças que o corpus contém são apresentadas. Selecione a sentença desejada.
+   - Na tela que apresenta as sentenças, são apresentadas: tradução, botão para tocar o áudio original, botão para realizar download do áudio, língua de tradução etc.:
+
+![Apresentação de sentenças](../imagens/vizualizador/visualizador_7.png)
+Figura x: Sentenças disponíveis no documento.
+
+- Ao ser selecionada uma sentença, são apresentadas informações como etiquetas POS, traduções, áudios disponíveis e árvore/estrutura sintática.
+
+![Sentença - camadas etiquetas](../imagens/vizualizador/visualizador_8.png)
+Figura x: Anotações realizadas na sentença selecionada.
 
 ---
 
