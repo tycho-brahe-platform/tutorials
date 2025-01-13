@@ -1396,6 +1396,7 @@ Nota: se o usuário preferir inserir a sentença e realizar o parser, o sistema 
 ### Descrição Caso de uso 09
 
 **Atores primários**:
+a
 
 1.
 
