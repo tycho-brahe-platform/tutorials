@@ -70,28 +70,24 @@ SUMÁRIO
     - [Diagrama do Caso de uso 08- Synviewer](#diagrama-do-caso-de-uso-08--synviewer)
     - [Tutorial:](#tutorial-5)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-9)
-      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-3)
-    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver)
-      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal-)
-      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-4)
   - [Caso de uso 09 - Parser ](#caso-de-uso-09---parser-)
     - [Descrição Caso de uso 09](#descrição-caso-de-uso-09)
     - [Diagrama do Caso de uso 09 - Parser](#diagrama-do-caso-de-uso-09---parser)
     - [Tutorial:](#tutorial-6)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-10)
-      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-5)
-    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-1)
-      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--1)
-      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-6)
+      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-3)
+    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver)
+      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal-)
+      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-4)
   - [Caso de uso 10 - IO (Importação e Exportação)](#caso-de-uso-10---io-importação-e-exportação)
     - [Descrição Caso de uso 10 - IO (Importação e Exportação)](#descrição-caso-de-uso-10---io-importação-e-exportação)
     - [Diagrama do Caso de uso 10 - IO (Importação e Exportação)](#diagrama-do-caso-de-uso-10---io-importação-e-exportação)
     - [Tutorial:](#tutorial-7)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-11)
-      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-7)
-    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-2)
-      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--2)
-      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-8)
+      - [\*\*Tutorial: Fluxo Alternativo](#tutorial-fluxo-alternativo-5)
+    - [Tutorial: Guia do Usuário Final (SE HOUVER)](#tutorial-guia-do-usuário-final-se-houver-1)
+      - [\*\*Tutorial: Fluxo normal \*\*](#tutorial-fluxo-normal--1)
+      - [**Tutorial: Fluxo alternativo**](#tutorial-fluxo-alternativo-6)
 
 ## Introdução
 
@@ -1285,27 +1281,49 @@ Figura x: Anotações realizadas na sentença selecionada.
 
 ## Caso de uso 08 - Synviewer
 
-[INTRODUÇÃO]
+A plataforma Tycho Brahe oferece uma interface para a geração e visualização de árvores sintáticas, o "Synviewer". Dentre as funcionalidades, destacam-se a geração de árvores sintáticas com base em parsers baseados em regra desenvolvidos no âmbito do projeto, bem como árvores sintáticas baseadas no banco de Dependências Universais (_Universal Dependencies - UD_). Esta ferramenta facilita o uso dos parser desenvolvidos dentro do projeto, facilitando a visualização, exportação e apresentação dos dados.
 
 ### Descrição Caso de uso X
 
 **Atores primários**:
 
-1.
+1. Usuários em geral (inclusive sem cadastro prévio na plataforma)
 
 **Pré-requisitos:**
 
-1.
+1. Sem pré-requisitos
 
 **Fluxo normal:**
 
-1.  **Fluxo alternativo:**
+1. Acessar a página inicial da plataforma Tycho Brahe no endereço <https://www.tycho.iel.unicamp.br/home>.
+2. Clicar no "Synviewer" na área de "Ferramentas".
 
-**A1**
+Há duas funcionalidades principais no "Synviewer":
 
-1.  **A2**
+- **Parsers Tycho**: parsers desenvolvidos no âmbito do projeto.
 
-1.
+  - **Executar o parser**:
+    1. Selecionar a aba "Executar o parser".
+    2. Inserir a sentença desejada.
+    3. Selecionar o modelo (parser) desejado.
+    4. Clicar em "Executar".
+  - **Exibir Árvore Sintática**:
+    1.  Selecionar a aba "Exibir Árvore Sintática".
+    2.  Inserir expressão em notação de parênteses ou colchetes para geração da árvore.
+    3.  Converter para notação em colchetes ou parênteses e clicar em "Executar" para gerar a árvore
+  - **Exibir Formato Tycho**:
+    1.  Selecionar a aba "Exibir Formato Tycho".
+    2.  Inserir os dados.
+    3.  Clicar em "Executar" <!--REVISAR: ESTA FUNCIONALIDADE NÃO APRESENTA COMPORTAMENTO...TALVEZ TENHA TESTADO A ENTRADA ERRADA-->
+
+- **Dependências Universais**: parsers do banco de dados de Dependências Universais.
+
+  1. Inserir a sentença desejada ou inserir a expressão no modelo CoNLL-U.
+  2. Selecionar o modelo (parser) desejado.
+  3. Clicar em "Executar".<br><br>
+
+  O usuário pode visualizar e exportar árvores no formato CoNLL-U ou Dependências Universais.<br>
+  Nota: se o usuário preferir inserir a sentença e realizar o parser, o sistema retorna tanto as árvores quanto a expressão em notação CoNLL-U. É possível também inserir a expressão em CoNLL-U para geração das árvores diretamente.
 
 ### Diagrama do Caso de uso 08- Synviewer
 
@@ -1321,23 +1339,55 @@ Figura x: Anotações realizadas na sentença selecionada.
 
 #### **Tutorial: Fluxo normal**
 
-1.
+1. Acesse a página inicial da plataforma Tycho Brahe no endereço <https://www.tycho.iel.unicamp.br/home>.
 
-#### \*\*Tutorial: Fluxo Alternativo
+![Acesso Synviewer](../imagens/synviewer/syn_1.png)
+Figura x: Acessando página inicial
 
-### Tutorial: Guia do Usuário Final (SE HOUVER)
+2. Clique no "Synviewer" na área de "Ferramentas" para acessar a funcionalidade.
+   Figura x: Acessando o "Synviewer"
 
-**Objetivo:**
+![Geral synviewer](../imagens/synviewer/syn_2.png)
 
-#### **Tutorial: Fluxo normal **
+Há duas funcionalidades principais no "Synviewer":
 
-1.
+**Parsers Tycho**: seleciona esta aba com os parsers desenvolvidos no âmbito do projeto.
 
-#### **Tutorial: Fluxo alternativo**
+- **Executar o parser**:
+  1. Selecione a aba "Executar o parser".
+  2. Insira a sentença desejada.
+  3. Selecione o modelo (parser) desejado e clique em "Executar".
 
-1.  as
+![Parsers Tycho](../imagens/synviewer/syn_3.png)
 
----
+A execução do parser resulta na árvore, como apresentada na Figura a seguir:
+
+![Execução parser de regra](../imagens/synviewer/syn_4.png)
+
+- **Exibir Árvore Sintática**:
+  1. Selecione a aba "Exibir Árvore Sintática".
+  2. Insira expressão em notação de parênteses ou colchetes para geração da árvore.
+  3. Converta para notação em colchetes ou parênteses (se aplicar) e clicar em "Executar" para gerar a árvore. É possível visualizar a árvore em tela cheia e exportar como imagem.
+
+![Exibir Árvore sintática](../imagens/synviewer/syn_5.png)
+
+- **Exibir Formato Tycho**:
+  1. Selecionar a aba "Exibir Formato Tycho".
+  2. Inserir os dados.
+  3. Clicar em "Executar" <!--REVISAR: ESTA FUNCIONALIDADE NÃO APRESENTA COMPORTAMENTO...TALVEZ TENHA TESTADO A ENTRADA ERRADA-->
+
+**Dependências Universais**: parsers do banco de dados de Dependências Universais.
+
+1. Insira a sentença desejada.
+2. Selecione o modelo (parser) desejado.
+3. Clique em "Executar".
+
+![Dep universais](../imagens/synviewer/syn_6.png)
+
+O usuário pode visualizar e exportar árvores no formato CoNLL-U ou Dependências Universais como imagem.<br>
+Nota: se o usuário preferir inserir a sentença e realizar o parser, o sistema retorna tanto as árvores quanto a expressão em notação CoNLL-U. É possível também inserir a expressão em CoNLL-U para geração das árvores diretamente: insira a expressão e clique em Exibir, para gerar as árvores.
+
+![Exibir conllu](../imagens/synviewer/syn_7.png)
 
 ## Caso de uso 09 - Parser <!--Criação, edição e gerenciamento das regras dos parsers-->
 
