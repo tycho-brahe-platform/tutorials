@@ -61,12 +61,12 @@ SUMÁRIO
     - [Tutorial:](#tutorial-3)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-7)
   - [Caso de uso 07 - Visualizador de corpora](#caso-de-uso-07---visualizador-de-corpora)
-    - [Descrição Caso de uso 07](#descrição-caso-de-uso-07)
+    - [Descrição Caso de uso 07 - Visualizador de corpora](#descrição-caso-de-uso-07---visualizador-de-corpora)
     - [Diagrama do Caso de uso 07 - Visualizador de corpora](#diagrama-do-caso-de-uso-07---visualizador-de-corpora)
     - [Tutorial:](#tutorial-4)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-8)
   - [Caso de uso 08 - Synviewer](#caso-de-uso-08---synviewer)
-    - [Descrição Caso de uso X](#descrição-caso-de-uso-x)
+    - [Descrição Caso de uso 08 - Synviewer](#descrição-caso-de-uso-08---synviewer)
     - [Diagrama do Caso de uso 08- Synviewer](#diagrama-do-caso-de-uso-08--synviewer)
     - [Tutorial:](#tutorial-5)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal-9)
@@ -1100,7 +1100,7 @@ Para qualquer tipo de busca, é possível realizar algumas configurações:
 
 ### Diagrama do Caso de uso 06 - FERRAMENTA DE PESQUISA
 
-![Caso de uso 06](../imagens/caso07_diagrama.png)
+![Caso de uso 06](../imagens/caso_ferramenta_pesquisa.png)
 Figura x: Diagrama Caso de Uso 06 - Ferramenta de Pesquisa
 
 ### Tutorial:
@@ -1196,7 +1196,7 @@ Com o visualizador, é possível:
 - Visualizar traduções das sentenças analizadas (quando se aplicar).
   Essas funcionalidades são ideais para pesquisadores, estudantes e interessados em linguística que desejam explorar os corpora de forma detalhada e aproveitar os recursos sem barreiras iniciais de acesso.
 
-### Descrição Caso de uso 07
+### Descrição Caso de uso 07 - Visualizador de corpora
 
 **Atores primários**:
 
@@ -1218,11 +1218,8 @@ Com o visualizador, é possível:
 
 ### Diagrama do Caso de uso 07 - Visualizador de corpora
 
-<figure>
-    <img src=""
-         alt="">
-    <figcaption>Figura X: CAPTION</figcaption>
-</figure>
+![diagrama caso visualizador](../imagens/caso_visualizador.png)
+Figura x: Diagrama caso de uso Visualizador de corpora
 
 ### Tutorial:
 
@@ -1283,7 +1280,7 @@ Figura x: Anotações realizadas na sentença selecionada.
 
 A plataforma Tycho Brahe oferece uma interface para a geração e visualização de árvores sintáticas, o "Synviewer". Dentre as funcionalidades, destacam-se a geração de árvores sintáticas com base em parsers baseados em regra desenvolvidos no âmbito do projeto, bem como árvores sintáticas baseadas no banco de Dependências Universais (_Universal Dependencies - UD_). Esta ferramenta facilita o uso dos parser desenvolvidos dentro do projeto, facilitando a visualização, exportação e apresentação dos dados.
 
-### Descrição Caso de uso X
+### Descrição Caso de uso 08 - Synviewer
 
 **Atores primários**:
 
@@ -1308,13 +1305,13 @@ Há duas funcionalidades principais no "Synviewer":
     3. Selecionar o modelo (parser) desejado.
     4. Clicar em "Executar".
   - **Exibir Árvore Sintática**:
-    1.  Selecionar a aba "Exibir Árvore Sintática".
-    2.  Inserir expressão em notação de parênteses ou colchetes para geração da árvore.
-    3.  Converter para notação em colchetes ou parênteses e clicar em "Executar" para gerar a árvore
+    1. Selecionar a aba "Exibir Árvore Sintática".
+    2. Inserir expressão em notação de parênteses ou colchetes para geração da árvore.
+    3. Converter para notação em colchetes ou parênteses e clicar em "Executar" para gerar a árvore
   - **Exibir Formato Tycho**:
-    1.  Selecionar a aba "Exibir Formato Tycho".
-    2.  Inserir os dados.
-    3.  Clicar em "Executar" <!--REVISAR: ESTA FUNCIONALIDADE NÃO APRESENTA COMPORTAMENTO...TALVEZ TENHA TESTADO A ENTRADA ERRADA-->
+    1. Selecionar a aba "Exibir Formato Tycho".
+    2. Inserir os dados.
+    3. Clicar em "Executar" <!--REVISAR: ESTA FUNCIONALIDADE NÃO APRESENTA COMPORTAMENTO...TALVEZ TENHA TESTADO A ENTRADA ERRADA-->
 
 - **Dependências Universais**: parsers do banco de dados de Dependências Universais.
 
@@ -1327,11 +1324,8 @@ Há duas funcionalidades principais no "Synviewer":
 
 ### Diagrama do Caso de uso 08- Synviewer
 
-<figure>
-    <img src=""
-         alt="">
-    <figcaption>Figura X: CAPTION</figcaption>
-</figure>
+![caso synviewer diagrama](../imagens/synviewer/caso_synviewer_diagram.png)
+Figura x: Diagrama de caso de uso Synviewer
 
 ### Tutorial:
 
