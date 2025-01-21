@@ -184,7 +184,7 @@ Ou
 ![Tela de login](../imagens/tycho_home_signin2.png)
 Figura X: Login in com o Google</figcaption>
 
-4. Após _login_ o Usuário é redirecionado à página inicial do perfil, onde são dispostas as áreas **Meu Perfil**, com Informações do usuário, como e-mail, Nome, Informações acadêmicas e Idioma de preferência, que podem eventualmente ser editadas <!-- REVISAR CRÍTICO: avisar ao Luiz que as edições não são perpetuadas na base, não ficam salvas-->, **Meus corpora**, que apresenta os corpora disponíveis associados ao perfil logado e **Minhas Ferrametentas**, que disponibiliza as ferramentas disponíveis para o usuário logado, de acordo com as permissões de acesso configuradas.
+4. Após _login_ o Usuário é redirecionado à página inicial do perfil, onde são dispostas as áreas **Meu Perfil**, com Informações do usuário, como e-mail, Nome, Informações acadêmicas e Idioma de preferência, que podem eventualmente ser editadas <!-- REVISAR CRÍTICO: avisar ao Luiz que as edições não são persistidos na base, não ficam salvas-->, **Meus corpora**, que apresenta os corpora disponíveis associados ao perfil logado e **Minhas Ferrametentas**, que disponibiliza as ferramentas disponíveis para o usuário logado, de acordo com as permissões de acesso configuradas.
 
 !["Tela de perfil do usuário"](../imagens/area_reservada_perfil.png)
 Figure x: Tela inicial - perfil de usuário
@@ -347,7 +347,7 @@ Se o usuário ainda não estiver na base de dados da plataforma, siga estas etap
 1. **Envio do Link de Onboarding**: Envie o link "/onboarding" para o usuário.
 2. **Cadastro Inicial do Usuário**: O usuário acessa o link, e ao tentar se cadastrar, o sistema mostrará uma mensagem de acesso negado ao corpus.
 
-<!--REVISAR:INSERIR IMAGEM-->
+<!--REVISAR:INSERIR IMAGEM:NÃO TENHO UMA AINDA COMO USUÁRIO NOVO-->
 
 1. **Adicionar Novo Usuário**: Na tela /admin (<https://www.tycho.iel.unicamp.br/admin>) <!-- REVISAR:MANTER LINK?-->, selecione o corpus ou por meio da "Área reservada"(selecione o "Acesso rápido"-"Admin"). No painel de "Access Control", com o botão “Users” selecionado, clique em "+ Add New" para adicionar o usuário.
 2. **Selecionar o E-mail do Usuário**: No campo de busca, preencha o nome ou e-mail do usuário (são apresentados candidatos salvos na base de dados com base no termo de busca preenchido). Escolha o nome/e-mail do usuário que você deseja cadastrar no menu drop down.
@@ -437,10 +437,10 @@ A ferramenta de gestão de corpora é um componente fundamental para a construç
 
 Para os administradores, a ferramenta oferece recursos avançados para a criação e configuração dos corpora, atribuição de permissões e gerenciamento etc.
 
-Há três formas <!-- <-[REVISAR CRÍTICO: INSERIR LISTA DE MANEIRAS DE DEV DE CORPUS]--> para executar a criação de corpora na ferramenta Tycho Brahe:
+Há três formas para executar a criação de corpora na ferramenta Tycho Brahe:
 
 1. _Translation mode_ (Modo traduções) ou _Translation eDictor_
-2. [REVISAR: INSERIR]
+2. <!-- <-[REVISAR CRÍTICO: INSERIR LISTA DE MANEIRAS DE DEV DE CORPUS]...diz respeito às ferramentas que vou habilitar na configuração dos corpora? Use eDictor, use Transcriber, Use designer ... ?-->
 
 Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a criação e configuração de novos corpora, além de tutoriais detalhados que guiam administradores e usuários no uso eficiente da ferramenta, garantindo uma experiência fluida e colaborativa na gestão dos catálogos.
 
@@ -631,7 +631,7 @@ A configuração do eDictor Tranlations também depende de configurações na ab
   - **Order**: aceita números inteiros para configuração da ordem em que as línguas de tradução serão apresentadas;
   - **Symbol**: preencha com o rótulo desejado;
   - **Name**: preencha com o nome desejado;
-  - **Reference**: preencha para adicionar uma referência.<!--[REVISAR: ver videos de gravação da reunião]-->
+  - **Reference**: preencha para adicionar uma referência.<!--[REVISAR: ESTA REFERENCIA DIZ RESPEITO A QUE?]-->
 
 <br>
 
@@ -706,7 +706,7 @@ A ferramenta **Use eDictor** habilita ao usuário o uso do **eDictor** tradicion
      1. Para rodar o _parser_ na sentença selecionada é necessário que um parser tenha sido associado ao corpus previamente. Em caso afirmativo, clicar em no ícone de "parser" no canto superior direito.
      2. É possível editar os nós da árvore sintática: clicar sobre o nó desejado e selecionar a etiqueta adequada.
 
-   Outras informações a ações são disponibilizadas neste tela: abrir comentários, ver manuais de anotação sintática, salvar, desfazer/refazer, aplicar layout, histórico, juntar à próxima sentença, debugar _parser_, e por fim, marcar status de revisão de etiquetagem da sentença (a fazer, como pronta, para revisão).
+   Outras informações a ações são disponibilizadas neste tela: abrir comentários, ver manuais de anotação sintática, salvar, desfazer/refazer, aplicar layout, histórico, juntar à próxima sentença (ação não permitida caso a sentença tenha tradução e/ou áudio correspondentes), debugar _parser_, e por fim, marcar status de revisão de etiquetagem da sentença (a fazer, como pronta, para revisão).<!--REVISAR: EVENTUALMENTE ESTA PARTE DEVE SER MAIS DETALHADA-->
 
    - **Revisar etiquetas POS**: Ao se acessar esta área, a plataforma apresenta as sentenças do documento para que o usuário possar realizar uma revisão da etiquetagem. Se o _parsing_ já tiver sido previamente realizado na sentença, ela apresenta as etiquetas atribuídas. Do contrário, a camada de etiquetagem POS fica com _vazio_ atribuído a todas os tokens.
 
@@ -790,7 +790,7 @@ Figura x: Dividindo palavras.
 ![Juntar à próxima](../imagens/use_edictor_29-30.png)
 Figura x: Juntar com a próxima palavra.
 
-- **Spliter**: é possível adicionar ou remover spliter de um par de palavras. <!--[ REVISAR: VER COM O LUIZ COMO FUNCIONA - NÃO PARECE ESTAR FUNCIONAMENTO?]-->
+- **Spliter**: é possível adicionar ou remover spliter de um par de palavras. <!--[ REVISAR: VER COM O LUIZ COMO FUNCIONA - NÃO PARECE ESTAR EM FUNCIONAMENTO?]-->
 - **Remover** uma palavra: Selecione a palavra que deseja remover, clique em "remover" e confirme.
 
 ![Remoção de palavra](../imagens/use_edictor_31.png)
@@ -850,7 +850,7 @@ Figura x: Níveis de edição.
   1. Para rodar o _parser_ na sentença selecionada é necessário que um parser tenha sido associado ao corpus previamente. Em caso afirmativo, clicar em no ícone de "parser" no canto superior direito.
   2. É possível editar os nós da árvore sintática: clicar sobre o nó desejado e selecionar a etiqueta adequada.
 
-Outras informações a ações são disponibilizadas neste tela: abrir comentários, ver manuais de anotação sintática, salvar, desfazer/refazer, aplicar layout, histórico, juntar à próxima sentença, debugar _parser_, e por fim, marcar status de revisão de etiquetagem da sentença (a fazer, como pronta, para revisão).
+Outras informações a ações são disponibilizadas neste tela: abrir comentários, ver manuais de anotação sintática, salvar, desfazer/refazer, aplicar layout, histórico, juntar à próxima sentença (ação não permitida caso a sentença tenha tradução e/ou áudio correspondentes), debugar _parser_, e por fim, marcar status de revisão de etiquetagem da sentença (a fazer, como pronta, para revisão).<!--REVISAR: EVENTUALMENTE ESTA PARTE DEVE SER MAIS DETALHADA-->
 
 - **Revisar etiquetas POS**: Ao se acessar esta área, a plataforma apresenta as sentenças do documento para que o usuário possar realizar uma revisão da etiquetagem. Se o _parsing_ já tiver sido previamente realizado na sentença, ela apresenta as etiquetas atribuídas. Do contrário, a camada de etiquetagem POS fica com a etiqueta "vazio" atribuída a todas os tokens.
 
@@ -906,7 +906,7 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
             1. "Inserir": inserir palavra á direita
             2. "Dividir": dividir palavra em duas
             3. "Unir": unir palavras
-            4. "Variações" <!--REVISAR: NÃO SURTE EFEITO-->
+            4. "Variações"
             5. "Remover": remover palavra
          6. Para edições da sentença, clicar em "...":
             1. "Dividir": dividir sentença em duas (após token selecionado)
@@ -1157,7 +1157,7 @@ Figura x: Resultado de uma busca simples.
 2. Selecione quais padrões serão aplicados na busca pelos colocados:
    1. Nas listas suspensa, escolher entre: Palavra, Categoria sintática, Categoria Vazia ou Etiqueta POS.
    2. A depender da seleção anterior: se selecionar "Palavra", preencha o campo com a palavra desejada a ser pesquisada; Se a pesquisa for por Categorias sintática, Categoria vazia ou Etiqueta POS, inicie o preenchimento da tag desejada e selecione a tag pertinente a partir da lista suspensa.
-   3. Selecione qual a relação estabelecida entre os colocados objetos da pesquisa: _dominates, exists hasSister, iDominates, inDominates, iPrecedes, inPrecedes, precedes_.<!--REVISAR: INSERIR DEFINICÃO DE CADA UMA DESSAS PALAVRAS CHAVES?-->
+   3. Selecione qual a relação estabelecida entre os colocados objetos da pesquisa: _dominates, exists hasSister, iDominates, inDominates, iPrecedes, inPrecedes, precedes_.<!--REVISAR: INSERIR DEFINICÃO DE CADA UMA DESSAS PALAVRAS CHAVES COM FIGURAS?-->
 3. É possível adicionar mais buscas ao clicar no ícone "+" e deletar padrão de busca ao clicar na "lixeira".
 4. Clique em "Executar Pesquisa".
 
@@ -1181,8 +1181,6 @@ Para qualquer tipo de busca, é possível realizar algumas configurações:
    <!--REVISAR: aguardar reunião com Luiz para entender melhor esta parte de configurações-->
 
 ---
-
-<!--REVISAR: CASOS DE USO A SEREM INCLUÍDOS-->
 
 ## Caso de uso 07 - Visualizador de corpora
 
