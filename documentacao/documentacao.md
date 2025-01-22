@@ -887,6 +887,7 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
 4. Com o catálogo aberto, selecionar o corpus e documento que deseja editar.
 5. Acessar "Exibir informações" clicando no ícone com menu no documento do corpus.
 6. Na aba de ações que abre à esquerda, no campo "Continuar a edição do documento", clique na seta para abrir o menu de ferramentas de edição: selecionar o "eDictor Translations".
+
    1. Inserir textos (sentenças):
       1. Selecionar "Inserir texto".
       2. Inserir o texto fonte (original); selecionar o idioma de tradução; inserir texto traduzido. (Nota: sentenças a serem sincronizadas em paralelo podem ser separadas por quebra de linha).
@@ -897,20 +898,16 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
       1. Selecionar "Inserir texto"
       2. Clicar em "Apagar" para apagar textos transcritos (Textos já sincronizados são mantidos)
    3. Editar sentenças sincronizadas:
-      1. Via botão E - eDictor:
-         1. Selecionar um par de sentenças.
-         2. Selecionar botão E (eDictor).
-         3. Para editar o original: no quadro, clicar no ícone de "lápis" (edição) da palavra que desejar, editar a palavra e confirmar.
-         4. Para editar a tradução: rolar a página até o campo de "Traduções", editar o campo com o texto e salvar.
-         5. Para outras edições da palavra: clicar em "...",
-            1. "Inserir": inserir palavra á direita
-            2. "Dividir": dividir palavra em duas
-            3. "Unir": unir palavras
-            4. "Variações"
-            5. "Remover": remover palavra
-         6. Para edições da sentença, clicar em "...":
-            1. "Dividir": dividir sentença em duas (após token selecionado)
-            2. "Unir": unir com sentença seguinte
+
+      1. Via botão E - eDictor: 1. Selecionar um par de sentenças. 2. Selecionar botão E (eDictor). 3. Para editar o original: no quadro, clicar no ícone de "lápis" (edição) da palavra que desejar, editar a palavra e confirmar. 4. Para editar a tradução: rolar a página até o campo de "Traduções", editar o campo com o texto e salvar. 5. Para outras edições da palavra: clicar em "...", 1. "Inserir": inserir palavra á direita 2. "Dividir": dividir palavra em duas 3. "Unir": unir palavras 4. "Variações" 5. "Remover": remover palavra 6. Para edições da sentença, clicar em "...":
+
+         1. "Dividir": dividir sentença em duas (após token selecionado)
+         2. "Unir": unir com sentença seguinte
+
+         Nota: A função de Dividir e Unir sentenças não funciona se a sentença tiver traduções e áudios associados. Na tentativa, o sistema retorna uma mensagem de erro e a operação é impedida:
+
+         ![Erro união sentença](../imagens/edictor_erro_unir_sentenca.png)
+
       2. Via botão UD <!--REVISAR CRÍTICO: ACREDITO QUE PARA FAZER EDIÇÕES NO ORIGINAL COM UD SELECIONADO É NECESSÁRIO ANTES TER ASSOCIADO UM PARSER - NO CASO DO NHEENGATU POR EXEMPLO, SÓ CONSIGO EDITAR COM O EDICTOR SELECIONADO-->:
          1. Selecionar um par de sentenças.
          2. Selecionar botão UD (Dependências Universais).
@@ -919,6 +916,7 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
          5. Para incluir palavra: na linha da palavra selecionada, clicar em "+", editar o campo e confirmar.
          6. Para aplicar informações de um token a todos tokens similares do documento: na linha da palavra objetivo, clicar no ícone de "cópia"
          7. Para deletar: na linha da palavra, clicar no ícone com "lixeira" e confirmar.
+
    4. Remover sentenças sincronizadas:
       1. Selecionar um par de sentenças.
       2. Clicar em no ícone de "lixeira" (remover) e confirmar.
@@ -944,10 +942,10 @@ Seguir o fluxo normal de 1 a 5, ou o fluxo A1, para acesso à ferramenta eDictor
 ### Diagrama do Subcaso de uso 05.01 - **Use eDictor Translations: Edição de corpora**
 
 ![Caso de uso 5.01.](../imagens/caso6.01.1_diagrama.png)
-Figura X: Diagrama Caso de uso 6.01 - Edição de corpora (eDictor Translations)
+Figura X: Diagrama Caso de uso 5.01 - Edição de corpora (eDictor Translations)
 
 !["Caso de uso 5.01 - Ações no corpus"](../imagens/caso6.01.2_diagrama.png)
-Figura x: Cont. Diagrama Caso de uso 6.01 - Ações no corpus <!--REVISAR: VOU TER DE MODIFICAR ESTA FIGURA NÃO SEI SE VALE A PENA-->
+Figura x: Cont. Diagrama Caso de uso 5.01 - Ações no corpus <!--REVISAR: VOU TER DE MODIFICAR ESTA FIGURA NÃO SEI SE VALE A PENA-->
 
 ### Tutorial:
 
