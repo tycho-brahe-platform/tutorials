@@ -82,9 +82,15 @@ A ferramenta **Use eDictor** habilita ao usuário o uso do **eDictor** tradicion
 ### Diagrama do Caso de uso 04 - **Use eDictor**
 
 <figure>
-    <img src=""
+    <img src="../imagens/caso_use_edictor_1.png"
          alt="">
-    <figcaption>Figura X: CAPTION</figcaption>
+    <figcaption> Caso de uso 04 Ferramenta Use eDictor </figcaption>
+</figure>
+
+<figure>
+    <img src="../imagens/caso_use_edictor_2.png"
+         alt="">
+    <figcaption> Caso de uso 04 Ferramenta Use eDictor - operações </figcaption>
 </figure>
 
 ### Tutorial:
@@ -95,118 +101,121 @@ A ferramenta **Use eDictor** habilita ao usuário o uso do **eDictor** tradicion
 
 1. Verifique (ou Habilite) o **use eDictor** na página de /admin do corpus, na aba de parâmetros.
 
-![Use eDictor habilitado](../imagens/use_edictor_1.png)
-Figura x: Habilitando o use eDictor.
+   ![Use eDictor habilitado](../imagens/use_edictor_1.png)
+   Habilitando o use eDictor.
 
 2. Verifique se o documento que deseja editar está no corpus, ou adicione novo documento para transcrição e edição.
+
    1. Clique em "+Adicionar novo documento".
    2. Preencha o nome do novo documento.
    3. Selecione a Ferramenta de edição desejada para o documento (dentre use eDictor ou eDictor Translation) - Para este caso de uso selecione o use eDictor.
 
-![Adicionar documento](../imagens/use_edictor_2.png)
-Figura x: Adicionando documento para use eDictor.
+   ![Adicionar documento](../imagens/use_edictor_2.png)
+   Adicionando documento para use eDictor.
 
 3. Realize o upload de um arquivo de imagem de onde pretende realizar a transcrição: do lado esquerdo da página que abre após a criação do documento, clique em "clique aqui para realizar o upload", selecione imagem e confirme.
 
-![Upload arquivo para transcrição](../imagens/use_edictor_3.png)
-Figura x: Upload de documento para eDictor.
+   ![Upload arquivo para transcrição](../imagens/use_edictor_3.png)
+   Upload de documento para eDictor.
 
-![Confirma arquivo](../imagens/use_edictor_4-5.png)
-Figura x: Envio do aquivo para eDictor.
+   ![Confirma arquivo](../imagens/use_edictor_4-5.png)
+   Envio do aquivo para eDictor.
 
 4. Transcrições:
    **Manual**: Clique o botão "Transcrição" para abrir o campo de preenchimento manual das transcrições do texto da imagem inserida.
 
-![EDictor transcrição](../imagens/use_edictor_6.png)
+   ![EDictor transcrição](../imagens/use_edictor_6.png)
 
-**Automática**: Clique o botão "extrair texto de imagem"(T), no canto superior direito, para realizar a transcrição automática a partir da imagem com texto.
+   **Automática**: Clique o botão "extrair texto de imagem"(T), no canto superior direito, para realizar a transcrição automática a partir da imagem com texto.
 
-![Extração texto de imagem](../imagens/use_edictor_11.png)
-Figura x: Transcrição automática - extrair texto da imagem
+   ![Extração texto de imagem](../imagens/use_edictor_11.png)
+   Transcrição automática - extrair texto da imagem </br></br>
 
-5. Preenchidas as transcrições, manualmente ou automaticamente, salve as alterações clicando no ícone em [2].
+5. Preenchidas as transcrições, manualmente ou automaticamente, salve as alterações clicando no ícone em [2].</br></br>
 
-![Salvar transcrição](../imagens/use_edictor_7.png)
-Figura x: Salvando uma transcrição .
+   ![Salvar transcrição](../imagens/use_edictor_7.png)
+   Salvando uma transcrição .</br></br>
 
 6. Clique no ícone de "ir para o modo edição" para preparar o texto para receber edições.
 
-![Selecionando edição](../imagens/use_edictor_8.png)
-Figura x: Preparando texto para edição
+   ![Selecionando edição](../imagens/use_edictor_8.png)
+   Preparando texto para edição </br></br>
 
 7. Etiquetagem e outras edições:
    **Edições manuais**: Clicar sobre palavra que deseja editar e realizar as edições desejadas:
 
-   **Operações**:
+   **Operações**:</br>
    ![Menu operações](../imagens/use_edictor_24.png)
 
-- **Inserir palavras**: selecionada uma palavra da sentença, no menu "Operações" seleciona "inserir". Uma tela com espaço para preencher palavras a serem inseridas se abre. Preencha as palavras que deseja adicionar e confirme. Note que as palavras preenchidas serão inseridas após a palavra selecionada para edição na sentença;
+   - **Inserir palavras**: selecionada uma palavra da sentença, no menu "Operações" seleciona "inserir". Uma tela com espaço para preencher palavras a serem inseridas se abre. Preencha as palavras que deseja adicionar e confirme. Note que as palavras preenchidas serão inseridas após a palavra selecionada para edição na sentença;
 
-![Inserir palavras](../imagens/use_edictor_25-26.png)
+     ![Inserir palavras](../imagens/use_edictor_25-26.png)
 
-- **Dividir**: Divida a palavra selecionada em duas ou mais (separadas por espaços). As palavras separadas por espaços serão incluídas como novos _tokens_ na sentença e todas as informações dar parseamento serão redefinidas.
+   - **Dividir**: Divida a palavra selecionada em duas ou mais (separadas por espaços). As palavras separadas por espaços serão incluídas como novos _tokens_ na sentença e todas as informações dar parseamento serão redefinidas.</br></br>
 
-![Dividir tokens](../imagens/use_edictor_27-28.png)
-Figura x: Dividindo palavras.
+     ![Dividir tokens](../imagens/use_edictor_27-28.png)
+     Dividindo palavras.</br></br>
 
-- **Juntar com a próxima**: Com a palavra que será junta e a operação "juntar com a próxima" selecionadas, clique em "Confirmar" para juntar as palavras. Note que a palavra selecionada se juntará à seguinte na sentença e informações de parseamento serão redefinidas.
+   - **Juntar com a próxima**: Com a palavra que será junta e a operação "juntar com a próxima" selecionadas, clique em "Confirmar" para juntar as palavras. Note que a palavra selecionada se juntará à seguinte na sentença e informações de parseamento serão redefinidas.
 
-![Juntar à próxima](../imagens/use_edictor_29-30.png)
-Figura x: Juntar com a próxima palavra.
+     ![Juntar à próxima](../imagens/use_edictor_29-30.png)
+     Juntar com a próxima palavra.</br></br>
 
-- **Spliter**: é possível adicionar ou remover spliter de um par de palavras. <!--[ REVISAR: VER COM O LUIZ COMO FUNCIONA - NÃO PARECE ESTAR EM FUNCIONAMENTO?]-->
-- **Remover** uma palavra: Selecione a palavra que deseja remover, clique em "remover" e confirme.
+   - **Spliter**: é possível adicionar ou remover spliter de um par de palavras. <!--[ REVISAR: VER COM O LUIZ COMO FUNCIONA - NÃO PARECE ESTAR EM FUNCIONAMENTO?]-->
 
-![Remoção de palavra](../imagens/use_edictor_31.png)
-Figura x: Remoção de palavras.
+   - **Remover** uma palavra: Selecione a palavra que deseja remover, clique em "remover" e confirme.
 
-- **Observações**: é possível adicionar observações nas palavras. Clique em "Observações", preencha o campo com as observações desejadas e confirme. As palavras com observações serão grifadas no eDictor e as observações são apresentadas ao usuário passar o cursor sobre a palavra grifada.
+     ![Remoção de palavra](../imagens/use_edictor_31.png)
+     Remoção de palavras.</br></br>
 
-![Observações](../imagens/use_edictor_32.png)
-Figura x: Incluindo observações.
+   - **Observações**: é possível adicionar observações nas palavras. Clique em "Observações", preencha o campo com as observações desejadas e confirme. As palavras com observações serão grifadas no eDictor e as observações são apresentadas ao usuário passar o cursor sobre a palavra grifada.
 
-- **Notas de rodapé**: é possível, também, adicionar notas de rodapé nas palavras. Com a palavra selecionada, clique em "Notas de rodapé". Preencha o campo com as notas desejadas e confirme. O token recebe um índice superior e a nota correspondente aparece no rodapé do eDictor.
+   ![Observações](../imagens/use_edictor_32.png)
+   Incluindo observações.</br></br>
 
-![Notas de rodapé](../imagens/use_edictor_33-34.png)
-Figura x: Notas de rodapé
+   - **Notas de rodapé**: é possível, também, adicionar notas de rodapé nas palavras. Com a palavra selecionada, clique em "Notas de rodapé". Preencha o campo com as notas desejadas e confirme. O token recebe um índice superior e a nota correspondente aparece no rodapé do eDictor.
 
-- **Edição da palavra original**: é possível realizar uma edição na palavra selecionada. Selecione a palavra desejada; no campo "Palavra original" realize as edições desejadas e clique em "Salvar".
+   ![Notas de rodapé](../imagens/use_edictor_33-34.png)
+   Notas de rodapé</br></br>
 
-![Editar palavra original](../imagens/use_edictor_36.png)
-Figura x: Editando as palavras originais.
+   - **Edição da palavra original**: é possível realizar uma edição na palavra selecionada. Selecione a palavra desejada; no campo "Palavra original" realize as edições desejadas e clique em "Salvar".
 
-- **Etiqueta POS**: selecione a palavra que deseja etiquetar; clique sobre o campo "Etiquetas POS" para abrir um menu suspenso com as opçõs de etiquetas POS; selecione a etiqueta apropriada; clique em "Salvar".
+   ![Editar palavra original](../imagens/use_edictor_36.png)
+   Editando as palavras originais.</br></br>
 
-![Etiquetas POS](../imagens/use_edictor_36-37.png)
-Figura x: Etiquetando POS.
+   - **Etiqueta POS**: selecione a palavra que deseja etiquetar; clique sobre o campo "Etiquetas POS" para abrir um menu suspenso com as opçõs de etiquetas POS; selecione a etiqueta apropriada; clique em "Salvar".
 
-- **Flexão**: além da etiqueta POS, também é possível marcar etiquetas de flexão (1,2,3S e 1,2,3P). Clique no campo "Flexão" para abrir o menu suspenso; selecione a flexão desejada e clique em "Salvar".
+   ![Etiquetas POS](../imagens/use_edictor_36-37.png)
+   Etiquetando POS.</br></br>
 
-![Flexão](../imagens/use_edictor_38-39.png)
-Figura x: Etiquetas de flexão
+   - **Flexão**: além da etiqueta POS, também é possível marcar etiquetas de flexão (1,2,3S e 1,2,3P). Clique no campo "Flexão" para abrir o menu suspenso; selecione a flexão desejada e clique em "Salvar".
 
-- **Ignorar para análise automática**: esta botão de alternância marca a palavra selecionada para ser ignorada pela análise automática. Essa operação altera a estrutura sintática e todas as informações de análise são redefinidas. Com a palavra selecionada, clique no botão de alternância "Ignorar para análise automática", leia a mensagem de aviso e clique em "Confirmar".
+   ![Flexão](../imagens/use_edictor_38-39.png)
+   Etiquetas de flexão</br></br>
 
-![Ignorar para análise automática](../imagens/use_edictor_40.png)
-Figura X: Ignorar palavra para análise automática.
+   - **Ignorar para análise automática**: esta botão de alternância marca a palavra selecionada para ser ignorada pela análise automática. Essa operação altera a estrutura sintática e todas as informações de análise são redefinidas. Com a palavra selecionada, clique no botão de alternância "Ignorar para análise automática", leia a mensagem de aviso e clique em "Confirmar".
 
-- "**Marcar esta palavra para ser revisada**": este botão de alternância grifa a palavra, marcando-a como palavra a ser revisada.
+   ![Ignorar para análise automática](../imagens/use_edictor_40.png)
+   Ignorar palavra para análise automática.</br></br>
 
-![Marcar para revisão](../imagens/use_edictor_41.png)
-Figura x: Marcar palavra para revisão
+   - "**Marcar esta palavra para ser revisada**": este botão de alternância grifa a palavra, marcando-a como palavra a ser revisada.
+
+   ![Marcar para revisão](../imagens/use_edictor_41.png)
+   Marcar palavra para revisão
 
 - **Operações de edição**:
   <!--[REVISAR: pedir Luiz exemplos de segmentação e junção para entender melhor o objetivo destas funcionalidades-->
+
   - junção: é possível inserir junções. Selecione uma palavra, preencha o campo "junção" e clique no botão azul para confirmar.
   - segmentação: é possível incluir segmentações. Selecione a palavra, preencha o campo "segmentação" e clique no botão azul para confirmar.
 
-![Junção e segmentação](../imagens/use_edictor_42.png)
-Figura x: Junção e Segmentação.
+  ![Junção e segmentação](../imagens/use_edictor_42.png)
+  Junção e Segmentação.</br></br>
 
-- **Níveis de edição**: é possível preencher diversos níveis de edição da palavra selecionada.Selecione a palavra desejada, preencha os diversos Níveis de edição: grafia, expansão, correção, pontuação, ilegível, modernização, padronização, flexão. A palavra cujo preenchimento dos níveis de edição for realizado fica grifada, e as informações são apresentadas sob contato do cursor.
+  - **Níveis de edição**: é possível preencher diversos níveis de edição da palavra selecionada.Selecione a palavra desejada, preencha os diversos Níveis de edição: grafia, expansão, correção, pontuação, ilegível, modernização, padronização, flexão. A palavra cujo preenchimento dos níveis de edição for realizado fica grifada, e as informações são apresentadas sob contato do cursor.
 
-![Níveis de edição](../imagens/use_edictor_43-44.png.png)
-Figura x: Níveis de edição.
+  ![Níveis de edição](../imagens/use_edictor_43-44.png.png)
+  Níveis de edição.
 
 **Edições automáticas**: há duas maneiras de acessar as orações para realizar o _parser_ e revisar/editar a etiquetagem. Ao acessar o "exibir informações" do documento, selecionar:
 

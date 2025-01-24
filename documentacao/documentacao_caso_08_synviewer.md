@@ -70,7 +70,7 @@ Há duas funcionalidades principais no "Synviewer":
 ### Diagrama do Caso de uso 08- Synviewer
 
 ![caso synviewer diagrama](../imagens/synviewer/caso_synviewer_diagram.png)
-Figura x: Diagrama de caso de uso Synviewer
+Diagrama de caso de uso Synviewer
 
 ### Tutorial:
 
@@ -81,34 +81,36 @@ Figura x: Diagrama de caso de uso Synviewer
 1. Acesse a página inicial da plataforma Tycho Brahe no endereço <https://www.tycho.iel.unicamp.br/home>.
 
 ![Acesso Synviewer](../imagens/synviewer/syn_1.png)
-Figura x: Acessando página inicial
+Acessando página inicial
 
 2. Clique no "Synviewer" na área de "Ferramentas" para acessar a funcionalidade.
 
 ![Geral synviewer](../imagens/synviewer/syn_2.png)
-Figura x: Acessando o "Synviewer"
+Acessando o "Synviewer"
 
 Há duas funcionalidades principais no "Synviewer":
 
 **Parsers Tycho**: seleciona esta aba com os parsers desenvolvidos no âmbito do projeto.
 
 - **Executar o parser**:
+
   1. Selecione a aba "Executar o parser".
   2. Insira a sentença desejada.
   3. Selecione o modelo (parser) desejado e clique em "Executar".
 
-![Parsers Tycho](../imagens/synviewer/syn_3.png)
+  ![Parsers Tycho](../imagens/synviewer/syn_3.png)
 
-A execução do parser resulta na árvore, como apresentada na Figura a seguir:
+  A execução do parser resulta na árvore, como apresentada na Figura a seguir:
 
-![Execução parser de regra](../imagens/synviewer/syn_4.png)
+  ![Execução parser de regra](../imagens/synviewer/syn_4.png)
 
 - **Exibir Árvore Sintática**:
+
   1. Selecione a aba "Exibir Árvore Sintática".
   2. Insira expressão em notação de parênteses ou colchetes para geração da árvore.
   3. Converta para notação em colchetes ou parênteses (se aplicar) e clicar em "Executar" para gerar a árvore. É possível visualizar a árvore em tela cheia e exportar como imagem.
 
-![Exibir Árvore sintática](../imagens/synviewer/syn_5.png)
+  ![Exibir Árvore sintática](../imagens/synviewer/syn_5.png)
 
 - **Exibir Formato Tycho**:
   1. Selecionar a aba "Exibir Formato Tycho".

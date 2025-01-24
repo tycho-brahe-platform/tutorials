@@ -1,4 +1,4 @@
-@startuml "Caso de uso 6.01 - Edição dos corpora"
+@startuml "Caso de uso 5.01 - Edição dos corpora"
 
 actor "Usuário/Admin" as User 
 

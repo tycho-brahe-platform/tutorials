@@ -56,7 +56,7 @@ Com o visualizador, é possível:
 ### Diagrama do Caso de uso 07 - Visualizador de corpora
 
 ![diagrama caso visualizador](../imagens/caso_visualizador.png)
-Figura x: Diagrama caso de uso Visualizador de corpora
+Diagrama caso de uso Visualizador de corpora
 
 ### Tutorial:
 
@@ -74,7 +74,7 @@ Este tutorial tem como objetivo guiar os usuários no uso do visualizador de cor
 2. Clique no "Vizualizador" na área de "Ferramentas".
 
 ![Acessando visualizador](../imagens/vizualizador/vizualizador_1.png)
-Figura x: Acessando o Visulizador de corpus.
+Acessando o Visulizador de corpus.
 
 3. Selecione um dos corpora disponíveis na lista.
    1. São apresentadas informações como número de documentos e número de palavras nos corpora.
@@ -86,30 +86,30 @@ Figura x: Acessando o Visulizador de corpus.
 - Filtragem de documentos por palavra ou status:
 
 ![Filtragem de docs](../imagens/vizualizador/visualizador_3.png)
-Figura x: Filtragem de documentos no Visualizador
+Filtragem de documentos no Visualizador
 
 - Documentos dispostos em forma de grade ou lista:
 
 ![Docs em grade](../imagens/vizualizador/visualizador_4.png)
-Figura x: Disposição de documentos em grade.
+Disposição de documentos em grade.
 
 ![Docs em lista](../imagens/vizualizador/visualizador_5.png)
-Figura x: Disposição de documentos em lista.
+Disposição de documentos em lista.
 
 - Botão de compartilhamento de link do corpus:
 
 ![Link corpus](../imagens/vizualizador/visualizador_6.png)
-Figura x: Compartilhamento do link do corpus.
+Compartilhamento do link do corpus.
 
 5. Após a seleção do documento desejado, as sentenças que o corpus contém são apresentadas. Selecione a sentença desejada.
    - Na tela que apresenta as sentenças, são apresentadas: tradução, botão para tocar o áudio original, botão para realizar download do áudio, língua de tradução etc.:
 
 ![Apresentação de sentenças](../imagens/vizualizador/visualizador_7.png)
-Figura x: Sentenças disponíveis no documento.
+Sentenças disponíveis no documento.
 
 - Ao ser selecionada uma sentença, são apresentadas informações como etiquetas POS, traduções, áudios disponíveis e árvore/estrutura sintática.
 
 ![Sentença - camadas etiquetas](../imagens/vizualizador/visualizador_8.png)
-Figura x: Anotações realizadas na sentença selecionada.
+Anotações realizadas na sentença selecionada.
 
 ---

@@ -71,7 +71,7 @@ Para qualquer tipo de busca, é possível realizar algumas configurações:
 ### Diagrama do Caso de uso 06 - FERRAMENTA DE PESQUISA
 
 ![Caso de uso 06](../imagens/caso_ferramenta_pesquisa.png)
-Figura x: Diagrama Caso de Uso 06 - Ferramenta de Pesquisa
+Diagrama Caso de Uso 06 - Ferramenta de Pesquisa
 
 ### Tutorial:
 
@@ -84,12 +84,12 @@ Este tutorial dem o objetivo de detalhar os procedimentos necessários para a re
 2. Na área de "Ferramentas", acesse a Ferramenta "Search".
 
 ![Ferramenta pesquisa](../imagens/busca_01.png)
-Figura x: Ferramenta de Pesquisa
+Ferramenta de Pesquisa
 
 3. Escolha um dos corpora para realizar a busca.
 
 ![Seleção corpus para pesquisa](../imagens/busca_2.png)
-Figura x: Selecionando corpus para realizar uma pesquisa. 4. Escolha o tipo de pesquisa que deseja realizar: **Pesquisa simples** ou **Pesquisa sintática**.
+Selecionando corpus para realizar uma pesquisa. 4. Escolha o tipo de pesquisa que deseja realizar: **Pesquisa simples** ou **Pesquisa sintática**.
 
 **Pesquisa simples**:
 
@@ -113,11 +113,12 @@ Figura x: Selecionando corpus para realizar uma pesquisa. 4. Escolha o tipo de p
 3. Clique em "Executar pesquisa"
 
 ![Pesquisa simples](../imagens/busca_7.png)
-Figura x: Relizando uma Pesquisa Simples.
-A pesquisa realizada no exemplo na Figura x acima retorna o seguinte resultado no corpus de Teste.
+Relizando uma Pesquisa Simples.
+
+A pesquisa realizada no exemplo na Figura acima retorna o seguinte resultado no corpus de Teste.
 
 ![Resultado pesquisa](../imagens/busca_9.png)
-Figura x: Resultado de uma busca simples.
+Resultado de uma busca simples.
 
 **Pesquisa sintática** - escolha um dos modos da pesquisa Modo 1- Default: este modo disponibiliza listas suspensas com os tipos de tags/pesquisa pré-determinadas (Palavra, Categoria Sintática, Categoria Vazia, Etiqueta POS), uma lista suspensa com o tipo de relação entre os colocados (_dominates, exists hasSister_ etc); Modo 2 - Escreva sua pesquisa: é possível escrever a expressão de pesquisa e converter para o modo anterior antes de realizar a pesquisa):
 
@@ -132,7 +133,7 @@ Figura x: Resultado de uma busca simples.
 4. Clique em "Executar Pesquisa".
 
 ![Pesquisa sintática](../imagens/busca_8.png)
-Figura x: Realizando uma Pesquisa Sintática
+Realizando uma Pesquisa Sintática
 
 **Modo 2 - Escreva sua pesquisa**. É posível abrir um campo livre para preenchimento para executar busca com padrão de sintaxe do _corpus search_:
 

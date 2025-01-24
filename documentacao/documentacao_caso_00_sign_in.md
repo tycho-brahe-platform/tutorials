@@ -91,7 +91,7 @@ A tela inicial de perfil do usuário cadastrado, acessada por meio do link "Áre
 ### Diagrama do Caso de uso 00 - Sign in e acesso à tela inicial de perfil do usuário
 
 !["Diagrama acesso ao perfil"](../imagens/perfil_usuario.png)
-Figura x: Diagrama do Caso de Uso 00 - Sign in e acesso à tela inicial de perfil do usuário.
+Diagrama do Caso de Uso 00 - Sign in e acesso à tela inicial de perfil do usuário.
 
 ### Tutorial:
 
@@ -104,17 +104,17 @@ Este tutorial detalha o processo para o usuário realizar o Sign in na plataform
 2. Na área de "Ferramentas", o Usuário acessa "Área reservada" para ser redirecionado ao _login_.
 
 !["Acessando Área reservada"](../imagens/tycho_home_signin.png)
-Figura x: Acessando "Área reservada".
+Acessando "Área reservada".
 
 3. Realize o _login_ com o Google. Selecione a conta salva no sistema ou preencha os dados da sua conta Google cadastrada na Plataforma Tycho Brahe.
 
 ![Login google](../imagens/login_google.png)
-Figura x: Seleção de conta Google
+Seleção de conta Google
 
 Ou
 
 ![Tela de login](../imagens/tycho_home_signin2.png)
-Figura X: Login in com o Google</figcaption>
+Login in com o Google</figcaption>
 
 4. Após _login_ o Usuário é redirecionado à página inicial do perfil, onde são dispostas as áreas **Meu Perfil**, com Informações do usuário, como e-mail, Nome, Informações acadêmicas e Idioma de preferência, que podem eventualmente ser editadas <!-- REVISAR CRÍTICO: avisar ao Luiz que as edições não são persistidos na base, não ficam salvas-->, **Meus corpora**, que apresenta os corpora disponíveis associados ao perfil logado e **Minhas Ferrametentas**, que disponibiliza as ferramentas disponíveis para o usuário logado, de acordo com as permissões de acesso configuradas.
 

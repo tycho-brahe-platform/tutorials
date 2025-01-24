@@ -60,7 +60,7 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 ### Diagrama do Subcaso de uso 03.1 - Criação de corpora
 
 ![Caso de uso 03.01 - Criação de corpora](../imagens/caso04_01_diagrama.png)
-Figura 15: Diagrama caso de uso - Criação de corpora
+Diagrama caso de uso - Criação de corpora
 
 ### Tutorial: Criação de corpora
 
@@ -73,12 +73,12 @@ Figura 15: Diagrama caso de uso - Criação de corpora
 2. Ao acessar a página de adminstrador, uma lista de corpora disponíveis abre. Clique em _"+ Create new corpus"_.
 
 ![Criação novo corpus](../imagens/criacao_corpus.png)"
-Figura x: Criação de um novo corpus
+Criação de um novo corpus
 
 3. Adicione um nome ao novo corpus e clique em "Confirmar": esta ação finaliza a criação do corpus (Note que estas ações apenas criam o corpus. Para inclusão/edição de documentos, ou seja, alimentar o corpus ver Caso de uso 03.2). Após preencher com o nome desejado, clique em "Confirmar". Esta ação cria um novo corpus, que aparecerá na lista.
 
 ![Criação corpus: inserir nome](../imagens/criacao_corpus_nome.png)
-Figura x: Criação de corpus: inserção de nome
+Criação de corpus: inserção de nome
 
 **Nota**: este processo apenas cria o corpus. Sua alimentação (importação de dados/transcrição de áudios/extração de dados a partir de textos impressos etc.) pode ser realizada de diferentes formas a depender do tipo de material disponível (textos em papel, áudios, arquivos .txt, arquivos .csv - com ou sem traduções), das configurações estabelecidas (Caso de uso 03.2). É necessário que haja uma interação com a equipe responsável pelo desenvolvimento da plataforma para que a melhor estratégia de importação de dados seja escolhida e aplicada. Cada um dos tipos de importação/transcrição de dados linguísticos será discutido separadamente nesta documentação.
 
@@ -113,7 +113,7 @@ Figura x: Criação de corpus: inserção de nome
 ### Diagrama do Caso de uso 03.2 - Configuração de corpora
 
 ![Caso de uso 03.02 - Configuração de corpora](../imagens/caso04_02_diagrama.png)
-Figura x: Diagrama caso de uso - Configuração de corpora
+Diagrama caso de uso - Configuração de corpora
 
 ### Tutorial: Configuração de corpora
 
@@ -126,17 +126,17 @@ Figura x: Diagrama caso de uso - Configuração de corpora
 2. Navegue até a área "Ferramentas" e selecione "Área Reservada".
 
 ![Acesso área reservada](../imagens/acesso_area_reservada.png)
-Figura x: Acessando "Área Reservada"
+Acessando "Área Reservada"
 
 3. Na página de perfil que se abre, os corpora disponíveis, vinculados ao usuário, são apresentados. Selecione o corpus que deseja configurar e clique no botão "Admin" na área de "Acesso rápido" ou "Admin" na área "Minhas Ferramentas" e selecione o corpus que deseja configurar.
 
 ![Acesso rápido](../imagens/acesso_rapido_admin.png)
-Figura x: Acesso rápido - botões "Admin"
+Acesso rápido - botões "Admin"
 
 4. Clique em "Parâmetros": uma caixa se abre, disponibilizando diversos botões de alternância para configuração do corpus.
 
 ![Parâmetros do corpus](../imagens/parametros_corpus.png)
-Figura x: Acessando área de configuração de corpora
+Acessando área de configuração de corpora
 
 **Tutorial: Fluxo alternativo:**
 
@@ -146,7 +146,7 @@ Figura x: Acessando área de configuração de corpora
 2. Navegue até o corpus desejado e o selecione, clicando sobre ele (isto abre a página de gestão do corpus).
 
 ![Acesso config parâmetors fluxo altern](../imagens/configura_parametro_FA1.png)
-Figura x: Acesso configuração de parâmetros - Fluxo alternativo 1
+Acesso configuração de parâmetros - Fluxo alternativo 1
 
 3. Retomar a partir do passo 4 do Fluxo normal e realizar as configurações de parâmetros do corpus.<br>
    A seguir são apresentadas descrições de cada um dos botões de configurações disponíveis.<br>
@@ -158,62 +158,62 @@ Figura x: Acesso configuração de parâmetros - Fluxo alternativo 1
 **Featured Corpus**: Um corpus marcado com esse parâmetro aparece na página principal da plataforma, na área "Corpora em Destaque".
 
 ![Corpra em destaque](../imagens/corpora_em_destaque.png)
-Figura x: Corpora em corpora_em_destaque
+Corpora em corpora_em_destaque
 
 **Use Morphemes**: habilita o uso campos referentes a morfemas, incluindo glossa, nos corpora.
 ![Configura corpus: Use Morphemes](../imagens/botao_config_corpus_usesplit.png)
-Figura X: Configuração de corpora: botão "Use Morphemes"
+Configuração de corpora: botão "Use Morphemes"
 
 <br>**Use Sound**: a habilita o uso de áudio no corpus.
 
-- Como podemos observar na Figura x abaixo, a habilitação do botão "Use Sound" habitila uma seção de Áudio, que permite ao analista incluir o áudio a ser transcrito (ou o áudio correspondente à transcrição da sentença selecionada).
+- Como podemos observar na Figura abaixo, a habilitação do botão "Use Sound" habitila uma seção de Áudio, que permite ao analista incluir o áudio a ser transcrito (ou o áudio correspondente à transcrição da sentença selecionada).
 
   ![Configuração de corpora: botão "Use Sound"](../imagens/botao_config_corpus_usesound.png)
-  Figura X: Configuração de corpora: botão "Use Sound"
+  Configuração de corpora: botão "Use Sound"
 
 <br>
 
-- O **"Use Sound"** também habilita, na ferramenta "eDictor", um botão de _play_ para ser tocar os áudios associados às sentenças do documento selecionado, como observamos na Figura x abaixo:
+- O **"Use Sound"** também habilita, na ferramenta "eDictor", um botão de _play_ para ser tocar os áudios associados às sentenças do documento selecionado, como observamos na Figura abaixo:
   ![Configuração de corpora: botão "Use Sound" 2](../imagens/botao_config_corpus_usesound2.png)
-  Figura X: Configuração de corpora: botão "Use Sound"(no eDictor)
+  Configuração de corpora: botão "Use Sound"(no eDictor)
 
-<br>**Use Translations**: o botão "Use Translations" habilita a seção de Traduções no eDictor, como apresentado na Figura x:
+<br>**Use Translations**: o botão "Use Translations" habilita a seção de Traduções no eDictor, como apresentado na
 
 ![Configura corpus: Use Translations](../imagens/botao_config_corpus_usetranslation.png)
-Figura x: Configuração de corpora: botão "Use Translations"
+Configuração de corpora: botão "Use Translations"
 
 **Use Lexicon**: é utilizado quando há um parser disponível, mas não há um etiquetador automático (que só funciona se houver uma quantidade mínima de palavras para treinamento do etiquetador). No caso de esta condição não estar satisfeita, o analista deve utilizar o léxico para realizar a etiquetagem automática.
 
-**Use Grid**: ao acessar o catálogo, o usuário tem a possibilidade de apresentação de documentos de duas maneiras: lista, ou grid. Ao habilitar o botão "Use Grid", o usuário configura a apresentação em grid como default, como apresentado na Figura x abaixo:
+**Use Grid**: ao acessar o catálogo, o usuário tem a possibilidade de apresentação de documentos de duas maneiras: lista, ou grid. Ao habilitar o botão "Use Grid", o usuário configura a apresentação em grid como default, como apresentado na Figura abaixo:
 
 ![Configura corpus: Use Grid](../imagens/botao_config_corpus_usegrid.png)
-Figura x: Configuração de corpora: botão "Use Grid"
+Configuração de corpora: botão "Use Grid"
 
-**Use Category**: este botão habilita a possibilidade de categorização e subcategorização dos corpora (por exemplo, categorização com base em parâmetros demográficos etc), como apresentado na Figura x, com o corpus CE-DOHS selecionado no catálogo. Note-se que a criação dos rótulos para as categorias pode ser realizada por um usuário com permissões de adminstrador
+**Use Category**: este botão habilita a possibilidade de categorização e subcategorização dos corpora (por exemplo, categorização com base em parâmetros demográficos etc). Note-se que a criação dos rótulos para as categorias pode ser realizada por um usuário com permissões de adminstrador
 
 ![Configuração corpus_ Use Category](../imagens/botao_config_corpus_usecategory.png)
-Figura x: Configuração de corpora: botão "Use Category"
+Configuração de corpora: botão "Use Category"
 
-**Use Edition Tiers**<!--[REVISAR COM O LUIS]-->: este botão habilita a disponibilização de diversos níveis de edição para garantir a máxima fidelidade filológica do texto. Por exemplo, acessando-se o catálogo, selecione o corpus Tycho Brahe do Português Histórico e selecione o documento "Atas dos Brasileiros - Tomo 02", como apresentado na Figura X:
+**Use Edition Tiers**<!--[REVISAR COM O LUIS]-->: este botão habilita a disponibilização de diversos níveis de edição para garantir a máxima fidelidade filológica do texto. Por exemplo, acessando-se o catálogo, selecione o corpus Tycho Brahe do Português Histórico e selecione o documento "Atas dos Brasileiros - Tomo 02", como apresentado na Figura:
 
-![Configura corpus: Use edition tiers](../imagens/botao_config_corpus_useeditiontiers1.png)Figura x: Configuração de corpora: botão "Use Edition Tiers"
+![Configura corpus: Use edition tiers](../imagens/botao_config_corpus_useeditiontiers1.png) Configuração de corpora: botão "Use Edition Tiers"
 
 ![Configura corpus: botão Use Edition Tiers 2](../imagens/botao_config_corpus_useeditiontiers2.png)
-Figura x: Configuração de corpora: botão "Use Edition Tiers" (abrindo a ferramenta).
+Configuração de corpora: botão "Use Edition Tiers" (abrindo a ferramenta).
 
 ![Configura corpus: botao Use Edition Tiers 4](../imagens/botao_config_corpus_useeditiontiers3_4.png)
-Figura x: Configuração de corpora botão "Use Edition Tiers"
+Configuração de corpora botão "Use Edition Tiers"
 
-Esta ação abre um painel com uma matriz para edição dos níveis de edição, como mostra a Figura x. Note-se: na mesma tela que seria análoga à sentença com o "Use Morphemes" selecionado, são apresentadas os níveis de edição.
+Esta ação abre um painel com uma matriz para edição dos níveis de edição, como mostra a Figura abaixo. Note-se: na mesma tela que seria análoga à sentença com o "Use Morphemes" selecionado, são apresentadas os níveis de edição.
 
 ![Matriz para edição: edition tiers](../imagens/botao_config_corpus_useeditiontiers5.png)
-Figura x: Matriz para edição em níveis de edição
+Matriz para edição em níveis de edição
 
 Os botões "Use eDictor Translations"/"Use eDictor"/"Use Designer"/"Use Transcriber" não são excludentes, i.e., podem ser habilitados ao mesmo tempo em um determinado corpus. Esta ação disponibiliza todas as ferramentas para utilização no corpus.
 
-**Use eDictor Translations**: Habilita o uso da versão eDictor para apresentação de corpora paralelos, como apresentado na Figura x a seguir:
+**Use eDictor Translations**: Habilita o uso da versão eDictor para apresentação de corpora paralelos, como apresentado na Figura a seguir:
 ![Use eDictor Translations](../imagens/botao_config_corpus_useedictortranslations1.png)
-Figura x: Configuração de corpora: botão Use eDictor Translations - Corpora paralelos
+Configuração de corpora: botão Use eDictor Translations - Corpora paralelos
 
 A configuração do eDictor Tranlations também depende de configurações na aba eDictor na pagina de admin ("Corpora Management"):
 
@@ -227,17 +227,13 @@ A configuração do eDictor Tranlations também depende de configurações na ab
   - **Name**: preencha com o nome desejado;
   - **Reference**: preencha para adicionar uma referência.<!--[REVISAR: ESTA REFERENCIA DIZ RESPEITO A QUE?]-->
 
-<br>
-
 ![Apresentação das traduções no eDictor Translations](../imagens/configura_corpus_admin_translations3.png)
-Figura x: Configurações de </figcaption>
-
-</figure>
+Configurações no eDictor
 <br>
-Estas configurações habilitam a apresentação dos corpora paralelos como em [2] na Figura x abaixo; Em [3], o usuário pode selecionar qual lingua de tradução deseja que seja apresentada; Em [4], após a seleção de uma sentença, é possível verificar as traduções para a sentença selecionada, além de ser possível realizar edições nas traduções.
+Estas configurações habilitam a apresentação dos corpora paralelos como em [2] na Figura abaixo; Em [3], o usuário pode selecionar qual lingua de tradução deseja que seja apresentada; Em [4], após a seleção de uma sentença, é possível verificar as traduções para a sentença selecionada, além de ser possível realizar edições nas traduções.
 
 ![Configura corpus:resultadis edictor translations](../imagens/configura_corpus_admin_translations7.png)
-Figura x: Resultado configurações de eDictor Translations
+Resultado configurações de eDictor Translations
 
 **Use eDictor**: o acionamento do botão "Use eDictor" habilita o uso do eDictor tradicional para transcrição e edição.
 
