@@ -50,13 +50,13 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
 6. Na aba de ações que abre à esquerda, no campo "Continuar a edição do documento", clique na seta para abrir o menu de ferramentas de edição: selecionar o "eDictor Translations".
 
    1. Inserir textos (sentenças):
-      1. Selecionar "Inserir texto".
+      1. Selecionar "Adicionar texto".
       2. Inserir o texto fonte (original); selecionar o idioma de tradução; inserir texto traduzido. (Nota: sentenças a serem sincronizadas em paralelo podem ser separadas por quebra de linha).
       3. Clicar em "Salvar" para salvar transcrições.
       4. Clicar no botão "Sincronizar", para que as sentenças fonte e alvo sejam apresentados paralelamente.
       5. Clicar em "Inserir sentenças" para inserir sentenças paralelas no documento do corpus.
    2. Apagar textos transcritos (ainda não sincronizados):
-      1. Selecionar "Inserir texto"
+      1. Selecionar "Adicionar texto"
       2. Clicar em "Apagar" para apagar textos transcritos (Textos já sincronizados são mantidos)
    3. Editar sentenças sincronizadas:
 
@@ -72,7 +72,8 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
             2. "Dividir": dividir palavra em duas.
             3. "Unir": unir palavras.
             4. "Variações".
-            5. "Remover": remover palavra 6. Para edições da sentença, clicar em "...":
+            5. "Remover": remover palavra 6. 
+            6. Para edições da sentença, clicar em "...":
 
                1. "Dividir": dividir sentença em duas (após token selecionado).
                2. "Unir": unir com sentença seguinte
@@ -150,7 +151,7 @@ Cont. Diagrama Caso de uso 5.01 - Ações no corpus <!--REVISAR: VOU TER DE MODI
 
    1. Para inserir textos (sentenças):
 
-      1. Selecione o botão "Inserir texto".
+      1. Selecione o botão "Inserir/Adicionar texto".
       2. Preencha o campo que apresenta "Digite ou cole o texto no idioma original" com o texto fonte (original); selecione o idioma de tradução; preencha o campo "Digite ou cole o texto traduzido em: [idioma selecionado para tradução]" com o texto traduzido.
       3. Clique em "Salvar" para salvar transcrições.
       4. Clique no botão "Sincronizar", para que as sentenças fonte e alvo sejam sincronizadas apresentadas paralelamente.
@@ -172,12 +173,15 @@ Cont. Diagrama Caso de uso 5.01 - Ações no corpus <!--REVISAR: VOU TER DE MODI
          5. Para outras edições da palavra: clique em "...":
             1. Clique em "inserir": inserir palavra á direita da palavra selecionada, preencha o campo e confirme!["edições palavra"](../imagens/edictor_edicao_sent_sincronizadas7.png)</br></br>
             2. Clique em "dividir": dividir palavra em dois tokens distintos![""](../imagens/edictor_edicao_sent_sincronizadas8-9.png)</br></br>
-            3. Clique em "unir" para unir o toke selecionado ao token seguinte na sentença: ![""](../imagens/edictor_edicao_sent_sincronizadas10.png)</br></br>
+            3. Clique em "unir" para unir o token selecionado ao token seguinte na sentença: ![""](../imagens/edictor_edicao_sent_sincronizadas10.png)</br></br>
             4. Clique em "Variações": o botão de variações apresenta todas as variações de etiquetas e glossas utilizadas para a palavra e salvas no banco de dados. Este botão permite um preenchimento mais rápido das informações sobre a palavra selecionada.
             5. Clique em "remover": remover palavra.![""](../imagens/edictor_edicao_sent_sincronizadas11.png)</br></br>
          6. Para edições da sentença, clicar em "...":
             1. "Dividir": dividir sentença em duas (após token selecionado)
-            2. "Unir": unir com sentença seguinte
+            2. "Unir": unir com sentença seguinte.
+               **Nota**: A função de Dividir e Unir sentenças não funciona se a sentença tiver traduções e áudios associados. Na tentativa, o sistema retorna uma mensagem de erro e a operação é impedida:
+
+         ![Erro união sentença](../imagens/edictor_erro_unir_sentenca.png)
       2. Via botão UD:
          1. Com o corpus já selecionado, selecione um par de sentenças.!["Seleciona sentença"](../imagens/edictor_edicao_sent_sincronizadas4.png)</br></br>
          2. Selecione botão UD (Dependências Universais).![""](../imagens/edictor_edicao_sent_sincronizadas12.png)</br></br>

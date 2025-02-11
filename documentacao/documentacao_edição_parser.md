@@ -46,7 +46,7 @@ A ferramenta de construção de Parser possibilita a criação, edição e geren
 - **Aba "Parsers":**
 
   - Edição de regras:
-    - Selecionar uma regra (coluna à esquerda da janela) a ser editada ao clicar no botão de edição da regra. A coluna central apresenta os campos referentes à regra selecionada (Name; Node; Query: regra propriamente dita, escrita em sintaxe Corpus Search(Documentação acessível em: <https://corpussearch.sourceforge.net/>)).
+    - Selecionar uma regra a ser editada ao clicar sobre a regra. Abre-se uma área com os campos (Nome; Node; Query: regra propriamente dita, escrita em sintaxe Corpus Search(Documentação acessível em: <https://corpussearch.sourceforge.net/>)).
     - Se desejar, preencher uma sentença a ser análisada para testar o conjunto de regras (é possível adicionar paradas, em quaisquer das regras, para teste do parser: clicar no círculo à direita da regra - "add/remove breaking point"). É possível incluir a sentença testada nos casos de teste.
     - Adicionar regras: clicar no botão "+ add new rule", editar e salvar.
 
@@ -110,7 +110,7 @@ Este tutorial apresenta as edições possíveis nos parsers. As edições tratad
 - **Aba "Parsers":**
 
   - Edição de regras:
-    - Selecione uma regra (coluna à esquerda da janela) a ser editada ao clicar no botão de edição da regra. A coluna central apresenta os campos referentes à regra selecionada (Name; Node; Query: regra propriamente dita, escrita em sintaxe Corpus Search(Documentação acessível em: <https://corpussearch.sourceforge.net/>)). Além disso, é possível excluir a regra ao clicar no ícone com lixeira e confirmar.
+    - Selecione uma regra a ser editada ao clicar sobre ela. Apresentam-se campos referentes à regra selecionada (Nome; Node; Query: regra propriamente dita, escrita em sintaxe Corpus Search(Documentação acessível em: <https://corpussearch.sourceforge.net/>)). Além disso, é possível excluir a regra ao clicar no ícone com lixeira e confirmar.
     - Debugger: se desejar, preencha uma sentença a ser analisada para testar o conjunto de regras (é possível adicionar paradas (debugger), em quaisquer das regras, para teste do parser. Para marcar uma parada, clique no círculo à direita da regra - "add/remove breaking point"). É possível incluir a sentença testada nos casos de teste.
     - Adicionar regras: clique no botão "+ add new rule", edite (documentação corpus search em: <https://corpussearch.sourceforge.net/>) e salve.
 
