@@ -23,7 +23,7 @@ SUMÁRIO
 
 ## Caso de uso 06 - Ferramenta de Pesquisa
 
-A Ferramenta de Pesquisa possibilita ao usuário realizar pesquisas nos corpora disponíveis na plataforma Tycho Brahe. Há dois tipos de busca disponíveis na plataforma: **Pesquisa simples** e **Pesquisa sintática**. A Pesquisa Simples possibilita que o usuário utilize a sintaxe de expressões regulares (regex) para realizar buscas. Por outro lado, a Pesquisa Sintática disponibiliza dois modos de busca: um modo direto, utilizando os campos com listas suspensas, que apresentam opções para as seleções pertinentes para a pesquisa; ou um modo que possibilita a escrita livre da busca utilizando padrão de sintaxe do _corpus search_, e posterior conversão do texto livre para o modo anterior<!--REVISAR: VER COM O LUIS SE É ISSO MESMO QUE UTILIZA - CORPUS SEARCH?-->
+A Ferramenta de Pesquisa possibilita ao usuário realizar pesquisas nos corpora disponíveis na plataforma Tycho Brahe. Há dois tipos de busca disponíveis na plataforma: **Pesquisa simples** e **Pesquisa sintática**. A Pesquisa Simples possibilita que o usuário utilize a sintaxe de expressões regulares (regex) para realizar buscas. Por outro lado, a Pesquisa Sintática disponibiliza dois modos de busca: um modo direto, utilizando os campos com listas suspensas, que apresentam opções para as seleções pertinentes para a pesquisa; ou um modo que possibilita a escrita livre da busca e posterior conversão do texto livre para o modo anterior<!--REVISAR: VER COM O LUIS SE É ISSO MESMO QUE UTILIZA - CORPUS SEARCH?-->
 
 ### Descrição Caso de uso 06 - Ferramenta de Pesquisa
 
@@ -55,8 +55,8 @@ A Ferramenta de Pesquisa possibilita ao usuário realizar pesquisas nos corpora 
             3. Selecionar qual a relação estabelecida entre os colocados objetos da busca: _dominates, exists hasSister, iDominates, inDominates, iPrecedes, inPrecedes, precedes_.
          3. É possível adicionar mais buscas ao clicar no ícone "+" e deletar padrão de busca ao clicar na "lixeira".
          4. Clicar em "Executar Pesquisa"
-      2. Modo 2 - Escreva sua pesquisa. É posível abrir um campo livre para preenchimento para executar busca com padrão de sintaxe do _corpus search_: clicar em "escreva sua pesquisa".
-         1. Preencher com o padão de busca (sintaxe _corpus search_).
+      2. Modo 2 - Escreva sua pesquisa. É posível abrir um campo livre para preenchimento para executar busca com padrão de sintaxe livre: clicar em "escreva sua pesquisa".
+         1. Preencher com o padão de busca.
          2. Clicar em "Converter texto" para converter busca para campos preenchidos na "Pesquisa sintática"<!--REVISAR: AVISAR AO LUIS QUE QUANDO PREENCHO NO CAMPO LIVRE E CONVERTO PARA A BUSCA E REALIZO ESTÁ DANDO ERRO-->
 
 Para qualquer tipo de busca, é possível realizar algumas configurações:
@@ -135,10 +135,10 @@ Resultado de uma busca simples.
 ![Pesquisa sintática](../imagens/busca_8.png)
 Realizando uma Pesquisa Sintática
 
-**Modo 2 - Escreva sua pesquisa**. É posível abrir um campo livre para preenchimento para executar busca com padrão de sintaxe do _corpus search_:
+**Modo 2 - Escreva sua pesquisa**. É posível abrir um campo livre para preenchimento para executar busca com padrão de sintaxe livre com etiquetas POS:
 
 1. Clique em "escreva sua pesquisa".
-2. Preencha o campo com o padão de pesquisa desejado (seguindo a sintaxe do _corpus search_).
+2. Preencha o campo com o padão de pesquisa desejado.
 3. Clique em "Converter texto" para converter busca para campos preenchidos na "Pesquisa sintática" default<!--REVISAR: AVISAR AO LUIS QUE QUANDO PREENCHO NO CAMPO LIVRE E CONVERTO PARA A BUSCA E REALIZO ESTÁ DANDO ERRO-->
 
 Para qualquer tipo de busca, é possível realizar algumas configurações:
@@ -151,4 +151,4 @@ Para qualquer tipo de busca, é possível realizar algumas configurações:
    5. Definições <!--REVISAR: VERIFICAR QUAIS SÃO AS DEFINIÇÕES POSSÍVEIS AQUI-->
    <!--REVISAR: aguardar reunião com Luiz para entender melhor esta parte de configurações-->
 
----
+## <!-- REVISAR COM LUIZ: O PADRÃO DE BUSCA NA BUSCA SINTÁTICA LIVRE É CORPUS SEARCH?-->
