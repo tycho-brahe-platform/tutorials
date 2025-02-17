@@ -23,8 +23,6 @@ SUMÁRIO
 
 ## Caso de uso 09.1 - Parser - Edição e gerenciamento das regras dos parsers-->
 
-[INTRODUÇÃO]
-
 A ferramenta de construção de Parser possibilita a criação, edição e gerenciamento de parsers baseados em regras, construção de casos de teste, inclusão de splitters e flexões e outras configurações como o desenvolvimento de definições e etiquetadores.
 
 **Atores primários**:
