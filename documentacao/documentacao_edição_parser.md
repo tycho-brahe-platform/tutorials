@@ -37,7 +37,7 @@ A ferramenta de construção de Parser possibilita a criação, edição e geren
 **Fluxo normal:**
 
 1. Acessar a página inicial da plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/home>.
-2. Na área "Ferramentas", selecionar "Área Reservada" e realizar login com conta Google (se já não estiver logado).
+2. Na área "Ferramentas", selecionar "Área Reservada" e realizar login com conta Google ou com suas credenciais  (se já não estiver logado).
 3. Ao acessar "Área Reservada", na área "Minhas Ferramentas", acessar o "Parser".
 4. Selecionar o parser no qual deseja realizar edições e gerenciamento.
 
@@ -94,7 +94,7 @@ Este tutorial apresenta as edições possíveis nos parsers. As edições tratad
 #### **Tutorial: Fluxo normal**
 
 1. Acesse a página inicial da plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/home>.
-2. Na área "Ferramentas", selecione "Área Reservada" e realize o login com conta Google (se já não estiver logado).
+2. Na área "Ferramentas", selecione "Área Reservada" e realize o login com conta Google ou com suas credenciais (se já não estiver logado).
    !["Acessando área reservada"](../imagens/acesso_area_reservada.png)
    Acessando "Área Reservada"<br><br>
 3. Ao acessar "Área Reservada", na área "Minhas Ferramentas", acesse o "Parser".

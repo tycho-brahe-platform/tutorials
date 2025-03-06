@@ -79,7 +79,7 @@ A tela inicial de perfil do usuário cadastrado, acessada por meio do link "Áre
 
 1. Usuário acessa página _home_ da plataforma no link: <https://www.tycho.iel.unicamp.br/home>.
 2. Na área de "Ferramentas", o Usuário acessa "Área reservada" para ser redirecionado ao _login_.
-3. Após realizar o _login_ com o Google, o Usuário é redirecionado à página inicial do perfil.
+3. O usuário pode realizar o _login_ com o perfil Google ou com credenciais previamente cadastradas (email e senha).  Após realizar o _login_, o Usuário é redirecionado à página inicial do perfil.
 
 **Fluxo alternativo:**
 
@@ -91,6 +91,7 @@ A tela inicial de perfil do usuário cadastrado, acessada por meio do link "Áre
 ### Diagrama do Caso de uso 00 - Sign in e acesso à tela inicial de perfil do usuário
 
 !["Diagrama acesso ao perfil"](../imagens/perfil_usuario.png)
+
 Diagrama do Caso de Uso 00 - Sign in e acesso à tela inicial de perfil do usuário.
 
 ### Tutorial:
@@ -106,10 +107,10 @@ Este tutorial detalha o processo para o usuário realizar o Sign in na plataform
 !["Acessando Área reservada"](../imagens/tycho_home_signin.png)
 Acessando "Área reservada".
 
-3. Realize o _login_ com o Google. Selecione a conta salva no sistema ou preencha os dados da sua conta Google cadastrada na Plataforma Tycho Brahe.
+3. Realize o _login_ com o Google ou com suas credenciais previamente cadastradas. Selecione a conta salva no sistema ou preencha os dados da sua conta Google cadastrada na Plataforma Tycho Brahe.
 
-![Login google](../imagens/login_google.png)
-Seleção de conta Google
+![Login google](../imagens/login_2.png)
+Seleção de conta Google ou credenciais cadastradas
 
 Ou
 

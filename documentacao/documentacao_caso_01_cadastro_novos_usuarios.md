@@ -56,7 +56,7 @@ Note-se a distinção entre Administrador e Usuário com permissão de administr
 
 1. O corpus é previamente criado por um Administrador ou Usuário com permissões de admin no corpus (professor, instituição coordenadora do subprojeto/corpus).
 2. Usuário não está previamente cadastrado em nenhum corpus (não está na base de dados da plataforma).
-3. O Administrador (ou Usuário admin) realiza **login** com a conta Google.
+3. O Administrador (ou Usuário admin) realiza **login** com a conta Google ou com credenciais (email e senha) cadastradas.
 4. O Administrador seleciona um corpus, ou o Usuário admin seleciona "Área reservada" e seleciona a ferramente "Admin" e seleciona um corpus para gerenciar.
 5. O Administrador (ou Usuário admin) acessa a aba de “Access control”.
 6. O Administrador (ou Usuário admin) acessa botão “Invite” e clica em “+ Add new”.
@@ -108,7 +108,7 @@ Antes de iniciar o processo de cadastro de um usuário, certifique-se de que o c
 
 1. **Acesso ao Sistema**: Há duas maneira de acessar o sistema de gerenciamento dos corpora.
 
-   1. No caso de acesso por um Administrador sem associação a nenhum corpus na plataforma: faça login na plataforma com sua conta de Administrador (_login_ com a conta Google), através do link <!--(REVISAR: VERIFICAR SE POSSO DEIXAR O LINK) --> “/admin”: <https://www.tycho.iel.unicamp.br/admin>. Este link redireciona o Administrador à janela de login com a conta Google.
+   1. No caso de acesso por um Administrador sem associação a nenhum corpus na plataforma: faça login na plataforma com sua conta de Administrador (_login_ com a conta Google), através do link <!--(REVISAR: VERIFICAR SE POSSO DEIXAR O LINK) --> “/admin”: <https://www.tycho.iel.unicamp.br/admin>. Este link redireciona o Administrador à janela de login com a conta Google ou com as credenciais (email e senha) cadastradas.
    2. No caso de acesso por um Usuário com permissão de admin nos corpora alvos: seguir tutorial de Caso de Uso 00 - para acesso à area de perfil do usuário.
 
 2. **Verificar Corpora**:

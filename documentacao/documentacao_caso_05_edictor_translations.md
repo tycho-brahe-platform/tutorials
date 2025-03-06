@@ -43,7 +43,7 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
 **Fluxo normal:**
 
 1. Acessar a página inicial da plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/home>.
-2. Na área "Ferramentas", selecionar "Área Reservada" e realizar login com conta Google (se já não estiver logado).
+2. Na área "Ferramentas", selecionar "Área Reservada" e realizar login (se já não estiver logado).
 3. Na página de perfil que se abre, os corpora disponíveis, vinculados ao usuário, são apresentados. O usuário deve selecionar o corpus que deseja configurar e clicar no botão "eDictor" na área de "Acesso rápido".
 4. Com o catálogo aberto, selecionar o corpus e documento que deseja editar.
 5. Acessar "Exibir informações" clicando no ícone com menu no documento do corpus.
