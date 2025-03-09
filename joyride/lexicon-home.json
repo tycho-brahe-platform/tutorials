@@ -1,0 +1,8 @@
+[{
+        target: '[data-tour="search-bar"]',
+        content: 'This is my awesome feature!',
+    }, {
+        target: '[data-tour="search-bar-button"]',
+        content: 'This another awesome feature!',
+    },
+]
