@@ -1,0 +1,34 @@
+@startuml "Caso de uso - Visualizador de corpora"
+actor "Usuário" as User
+
+
+package Visualizador {
+   
+    
+    (Acessar página inicial) --> (Selecionar "Visualizador")
+
+    (Selecionar "Visualizador") --> (Selecionar corpus)
+    (Selecionar corpus) --> (Selecionar documento)
+    (Selecionar documento) --> (Selecionar sentença)
+    
+}
+
+
+note right of (Selecionar corpus)
+  São apresentadas informações como número de 
+  documentos e número de palavras nos corpora.
+end note
+
+note right of (Selecionar sentença)
+  São apresentadas informações como
+  etiquetas POS, traduções, 
+  áudios disponíveis e 
+  árvore/estrutura sintática.
+end note
+
+
+User -- Visualizador:  https://www.tycho.iel.unicamp.br/home
+
+@enduml
+
+

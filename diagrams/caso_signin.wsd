@@ -1,0 +1,23 @@
+@startuml "Caso de uso 02"
+actor Usuario
+
+package "Sign in" as FN{
+ 
+  (Acessar página inicial)-->(Clicar em "Fazer login com o Google")
+  (Clicar em "Fazer login com o Google")-->(Selecionar conta Google)
+}
+
+note left of Usuario
+  Pré-requisitos:
+  1. Usuário cadastrado com e-mail Google (.gmail)
+  2. Usuário logado no perfil Google
+end note
+
+package "Fluxo Alternativo:usuário não cadastrado" as FA1 {
+  Usuario -- FA1: Caso de uso 03
+  (Solicitar cadastramento)
+}
+Usuario -- FN
+ FN <|--  FA1
+
+@enduml

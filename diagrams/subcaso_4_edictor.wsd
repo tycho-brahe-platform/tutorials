@@ -1,0 +1,39 @@
+@startuml "Caso de uso 4 - Use eDictor"
+
+actor "Usuário/Admin" as User 
+User -- Use_eDictor
+User -- FluxoAlternativo
+package Use_eDictor  {
+        (Acessar página inicial) --> (Selecionar Ferramenta "Área reservada"): https://www.tycho.iel.unicamp.br/home
+
+        (Selecionar Ferramenta "Área reservada") --> (Selecionar Ferramenta eDictor)
+        (Selecionar Ferramenta eDictor)-->(Selecionar corpus)
+        
+         package AcoesNoCorpus as Acoes{
+            
+         (...)
+
+        
+}
+}
+
+(Selecionar corpus)-->Acoes
+ 
+package FluxoAlternativo{
+
+(Acessar catálogo) --> (Selecionar corpus): https://www.tycho.iel.unicamp.br/catalog
+
+}
+
+note right of User
+Pré-requisitos:
+1. Usuário logado 
+(com permissões de edição no corpus)
+2. Corpus previamente criado e o botão de configuração de
+ parâmetros "Use eDictor" habilitado.
+end note
+@enduml
+
+
+
+

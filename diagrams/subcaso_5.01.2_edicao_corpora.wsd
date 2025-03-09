@@ -1,0 +1,31 @@
+@startuml "Caso de uso 6.01 - Edição dos corpora"
+
+actor "Usuário/Admin" as User 
+ User -- AcoesNoCorpus
+package AcoesNoCorpus {
+          
+         (6.01.1 - ConfiguraçãoCorpora)--> (Selecionar o "eDictor Translations")
+         (Selecionar o "eDictor Translations")-->(Selecionar "Inserir texto"):Incluir \nnovas sentenças
+         (Selecionar "Inserir texto")-->(Preencher textos):Inserir textos
+         (Preencher textos)-->(Clicar em "Sincronizar")
+         (Selecionar "Inserir texto")-->(Selecionar "Apagar" e confirmar):Apagar textos \ntranscritos
+         (Selecionar o "eDictor Translations")-->(Selecionar par de sentenças): Editar sentenças\n sincronizadas
+         (Selecionar par de sentenças)-->(Selecionar "Remover" e confirmar):Remover sentenças \nsincronizadas
+         (Selecionar par de sentenças)-->(Selecionar botão E-eDictor): Editar \nsentenças
+         (Selecionar botão E-eDictor)-->(Editar sentença original)
+         (Selecionar botão E-eDictor)-->(Editar sentença traduzida)
+        
+
+note top of (Selecionar "Apagar" e confirmar)
+Textos já sincronizados
+são mantidos.
+end note
+
+}
+
+
+
+@enduml
+
+
+

@@ -1,0 +1,31 @@
+@startuml "Caso de uso 6.01 - Edição dos corpora"
+
+actor "Usuário/Admin" as User 
+User -- EdiçãoCorpora_eDictorTranslations
+package EdiçãoCorpora_eDictorTranslations  {
+        (Acessar página inicial) --> (Selecionar Ferramenta "Área reservada"): https://www.tycho.iel.unicamp.br/home
+
+        (Selecionar Ferramenta "Área reservada") --> (Selecionar Ferramenta eDictor)
+        (Selecionar Ferramenta eDictor)-->(Selecionar corpus e documento)
+        (Selecionar corpus e documento)-->(Acessar "Exibir informações")
+        (Acessar "Exibir informações")-->(Selecionar o "eDictor Translations")
+         
+         package AcoesNoCorpus as Acoes{
+            
+         (...)
+
+        
+}
+
+
+(Selecionar o "eDictor Translations")-->Acoes
+ 
+package FluxoAlternativo{
+
+(Acessar catálogo) --> (Selecionar corpus e documento): https://www.tycho.iel.unicamp.br/catalog
+
+}
+@enduml
+
+
+

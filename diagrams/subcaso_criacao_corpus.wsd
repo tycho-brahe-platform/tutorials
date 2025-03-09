@@ -1,0 +1,26 @@
+@startuml "Caso de uso 03.01 Criação corpus"
+actor "Usuário" as User
+
+package CriaçãoCorpora {
+   
+    
+    (Acessar página admin) --> (Acessar + Create new corpus)
+
+   (Acessar + Create new corpus) --> (Adicionar nome ao novo corpus) 
+}
+
+
+note left of User
+  Pré-requisitos:
+  1. Usuário admin cadastrado com 
+    conta Google e logado
+end note
+
+note right of (Adicionar nome ao novo corpus)
+Clicar em "confirmar"
+end note
+
+User -- CriaçãoCorpora :  https://www.tycho.iel.unicamp.br/admin
+
+
+@enduml
