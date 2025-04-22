@@ -14,18 +14,14 @@ SUMÁRIO
 
 - [DOCUMENTAÇÃO PLATAFORMA TYCHO BRAHE (TYCHO BRAHE PLATAFORM)](#documentação-plataforma-tycho-brahe-tycho-brahe-plataform)
   - [Caso de uso 08 - Synviewer](#caso-de-uso-08---synviewer)
-    - [Descrição Caso de uso 08 - Synviewer](#descrição-caso-de-uso-08---synviewer)
-    - [Diagrama do Caso de uso 08- Synviewer](#diagrama-do-caso-de-uso-08--synviewer)
-    - [Tutorial:](#tutorial)
-      - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal)
+    - [Tutorial](#tutorial)
+      - [**Fluxo normal**](#fluxo-normal)
 
 ---
 
 ## Caso de uso 08 - Synviewer
 
 A plataforma Tycho Brahe oferece uma interface para a geração e visualização de árvores sintáticas, o **Synviewer**. Dentre as funcionalidades, destacam-se a geração de árvores sintáticas com base em parsers baseados em regra desenvolvidos no âmbito do projeto, bem como árvores sintáticas baseadas no banco de Dependências Universais (_Universal Dependencies - UD_). Esta ferramenta facilita o uso dos parser desenvolvidos dentro do projeto, facilitando a visualização, exportação e apresentação dos dados.
-
-### Descrição Caso de uso 08 - Synviewer
 
 **Atores primários**:
 
@@ -35,48 +31,12 @@ A plataforma Tycho Brahe oferece uma interface para a geração e visualização
 
 1. Sem pré-requisitos
 
-**Fluxo normal:**
-
-1. Acessar a página inicial da plataforma Tycho Brahe no endereço <https://www.tycho.iel.unicamp.br/home>.
-2. Clicar no "Synviewer" na área de "Ferramentas".
-
-Há duas funcionalidades principais no "Synviewer":
-
-- **Parsers Tycho**: parsers desenvolvidos no âmbito do projeto.
-
-  - **Executar o parser**:
-    1. Selecionar a aba "Executar o parser".
-    2. Inserir a sentença desejada.
-    3. Selecionar o modelo (parser) desejado.
-    4. Clicar em "Executar".
-  - **Exibir Árvore Sintática**:
-    1. Selecionar a aba "Exibir Árvore Sintática".
-    2. Inserir expressão em notação de parênteses ou colchetes para geração da árvore.
-    3. Converter para notação em colchetes ou parênteses e clicar em "Executar" para gerar a árvore
-  - **Exibir Formato Tycho**:
-    1. Selecionar a aba "Exibir Formato Tycho".
-    2. Inserir os dados.
-    3. Clicar em "Executar" <!--REVISAR: ESTA FUNCIONALIDADE NÃO APRESENTA COMPORTAMENTO...TALVEZ TENHA TESTADO A ENTRADA ERRADA-->
-
-- **Dependências Universais**: parsers do banco de dados de Dependências Universais.
-
-  1. Inserir a sentença desejada ou inserir a expressão no modelo CoNLL-U.
-  2. Selecionar o modelo (parser) desejado.
-  3. Clicar em "Executar".<br><br>
-
-  O usuário pode visualizar e exportar árvores no formato CoNLL-U ou Dependências Universais.<br>
-  Nota: se o usuário preferir inserir a sentença e realizar o parser, o sistema retorna tanto as árvores quanto a expressão em notação CoNLL-U. É possível também inserir a expressão em CoNLL-U para geração das árvores diretamente.
-
-### Diagrama do Caso de uso 08- Synviewer
-
-![caso synviewer diagrama](../imagens/synviewer/caso_synviewer_diagram.png)
-Diagrama de caso de uso Synviewer
-
-### Tutorial:
+### Tutorial
 
 **Objetivo:**
-Este tutorial tem como objetivo detalhar apresentar as funcionalidades do synviewer
-#### **Tutorial: Fluxo normal**
+Este tutorial tem como objetivo apresentar as funcionalidades do synviewer: geração de árvores com base em parser desenvolvidos no âmbito do projeto ou baseados no banco de Dependências Universais.
+
+#### **Fluxo normal**
 
 1. Acesse a página inicial da plataforma Tycho Brahe no endereço <https://www.tycho.iel.unicamp.br/home>.
 
@@ -129,3 +89,5 @@ O usuário pode visualizar e exportar árvores no formato CoNLL-U ou Dependênci
 Nota: se o usuário preferir inserir a sentença e realizar o parser, o sistema retorna tanto as árvores quanto a expressão em notação CoNLL-U. É possível também inserir a expressão em CoNLL-U para geração das árvores diretamente: insira a expressão e clique em Exibir, para gerar as árvores.
 
 ![Exibir conllu](../imagens/synviewer/syn_7.png)
+
+---
