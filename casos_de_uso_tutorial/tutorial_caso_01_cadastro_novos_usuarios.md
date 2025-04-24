@@ -13,18 +13,20 @@
 SUMÁRIO
 
 - [DOCUMENTAÇÃO PLATAFORMA TYCHO BRAHE (TYCHO BRAHE PLATAFORM)](#documentação-plataforma-tycho-brahe-tycho-brahe-plataform)
-  - [Caso de uso 01 - Cadastro de novos usuários nos corpora da plataforma](#caso-de-uso-01---cadastro-de-novos-usuários-nos-corpora-da-plataforma)
-    - [Cadastro de Novos Usuários - Guia do Administrador](#cadastro-de-novos-usuários---guia-do-administrador)
+  - [Caso de uso 01 - Cadastro de novos usuários nos corpora da plataforma e controle de acesso](#caso-de-uso-01---cadastro-de-novos-usuários-nos-corpora-da-plataforma-e-controle-de-acesso)
+    - [Caso 01.1 Cadastro de Novos Usuários - Guia do Administrador](#caso-011-cadastro-de-novos-usuários---guia-do-administrador)
       - [**Fluxo normal**](#fluxo-normal)
       - [**Fluxo Alternativo 1 - Usuário não presente na Base de Dados**](#fluxo-alternativo-1---usuário-não-presente-na-base-de-dados)
       - [**Tutorial: Fluxo Alternativo 2 - Usuário já presente na Base de Dados, vinculado a outro corpus**](#tutorial-fluxo-alternativo-2---usuário-já-presente-na-base-de-dados-vinculado-a-outro-corpus)
     - [Como se cadastrar em um corpus - Guia do usuário final](#como-se-cadastrar-em-um-corpus---guia-do-usuário-final)
       - [**Fluxo normal (usuários não cadastrados previamente em nenhum dos corpora)**](#fluxo-normal-usuários-não-cadastrados-previamente-em-nenhum-dos-corpora)
       - [**Fluxo alternativo**](#fluxo-alternativo)
+    - [Caso 01.2 Controle de acesso - Guia do Administrador](#caso-012-controle-de-acesso---guia-do-administrador)
+      - [**Fluxo normal**](#fluxo-normal-1)
 
 ---
 
-## Caso de uso 01 - Cadastro de novos usuários nos corpora da plataforma
+## Caso de uso 01 - Cadastro de novos usuários nos corpora da plataforma e controle de acesso
 
 O processo de cadastro na Plataforma Tycho Brahe é um procedimento essencial para garantir o acesso controlado e seguro aos corpora. Este processo envolve tanto administradores quanto usuários finais, cada um com papéis específicos no fluxo de cadastro.
 
@@ -34,7 +36,7 @@ O sistema oferece flexibilidade para lidar com diferentes cenários, como usuár
 
 Nos tópicos a seguir, será detalhado o caso de uso para o cadastro de novos usuários, bem como tutoriais passo a passo tanto para administradores quanto para usuários finais, garantindo uma compreensão completa do processo de cadastro na Plataforma Tycho Brahe.
 
-### Cadastro de Novos Usuários - Guia do Administrador
+### Caso 01.1 Cadastro de Novos Usuários - Guia do Administrador
 
 **Objetivo:** Este tutorial detalha o processo para o Administrador da plataforma realizar o cadastro de novos usuários em corpora já criados, configurando as permissões necessárias e/ou enviando os convites de acesso. Em um fluxo normal, a coordenação ou professor entra em contato com o Admin previamente avisando a necessidade de cadastrar ou vincular um novo usuário a um determinado corpus (seja via convite para um novo cadastro na plataforma ou associação de um usuário já cadastrado a um novo corpus)
 
@@ -114,6 +116,8 @@ Ao acessar o “Access Control”, a plataforma apresenta uma página com os atu
 
 10. **Enviar o Convite**: Envie o link de "/onboarding" e o código de acesso ao usuário potencial, via e-mail ou outro meio de comunicação apropriado.
 11. Usuário recém cadastrado deve logar-se novamente para verificar se o cadastro foi bem-sucedido.
+12. É possível verificar informações de convites previamente gerados na plataforma ao clicar sobre o convite:
+![](../imagens/admin/tycho_admin_27.png)
 
 #### **Fluxo Alternativo 1 - Usuário não presente na Base de Dados**
 
@@ -163,5 +167,42 @@ Se o usuário já estiver cadastrado em outro corpus, siga estas etapas:
 2. **Acessar o link**: No e-mail ou mensagem recebida, copie o link de "/onboarding" fornecido pelo administrador, insira no navegador.
 3. **Acessar Página de perfil**: Você será redirecionado para uma página de perfil na plataforma. Como é o primeiro acesso, não haverá corpora vinculados na área “Meus corpora”. Esse acesso salva o seu e-mail na base de dados permitindo que o Admin consiga vincular o seu perfil ao corpus desejado.
 4. **Acesso ao Sistema**: O usuário deve tentar realizar o _sign in_ para certificar-se de que o cadastro foi realizado com sucesso. Se o _sign in_ for bem-sucedido, o usuário poderá acessar o corpus com as permissões definidas pelo administrador.
+
+
+### Caso 01.2 Controle de acesso - Guia do Administrador 
+
+Além do cadastro de novos usuários, a plataforma também oferece funcionalidades de controle de acesso de usuários já cadastrados. 
+
+#### **Fluxo normal**
+
+1. Com a aba "Access control" selecionada, são apresentados os usuários que estão atualmente associados ao corpus e os convites gerados para associação ao corpus.
+   
+![](../imagens/admin/tycho_admin_22.png)
+
+2. Para realizar alterações de controle de acesso do usuário, selecione um usuário, clicando sobre o perfil. Uma caixa com as informações do perfil do usuário se abre, com três colunas: 
+**Profile**: foto, nome e email associado; Botão para revogar acesso do usuário: para revogar, clique sobre o botão "Revoke access" (o acesso do usuário é revogado imediatamente).
+
+   ![](../imagens/admin/tycho_admin_23.png) 
+
+**Access**: nesta coluna, o adminstrador consegue configurar o "Role"(papel) do usuário; o status; Display in Viwer:
+
+   1. Role
+      1. Clique sobre o "papel"
+      2. Selecione entre: Admnistrator, Editor e Visitor.
+      3. Clique em "aplicar" para salvar a seleção.
+      ![](../imagens/admin/tycho_admin_24.png) 
+
+   2. Status
+      1. Clique sobre o Status.
+      2. Selecione entre Active e Inactive.
+      3. Clique em "aplicar" para salvar a seleção.
+
+   3. Display in Viwer
+      1. Alterne para apresentar ou não o perfil do usuário na página do corpus, no viewer e na página principal.
+
+![](../imagens/admin/tycho_admin_25.png)
+
+   **Other Corpora**: apresenta os outros corpora aos quais o usuário é associado.
+   ![](../imagens/admin/tycho_admin_26.png) 
 
 ---

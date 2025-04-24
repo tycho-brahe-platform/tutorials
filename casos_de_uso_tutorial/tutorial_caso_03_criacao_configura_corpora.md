@@ -18,6 +18,13 @@ SUMÁRIO
       - [**Fluxo normal**](#fluxo-normal)
     - [Configuração de corpora](#configuração-de-corpora)
       - [**Fluxo normal**](#fluxo-normal-1)
+        - [**Aba Information**](#aba-information)
+          - [Coluna **General Information**](#coluna-general-information)
+          - [Coluna **Image Galery**](#coluna-image-galery)
+          - [Coluna **Related Papers**](#coluna-related-papers)
+        - [**Aba Resume**](#aba-resume)
+        - [**Aba Parâmetros**](#aba-parâmetros)
+        - [**Aba Access Control**](#aba-access-control)
       - [**Fluxo alternativo:**](#fluxo-alternativo)
 
 ---
@@ -66,7 +73,7 @@ Criação de corpus: inserção de nome
 
 ### Configuração de corpora
 
-**Objetivo:**: Este tutorial detalha os passos necessários para a configuração dos corpora. As configurações são responsáveis por determinar desde o status dos corpora, grau de privacidade, tipo de display do corpus na plataforma, tipos de ferramentas habilitadas para o corpus etc.
+**Objetivo:**: Este tutorial detalha os passos necessários para a configuração dos corpora. As configurações são responsáveis disponibilização de informações iniciais referentes ao corpus, bem como por determinar desde o status dos corpora, grau de privacidade, tipo de display do corpus na plataforma, tipos de ferramentas habilitadas para o corpus etc.
 
 **Atores primários**:
 
@@ -93,23 +100,151 @@ Acessando "Área Reservada"
 ![Acesso rápido](../imagens/acesso_rapido_admin.png)
 Acesso rápido - botões "Admin"
 
-4. Clique em "Parâmetros": uma caixa se abre, disponibilizando diversos botões de alternância para configuração do corpus.
+4. Na tela inicial de adminstração do corpus selecionado, são apresentadas 6 abas de configuração do corpus: **Information, Resume, Parâmetros, Access Control, Catalog, e Configurations**. Cada uma delas será detalhada abaixo. 
+
+##### **Aba Information**
+
+Ao clicar-se nesta aba, aparecem três colunas de informação: informações gerais sobre o corpus, a maioria delas editáveis; Galeria de imagens; e Artigos Relacionados.
+
+![](../imagens/admin/tycho_admin_1.png)
+
+###### Coluna **General Information**
+
+**Edição do nome do corpus**:
+
+1. Clique sobre a área do nome do corpus para alterar - um campo editável vai se abrir;
+2. Realize a edição;
+3. Clique em "aplicar" para salvar as alterações.
+
+![](../imagens/admin/tycho_admin_2.png)
+
+**URL Shortcut**: este campo apresenta o atalho que redireciona para o corpus no Visualizador (www.tycho.iel.unicamp.br/c/shortcut). Neste sentido, só surte efeito se o corpus for parametrizado como "público".
+
+1. Clique sobre a área do nome do atalho - um campo editável vai se abrir;
+2. Realize a edição;
+3. Clique em "aplicar" para salvar as alterações.
+
+![](../imagens/admin/tycho_admin_3.png)
+
+Este atalho redireciona para o Visualizador:
+
+![](../imagens/admin/tycho_admin_4.png)
+
+**Upload Directory**: este campo não é editável e representa o nome do diretório físico criado no servidor onde são mantidas todas as imagens, áudios, arquivos de importação do corpus. Este nome é baseado no nome do corpus, após uma limpeza dos espaços em branco, acentos e símbolos.
+
+![](../imagens/admin/tycho_admin_5.png)
+
+**Constituency parser**: neste campo o usuário seleciona um parser de constituência dentre as diversas opções disponíveis. Há parser desenvolvidos por terceiros ou parsers baseados em regras desenvolvidos no âmbito do projeto.
+
+1. Clique sobre o campo. As opções de parsers disponíveis aparecerem em uma lista suspensa.
+2. Selecione o parser de constituência desejado.
+3. Clique em "aplicar" para salvar a seleção.
+  
+![](../imagens/admin/tycho_admin_6.png)
+
+**Universal Dependency Parser**: neste campo o usuário seleciona um parser de Dependências Universais dentre as diversas opções disponíveis. Os parser disponíveis neste campo são desenvolvidos por terceiros para diversas línguas.
+
+1. Clique sobre o campo. As opções de parsers disponíveis aparecerem em uma lista suspensa.
+2. Selecione o parser de Dependências Universais desejado.
+3. Clique em "aplicar" para salvar a seleção.
+
+![](../imagens/admin/tycho_admin_7.png)
+
+**Filter and columns for catalog**: este campo apresenta opções de cabeçalhos para colunas de informações que podem ser selecionados para apresentação no catálogo. As opções possíveis são: Name, Status, Reference, Category, Author, Picture. 
+
+1. Clique sobre o campo. As opções serão apresentadas para marcação.
+2. Selecione a opção marcando a caixinha.
+3. Clique em "aplicar" para salvar a seleção.
+
+![](../imagens/admin/tycho_admin_8.png)
+
+As seleções têm impacto na apresentação dos documentos no catálogo:
+
+![](../imagens/admin/tycho_admin_9.png)
+
+**Status**; este campo apresenta o statuso do corpus como "Ativo" (corpus ativo - se selecionado o corpus fica disponível na ferramenta de visualização e busca), "Inativo" (indisponível ao público geral nas ferramentas de busca e visualização), "Archivado" (corpus archivado e aguardando ser deletado, e indisponível ao público geral nas ferramentas de busca e visualização) ou "Demo" (corpus criado para demonstração, indisponível ao público geral nas ferramentas de busca e visualização):
+
+1. Clique sobre o campo. Um lista suspensa fica disponível com as opções.
+2. Selecione uma opção de status.
+3. Clique em "aplicar" para salvar a seleção.
+
+![](../imagens/admin/tycho_admin_10.png)
+
+**Unique Identifier**: este campo apresenta o identificador do corpus. É gerado na criação do corpus e é único na base de dados. Na figura a seguir, no corpus Kadiwéu, é representado por C12 - é o códico que aparece nos links/atalhos dos corpora, por exemplo, https://www.tycho.iel.unicamp.br/catalog/C12, no catálogo, e https://www.tycho.iel.unicamp.br/viewer/C12 no visualizador.
+
+![](../imagens/admin/tycho_admin_11.png)
+
+###### Coluna **Image Galery**
+
+Esta coluna apresenta a Galeria de Imagens. A imagem selecionada será a imagem de capa do corpus.
+
+1. Para selecionar uma imagem, clique sobre o botão "+ Click here to add a new image".
+2. Uma caixa de "upload de arquivo" abre. Arraste e solte uma imagem ou clique para selecionar no diretório de escolha.
+3. Clique em "confirmar" para salvar a seleção.
+
+![](../imagens/admin/tycho_admin_12.png)
+
+![](../imagens/admin/tycho_admin_13.png)
+
+![](../imagens/admin/tycho_admin_14.png)   
+
+###### Coluna **Related Papers**
+
+Esta coluna apresenta os artigos relacionados ao corpus.
+
+1. Para preencher informações de um novo artigo relacionado, clique sobre o botão "+ Click here to add a new paper"
+2. Preencha as informações do artigo: título, autor, adicionar um link ou realizar o upload do artigo.
+
+![](../imagens/admin/tycho_admin_12.png)
+
+![](../imagens/admin/tycho_admin_15.png)
+
+3. Se for realizar upload do arquivo do artigo, selecione o botão de upload, arraste e solte ou clique para selecionar o arquivo e confirme.
+
+![](../imagens/admin/tycho_admin_16.png)
+
+Após preencher os dados e salvar, o artigo adicionado aparece na coluna com as informações.
+É possíve deletar e fazer o dowload do artigo: 
+
+![](../imagens/admin/tycho_admin_17.png)
+
+##### **Aba Resume**
+
+Esta aba dispõe três botões: **Resume** - uma descrição resumida sobre o corpus, contendo, de maneira geral, as seguintes informações: um histórico sobre a língua, objetivos potenciais de compilação do corpus, potencial de uso em ferramentas e impacto social etc:
+
+1. Edite o campo à esquerda com o texto desejado.
+2. À direita é apresentado o texto renderizado. No cando superior direito, o usuário consegue alternar o enfoque em janela de edição, edição e renderização, somente renderização e tela cheia.
+3. Após edição, clique em "Save" no topo direito superior para salvar as alterações.
+
+![](../imagens/admin/tycho_admin_18.png)
+
+ **Resume Translation** - este botão apresenta a tradução do Resume:
+
+1. Edite o campo à esquerda com o texto desejado.
+2. À direita é apresentado o texto renderizado. No cando superior direito, o usuário consegue alternar o enfoque em janela de edição, edição e renderização, somente renderização e tela cheia.
+3. Após edição, clique em "Save" no topo direito superior para salvar as alterações.
+
+![](../imagens/admin/tycho_admin_19.png)
+ 
+**Featured** - contém um parágrafo resumindo informações do corpus para apresentação na página de corpora em destaque.  
+
+1. Preencha o campo em inglês, respeitando o máximo de caracteres.
+2. Preencha o campo com a tradução, respeitando o máximo de caracteres.
+3. Clique em "Save" para salvar as alterações.
+
+![](../imagens/admin/tycho_admin_20.png)
+
+O texto editado em "Featured" aparece na página inicial da plataforma, na definição dos corpora em destaque:
+
+![](../imagens/admin/tycho_admin_21.png)
+
+##### **Aba Parâmetros**
+
+1. Clique em "Parâmetros": uma caixa se abre, disponibilizando diversos botões de alternância para configuração do corpus.
 
 ![Parâmetros do corpus](../imagens/parametros_corpus.png)
-Acessando área de configuração de corpora
 
-#### **Fluxo alternativo:**
-
-**A1** - **Acesso direto pelo link de administrador**
-
-1. Acesse o link de administrador: <https://www.tycho.iel.unicamp.br/admin>.
-2. Navegue até o corpus desejado e o selecione, clicando sobre ele (isto abre a página de gestão do corpus).
-
-![Acesso config parâmetors fluxo altern](../imagens/configura_parametro_FA1.png)
-Acesso configuração de parâmetros - Fluxo alternativo 1
-
-3. Retomar a partir do passo 4 do Fluxo normal e realizar as configurações de parâmetros do corpus.<br>
-   A seguir são apresentadas descrições de cada um dos botões de configurações disponíveis.<br>
+2. Diversos botões de alternância são apresentados. Selecione cada parâmetro de acordo com os objetivos do corpus.
 
 **Public corpus**: seleciona se o corpus é disponível ao público em geral ou se é privado.
 
@@ -118,26 +253,22 @@ Acesso configuração de parâmetros - Fluxo alternativo 1
 **Featured Corpus**: Um corpus marcado com esse parâmetro aparece na página principal da plataforma, na área "Corpora em Destaque".
 
 ![Corpra em destaque](../imagens/corpora_em_destaque.png)
-Corpora em corpora_em_destaque
 
 **Use Morphemes**: habilita o uso campos referentes a morfemas, incluindo glossa, nos corpora.
 ![Configura corpus: Use Morphemes](../imagens/botao_config_corpus_usesplit.png)
-Configuração de corpora: botão "Use Morphemes"
 
-<br>**Use Sound**: a habilita o uso de áudio no corpus.
+**Use Sound**: a habilita o uso de áudio no corpus.
 
-- Como podemos observar na Figura abaixo, a habilitação do botão "Use Sound" habitila uma seção de Áudio, que permite ao analista incluir o áudio a ser transcrito (ou o áudio correspondente à transcrição da sentença selecionada).
+- Como podemos observar na figura abaixo, a seleção do botão "Use Sound" habitila uma seção de Áudio, que permite ao analista incluir o áudio a ser transcrito (ou o áudio correspondente à transcrição da sentença selecionada).
 
   ![Configuração de corpora: botão "Use Sound"](../imagens/botao_config_corpus_usesound.png)
   Configuração de corpora: botão "Use Sound"
 
-<br>
-
-- O **"Use Sound"** também habilita, na ferramenta "eDictor", um botão de _play_ para ser tocar os áudios associados às sentenças do documento selecionado, como observamos na Figura abaixo:
+- O **"Use Sound"** também habilita, na ferramenta "eDictor", um botão de _play_ para tocar os áudios associados às sentenças do documento selecionado, como observamos na figura abaixo:
   ![Configuração de corpora: botão "Use Sound" 2](../imagens/botao_config_corpus_usesound2.png)
   Configuração de corpora: botão "Use Sound"(no eDictor)
 
-<br>**Use Translations**: o botão "Use Translations" habilita a seção de Traduções no eDictor, como apresentado na
+**Use Translations**: o botão "Use Translations" habilita a seção de Traduções no eDictor, como apresentado na
 
 ![Configura corpus: Use Translations](../imagens/botao_config_corpus_usetranslation.png)
 Configuração de corpora: botão "Use Translations"
@@ -205,4 +336,19 @@ Resultado configurações de eDictor Translations
 
 **Default for UD**: habilita que o corpus seja configurado para usar Universal Dependencies como o framework padrão para edição de sentenças.
 
+##### **Aba Access Control**
+
+Esta configuração é tratada em um caso de uso separadamente: ver [o caso de uso 01 - cadastro novos usuários](../casos_de_uso_tutorial/tutorial_caso_01_cadastro_novos_usuarios.md).
+
+#### **Fluxo alternativo:**
+
+**A1** - **Acesso direto pelo link de administrador**
+
+1. Acesse o link de administrador: <https://www.tycho.iel.unicamp.br/admin>.
+2. Navegue até o corpus desejado e o selecione, clicando sobre ele (isto abre a página de gestão do corpus).
+
+![Acesso config parâmetors fluxo altern](../imagens/configura_parametro_FA1.png)
+Acesso configuração de parâmetros - Fluxo alternativo 1
+
+1. Retomar a partir do passo 4 do Fluxo normal e realizar as configurações gerais do corpus.<br>
 ---
