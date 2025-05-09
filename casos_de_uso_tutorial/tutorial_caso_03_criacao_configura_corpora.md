@@ -25,6 +25,8 @@ SUMÁRIO
         - [**Aba Resume**](#aba-resume)
         - [**Aba Parâmetros**](#aba-parâmetros)
         - [**Aba Access Control**](#aba-access-control)
+        - [**Aba Catalog**](#aba-catalog)
+        - [**Aba Configurations**](#aba-configurations)
       - [**Fluxo alternativo:**](#fluxo-alternativo)
 
 ---
@@ -150,7 +152,7 @@ Este atalho redireciona para o Visualizador:
 
 ![](../imagens/admin/tycho_admin_7.png)
 
-**Filter and columns for catalog**: este campo apresenta opções de cabeçalhos para colunas de informações que podem ser selecionados para apresentação no catálogo. As opções possíveis são: Name, Status, Reference, Category, Author, Picture. 
+**Filter and columns for catalog**: este campo apresenta opções de cabeçalhos para colunas de informações que podem ser selecionados para apresentação no catálogo. As opções possíveis são: Name, Status, Reference, Category, Author, Picture.
 
 1. Clique sobre o campo. As opções serão apresentadas para marcação.
 2. Selecione a opção marcando a caixinha.
@@ -158,11 +160,11 @@ Este atalho redireciona para o Visualizador:
 
 ![](../imagens/admin/tycho_admin_8.png)
 
-As seleções têm impacto na apresentação dos documentos no catálogo:
+As seleções têm impacto na apresentação dos documentos na página do corpus no catálogo:
 
 ![](../imagens/admin/tycho_admin_9.png)
 
-**Status**; este campo apresenta o statuso do corpus como "Ativo" (corpus ativo - se selecionado o corpus fica disponível na ferramenta de visualização e busca), "Inativo" (indisponível ao público geral nas ferramentas de busca e visualização), "Archivado" (corpus archivado e aguardando ser deletado, e indisponível ao público geral nas ferramentas de busca e visualização) ou "Demo" (corpus criado para demonstração, indisponível ao público geral nas ferramentas de busca e visualização):
+**Status**: este campo apresenta o statuso do corpus como "Ativo" (corpus ativo - se selecionado o corpus fica disponível na ferramenta de visualização e busca), "Inativo" (indisponível ao público geral nas ferramentas de busca e visualização), "Archivado" (corpus archivado e aguardando ser deletado, e indisponível ao público geral nas ferramentas de busca e visualização) ou "Demo" (corpus criado para demonstração, indisponível ao público geral nas ferramentas de busca e visualização):
 
 1. Clique sobre o campo. Um lista suspensa fica disponível com as opções.
 2. Selecione uma opção de status.
@@ -174,6 +176,9 @@ As seleções têm impacto na apresentação dos documentos no catálogo:
 
 ![](../imagens/admin/tycho_admin_11.png)
 
+![](../imagens/admin/tycho_admin_11_2.png)
+
+
 ###### Coluna **Image Galery**
 
 Esta coluna apresenta a Galeria de Imagens. A imagem selecionada será a imagem de capa do corpus.
@@ -184,9 +189,9 @@ Esta coluna apresenta a Galeria de Imagens. A imagem selecionada será a imagem 
 
 ![](../imagens/admin/tycho_admin_12.png)
 
-![](../imagens/admin/tycho_admin_13.png)
+![](../imagens/admin/tycho_admin_13_14.png)
 
-![](../imagens/admin/tycho_admin_14.png)   
+ 
 
 ###### Coluna **Related Papers**
 
@@ -194,10 +199,6 @@ Esta coluna apresenta os artigos relacionados ao corpus.
 
 1. Para preencher informações de um novo artigo relacionado, clique sobre o botão "+ Click here to add a new paper"
 2. Preencha as informações do artigo: título, autor, adicionar um link ou realizar o upload do artigo.
-
-![](../imagens/admin/tycho_admin_12.png)
-
-![](../imagens/admin/tycho_admin_15.png)
 
 3. Se for realizar upload do arquivo do artigo, selecione o botão de upload, arraste e solte ou clique para selecionar o arquivo e confirme.
 
@@ -319,12 +320,10 @@ A configuração do eDictor Tranlations também depende de configurações na ab
   - **Reference**: preencha para adicionar uma referência.<!--[REVISAR: ESTA REFERENCIA DIZ RESPEITO A QUE?]-->
 
 ![Apresentação das traduções no eDictor Translations](../imagens/configura_corpus_admin_translations3.png)
-Configurações no eDictor
-<br>
+
 Estas configurações habilitam a apresentação dos corpora paralelos como em [2] na Figura abaixo; Em [3], o usuário pode selecionar qual lingua de tradução deseja que seja apresentada; Em [4], após a seleção de uma sentença, é possível verificar as traduções para a sentença selecionada, além de ser possível realizar edições nas traduções.
 
 ![Configura corpus:resultadis edictor translations](../imagens/configura_corpus_admin_translations7.png)
-Resultado configurações de eDictor Translations
 
 **Use eDictor**: o acionamento do botão "Use eDictor" habilita o uso do eDictor tradicional para transcrição e edição.
 
@@ -339,6 +338,27 @@ Resultado configurações de eDictor Translations
 ##### **Aba Access Control**
 
 Esta configuração é tratada em um caso de uso separadamente: ver [o caso de uso 01 - cadastro novos usuários](../casos_de_uso_tutorial/tutorial_caso_01_cadastro_novos_usuarios.md).
+
+##### **Aba Catalog**
+
+Esta aba dispõe os documentos presentes no corpus selecionado para configurações. Os documentos são dispostos em linhas, e colunas com informações Reference, Name,	Status,	Category, Added date, num Pages, num Sentences, num Words. 
+![](../imagens/admin/tycho_admin_28.png)
+
+1. Clique sobre um documento para abrir uma janela de edição de informações sobre os documentos.
+
+![](../imagens/admin/tycho_admin_29.png)
+
+2. A maioria dos campos são editáveis (abertos) e aceitam texto. Clique sobre o campo e preencha as informações pertinentes (Name, Author, Description, Translated Name, Reference), clique em aplicar para que as alterações sejam salvas.
+
+![](../imagens/admin/tycho_admin_30.png)
+
+3. Os campos Status e Category apresentam um menu suspenso de opções. Clique sobre o campo, seleciona a opção desejada e clique em aplicar para salvar as alterações. O campo Status tem as seguintes opções: Excluído, Em edição, Ediçã finalizada, Em revisão sintática, Finalizado. As opções de Catagory dependem do cadastro de categorias na aba Configurações - Categories. 
+Há ainda a possibilidade de selecionar o botão de alternância "Use index": <!--REVISAR CRÍTICO: qual a funcionalidade? Não está funcionando--> 
+
+![](../imagens/admin/tycho_admin_31.png)
+
+##### **Aba Configurations**
+Esta aba dispõe configurações de meta informações (informações que serão utilizadas e empregadas na edição (eDictor), busca, apresentação dos documentos no catálogo, categoria de morfemas e de palavras, traduções etc ) <!--REVISAR CRÍTICO-->
 
 #### **Fluxo alternativo:**
 
