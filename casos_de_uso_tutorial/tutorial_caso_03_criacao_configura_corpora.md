@@ -205,28 +205,30 @@ Esta coluna apresenta os artigos relacionados ao corpus.
 ![](../imagens/admin/tycho_admin_16.png)
 
 Após preencher os dados e salvar, o artigo adicionado aparece na coluna com as informações.
-É possíve deletar e fazer o dowload do artigo: 
+É possíve fazer o dowload do artigo e detelá-lo, clicando nos ícones de nuvem e lixeira, respectivamente:
 
 ![](../imagens/admin/tycho_admin_17.png)
 
 ##### **Aba Resume**
 
-Esta aba dispõe três botões: **Resume** - uma descrição resumida sobre o corpus, contendo, de maneira geral, as seguintes informações: um histórico sobre a língua, objetivos potenciais de compilação do corpus, potencial de uso em ferramentas e impacto social etc:
+Esta aba dispõe três botões: 
+**Resume** - uma descrição resumida sobre o corpus, contendo, de maneira geral, as seguintes informações: um histórico sobre a língua, objetivos potenciais de compilação do corpus, potencial de uso em ferramentas e impacto social etc:
 
-1. Edite o campo à esquerda com o texto desejado.
-2. À direita é apresentado o texto renderizado. No cando superior direito, o usuário consegue alternar o enfoque em janela de edição, edição e renderização, somente renderização e tela cheia.
-3. Após edição, clique em "Save" no topo direito superior para salvar as alterações.
+1. Selecione o botão azul "Resume".
+2. Edite o campo à esquerda com o texto desejado.
+3. À direita é apresentado o texto renderizado. No canto superior direito, o usuário consegue alternar o enfoque em janela de edição, edição e renderização, somente renderização e tela cheia.
+4. Após edição, clique em "Save" no topo direito superior para salvar as alterações.
 
 ![](../imagens/admin/tycho_admin_18.png)
 
  **Resume Translation** - este botão apresenta a tradução do Resume:
 
 1. Edite o campo à esquerda com o texto desejado.
-2. À direita é apresentado o texto renderizado. No cando superior direito, o usuário consegue alternar o enfoque em janela de edição, edição e renderização, somente renderização e tela cheia.
+2. À direita é apresentado o texto renderizado. No canto superior direito, o usuário consegue alternar o enfoque em janela de edição, edição e renderização, somente renderização e tela cheia.
 3. Após edição, clique em "Save" no topo direito superior para salvar as alterações.
 
 ![](../imagens/admin/tycho_admin_19.png)
- 
+
 **Featured** - contém um parágrafo resumindo informações do corpus para apresentação na página de corpora em destaque.  
 
 1. Preencha o campo em inglês, respeitando o máximo de caracteres.
@@ -341,7 +343,8 @@ Esta configuração é tratada em um caso de uso separadamente: ver [o caso de u
 
 ##### **Aba Catalog**
 
-Esta aba dispõe os documentos presentes no corpus selecionado para configurações. Os documentos são dispostos em linhas, e colunas com informações Reference, Name,	Status,	Category, Added date, num Pages, num Sentences, num Words. 
+Esta aba dispõe os documentos presentes no corpus selecionado para configurações. Os documentos são dispostos em linhas, e colunas com informações Reference, Name, Status, Category, Added date, num Pages, num Sentences, num Words.
+
 ![](../imagens/admin/tycho_admin_28.png)
 
 1. Clique sobre um documento para abrir uma janela de edição de informações sobre os documentos.
@@ -352,13 +355,19 @@ Esta aba dispõe os documentos presentes no corpus selecionado para configuraç�
 
 ![](../imagens/admin/tycho_admin_30.png)
 
-3. Os campos Status e Category apresentam um menu suspenso de opções. Clique sobre o campo, seleciona a opção desejada e clique em aplicar para salvar as alterações. O campo Status tem as seguintes opções: Excluído, Em edição, Ediçã finalizada, Em revisão sintática, Finalizado. As opções de Catagory dependem do cadastro de categorias na aba Configurações - Categories. 
-Há ainda a possibilidade de selecionar o botão de alternância "Use index": <!--REVISAR CRÍTICO: qual a funcionalidade? Não está funcionando--> 
+3. Os campos Status e Category apresentam um menu suspenso de opções. Clique sobre o campo, selecione a opção desejada e clique em aplicar para salvar as alterações. O campo Status tem as seguintes opções: Excluído, Em edição, Edição finalizada, Em revisão sintática, Finalizado. As opções de Catagory dependem do cadastro de categorias na aba Configurações - Categories. Há ainda a possibilidade de selecionar o botão de alternância "Use index": <!--REVISAR CRÍTICO: qual a funcionalidade? Não está funcionando--> 
 
 ![](../imagens/admin/tycho_admin_31.png)
 
 ##### **Aba Configurations**
 Esta aba dispõe configurações de meta informações (informações que serão utilizadas e empregadas na edição (eDictor), busca, apresentação dos documentos no catálogo, categoria de morfemas e de palavras, traduções etc ) <!--REVISAR CRÍTICO-->
+
+**Metadata**
+[12:15, 06/05/2025] Luiz Veronesi: no catálogo
+[12:16, 06/05/2025] Luiz Veronesi: quando se clica em um documento tem uma aba para preenchimento
+[12:16, 06/05/2025] Luiz Veronesi: depois é exibido no visualizador e usado na busca, quando o atributo "used in search" está marcado
+[12:17, 06/05/2025] Luiz Veronesi: quando está marcado "used in catalog grid", aparece na lista do catálogo
+[12:17, 06/05/2025] Luiz Veronesi: e "used for importing" é no IO
 
 #### **Fluxo alternativo:**
 
