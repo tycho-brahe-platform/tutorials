@@ -363,11 +363,48 @@ Esta aba dispõe os documentos presentes no corpus selecionado para configuraç�
 Esta aba dispõe configurações de meta informações (informações que serão utilizadas e empregadas na edição (eDictor), busca, apresentação dos documentos no catálogo, categoria de morfemas e de palavras, traduções etc ) <!--REVISAR CRÍTICO-->
 
 **Metadata**
-[12:15, 06/05/2025] Luiz Veronesi: no catálogo
-[12:16, 06/05/2025] Luiz Veronesi: quando se clica em um documento tem uma aba para preenchimento
-[12:16, 06/05/2025] Luiz Veronesi: depois é exibido no visualizador e usado na busca, quando o atributo "used in search" está marcado
-[12:17, 06/05/2025] Luiz Veronesi: quando está marcado "used in catalog grid", aparece na lista do catálogo
-[12:17, 06/05/2025] Luiz Veronesi: e "used for importing" é no IO
+A área de configuração de metadados habilita campos de preenchimentos de informações pertinentes aos documentos dos corpora no catálogo. Ao configurar um campo de metadado na página de Admin, é disponibilizado ao usuário o respectivo campo de preenchimento no catálogo. A depender dos atributos habilitados, as informações são exibidas no visualizador e podem ser utilizadas na busca ("used in search"); quando marcado "used in catalog grid", informações aparecem na lista do catálogo; se marcado para "used for importing" as informações são disponibilizadas no IO.
+
+1. Com a aba de "Configurations" selecionada, selecione "Metadata". Metadados criados para o documento são dispostos à direita na tela.
+
+2. Clique sobre uma linha de metadado para verificar os parâmetros selecionados e preenchidos. Clique nos campos para editar e salve as informações.
+
+![](../imagens/admin/tycho_admin_32_33.png)
+
+3. Para adicionar um novo metadado, clique no ícone de opções no canto superior direito.
+
+4. Clique em "Create". Um painel para preenchimento das informações do metadado se abre.
+![](../imagens/admin/tycho_admin_34_35.png)
+
+   1. **Order:** preencha com um número inteiro que corresponde à ordem em que esse campo vai ser disponibilizado para preenchimento r clique em "salvar".
+    ![](../imagens/admin/tycho_admin_36.png)
+
+   2. **Name:** preencha com um nome para o campo de metadado e clique em "salvar"
+    ![](../imagens/admin/tycho_admin_37.png)
+
+   3. **Values:** este campo faz sentido ser preenchido somente se o tipo selecionado para o metadado por "List". Ao adicionar o metadado do tipo lista, o usuário consegue adicionar valores para esta lista, que serão disponibilizados para seleção  no catálogo. Por exemplo: metadado: Estados de Nascimento; tipo: LIST; values: MG,SP,PR:
+    ![](../imagens/admin/tycho_admin_38_39.png)
+
+   4. **Symbol**: campo destinado ao símbolo/apelido do metadado na base de dados. Preencha o campo com o rótulo desejado e clique em "aplicar". <!--REVISAR:verificar com Luis se isto está correto-->
+
+    ![](../imagens/admin/tycho_admin_40.png)
+
+   5. **Type**: campo destinado à seleção do tipo de metadado a ser adicionado no catálogo. Disponbiliza os tipos: data, lista, local, número, texto e ano.
+    ![](../imagens/admin/tycho_admin_41.png)
+
+   6. **Format(para datas apenas)**: este campo disponibiliza o formatador de datas. Só surte efeito se o tipo de metadado estiver marcada para "Date". Preencha com o formato desejado para a data, por exemplo (dd/mm/yyy ou mm/dd/yyyy). Clique em “aplicar”.
+    ![](../imagens/admin/tycho_admin_42.png)
+
+   7. **Used in search**: este botão de alternância habilita que  as informações sejam apresentadas no visualizador e usadas em filtragem de busca.
+   8. **Used in catalog grid**: este botão de alternância habilita a disponibilização das informações na lista do catálogo. <!--REVISAR CRÍTICO: não consegui verificar como isso muda o catálogo, não aparece a informação no grid/lista-->
+   9. **"Used or importing"**: este botão habilita o uso dos metadados no IO (Interoperabilidade).
+   10. **Observations**: campo de preenchimento com observações
+   
+    ![](../imagens/admin/tycho_admin_43.png)
+ 
+
+    
+  
 
 #### **Fluxo alternativo:**
 
