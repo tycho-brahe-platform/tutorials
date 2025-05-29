@@ -396,15 +396,188 @@ A área de configuração de metadados habilita campos de preenchimentos de info
     ![](../imagens/admin/tycho_admin_42.png)
 
    7. **Used in search**: este botão de alternância habilita que  as informações sejam apresentadas no visualizador e usadas em filtragem de busca.
-   8. **Used in catalog grid**: este botão de alternância habilita a disponibilização das informações na lista do catálogo. <!--REVISAR CRÍTICO: não consegui verificar como isso muda o catálogo, não aparece a informação no grid/lista-->
-   9. **"Used or importing"**: este botão habilita o uso dos metadados no IO (Interoperabilidade).
-   10. **Observations**: campo de preenchimento com observações
-   
-    ![](../imagens/admin/tycho_admin_43.png)
- 
 
-    
-  
+   8. **Used in catalog grid**: este botão de alternância habilita a disponibilização das informações na lista do catálogo. <!--REVISAR CRÍTICO: não consegui verificar como isso muda o catálogo, não aparece a informação no grid/lista-->
+   9.  **"Used for importing"**: este botão habilita o uso dos metadados no IO (Interoperabilidade), desabilitando a disposição das informações de metadados no catálogo para o usuario. <!--REVISAR CRÍTICO - isso não tem nenhum impacto no IO-->
+   10. **Observations**: campo de preenchimento com observações
+
+    ![](../imagens/admin/tycho_admin_43.png)
+
+**Categories**
+Esta configuração permite ao usuário incluir categorias (e subcategorias) às quais posteriormente é possível associar cada um dos documentos do corpus. Na página de admin o usuário cria as categorias e associa cada um dos documentos á categoria correspondente (documentos não associados a nenhuma categoria ficam rotulados "Sem categorização").
+
+1. Para criar uma categoria, selecione a aba "Configurations" e "Categories".
+2. Clique no ícone no topo superior direito da janela, selecione "+ Create".
+
+![](../imagens/admin/tycho_admin_44.png)
+
+3. É possível selecionar "clone" para clonar categorias de um corpus da base: clique em clone, selecione o corpus de origem para clonar as categorias. 
+
+![](../imagens/admin/tycho_admin_46.png)
+
+4. Uma janela com os campos de edição se abre, apresentando: Name (campo de preenchimento para o nome da categoria), Order (ordem na qual a categoria será disposta), Symbol (rótulo que será dado à categoria), Description (campo de preenchimento da descrição da categoria). Clique em cada um dos campos, preencha com as informações desejadas e clique em "aplicar" para salvar as alterações e clique em "Confirmar" para criar a categoria.
+
+![](../imagens/admin/tycho_admin_45.png)
+
+5. Após sua criação na página de "admin", uma categoria fica disponível para o usuário no catálogo:
+   1. Clique sobre o documento.
+   2. Selecione "Detalhes" no menu ao lado esquerdo da janela.
+   3. No campo "Categoria", clique para abrir a lista de categorias disponíveis.
+   4. Selecione a categoria desejada e clique em "aplicar".
+
+![](../imagens/admin/tycho_admin_48.png)
+
+ Os critérios para criação das categorias são discricionários do usuário, ou seja, dependem da lógica de organização deliberada por ele, podendo ser, por exemplo, uma organização com base no tempo, etc.: veja o corpus CE-DOHS, que é organizado nas categorias 1500-1822, 1823-2000, 2000-atual, com os respectivos números de documentos associados a cada categoria temporal.
+
+ ![](../imagens/admin/tycho_admin_47.png)
+
+**Word Category**
+Esta área permite que o usuario crie rótulo para a camada de palavras que será apresentadas no eDictor
+
+Para criar uma nova categoria de palavra:
+1. Selecione "Configurations".
+2. Selecione "Word Category"
+3. Clique no ícone no canto superior direito e clique em "+ Create".
+4. Na janela que se abre, preencha e clique em “aplicar” para salvar as alterações:
+   1. Order: ordem que a categoria será 	     disposta;
+   2. ymbol: rótulo da categoria;
+   3. Name(obrigatório): nome da categoria
+5. Clique em “Confirmar”.
+
+![](../imagens/admin/word_category_2.png)
+
+A categoria de palavra criada fica disponíve como camada de edição no eDictor:
+
+![](../imagens/admin/word_category_1.png)
+
+**Morpheme Category**
+Esta área permite que o usuario crie rótulos para a camada de morfemas que será apresentadas no eDictor.
+
+Para criar uma nova categoria de morfema:
+
+1. Selecione "Configurations".
+2. Selecione "Morpheme Category"
+3. Clique no ícone no canto superior direito e clique em "+ Create".
+4. Na janela que se abre, preencha e clique em “aplicar” para salvar as alterações:
+   1. Order: ordem que a categoria será 	     disposta;
+   2. Symbol: rótulo da categoria;
+   3. Name(obrigatório): nome da categoria
+5. Clique em “Confirmar”.
+
+![](../imagens/admin/morpheme_category_1.png)
+
+A categoria de morfema criada fica disponíve como camada de edição no eDictor:
+
+![](../imagens/admin/morpheme_category_2.png)
+
+**Translation**
+Esta configuração permite ao usuário criar campos que serão preenchidos com traduções no eDictor.
+
+Para criar uma categoria de Tradução:
+
+1. Selecione “Configurations”.
+2. Selecione “Translation”.
+3. Categorias criadas anteriormente.
+4. Clique no ícone e selecione “+ Create” para criar uma nova categoria de tradução.
+5. Na janela que se abre, preencha e clique em “aplicar” para salvar as alterações:
+    Order: ordem que a categoria será 	     disposta;
+    Symbol: rótulo da categoria;
+    Name(obrigatório): nome da categoria
+6. Clique em “Confirmar”.
+
+![](../imagens/admin/translation_1.png)
+
+Os campos com categorias de tradução (línguas alvo de tradução) ficam dispostas para preenchimento do usuário no eDictor:
+
+![](../imagens/admin/translation_2.png)
+
+**Section**
+Esta configuração permite ao usuário criar seções (partes). Após a criação de uma seção na página de admin, o usuário consegue, no eDictor, associar partes dos textos com correspondentes seções, rotulando-as. 
+
+Para criar uma seção:
+
+1. Selecione “Configurations”.
+2. Selecione “Sections”.
+3. Seções criadas anteriormente.
+4. Clique no ícone e selecione “+ Create” para criar uma nova categoria.
+5. Na janela que se abre, preencha e clique em “aplicar” para salvar as alterações:
+   1. Order: ordem em que a categoria será disposta;
+   2. Symbol: rótulo da categoria;
+   3. Name(obrigatório): nome da categoria;
+   4. Genre: gênero ao qual a seção é parte integrante.
+6. Clique em “Confirmar”.
+
+![](../imagens/admin/section_1.png)
+
+As seções criadas na página de configurações no admin ficam disponíveis para seleção no eDictor:
+
+1. Acesse o catálogo através do link https://www.tycho.iel.unicamp.br/catalog.
+2. Clique no topo superior (nomes dos corpora) para apresentar os corpora disponíveis.
+3. Selecione o corpus
+
+![](../imagens/admin/section_2.png)
+
+4. Selecione um documento eDictor.
+5. No menu do lado esquerdo, selecione “Ações”, clique no ícone para selecionar a ferramenta, e escolha “Abrir no eDictor”.
+
+![](../imagens/admin/section_3.png)
+Para acessar, ver
+
+6. No eDictor, selecione a aba de "Edição
+7. Sobre a parte que deseja associar a um rótulo de seção, clique com o botão direito do mouse.
+8. No menu que se abre, clique sobre "Seção" e "Adicionar seção"
+9. Clique no menu “Tipo de seção” e escolha uma seção previamente cadastrada.
+
+**Nota:** as seções que são disponibilizadas ao usuário no eDictor dependem de uma configuração extra: se a seção for configurada com um "gênero" ela só ficará disponível para rotulação em documentos também associados ao respectivo gênero.
+
+![](../imagens/admin/section_4.png)
+
+Após a rotulação com a respectiva seção, o trecho apresenta-se com uma etiqueta no eDictor. No exemplo, o título do texto foi etiquetado como "titulo":
+
+![](../imagens/admin/section_5.png)
+
+**Genre(Gênero)**
+
+Esta configuração permite que o usuário crie rótulos para os gêneros (tipo de texto) que serão utilizados nos corpora.
+
+Para criar um gênero:
+
+1. Selecione “Configurations”.
+2. Selecione “Genres”.
+3. Gêneros criados anteriormente.
+4. Clique no ícone e selecione “+ Create” para criar um novo gênero.
+5. Na janela que se abre, preencha e clique em “aplicar” para salvar as alterações:
+    Order: ordem em que a categoria será disposta;
+    Symbol: rótulo da categoria;
+    Name(obrigatório): nome da categoria;
+6. Clique em “Confirmar”.
+
+![](../imagens/admin/genre_1.png)
+
+Os gêneros criados pelos usuários ficam disponíveis para serem marcados nos documentos do catálogo:
+
+1. No catálogo, selecione um corpus, e um documento.
+2. Selecione “Detalhes”.
+3. Clique em “Gêneros” e selecione um gênero na lista e clique em “aplicar”.
+
+![](../imagens/admin/genre_2.png)
+
+**Backups**
+É possível criar um back up do corpus pelo usuário.
+
+Para criar um backup:
+
+1. Selecione “Configurations”.
+2. Selecione “Backups”.
+3. Backups criados anteriormente.
+4. Clique no ícone e selecione “+ Criar novo” para criar um novo backup.
+5. Clique em “Confirmar”.
+
+![](../imagens/admin/backup_1.png)
+
+Os backups realizados ficam disponíveis, com informações de data, nome do arquivo, usuário, status e ícone de download (arquivo zipado). Para realizar o download clique sobre o ícone.
+
+![](../imagens/admin/backup_2.png)
 
 #### **Fluxo alternativo:**
 
@@ -414,7 +587,6 @@ A área de configuração de metadados habilita campos de preenchimentos de info
 2. Navegue até o corpus desejado e o selecione, clicando sobre ele (isto abre a página de gestão do corpus).
 
 ![Acesso config parâmetors fluxo altern](../imagens/configura_parametro_FA1.png)
-Acesso configuração de parâmetros - Fluxo alternativo 1
 
-1. Retomar a partir do passo 4 do Fluxo normal e realizar as configurações gerais do corpus.<br>
+3. Retomar a partir do passo 4 do Fluxo normal e realizar as configurações gerais do corpus.<br>
 ---
