@@ -46,7 +46,7 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 
 ### Criação de corpora
 
-**Objetivo**: Este tutorial detalha os passos necessários para a criação de novos corpora através através do link de administrador.
+**Objetivo**: Este tutorial detalha os passos necessários para a criação de novos corpora através do link de administrador.
 
 **Atores primários**:
 
@@ -164,13 +164,14 @@ As seleções têm impacto na apresentação dos documentos na página do corpus
 
 ![](../imagens/admin/tycho_admin_9.png)
 
-**Status**: este campo apresenta o statuso do corpus como "Ativo" (corpus ativo - se selecionado o corpus fica disponível na ferramenta de visualização e busca), "Inativo" (indisponível ao público geral nas ferramentas de busca e visualização), "Archivado" (corpus archivado e aguardando ser deletado, e indisponível ao público geral nas ferramentas de busca e visualização) ou "Demo" (corpus criado para demonstração, indisponível ao público geral nas ferramentas de busca e visualização):
+**Status**: este campo apresenta o status do corpus como "Ativo" (corpus ativo - se selecionado o corpus fica disponível na ferramenta de visualização e busca), "Inativo" (indisponível ao público geral nas ferramentas de busca e visualização), "Arquivado" (corpus archivado e aguardando ser deletado, e indisponível ao público geral nas ferramentas de busca e visualização) ou "Demo" (corpus criado para demonstração, indisponível ao público geral nas ferramentas de busca e visualização):
 
 1. Clique sobre o campo. Um lista suspensa fica disponível com as opções.
 2. Selecione uma opção de status.
 3. Clique em "aplicar" para salvar a seleção.
 
 ![](../imagens/admin/tycho_admin_10.png)
+
 
 **Unique Identifier**: este campo apresenta o identificador do corpus. É gerado na criação do corpus e é único na base de dados. Na figura a seguir, no corpus Kadiwéu, é representado por C12 - é o códico que aparece nos links/atalhos dos corpora, por exemplo, https://www.tycho.iel.unicamp.br/catalog/C12, no catálogo, e https://www.tycho.iel.unicamp.br/viewer/C12 no visualizador.
 
@@ -355,7 +356,7 @@ Esta aba dispõe os documentos presentes no corpus selecionado para configuraç�
 
 ![](../imagens/admin/tycho_admin_30.png)
 
-3. Os campos Status e Category apresentam um menu suspenso de opções. Clique sobre o campo, selecione a opção desejada e clique em aplicar para salvar as alterações. O campo Status tem as seguintes opções: Excluído, Em edição, Edição finalizada, Em revisão sintática, Finalizado. As opções de Catagory dependem do cadastro de categorias na aba Configurações - Categories. Há ainda a possibilidade de selecionar o botão de alternância "Use index": <!--REVISAR CRÍTICO: qual a funcionalidade? Não está funcionando--> 
+3. Os campos Status e Category apresentam um menu suspenso de opções. Clique sobre o campo, selecione a opção desejada e clique em aplicar para salvar as alterações. O campo Status tem as seguintes opções: Excluído, Em edição, Edição finalizada, Em revisão sintática, Finalizado. As opções de Category dependem do cadastro de categorias na aba Configurações - Categories. Além disso, é possívei selecionar a Visibilidade de um documento do catálogo marcando o corpus como Privado ou Pǘblico. Há ainda a possibilidade de selecionar o botão de alternância "Use index": <!--REVISAR CRÍTICO: qual a funcionalidade? Não está funcionando--> 
 
 ![](../imagens/admin/tycho_admin_31.png)
 
@@ -491,21 +492,45 @@ Os campos com categorias de tradução (línguas alvo de tradução) ficam dispo
 
 ![](../imagens/admin/translation_2.png)
 
-**Section**
-Esta configuração permite ao usuário criar seções (partes). Após a criação de uma seção na página de admin, o usuário consegue, no eDictor, associar partes dos textos com correspondentes seções, rotulando-as. 
+**Universal Dependencies Categories**
+Esta configuração permite ao usuário a criar categorias de dependências universais. Cada categoria criada na página de admin fica disponível para preenchimento pelo usuário na página de sentenças (Selecionado o botão UD no eDictor(translations))
+
+Para criar uma Categoria de Dependência Universal:
+
+1. Selecione “Configurations”.
+2. Selecione "Universal Dependencies Category".
+3. Clique no ícone e selecione “+ Create” para criar uma nova categoria.
+4. Na janela que se abre, preencha e clique em “aplicar” para salvar as alterações:
+   1. Order: ordem em que a categoria será disposta;
+   2. Symbol: rótulo da categoria;
+   3. Name(obrigatório): nome da categoria;
+  
+5. Clique em “Confirmar”.
+
+![](../imagens/admin/ud_category_1.png)
+
+Os campos cadastrados na página de admin ficam disponíveis para edição no eDictor, ao selecionar um sentença e o botão UD:
+
+![](../imagens/admin/ud_category_2.png)
+
+
+<!--**Universal Dependencies Categories** REVISAR: NÃO ENCONTREI ONDE ISSO APARECE APÓS PREENCHIMENTO NO ADMIN, não sei onde isso tem impacto-->
+
+
+**Sections**
+Esta configuração permite ao usuário criar seções (partes). Após a criação de uma seção na página de admin, o usuário consegue, no eDictor, associar partes dos textos com correspondentes seções, rotulando, assim, as partes de texto selecionadas.
 
 Para criar uma seção:
 
 1. Selecione “Configurations”.
 2. Selecione “Sections”.
-3. Seções criadas anteriormente.
-4. Clique no ícone e selecione “+ Create” para criar uma nova categoria.
-5. Na janela que se abre, preencha e clique em “aplicar” para salvar as alterações:
+3. Clique no ícone e selecione “+ Create” para criar uma nova categoria.
+4. Na janela que se abre, preencha e clique em “aplicar” para salvar as alterações:
    1. Order: ordem em que a categoria será disposta;
    2. Symbol: rótulo da categoria;
    3. Name(obrigatório): nome da categoria;
    4. Genre: gênero ao qual a seção é parte integrante.
-6. Clique em “Confirmar”.
+5. Clique em “Confirmar”.
 
 ![](../imagens/admin/section_1.png)
 
