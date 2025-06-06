@@ -14,8 +14,11 @@ SUMÁRIO
 
 - [DOCUMENTAÇÃO PLATAFORMA TYCHO BRAHE (TYCHO BRAHE PLATAFORM)](#documentação-plataforma-tycho-brahe-tycho-brahe-plataform)
   - [Caso de uso 10 - Importação e configuração de documentos - interoperabilidade (IO)](#caso-de-uso-10---importação-e-configuração-de-documentos---interoperabilidade-io)
-    - [Importação de novos documentos](#importação-de-novos-documentos)
+    - [Importação de novos documentos - interoperabilidade](#importação-de-novos-documentos---interoperabilidade)
       - [**Fluxo normal**](#fluxo-normal)
+        - [**Acesso**](#acesso)
+        - [**Upload de arquivos**](#upload-de-arquivos)
+        - [**Processamento do arquivo**](#processamento-do-arquivo)
 
 ---
 
@@ -25,7 +28,7 @@ Este tutorial apresenta o passo a passo para importação de documentos a partir
 
 Nos tópicos a seguir serem desenvolvidos os principais fluxos envolvidos na importação de novos documentos por meio da ferramento de interoperabilidade.
 
-### Importação de novos documentos
+### Importação de novos documentos - interoperabilidade
 
 **Objetivo**: Este tutorial detalha os passos necessários para a importação de novos documentos no catálogo de corpora aos quais o usuário é associado, por meio da ferramenta de interoperabilidade.
 
@@ -36,31 +39,39 @@ Nos tópicos a seguir serem desenvolvidos os principais fluxos envolvidos na imp
 **Pré-requisitos:**
 
 1. Os usuários devem ser previamente cadastrados e ter permissões de administrador ou editor nos corpora a serem editados.
-2. Para que as ferramentas desejadas sejam associadas ao documento criado, o admin do corpus deve tê-las habilitado na página de admin - configurações de corpora.
 
 #### **Fluxo normal**
 
-1. Acesse a página _home_ da plataforma através do link: <https://www.tycho.iel.unicamp.br/home>.
-2. Na área de "Ferramentas", o Usuário acessa "Área reservada" para ser redirecionado ao _login_.
+##### **Acesso**
+1. Acesse a página de _IO_  através do link: <https://www.tycho.iel.unicamp.br/io>.
+2. Se for redirecionado para a página de _login_, preencha suas credenciais ou acesse com a conta Google. A página inicial do _IO_ apresenta essas informações:
 
-!["Acessando Área reservada"](../imagens/tycho_home_signin.png)
+![](../imagens/IO/IO_1.png)
 
-3. Realize o _signin_ (ver caso de uso 00 - sign in).
-4. Acesse o botão eDictor na área de botões de acesso rápido (sendo redirecionado ao catálogo do corpus):
+##### **Upload de arquivos**
 
-!["Botões de acesso rápido"](../imagens/botoes_acesso_rapido.png)
+1. Para importar um documento, clique em “Import new document”.
+2. Na janela de upload, arraste ou clique para enviar um arquivo.
+3. Após o arquivo enviado, clique em Confirmar.
 
-5. Na página de catálogo, clique em "+ Adicionar novo documento".
-6. Na janela que se abre:
-   1. Preencha o nome do documento a ser criado;
-   2. Escolha a ferramenta para edição (previamente cadastradas);
-   3. Selecione a Visibilidade (se Privado, o corpus não fica disponível nas ferramentas de busca, etc., abertas a usuários não cadastrados ou não associados ao corpus).
-7. Clique em Confirmar
+![](../imagens/IO/IO_2.png)
 
-![](../imagens/catalog/catalog_1.png)
+4. Após Confirmar a importação do documento, o usuário é direcionado a esta tela:
+   
+![](../imagens/IO/IO_3.png)
 
-Após criação do documento ele fica disposto no catálogo:
+##### **Processamento do arquivo**
 
-![](../imagens/catalog/catalog_2.png)
+1. A primeira ação recomendada nesta fase é a seleção de tipo do arquivo importado. Isso garante que o arquivo seja processado corretamente, que sejam extraídos os metadados (quando se aplicar), páginas, número de sentenças, línguas de tradução etc.  Para selecionar o tipo, clique em "Tipo: selecionar um tipo". Na lista suspensa, selecione o tipo de arquivo correspondente (a extensão do arquivo dá uma dica do tipo).
 
-**Nota**: A Visibilidade deve ser selecionada como privada, por exemplo, durante a anotação do documento, ou quando o material tem questões relacionadas ao _copyright_.
+![](../imagens/IO/IO_4.png)
+
+Após a seleção do tipo de arquivo, o usuário consegue iniciar o processamento do arquivo de entrada.
+
+2. Para realizar configurações básicas para o processament, clique em "Arquivo:<nome_arquivo.extensão>".
+3. Clique sobre o campo "Clique aqui para alterar as configurações padrão do processo".
+   1. Marque/desmarque as seleções de "Sentence Delimiters (Delimitadores de Sentença)".
+   2. Número da página quebra a página: habilitar/desabilitar - elemento de texto com tipo pag_nr no XML do Pré eDictor deve adicionar nova página, é específico para arquivos pré-edictor.
+   3. Tipo de seção que deve adicionar nova página: usado para arquivos pré-edictor. Habilita seções que poderão ser utilizadas no eDictor.
+   4. Translations for multiple line text file: importa as traduções em arquivos de texto. Os valores devem ser alinhados aos configurados no corpus (na pg de admin - configurações).
+   5. Gloss for multiple line text file: importa atributos de palavra em arquivos de texto. Os valores devem representar categorias de palavras configuradas no corpus (na pg de admin - configurações).
