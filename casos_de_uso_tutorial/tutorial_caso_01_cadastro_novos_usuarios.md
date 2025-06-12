@@ -16,11 +16,7 @@ SUMÁRIO
   - [Caso de uso 01 - Cadastro de novos usuários nos corpora da plataforma e controle de acesso](#caso-de-uso-01---cadastro-de-novos-usuários-nos-corpora-da-plataforma-e-controle-de-acesso)
     - [Caso 01.1 Cadastro de Novos Usuários - Guia do Administrador](#caso-011-cadastro-de-novos-usuários---guia-do-administrador)
       - [**Fluxo normal**](#fluxo-normal)
-      - [**Fluxo Alternativo 1 - Usuário não presente na Base de Dados**](#fluxo-alternativo-1---usuário-não-presente-na-base-de-dados)
-      - [**Tutorial: Fluxo Alternativo 2 - Usuário já presente na Base de Dados, vinculado a outro corpus**](#tutorial-fluxo-alternativo-2---usuário-já-presente-na-base-de-dados-vinculado-a-outro-corpus)
-    - [Como se cadastrar em um corpus - Guia do usuário final](#como-se-cadastrar-em-um-corpus---guia-do-usuário-final)
-      - [**Fluxo normal (usuários não cadastrados previamente em nenhum dos corpora)**](#fluxo-normal-usuários-não-cadastrados-previamente-em-nenhum-dos-corpora)
-      - [**Fluxo alternativo**](#fluxo-alternativo)
+      - [**Fluxo Alternativo 1 - Usuário já presente na Base de Dados, vinculado a outro corpus**](#fluxo-alternativo-1---usuário-já-presente-na-base-de-dados-vinculado-a-outro-corpus)
     - [Caso 01.2 Controle de acesso - Guia do Administrador](#caso-012-controle-de-acesso---guia-do-administrador)
       - [**Fluxo normal**](#fluxo-normal-1)
 
@@ -99,44 +95,24 @@ Ao acessar o “Access Control”, a plataforma apresenta uma página com os atu
    3. **Definir o tipo de permissão:** Selecione o tipo de permissão “Role” que o usuário terá:
       - **Edição**: O usuário poderá editar o corpus.
       - **Admin**: O usuário terá permissões de administrador no corpus.
-   4. **Status do Usuário**: Selecione o status do usuário:
+   4. **Email**: Preencha o email do usuário a ser adicionado ao corpus.
+   5. **Status do Usuário**: Selecione o status do usuário:
       - **Active**: O usuário terá acesso ativo ao corpus.
       - **Inactive**: O usuário estará registrado, mas sem acesso ativo.
 
 7. **Confirmar as Configurações de permissão**: Após configurar as permissões clicar em "Confirmar".
 
-   !["Cria a configura convite"](../imagens/invites.png)
-   Criação e configuração de convite de acesso<br><br>
+   !["Cria a configura convite"](../imagens/invites_2.png)
+   
+8. Após a geração do convite, o admin consegue enviar uma notificação automática com o convite para o email cadastrado. Usuário 
 
-8. **Gerar Link e Código**: O sistema gerará automaticamente um link de "onboarding" e um código de acesso.
-9. **Copiar Informações para enviar ao usuário**: Copie o link de onboarding e o código de acesso gerados. O botão “click here to copy to clipboard” copia o código de acesso.
+   ![](../imagens/invites_3.png)
 
-   !["Tela de convite gerado"](../imagens/convite_codigo.png)
-   Código de acesso gerado automaticamente
 
-10. **Enviar o Convite**: Envie o link de "/onboarding" e o código de acesso ao usuário potencial, via e-mail ou outro meio de comunicação apropriado.
-11. Usuário recém cadastrado deve logar-se novamente para verificar se o cadastro foi bem-sucedido.
-12. É possível verificar informações de convites previamente gerados na plataforma ao clicar sobre o convite:
-![](../imagens/admin/tycho_admin_27.png)
+9.  Usuário recém cadastrado deve receber um email automático neste formato e deve clicar em "Join now" para ser redirecionado à página de adesão ao corpus e inserir o código de acesso constante no email.
+   ![](../imagens/invites_4.png)
 
-#### **Fluxo Alternativo 1 - Usuário não presente na Base de Dados**
-
-Se o usuário ainda não estiver na base de dados da plataforma, siga estas etapas alternativas:
-
-1. **Envio do Link de Onboarding**: Envie o link "/onboarding" para o usuário.
-2. **Cadastro Inicial do Usuário**: O usuário acessa o link, e ao tentar se cadastrar, o sistema mostrará uma mensagem de acesso negado ao corpus.
-
-<!--REVISAR:INSERIR IMAGEM:NÃO TENHO UMA AINDA COMO USUÁRIO NOVO-->
-
-3. **Adicionar Novo Usuário**: Na tela /admin (<https://www.tycho.iel.unicamp.br/admin>) <!-- REVISAR:MANTER LINK?-->, selecione o corpus ou por meio da "Área reservada"(selecione o "Acesso rápido"-"Admin"). No painel de "Access Control", com o botão “Users” selecionado, clique em "+ Add New" para adicionar o usuário.
-4. **Selecionar o E-mail do Usuário**: No campo de busca, preencha o nome ou e-mail do usuário (são apresentados candidatos salvos na base de dados com base no termo de busca preenchido). Escolha o nome/e-mail do usuário que você deseja cadastrar no menu drop down.
-   !["Vincular usuário presente na base de dados ao corpus"](../imagens/selecao_usuario_lista.png)
-   Vincular usuário ao corpus
-
-5. **Configurar Permissões e Confirmar**: Siga o Passos 6 e 7 do fluxo normal para configurar as permissões e confirme o cadastro.
-6. Usuário recém cadastrado deve logar-se novamente para verificar sucesso de cadastro.
-
-#### **Tutorial: Fluxo Alternativo 2 - Usuário já presente na Base de Dados, vinculado a outro corpus**
+#### **Fluxo Alternativo 1 - Usuário já presente na Base de Dados, vinculado a outro corpus**
 
 Se o usuário já estiver cadastrado em outro corpus, siga estas etapas:
 
@@ -144,7 +120,7 @@ Se o usuário já estiver cadastrado em outro corpus, siga estas etapas:
 2. **Selecionar o e-mail do usuário**: Escolha o e-mail do usuário na lista (super-usuários e e-mails já cadastrados no corpus não aparecerão como opção). (Ver Figura acima)
 3. **Configurar Permissões e Confirmar**: Siga o Passo 6 e 7 do fluxo normal para configurar as permissões e confirme o cadastro.
 
-### Como se cadastrar em um corpus - Guia do usuário final
+<!--### Como se cadastrar em um corpus - Guia do usuário final
 
 **Objetivo:** Este tutorial detalha o processo para os usuários se cadastrarem em um corpus da plataforma, utilizando o link de "/onboarding" e código de acesso fornecido pelo administrador, ou apenas o link "/onboarding" .
 
@@ -166,8 +142,7 @@ Se o usuário já estiver cadastrado em outro corpus, siga estas etapas:
 1. **Receber Link onboarding**: Aguarde o e-mail ou mensagem com o link de "onboarding" enviado pelo administrador da plataforma.
 2. **Acessar o link**: No e-mail ou mensagem recebida, copie o link de "/onboarding" fornecido pelo administrador, insira no navegador.
 3. **Acessar Página de perfil**: Você será redirecionado para uma página de perfil na plataforma. Como é o primeiro acesso, não haverá corpora vinculados na área “Meus corpora”. Esse acesso salva o seu e-mail na base de dados permitindo que o Admin consiga vincular o seu perfil ao corpus desejado.
-4. **Acesso ao Sistema**: O usuário deve tentar realizar o _sign in_ para certificar-se de que o cadastro foi realizado com sucesso. Se o _sign in_ for bem-sucedido, o usuário poderá acessar o corpus com as permissões definidas pelo administrador.
-
+4. **Acesso ao Sistema**: O usuário deve tentar realizar o _sign in_ para certificar-se de que o cadastro foi realizado com sucesso. Se o _sign in_ for bem-sucedido, o usuário poderá acessar o corpus com as permissões definidas pelo administrador.-->
 
 ### Caso 01.2 Controle de acesso - Guia do Administrador 
 
