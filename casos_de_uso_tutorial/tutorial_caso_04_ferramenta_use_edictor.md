@@ -83,7 +83,7 @@ Este tutoria apresenta em detalhes o uso do edictor para edição e revisão dos
    Preparando texto para edição </br></br>
 
 7. Etiquetagem e outras edições:
-   **Edições manuais**: Clicar sobre palavra que deseja editar e realizar as edições desejadas:
+   **Edições manuais** realizadas em cada palavra da sentença. Estas edições são feitas ainda no ambiente de edição o eDictor. Para abrir os campos de edição, clique sobre palavra que deseja editar e realize as edições desejadas:
 
    **Operações**:</br>
    ![Menu operações](../imagens/use_edictor_24.png)
@@ -158,19 +158,89 @@ Este tutoria apresenta em detalhes o uso do edictor para edição e revisão dos
   ![Níveis de edição](../imagens/use_edictor_43-44.png.png)
   Níveis de edição.
 
-**Edições automáticas**: há duas maneiras de acessar as orações para realizar o _parser_ e revisar/editar a etiquetagem. Ao acessar o "exibir informações" do documento, selecionar:
+**Edições realizadas na sentença**: há duas maneiras de acessar as sentenças para realizar o _parser_ e revisar/editar manualmente a etiquetagem realizada automaticamente. Ao acessar o catálogo e acessar a área "exibir informações" do documento, selecionar:
 
-- **"Continuar anotação sintática"** (Continue a partir da última sentença revisada): Ao acessar esta área, a plataforma apresenta a primeira sentença do documento (e se o parser já tiver sido aplicado previamente, apresenta também a árvore que corresponde à sentença). É possível navegar entre as sentenças através das setas do lado direito superior.
-  1. Para rodar o _parser_ na sentença selecionada é necessário que um parser tenha sido associado ao corpus previamente. Em caso afirmativo, clicar em no ícone de "parser" no canto superior direito.
-  2. É possível editar os nós da árvore sintática: clicar sobre o nó desejado e selecionar a etiqueta adequada.
+- **"Alterações na sentença no modo edição no eDictor "**: é possível realizar algumas alterações nas sentenças ainda em modo de edição no eDictor.
+
+1. Clique sobre uma sentença com o botão direito do mouse. Um menu se abre:
+   ![](../imagens/use_edictor/use_edictor_12.png)
+
+   1. Copiar conteúdo: copia conteúdo da sentença selecionada para área de transferência (permite colar o conteúdo da sentença em outras áreas de edição):
+   ![](../imagens/use_edictor/use_edictor_13.png)
+   2. "Dividir sentença em duas": divide a sentença em duas após a palavra selecionada pelo usuário:
+   ![](../imagens/use_edictor/use_edictor_14.png)
+   3. "Juntar sentença à seguinte": junta uma sentença à seguinte (a partir do token selecionado):
+   ![](../imagens/use_edictor/use_edictor_15.png)
+
+   4. "Adicionar texto após seleção": Preencha o texto desejado. A sentença será adicionada após a seleção. <!--REVISAR PQ TEM UM BUG AQUI-->
+   ![](../imagens/use_edictor/use_edictor_16.png)
+
+   5. “Ignorar para análise automática”: a sentença fica com as fontes em cor mais clara, indicando a marcação.
+   ![](../imagens/use_edictor/use_edictor_17_1.png)
+
+   A sentença com essa marcação apresenta "IGNORAR" ao acessar o catálogo e "Revisar etiquetas POS":
+   ![](../imagens/use_edictor/use_edictor_17_2.png)
+   É possível "Remover ignorar para análise automática:
+   ![](../imagens/use_edictor/use_edictor_17_3.png)
+
+   6. "Adicionar Participante": associar um participante (previamente criado ao acessar catálogo/corpus/documento/Participantes/+Adicionar Participantes) - Preencha o ID, Nome e outras informações pertinentes, escolha cor etc. e confirme. 
+  ![](../imagens/use_edictor/use_edictor_18.png)
+  
+   Após a criação do perfil de Participante, é possível associar este perfil às sentenças, clicando com o botão direito na sentença para abrir o menu, clique em "Sentença" e em "Adicionar Participante", selecione o participante e confirme:
+   ![](../imagens/use_edictor/use_edictor_19.png)
+
+   7. Remover sentença: clique sobre a sentença com o botão direito para abrir o menu, selecione "Sentença" e "Excluir Sentença". Leia o aviso e confirme a exclusão.
+   ![](../imagens/use_edictor/use_edictor_20.png)
+
+- **"Continuar anotação sintática"** (Continue a partir da última sentença revisada): Ao acessar esta área, a plataforma apresenta a última sentença revisada do documento (e se o parser já tiver sido aplicado previamente, apresenta também a árvore que corresponde à sentença). É possível navegar entre as sentenças através das setas do lado direito superior.
+
+![](../imagens/use_edictor/use_edictor_1.png)
+
+  1. Para rodar o _parser_ na sentença selecionada é necessário que um parser tenha sido associado ao corpus previamente. Em caso afirmativo, clicar em no ícone de "▶️" no canto superior direito.
+  ![](../imagens/use_edictor/use_edictor_2.png)
+
+  1. É possível editar os nós da árvore sintática: clicar sobre o nó desejado e selecionar a etiqueta adequada.
+     1. Clique sobre um nó para editá-lo.
+     2. Clique sobre o campo de “Tag” para selecionar uma etiqueta na lista suspensa.
+     3. Selecionar uma “Extension” da etiqueta no nó selecionado.
+     4. Clique no ícone "✔" para salvar as as alterações
+  ![](../imagens/use_edictor/use_edictor_3.png)
+  1. Para conectar automaticamente ou remover um nó, clique com o botão direito do mouse sobre um nó para editá-lo.
+     1. “Connect automatically”.
+     2. ”Remove” para remover o nó.
+  ![](../imagens/use_edictor/use_edictor_4.png)
+  1. Para conectaros nós, clique sobre o ponto vermelho sobre o nó e arraste para outro para conectá-los. Para remover a conexão, clique com o botão direito sobre ela e clique em "remover"
+  ![](../imagens/use_edictor/use_edictor_5.png)
 
 Outras informações a ações são disponibilizadas neste tela: abrir comentários, ver manuais de anotação sintática, salvar, desfazer/refazer, aplicar layout, histórico, juntar à próxima sentença (ação não permitida caso a sentença tenha tradução e/ou áudio correspondentes), debugar _parser_, e por fim, marcar status de revisão de etiquetagem da sentença (a fazer, como pronta, para revisão).<!--REVISAR: EVENTUALMENTE ESTA PARTE DEVE SER MAIS DETALHADA-->
 
-- **Revisar etiquetas POS**: Ao se acessar esta área, a plataforma apresenta as sentenças do documento para que o usuário possar realizar uma revisão da etiquetagem. Se o _parsing_ já tiver sido previamente realizado na sentença, ela apresenta as etiquetas atribuídas. Do contrário, a camada de etiquetagem POS fica com a etiqueta "vazio" atribuída a todas os tokens.
+- **Revisar etiquetas POS**: Ao se acessar esta área, a plataforma apresenta as sentenças do documento para que o usuário possa realizar uma revisão da etiquetagem. Se o _parsing_ já tiver sido previamente realizado nas sentenças, elas apresentam as etiquetas atribuídas. Do contrário, a camada de etiquetagem POS fica com a etiqueta "vazio" atribuída a todos os tokens das sentenças.
 
-  1. Para rodar o parser na sentença desejada (caso a sentença ainda não tenha sido etiquetada), clicar no ícone "▶️" do lado esquerdo da sentença alvo.
-  2. É possível também realizar edições manuais em cada uma das etiquetas nas palavras da sentença: clicar sobre a etiqueta (ou "vazio"), selecionar a etiqueta desejada e inflexão e confirmar.
-  3. Revisar sentença etiquetada e marcar status (a fazer, como pronta, para revisão.)
-     É possível ainda realizar outras ações: desfazer edição, ir para o eDictor, filtrar.
+![](../imagens/use_edictor/use_edictor_6.png)
+
+  1. Para rodar o parser na sentença desejada (caso a sentença ainda não tenha sido etiquetada), clique no ícone "▶️" do lado esquerdo da sentença alvo.
+  ![](../imagens/use_edictor/use_edictor_7.png)
+
+  É possível também realizar edições manuais em cada uma das etiquetas nas palavras da sentença:
+
+  2. Clique sobre o campo com "vazio" (ou etiqueta POS, se quiser editar uma anotação prévia), selecione a etiqueta POS desejada e Inflexão (se aplicável) e clique em "confirmar". 
+   ![](../imagens/use_edictor/use_edictor_8.png)
+  3. Ao editar uma etiqueta, é possível anotar outras ocorrências do mesmo token em _batch_, ou seja, dar a mesma etiqueta a todas as ocorrências do mesmo token. No campo de edição e seleção de uma etiqueta:
+     1. Selecione a etiqueta POS desejada e Inflexão.
+     2. Clique em apply all: leia a mensagem (A etiqueta "x" será aplicada a "N" ocorrência(s) da palavra "<TOKEN_SELECIONADO>". Note que as substituições serão aplicadas para todas as correspondências no documento. Se a sentença for etiquetada novamente, essa etiqueta será substituída.)
+
+![](../imagens/use_edictor/use_edictor_9.png)
+
+  4. Revise sentença etiquetada e marque o status desejado (Marcar a fazer, Marcar como etiquetada, Marcar como ignorada.)
+
+![](../imagens/use_edictor/use_edictor_10.png)
+     
+É possível ainda realizar outras ações nesta área: 
+
+1. Clique sobre o ícone para desfazer alterações.
+2. Clique sobre o filtro para abrir campos de filtragem por “Contendo texto” ou por status.
+3. Clique em "ABRIR NO EDICTOR" para retornar ao eDictor.
+
+![](../imagens/use_edictor/use_edictor_11.png)
 
 ---
