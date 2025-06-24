@@ -447,7 +447,7 @@ Para criar uma nova categoria de palavra:
 
 ![](../imagens/admin/word_category_2.png)
 
-A categoria de palavra criada fica disponíve como camada de edição no eDictor:
+A categoria de palavra criada fica disponível como camada de edição no eDictor:
 
 ![](../imagens/admin/word_category_1.png)
 

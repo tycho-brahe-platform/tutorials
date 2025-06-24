@@ -16,6 +16,7 @@ SUMÁRIO
   - [Caso de uso 04 - Ferramenta **Use eDictor**](#caso-de-uso-04---ferramenta-use-edictor)
     - [Tutorial:](#tutorial)
       - [**Fluxo normal**](#fluxo-normal)
+        - [Operações no menu suspenso](#operações-no-menu-suspenso)
 
 ---
 
@@ -158,7 +159,7 @@ Este tutoria apresenta em detalhes o uso do edictor para edição e revisão dos
   ![Níveis de edição](../imagens/use_edictor_43-44.png.png)
   Níveis de edição.
 
-**Edições realizadas na sentença**: há duas maneiras de acessar as sentenças para realizar o _parser_ e revisar/editar manualmente a etiquetagem realizada automaticamente. Ao acessar o catálogo e acessar a área "exibir informações" do documento, selecionar:
+##### Operações no menu suspenso
 
 - **"Alterações na sentença no modo edição no eDictor "**: é possível realizar algumas alterações nas sentenças ainda em modo de edição no eDictor.
 
@@ -191,6 +192,62 @@ Este tutoria apresenta em detalhes o uso do edictor para edição e revisão dos
 
    7. Remover sentença: clique sobre a sentença com o botão direito para abrir o menu, selecione "Sentença" e "Excluir Sentença". Leia o aviso e confirme a exclusão.
    ![](../imagens/use_edictor/use_edictor_20.png)
+
+**Inserir quebras**:
+Para inserir quebras de linha e página:
+1. Linha
+   1. Clique com o botão direito sobre palavra (token) onde deseja inserir quebra de linha, um menu se abre.
+   2. Clique em "Quebras" para abrir o menu suspenso.
+   3. Clique em “Inserir quebra de linha”.
+   A quebra de linha será adicionada após o token selecionado.
+   ![](../imagens/use_edictor/use_edictor_21.png)
+
+2. Página
+   1. Clique com o botão direito sobre palavra (token) onde deseja inserir quebra de página, um menu se abre.
+   2. Clique em "Quebras" para abrir o menu suspenso.
+   3. Clique em “Inserir quebra de página”.
+   A quebra de página será adicionada após o token selecionado.
+   ![](../imagens/use_edictor/use_edictor_22.png)
+
+**Formatar**
+
+1. Clique com o botão direito sobre palavra (token)que deseja formatar.
+2. Clique em "Formatação" para abrir o menu suspenso.
+3. Utilize os botões de alternância para ligar/desligar Itálico, Negrito, Sublinhado e Tachado.  Clique sobre o campo e preencha o Espaçamento. Confirme.
+
+![](../imagens/use_edictor/use_edictor_23.png)
+
+**Seções**
+Para associar seções a trechos de texto (esta ação pressupões que seções tenham sido criadas previamente - para mais detalhes ver Caso de uso 03 - criação e configuração de corpora, página de admin):
+
+1. No eDictor, selecione a aba de "Edição
+2. Sobre a parte que deseja associar a um rótulo de seção, clique com o botão direito do mouse.
+3. No menu que se abre, clique sobre "Seção" e "Adicionar seção"
+4. Clique no menu “Tipo de seção” e escolha uma seção previamente cadastrada.
+
+**Nota:** as seções que são disponibilizadas ao usuário no eDictor dependem de uma configuração extra: se a seção for configurada com um "gênero" ela só ficará disponível para rotulação em documentos também associados ao respectivo gênero.
+
+![](../imagens/admin/section_4.png)
+
+Após a rotulação com a respectiva seção, o trecho apresenta-se com uma etiqueta no eDictor. No exemplo, o título do texto foi etiquetado como "titulo":
+
+![](../imagens/admin/section_5.png)
+
+Para criar seções, ver Caso de uso 03 - criação e configuração de corpora, página de admin.
+
+1. Selecione “Configurations”.
+2. Selecione “Sections”.
+3. Clique no ícone e selecione “+ Create” para criar uma nova categoria.
+4. Na janela que se abre, preencha e clique em “aplicar” para salvar as alterações:
+   1. Order: ordem em que a categoria será disposta;
+   2. Symbol: rótulo da categoria;
+   3. Name(obrigatório): nome da categoria;
+   4. Genre: gênero ao qual a seção é parte integrante.
+5. Clique em “Confirmar”.
+
+![](../imagens/admin/section_1.png)
+
+**Outras edições realizadas na sentença**: há duas maneiras de acessar as sentenças para realizar o _parser_ e revisar/editar manualmente a etiquetagem realizada automaticamente. Ao acessar o catálogo e acessar a área "exibir informações" do documento, selecionar:
 
 - **"Continuar anotação sintática"** (Continue a partir da última sentença revisada): Ao acessar esta área, a plataforma apresenta a última sentença revisada do documento (e se o parser já tiver sido aplicado previamente, apresenta também a árvore que corresponde à sentença). É possível navegar entre as sentenças através das setas do lado direito superior.
 

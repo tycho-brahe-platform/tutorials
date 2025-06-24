@@ -10,6 +10,10 @@
 
 ---
 
+Esta configuração permite ao usuário criar seções (partes). Após a criação de uma seção na página de admin, o usuário consegue, no eDictor, associar partes dos textos com correspondentes seções, rotulando, assim, as partes de texto selecionadas.
+
+Para criar uma seção:
+
 SUMÁRIO
 
 - [DOCUMENTAÇÃO PLATAFORMA TYCHO BRAHE (TYCHO BRAHE PLATAFORM)](#documentação-plataforma-tycho-brahe-tycho-brahe-plataform)
