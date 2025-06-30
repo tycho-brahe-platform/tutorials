@@ -31,7 +31,6 @@ Com o visualizador, é possível:
 - Visualizar traduções das sentenças analizadas (quando se aplicar).
   Essas funcionalidades são ideais para pesquisadores, estudantes e interessados em linguística que desejam explorar os corpora de forma detalhada e aproveitar os recursos sem barreiras iniciais de acesso.
 
-
 **Atores primários**:
 
 1.Usuários em geral

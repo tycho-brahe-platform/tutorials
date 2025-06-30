@@ -37,7 +37,7 @@ A ferramenta **Use eDictor** é uma funcionalidade integrada à plataforma Tycho
 ### Tutorial:
 
 **Objetivo:**
-Este tutoria apresenta em detalhes o uso do edictor para edição e revisão dos corpora.
+Este tutorial apresenta em detalhes o uso do edictor para edição e revisão dos corpora.
 
 #### **Fluxo normal**
 
@@ -78,7 +78,7 @@ Este tutoria apresenta em detalhes o uso do edictor para edição e revisão dos
    ![Salvar transcrição](../imagens/use_edictor_7.png)
    Salvando uma transcrição .</br></br>
 
-6. Clique no ícone de "ir para o modo edição" para preparar o texto para receber edições.
+6. Clique no ícone de "ir para o modo edição" para preparar o texto para receber edições (o texto será tokenizado (palavras e sentenças) e será preparado para outros tratamentos computacionais, como etiquetagme POS, parser automático etc).
 
    ![Selecionando edição](../imagens/use_edictor_8.png)
    Preparando texto para edição </br></br>

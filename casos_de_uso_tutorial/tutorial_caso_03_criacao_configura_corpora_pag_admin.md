@@ -39,7 +39,7 @@ Para os administradores, a ferramenta oferece recursos avançados para a criaç�
 
 Há três formas para executar a criação de corpora na ferramenta Tycho Brahe:
 
-1. _Translation mode_ (Modo traduções) ou _Translation eDictor_
+1. _Translation mode_ (Modo traduções) ou _eDictor Translation_
 2. TO DO<!-- <-[REVISAR CRÍTICO: INSERIR LISTA DE MANEIRAS DE DEV DE CORPUS]...diz respeito às ferramentas que vou habilitar na configuração dos corpora? Use eDictor, use Transcriber, Use designer ... ?-->
 
 Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a criação e configuração de novos corpora, além de tutoriais detalhados que guiam administradores e usuários no uso eficiente da ferramenta, garantindo uma experiência fluida e colaborativa na gestão dos catálogos.
@@ -61,10 +61,9 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 
 1. Acesse a página inicial de administrador da plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/admin> e realize o login (se não estiver logado).
 
-2. Ao acessar a página de adminstrador, uma lista de corpora disponíveis abre. Clique em _"+ Create new corpus"_.
+2. Ao acessar a página de administrador, uma lista de corpora disponíveis abre. Clique em _"+ Create new corpus"_.
 
-![Criação novo corpus](../imagens/criacao_corpus.png)"
-Criação de um novo corpus
+![Criação novo corpus](../imagens/criacao_corpus.png)
 
 3. Adicione um nome ao novo corpus e clique em "Confirmar": esta ação finaliza a criação do corpus (Note que estas ações apenas criam o corpus. Para inclusão/edição de documentos, ou seja, alimentar o corpus ver Caso de uso 03.2). Após preencher com o nome desejado, clique em "Confirmar". Esta ação cria um novo corpus, que aparecerá na lista.
 
@@ -75,7 +74,7 @@ Criação de corpus: inserção de nome
 
 ### Configuração de corpora
 
-**Objetivo:**: Este tutorial detalha os passos necessários para a configuração dos corpora. As configurações são responsáveis disponibilização de informações iniciais referentes ao corpus, bem como por determinar desde o status dos corpora, grau de privacidade, tipo de display do corpus na plataforma, tipos de ferramentas habilitadas para o corpus etc.
+**Objetivo**: Este tutorial detalha os passos necessários para a configuração dos corpora. As configurações são responsáveis disponibilização de informações iniciais referentes ao corpus, bem como por determinar desde o status dos corpora, grau de privacidade, tipo de display do corpus na plataforma, tipos de ferramentas habilitadas para o corpus etc.
 
 **Atores primários**:
 
