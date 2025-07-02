@@ -83,11 +83,11 @@ Na ordem da esquerda para a direita:
 3. Criar marcação na imagem.
    1. Selecione “Criar uma Marcação”
    2. Selecione a área desejada com o cursor e Confirme.
-   3. Cada marcação criada na imagem terá uma página correspondente criada (2 marcações e 2 páginas). 
+   3. Cada marcação criada na imagem terá uma página correspondente criada (2 marcações e 2 páginas).
 
 ![](../imagens/designer/designer_8.png)
 
-4. Redimensionar marcações
+1. Redimensionar marcações
    1. Selecione “Redimensionar marcações”.
    2. Com o cursor, clique nas arestas das caixas de marcação e redimensione.
 
@@ -134,4 +134,6 @@ Repita para cada página do documento.
 
 **Nota:** com o texto em modo de edição, é possível, como apresentado no tutorial do use eDictor, realizar etiquetagem e outras edições (Ver Caso de uso 04 - Ferramenta use eDictor, a partir do item 7 do Fluxo normal).
 
+
+<!--REVISAR: LUIZ VAI VERIFICAR SOBRE APAGAR MARCAÇÕES - NÃO ESTÁ FUNCIONANDO-->
 ---
