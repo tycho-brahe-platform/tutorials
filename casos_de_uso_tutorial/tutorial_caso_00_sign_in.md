@@ -86,14 +86,12 @@ Acessando "Área reservada".
 3. Realize o _login_ com o Google ou com suas credenciais previamente cadastradas. Selecione a conta salva no sistema ou preencha os dados da sua conta Google cadastrada na Plataforma Tycho Brahe.
 
 ![Login google](../imagens/login_2.png)
-Seleção de conta Google ou credenciais cadastradas
 
 Ou
 
 ![Tela de login](../imagens/tycho_home_signin2.png)
-Login in com o Google</figcaption>
 
-4. Após _login_ o Usuário é redirecionado à página inicial do perfil, onde são dispostas as áreas **Meu Perfil**, com Informações do usuário, como e-mail, Nome, Informações acadêmicas e Idioma de preferência, que podem eventualmente ser editadas <!-- REVISAR CRÍTICO: avisar ao Luiz que as edições não são persistidos na base, não ficam salvas-->, **Meus corpora**, que apresenta os corpora disponíveis associados ao perfil logado e **Minhas Ferrametentas**, que disponibiliza as ferramentas disponíveis para o usuário logado, de acordo com as permissões de acesso configuradas.
+4. Após _login_ o Usuário é redirecionado à página inicial do perfil, onde são dispostas as áreas **Meu Perfil**, com Informações do usuário, como e-mail, Nome, Informações acadêmicas e Idioma de preferência, que podem eventualmente ser editadas <!-- REVISAR CRÍTICO: avisar ao Luiz que as edições não são persistidos na base, não ficam salvas: ISSUE CRIADA-->, **Meus corpora**, que apresenta os corpora disponíveis associados ao perfil logado e **Minhas Ferrametentas**, que disponibiliza as ferramentas disponíveis para o usuário logado, de acordo com as permissões de acesso configuradas.
 
 !["Tela de perfil do usuário"](../imagens/area_reservada_perfil.png)
 Figure x: Tela inicial - perfil de usuário

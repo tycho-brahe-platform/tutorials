@@ -65,12 +65,11 @@ Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a 
 
 ![Criação novo corpus](../imagens/criacao_corpus.png)
 
-3. Adicione um nome ao novo corpus e clique em "Confirmar": esta ação finaliza a criação do corpus (Note que estas ações apenas criam o corpus. Para inclusão/edição de documentos, ou seja, alimentar o corpus ver Caso de uso 03.2). Após preencher com o nome desejado, clique em "Confirmar". Esta ação cria um novo corpus, que aparecerá na lista.
+3. Adicione um nome ao novo corpus e clique em "Confirmar": esta ação finaliza a criação do corpus (Note que estas ações apenas criam o corpus. Para inclusão/edição de documentos, ou seja, alimentar o corpus ver Caso de uso 03.2). Esta ação cria um novo corpus, que aparecerá na lista.
 
 ![Criação corpus: inserir nome](../imagens/criacao_corpus_nome.png)
-Criação de corpus: inserção de nome
 
-**Nota**: este processo apenas cria o corpus. Sua alimentação (importação de dados/transcrição de áudios/extração de dados a partir de textos impressos etc.) pode ser realizada de diferentes formas a depender do tipo de material disponível (textos em papel, áudios, arquivos .txt, arquivos .csv - com ou sem traduções), das configurações estabelecidas (Caso de uso 03.2). É necessário que haja uma interação com a equipe responsável pelo desenvolvimento da plataforma para que a melhor estratégia de importação de dados seja escolhida e aplicada. Cada um dos tipos de importação/transcrição de dados linguísticos será discutido separadamente nesta documentação.
+**Nota**: este processo apenas cria o corpus. Sua alimentação (importação de dados/transcrição de áudios/extração de dados a partir de textos impressos etc.) pode ser realizada de diferentes formas a depender do tipo de material disponível (textos em papel, áudios, arquivos .txt, arquivos .csv - com ou sem traduções), das configurações estabelecidas (Caso de uso 03.2). É necessário que haja uma interação com a equipe responsável pelo desenvolvimento da plataforma para que a melhor estratégia de importação de dados seja escolhida e aplicada. Cada um dos tipos de importação/transcrição de dados linguísticos será discutido separadamente na documentação.
 
 ### Configuração de corpora
 
@@ -85,7 +84,7 @@ Criação de corpus: inserção de nome
 
 **Pré-requisitos:**
 
-1. Os usuários devem ser previamente cadastrados e ter permissões de administrador. Para cadastro, ver Caso de uso 01; para solicitar cadastro, ver Caso de uso 02. Um corpus deve ter sido criado previamente (ver caso de uso 03.1).
+Os usuários devem ser previamente cadastrados e ter permissões de administrador. Para cadastro, ver Caso de uso 01; para solicitar cadastro, ver Caso de uso 02. Um corpus deve ter sido criado previamente (ver caso de uso 03.1).
 
 #### **Fluxo normal**
 
@@ -94,20 +93,26 @@ Criação de corpus: inserção de nome
 2. Navegue até a área "Ferramentas" e selecione "Área Reservada".
 
 ![Acesso área reservada](../imagens/acesso_area_reservada.png)
-Acessando "Área Reservada"
+
 
 3. Na página de perfil que se abre, os corpora disponíveis, vinculados ao usuário, são apresentados. Selecione o corpus que deseja configurar e clique no botão "Admin" na área de "Acesso rápido" ou "Admin" na área "Minhas Ferramentas" e selecione o corpus que deseja configurar.
 
 ![Acesso rápido](../imagens/acesso_rapido_admin.png)
-Acesso rápido - botões "Admin"
 
 4. Na tela inicial de adminstração do corpus selecionado, são apresentadas 6 abas de configuração do corpus: **Information, Resume, Parâmetros, Access Control, Catalog, e Configurations**. Cada uma delas será detalhada abaixo. 
 
 ##### **Aba Information**
 
-Ao clicar-se nesta aba, aparecem três colunas de informação: informações gerais sobre o corpus, a maioria delas editáveis; Galeria de imagens; e Artigos Relacionados.
+Ao clicar-se nesta aba, aparecem quatro campos de informações:
 
-![](../imagens/admin/tycho_admin_1.png)
+- Information: informações gerais sobre o corpus, a maioria delas editáveis; 
+- Image galery: galeria de imagens do corpus selecionado;
+- Related papers: selecão de artigos científicos associados ao corpus.
+
+![](../imagens/admin/tycho_admin_1_2.png)
+
+![](../imagens/admin/tycho_admin_1_3.png)
+
 
 ###### Coluna **General Information**
 
@@ -118,6 +123,7 @@ Ao clicar-se nesta aba, aparecem três colunas de informação: informações ge
 3. Clique em "aplicar" para salvar as alterações.
 
 ![](../imagens/admin/tycho_admin_2.png)
+
 
 **URL Shortcut**: este campo apresenta o atalho que redireciona para o corpus no Visualizador (www.tycho.iel.unicamp.br/c/shortcut). Neste sentido, só surte efeito se o corpus for parametrizado como "público".
 
