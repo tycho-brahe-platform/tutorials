@@ -18,11 +18,11 @@ SUMÁRIO
       - [**Fluxo normal**](#fluxo-normal)
     - [Configuração de corpora](#configuração-de-corpora)
       - [**Fluxo normal**](#fluxo-normal-1)
-        - [**Aba Information**](#aba-information)
-          - [Coluna **General Information**](#coluna-general-information)
-          - [Coluna **Image Galery**](#coluna-image-galery)
+        - [**Information**](#information)
+          - [**General Information**](#general-information)
+          - [**Image Galery**](#image-galery)
           - [Coluna **Related Papers**](#coluna-related-papers)
-        - [**Aba Resume**](#aba-resume)
+        - [**Resume**](#resume)
         - [**Aba Parâmetros**](#aba-parâmetros)
         - [**Aba Access Control**](#aba-access-control)
         - [**Aba Catalog**](#aba-catalog)
@@ -99,9 +99,9 @@ Os usuários devem ser previamente cadastrados e ter permissões de administrado
 
 ![Acesso rápido](../imagens/acesso_rapido_admin.png)
 
-4. Na tela inicial de adminstração do corpus selecionado, são apresentadas 6 abas de configuração do corpus: **Information, Resume, Parâmetros, Access Control, Catalog, e Configurations**. Cada uma delas será detalhada abaixo. 
+4. Na tela inicial de adminstração do corpus selecionado, são apresentadas 6 abas de configuração do corpus: **Information, Resume, Parâmetros, Access Control, Catalog, e Configurations**. Cada uma delas será detalhada abaixo.
 
-##### **Aba Information**
+##### **Information**
 
 Ao clicar-se nesta aba, aparecem quatro campos de informações:
 
@@ -113,8 +113,7 @@ Ao clicar-se nesta aba, aparecem quatro campos de informações:
 
 ![](../imagens/admin/tycho_admin_1_3.png)
 
-
-###### Coluna **General Information**
+###### **General Information**
 
 **Edição do nome do corpus**:
 
@@ -123,7 +122,6 @@ Ao clicar-se nesta aba, aparecem quatro campos de informações:
 3. Clique em "aplicar" para salvar as alterações.
 
 ![](../imagens/admin/tycho_admin_2.png)
-
 
 **URL Shortcut**: este campo apresenta o atalho que redireciona para o corpus no Visualizador (www.tycho.iel.unicamp.br/c/shortcut). Neste sentido, só surte efeito se o corpus for parametrizado como "público".
 
@@ -168,7 +166,7 @@ Este atalho redireciona para o Visualizador:
 As seleções têm impacto na apresentação dos documentos na página do corpus no catálogo:
 
 ![](../imagens/admin/tycho_admin_9.png)
-
+<!--REVISAR Filter and columns for catalog - NÃO ESTÁ FUNCIONANDO MAIS APÓS ATUALIZAÇÃO-->
 **Status**: este campo apresenta o status do corpus como "Ativo" (corpus ativo - se selecionado o corpus fica disponível na ferramenta de visualização e busca), "Inativo" (indisponível ao público geral nas ferramentas de busca e visualização), "Arquivado" (corpus archivado e aguardando ser deletado, e indisponível ao público geral nas ferramentas de busca e visualização) ou "Demo" (corpus criado para demonstração, indisponível ao público geral nas ferramentas de busca e visualização):
 
 1. Clique sobre o campo. Um lista suspensa fica disponível com as opções.
@@ -177,19 +175,17 @@ As seleções têm impacto na apresentação dos documentos na página do corpus
 
 ![](../imagens/admin/tycho_admin_10.png)
 
-
 **Unique Identifier**: este campo apresenta o identificador do corpus. É gerado na criação do corpus e é único na base de dados. Na figura a seguir, no corpus Kadiwéu, é representado por C12 - é o códico que aparece nos links/atalhos dos corpora, por exemplo, https://www.tycho.iel.unicamp.br/catalog/C12, no catálogo, e https://www.tycho.iel.unicamp.br/viewer/C12 no visualizador.
 
 ![](../imagens/admin/tycho_admin_11.png)
 
 ![](../imagens/admin/tycho_admin_11_2.png)
 
+###### **Image Galery**
 
-###### Coluna **Image Galery**
+Esta área apresenta a Galeria de Imagens. A imagem selecionada será a imagem de capa do corpus.
 
-Esta coluna apresenta a Galeria de Imagens. A imagem selecionada será a imagem de capa do corpus.
-
-1. Para selecionar uma imagem, clique sobre o botão "+ Click here to add a new image".
+1. Para adicionar uma imagem, clique sobre o botão "+ Click here to add a new image".
 2. Uma caixa de "upload de arquivo" abre. Arraste e solte uma imagem ou clique para selecionar no diretório de escolha.
 3. Clique em "confirmar" para salvar a seleção.
 
@@ -197,7 +193,6 @@ Esta coluna apresenta a Galeria de Imagens. A imagem selecionada será a imagem 
 
 ![](../imagens/admin/tycho_admin_13_14.png)
 
- 
 
 ###### Coluna **Related Papers**
 
@@ -215,7 +210,7 @@ Após preencher os dados e salvar, o artigo adicionado aparece na coluna com as 
 
 ![](../imagens/admin/tycho_admin_17.png)
 
-##### **Aba Resume**
+##### **Resume**
 
 Esta aba dispõe três botões: 
 **Resume** - uma descrição resumida sobre o corpus, contendo, de maneira geral, as seguintes informações: um histórico sobre a língua, objetivos potenciais de compilação do corpus, potencial de uso em ferramentas e impacto social etc:
@@ -243,7 +238,7 @@ Esta aba dispõe três botões:
 
 ![](../imagens/admin/tycho_admin_20.png)
 
-O texto editado em "Featured" aparece na página inicial da plataforma, na definição dos corpora em destaque:
+O texto editado em "Featured" fica disposto na página inicial da plataforma, na definição dos corpora em destaque:
 
 ![](../imagens/admin/tycho_admin_21.png)
 
@@ -251,14 +246,12 @@ O texto editado em "Featured" aparece na página inicial da plataforma, na defin
 
 1. Clique em "Parâmetros": uma caixa se abre, disponibilizando diversos botões de alternância para configuração do corpus.
 
-![Parâmetros do corpus](../imagens/parametros_corpus.png)
+![Parâmetros do corpus](../imagens/admin/param_corpus_1.png)
 
 2. Diversos botões de alternância são apresentados. Selecione cada parâmetro de acordo com os objetivos do corpus.
 
 **Public corpus**: seleciona se o corpus é disponível ao público em geral ou se é privado.
-
-**Active**: configura se o corpus está ativo ou inativo;
-
+<!--PAREI AQUI: CONTINUAR A COLOCAR FIGURAS NOS BOTÕES DE PARÂMETROS-->
 **Featured Corpus**: Um corpus marcado com esse parâmetro aparece na página principal da plataforma, na área "Corpora em Destaque".
 
 ![Corpra em destaque](../imagens/corpora_em_destaque.png)
@@ -271,7 +264,6 @@ O texto editado em "Featured" aparece na página inicial da plataforma, na defin
 - Como podemos observar na figura abaixo, a seleção do botão "Use Sound" habitila uma seção de Áudio, que permite ao analista incluir o áudio a ser transcrito (ou o áudio correspondente à transcrição da sentença selecionada).
 
   ![Configuração de corpora: botão "Use Sound"](../imagens/botao_config_corpus_usesound.png)
-  Configuração de corpora: botão "Use Sound"
 
 - O **"Use Sound"** também habilita, na ferramenta "eDictor", um botão de _play_ para tocar os áudios associados às sentenças do documento selecionado, como observamos na figura abaixo:
   ![Configuração de corpora: botão "Use Sound" 2](../imagens/botao_config_corpus_usesound2.png)
@@ -280,58 +272,54 @@ O texto editado em "Featured" aparece na página inicial da plataforma, na defin
 **Use Translations**: o botão "Use Translations" habilita a seção de Traduções no eDictor, como apresentado na
 
 ![Configura corpus: Use Translations](../imagens/botao_config_corpus_usetranslation.png)
-Configuração de corpora: botão "Use Translations"
 
 **Use Lexicon**: é utilizado quando há um parser disponível, mas não há um etiquetador automático (que só funciona se houver uma quantidade mínima de palavras para treinamento do etiquetador). No caso de esta condição não estar satisfeita, o analista deve utilizar o léxico para realizar a etiquetagem automática.
 
 **Use Grid**: ao acessar o catálogo, o usuário tem a possibilidade de apresentação de documentos de duas maneiras: lista, ou grid. Ao habilitar o botão "Use Grid", o usuário configura a apresentação em grid como default, como apresentado na Figura abaixo:
 
 ![Configura corpus: Use Grid](../imagens/botao_config_corpus_usegrid.png)
-Configuração de corpora: botão "Use Grid"
 
-**Use Category**: este botão habilita a possibilidade de categorização e subcategorização dos corpora (por exemplo, categorização com base em parâmetros demográficos etc). Note-se que a criação dos rótulos para as categorias pode ser realizada por um usuário com permissões de adminstrador
+**Use Catalog Categories**: este botão habilita a possibilidade de categorização e subcategorização dos corpora (por exemplo, categorização com base em parâmetros demográficos etc). Note-se que a criação dos rótulos para as categorias pode ser realizada por um usuário com permissões de adminstrador
 
 ![Configuração corpus_ Use Category](../imagens/botao_config_corpus_usecategory.png)
-Configuração de corpora: botão "Use Category"
 
 **Use Edition Tiers**<!--[REVISAR COM O LUIS]-->: este botão habilita a disponibilização de diversos níveis de edição para garantir a máxima fidelidade filológica do texto. Por exemplo, acessando-se o catálogo, selecione o corpus Tycho Brahe do Português Histórico e selecione o documento "Atas dos Brasileiros - Tomo 02", como apresentado na Figura:
 
-![Configura corpus: Use edition tiers](../imagens/botao_config_corpus_useeditiontiers1.png) Configuração de corpora: botão "Use Edition Tiers"
+![Configura corpus: Use edition tiers](../imagens/botao_config_corpus_useeditiontiers1.png) 
 
 ![Configura corpus: botão Use Edition Tiers 2](../imagens/botao_config_corpus_useeditiontiers2.png)
-Configuração de corpora: botão "Use Edition Tiers" (abrindo a ferramenta).
 
 ![Configura corpus: botao Use Edition Tiers 4](../imagens/botao_config_corpus_useeditiontiers3_4.png)
-Configuração de corpora botão "Use Edition Tiers"
 
 Esta ação abre um painel com uma matriz para edição dos níveis de edição, como mostra a Figura abaixo. Note-se: na mesma tela que seria análoga à sentença com o "Use Morphemes" selecionado, são apresentadas os níveis de edição.
 
 ![Matriz para edição: edition tiers](../imagens/botao_config_corpus_useeditiontiers5.png)
-Matriz para edição em níveis de edição
 
 Os botões "Use eDictor Translations"/"Use eDictor"/"Use Designer"/"Use Transcriber" não são excludentes, i.e., podem ser habilitados ao mesmo tempo em um determinado corpus. Esta ação disponibiliza todas as ferramentas para utilização no corpus.
 
 **Use eDictor Translations**: Habilita o uso da versão eDictor para apresentação de corpora paralelos, como apresentado na Figura a seguir:
 ![Use eDictor Translations](../imagens/botao_config_corpus_useedictortranslations1.png)
-Configuração de corpora: botão Use eDictor Translations - Corpora paralelos
 
-A configuração do eDictor Tranlations também depende de configurações na aba eDictor na pagina de admin ("Corpora Management"):
+A configuração do eDictor Tranlations também depende de configurações na aba "Configurations" na pagina de Admin:
 
-- Acesse a página inicial da ferramenta no endereço <https://www.tycho.iel.unicamp.br/home>;
-- Acesse "Corpora Management" na área de Ferramentas.
-- Selecione o corpus que deseja configurar (ou crie um novo corpus em "+ Create New Corpus").
-- Selecione a aba "eDictor" e "Translations" no canto esquerdo.
-- Clique em "Create": uma caixa com campos de configurações para entradas de tradução abre:
-  - **Order**: aceita números inteiros para configuração da ordem em que as línguas de tradução serão apresentadas;
-  - **Symbol**: preencha com o rótulo desejado;
-  - **Name**: preencha com o nome desejado;
-  - **Reference**: preencha para adicionar uma referência.<!--[REVISAR: ESTA REFERENCIA DIZ RESPEITO A QUE?]-->
+1. Acesse a página inicial da ferramenta no endereço <https://www.tycho.iel.unicamp.br/home>;
+2. Acesse "Área reservada".
+3. Selecione o corpus que deseja configurar (ou crie um novo corpus em "+ Create New Corpus").
+4. Selecione a aba "Configurations" e "Translations" no canto esquerdo.
+5. Clique em "+ Create": uma caixa com campos de configurações para entradas de tradução abre:
 
-![Apresentação das traduções no eDictor Translations](../imagens/configura_corpus_admin_translations3.png)
+- **Order**: aceita números inteiros para configuração da ordem em que as línguas de tradução serão apresentadas;
+- **Symbol**: preencha com o rótulo desejado;
+- **Name**: preencha com o nome desejado;
+- **Reference**: preencha para adicionar uma referência.<!--[REVISAR: ESTA REFERENCIA DIZ RESPEITO A QUE?]-->
 
-Estas configurações habilitam a apresentação dos corpora paralelos como em [2] na Figura abaixo; Em [3], o usuário pode selecionar qual lingua de tradução deseja que seja apresentada; Em [4], após a seleção de uma sentença, é possível verificar as traduções para a sentença selecionada, além de ser possível realizar edições nas traduções.
+![Apresentação das traduções no eDictor Translations](../imagens/configura_corpus_admin_translations3_1.png)
 
-![Configura corpus:resultadis edictor translations](../imagens/configura_corpus_admin_translations7.png)
+![](../imagens/configura_corpus_admin_translations3_2.png)
+
+Estas configurações habilitam a apresentação dos corpora paralelos como em [1] na Figura abaixo; Em [2], o usuário pode selecionar qual lingua de tradução deseja que seja apresentada; Em [3], após a seleção de uma sentença, é possível verificar as traduções para a sentença selecionada, além de ser possível realizar edições nas traduções.
+
+![](../imagens/configura_corpus_admin_translations7.png)
 
 **Use eDictor**: o acionamento do botão "Use eDictor" habilita o uso do eDictor tradicional para transcrição e edição.
 
@@ -342,6 +330,10 @@ Estas configurações habilitam a apresentação dos corpora paralelos como em [
 **Allow POS Tag inclusion**: o acionamento deste botão possibilita adicionar novas etiquetas POS à lista enquanto o usuário edita sentenças no eDictor.
 
 **Default for UD**: habilita que o corpus seja configurado para usar Universal Dependencies como o framework padrão para edição de sentenças.
+
+**Use CHAT attributes for Participants**: habilita a adição de atributos padrão aos participantes de  transcrições. Estes atributos são extraídos de arquivos importados no formato CHAT do projeto CHILDES.
+
+![](../imagens/admin/atrib_import_chat_1.png)
 
 ##### **Aba Access Control**
 
