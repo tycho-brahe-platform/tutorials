@@ -1,45 +1,24 @@
-# DOCUMENTAÇÃO PLATAFORMA TYCHO BRAHE (TYCHO BRAHE PLATAFORM)
+# Ferramenta **Use eDictor**
 
-<center>
-<figure>
-<img src="../imagens/logo_tycho1.png" width=220 height=220>
-</figure>
-
-<img src = "../imagens/logo_tycho2.png">
-</center>
-
----
-
-SUMÁRIO
-
-- [DOCUMENTAÇÃO PLATAFORMA TYCHO BRAHE (TYCHO BRAHE PLATAFORM)](#documentação-plataforma-tycho-brahe-tycho-brahe-plataform)
-  - [Caso de uso 04 - Ferramenta **Use eDictor**](#caso-de-uso-04---ferramenta-use-edictor)
-    - [Tutorial:](#tutorial)
-      - [**Fluxo normal**](#fluxo-normal)
-        - [Operações no menu suspenso](#operações-no-menu-suspenso)
+- [Ferramenta **Use eDictor**](#ferramenta-use-edictor)
+  - [Tutorial:](#tutorial)
+    - [**Fluxo normal**](#fluxo-normal)
+      - [Operações no menu suspenso](#operações-no-menu-suspenso)
+        - [**Alterações na sentença no modo edição no eDictor**](#alterações-na-sentença-no-modo-edição-no-edictor)
+        - [**Inserir quebras**](#inserir-quebras)
+        - [**Formatar**](#formatar)
+        - [**Seções**](#seções)
+        - [**Outras edições realizadas na sentença**](#outras-edições-realizadas-na-sentença)
+          - [**"Continuar anotação sintática"**](#continuar-anotação-sintática)
+          - [**Revisar etiquetas POS**](#revisar-etiquetas-pos)
 
 ---
 
-## Caso de uso 04 - Ferramenta **Use eDictor**
+## Tutorial:
 
-A ferramenta **Use eDictor** é uma funcionalidade integrada à plataforma Tycho Brahe que permite aos usuários realizar transcrições e edições de novos corpora utilizando o eDictor, uma ferramenta tradicional para edição e anotação de textos. Com o Use eDictor, é possível transcrever textos a partir de imagens, realizar edições manuais ou automáticas, etiquetar palavras com informações morfológicas e sintáticas, além de aplicar diversas operações de edição, como inserção, remoção, junção e segmentação de palavras. A ferramenta oferece suporte tanto para transcrições manuais quanto automáticas, proporcionando flexibilidade e eficiência no processo de edição de textos. Além disso, o **Use eDictor** permite a revisão e correção de etiquetas POS (Part-of-Speech) e a aplicação de parsers sintáticos, facilitando a análise linguística e a preparação de corpora para estudos avançados.
-
-**Atores primários**:
-
-1. Usuário com permissões de editor no corpus.
-2. Administrador (com permissão de editor no corpus alvo)
-
-**Pré-requisitos:**
-
-1. Usuário logado (com permissões de edição no corpus)
-2. Corpus previamente criado e o botão de configuração de parâmetros "Use eDictor" habilitado.
-
-### Tutorial:
-
-**Objetivo:**
 Este tutorial apresenta em detalhes o uso do edictor para edição e revisão dos corpora.
 
-#### **Fluxo normal**
+### **Fluxo normal**
 
 1. Verifique (ou Habilite) o **use eDictor** na página de /admin do corpus, na aba de parâmetros.
 
@@ -159,9 +138,11 @@ Este tutorial apresenta em detalhes o uso do edictor para edição e revisão do
   ![Níveis de edição](../imagens/use_edictor_43-44.png.png)
   Níveis de edição.
 
-##### Operações no menu suspenso
+#### Operações no menu suspenso
 
-- **"Alterações na sentença no modo edição no eDictor "**: é possível realizar algumas alterações nas sentenças ainda em modo de edição no eDictor.
+##### **Alterações na sentença no modo edição no eDictor**
+
+É possível realizar algumas alterações nas sentenças ainda em modo de edição no eDictor.
 
 1. Clique sobre uma sentença com o botão direito do mouse. Um menu se abre:
    ![](../imagens/use_edictor/use_edictor_12.png)
@@ -190,11 +171,13 @@ Este tutorial apresenta em detalhes o uso do edictor para edição e revisão do
    Após a criação do perfil de Participante, é possível associar este perfil às sentenças, clicando com o botão direito na sentença para abrir o menu, clique em "Sentença" e em "Adicionar Participante", selecione o participante e confirme:
    ![](../imagens/use_edictor/use_edictor_19.png)
 
-   7. Remover sentença: clique sobre a sentença com o botão direito para abrir o menu, selecione "Sentença" e "Excluir Sentença". Leia o aviso e confirme a exclusão.
+   1. Remover sentença: clique sobre a sentença com o botão direito para abrir o menu, selecione "Sentença" e "Excluir Sentença". Leia o aviso e confirme a exclusão.
    ![](../imagens/use_edictor/use_edictor_20.png)
 
-**Inserir quebras**:
+##### **Inserir quebras**
+
 Para inserir quebras de linha e página:
+
 1. Linha
    1. Clique com o botão direito sobre palavra (token) onde deseja inserir quebra de linha, um menu se abre.
    2. Clique em "Quebras" para abrir o menu suspenso.
@@ -209,7 +192,7 @@ Para inserir quebras de linha e página:
    A quebra de página será adicionada após o token selecionado.
    ![](../imagens/use_edictor/use_edictor_22.png)
 
-**Formatar**
+##### **Formatar**
 
 1. Clique com o botão direito sobre palavra (token)que deseja formatar.
 2. Clique em "Formatação" para abrir o menu suspenso.
@@ -217,7 +200,7 @@ Para inserir quebras de linha e página:
 
 ![](../imagens/use_edictor/use_edictor_23.png)
 
-**Seções**
+##### **Seções**
 Para associar seções a trechos de texto (esta ação pressupões que seções tenham sido criadas previamente - para mais detalhes ver Caso de uso 03 - criação e configuração de corpora, página de admin):
 
 1. No eDictor, selecione a aba de "Edição
@@ -247,9 +230,13 @@ Para criar seções, ver Caso de uso 03 - criação e configuração de corpora,
 
 ![](../imagens/admin/section_1.png)
 
-**Outras edições realizadas na sentença**: há duas maneiras de acessar as sentenças para realizar o _parser_ e revisar/editar manualmente a etiquetagem realizada automaticamente. Ao acessar o catálogo e acessar a área "exibir informações" do documento, selecionar:
+##### **Outras edições realizadas na sentença**
 
-- **"Continuar anotação sintática"** (Continue a partir da última sentença revisada): Ao acessar esta área, a plataforma apresenta a última sentença revisada do documento (e se o parser já tiver sido aplicado previamente, apresenta também a árvore que corresponde à sentença). É possível navegar entre as sentenças através das setas do lado direito superior.
+Há duas maneiras de acessar as sentenças para realizar o _parser_ e revisar/editar manualmente a etiquetagem realizada automaticamente. Ao acessar o catálogo e acessar a área "exibir informações" do documento, selecionar:
+
+###### **"Continuar anotação sintática"**
+
+(Continue a partir da última sentença revisada): Ao acessar esta área, a plataforma apresenta a última sentença revisada do documento (e se o parser já tiver sido aplicado previamente, apresenta também a árvore que corresponde à sentença). É possível navegar entre as sentenças através das setas do lado direito superior.
 
 ![](../imagens/use_edictor/use_edictor_1.png)
 
@@ -271,7 +258,9 @@ Para criar seções, ver Caso de uso 03 - criação e configuração de corpora,
 
 Outras informações a ações são disponibilizadas neste tela: abrir comentários, ver manuais de anotação sintática, salvar, desfazer/refazer, aplicar layout, histórico, juntar à próxima sentença (ação não permitida caso a sentença tenha tradução e/ou áudio correspondentes), debugar _parser_, e por fim, marcar status de revisão de etiquetagem da sentença (a fazer, como pronta, para revisão).<!--REVISAR: EVENTUALMENTE ESTA PARTE DEVE SER MAIS DETALHADA-->
 
-- **Revisar etiquetas POS**: Ao se acessar esta área, a plataforma apresenta as sentenças do documento para que o usuário possa realizar uma revisão da etiquetagem. Se o _parsing_ já tiver sido previamente realizado nas sentenças, elas apresentam as etiquetas atribuídas. Do contrário, a camada de etiquetagem POS fica com a etiqueta "vazio" atribuída a todos os tokens das sentenças.
+###### **Revisar etiquetas POS**
+
+Ao se acessar esta área, a plataforma apresenta as sentenças do documento para que o usuário possa realizar uma revisão da etiquetagem. Se o _parsing_ já tiver sido previamente realizado nas sentenças, elas apresentam as etiquetas atribuídas. Do contrário, a camada de etiquetagem POS fica com a etiqueta "vazio" atribuída a todos os tokens das sentenças.
 
 ![](../imagens/use_edictor/use_edictor_6.png)
 
@@ -291,7 +280,7 @@ Outras informações a ações são disponibilizadas neste tela: abrir comentár
   4. Revise sentença etiquetada e marque o status desejado (Marcar a fazer, Marcar como etiquetada, Marcar como ignorada.)
 
 ![](../imagens/use_edictor/use_edictor_10.png)
-     
+
 É possível ainda realizar outras ações nesta área: 
 
 1. Clique sobre o ícone para desfazer alterações.

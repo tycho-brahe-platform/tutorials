@@ -1,44 +1,24 @@
-# DOCUMENTAÇÃO PLATAFORMA TYCHO BRAHE (TYCHO BRAHE PLATAFORM)
+## Transcriber
 
-<center>
-<figure>
-<img src="../imagens/logo_tycho1.png" width=220 height=220>
-</figure>
-
-<img src = "../imagens/logo_tycho2.png">
-</center>
-
----
-
-SUMÁRIO
-
-- [DOCUMENTAÇÃO PLATAFORMA TYCHO BRAHE (TYCHO BRAHE PLATAFORM)](#documentação-plataforma-tycho-brahe-tycho-brahe-plataform)
-  - [Caso de uso 12 - Transcriber](#caso-de-uso-12---transcriber)
-    - [Tutorial:](#tutorial)
-      - [**Fluxo normal**](#fluxo-normal)
+Índice
+- [Transcriber](#transcriber)
+- [Tutorial](#tutorial)
+  - [**Fluxo normal**](#fluxo-normal)
+    - [**Adicionar áudio**](#adicionar-áudio)
+    - [**Modo Tap**](#modo-tap)
+    - [**Transcrição**](#transcrição)
+    - [**Editar Informações da transcrição**](#editar-informações-da-transcrição)
+    - [**Atalhos**](#atalhos)
+    - [**Participantes**](#participantes)
 
 ---
 
-## Caso de uso 12 - Transcriber
-
-Este tutorial apresenta os passos para utilização do Transcriber. Esta ferramenta permite que o usuário realize transcrições de áudios importados na plataforma, crie e atribua participantes, importar arquivos com transcrições previamente digitalizadas e associação com participantes, além de outras tarefas de gestão de ativos de som e trasncrições.
-
-**Atores primários**:
-
-1. Usuário com permissões de edição aos corpora alvo
-
-
-**Pré-requisitos:**
-
-1. Usuário logado (com permissões de edição no corpus).
-2. Corpus alvo configurado para uso no Transcriber.
-
-### Tutorial:
+## Tutorial
 
 **Objetivo:**
 Este tutorial apresenta os passos para utilização do Transcriber, envolvendo a adição de áudio para transcrição, criação de perfil de participantes, associação desses perfis a regiões de áudio (utilizando o Modo Tap), extração de trechos de áudio associados às transcrições etc.
 
-#### **Fluxo normal**
+### **Fluxo normal**
 
 Para a edição de uma transcrição no Transcriber, pressupõe-se que o documento tenha sido previamente criado e selecionada a ferramenta Transcriber como ferramenta associada ao documento (para mais detalhes de criação de documentos,ver Caso de uso 03_02 - Criação, configuração e edição de novos documentos).
 
@@ -47,7 +27,7 @@ Para a edição de uma transcrição no Transcriber, pressupõe-se que o documen
 O primeiro passo a ser adotado para realizar uma trasncrição é a adição de um áudio.
 Neste tutorial vamos seguir o exemplo de um áudio em karitiana.
 
-**Adicionar áudio**:
+#### **Adicionar áudio**
 
 1. No corpus alvo, clique sobre o documento criado para edição no Transcriber.
 2. Clique no ícone para abrir menu de ferramentas de edição.
@@ -68,7 +48,9 @@ Esta é a tela inicial do documento no Transcriber
 
 ![](../imagens/transcriber/transcriber_5.png)
 
-**Modo Tap**: após realizar a adição de um áudio e a criação de participantes (ver abaixo), a ferramenta de "Modo Tap" permite ao usuário tocar o áudio e associar regiões a participantes através das teclas numéricas (a cada participante criado é atribuído um número cardinal do teclado numérico). Para utilizar o "Modo Tap":
+#### **Modo Tap**
+
+Após realizar a adição de um áudio e a criação de participantes (ver abaixo), a ferramenta de "Modo Tap" permite ao usuário tocar o áudio e associar regiões a participantes através das teclas numéricas (a cada participante criado é atribuído um número cardinal do teclado numérico). Para utilizar o "Modo Tap":
 
 1. Clique em “Modo Tap” para abrir a funcionalidade. A tela apresenta as informações como dispostas na imagem:
 2. Ulilize o botão Reproduzir/Pausar para dar início ao áudio.
@@ -79,7 +61,7 @@ Esta é a tela inicial do documento no Transcriber
 
 ![](../imagens/transcriber/transcriber_11.png)
 
-**Transcrição manual**:
+#### **Transcrição**
 
 Para realizar uma transcrição de região marcada:
 
@@ -112,7 +94,9 @@ Para adicionar uma Observação e atribuí-la a um outro usuário:
 
 ![](../imagens/transcriber/transcriber_14.png)
 
-**Editar Informações da transcrição** - para editar informações da transcrição:
+#### **Editar Informações da transcrição**
+
+Para editar informações da transcrição:
 
 1. Clique sobre o nome do documento para abrir um menu na lateral esquerda.
 2. Selecione “Informações”.
@@ -164,11 +148,15 @@ Com esta importação das frases (e traduções), as transcrições (original e 
 
 ![](../imagens/transcriber/transcriber_20.png)
 
-**Atalhos**: a ferramenta Transcriber disponibiliza alguns atalhos para facilitar a tarefa do transcritor:
+#### **Atalhos**
+
+A ferramenta Transcriber disponibiliza alguns atalhos para facilitar a tarefa do transcritor:
 
 ![](../imagens/transcriber/transcriber_9.png)
 
-**Participantes**: esta funcionalidade permite a gestão de participantes (criação, edição de informações etc.)
+#### **Participantes**
+
+Esta funcionalidade permite a gestão de participantes (criação, edição de informações etc.)
 
 1. Clique para abrir um menu na lateral à esquerda.
 2. Selecione “Participantes”.

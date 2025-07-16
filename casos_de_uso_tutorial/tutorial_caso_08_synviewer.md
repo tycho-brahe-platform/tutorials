@@ -1,42 +1,23 @@
-# DOCUMENTAÇÃO PLATAFORMA TYCHO BRAHE (TYCHO BRAHE PLATAFORM)
+# Synviewer
 
-<center>
-<figure>
-<img src="../imagens/logo_tycho1.png" width=220 height=220>
-</figure>
+Índice
 
-<img src = "../imagens/logo_tycho2.png">
-</center>
-
----
-
-SUMÁRIO
-
-- [DOCUMENTAÇÃO PLATAFORMA TYCHO BRAHE (TYCHO BRAHE PLATAFORM)](#documentação-plataforma-tycho-brahe-tycho-brahe-plataform)
-  - [Caso de uso 08 - Synviewer](#caso-de-uso-08---synviewer)
-    - [Tutorial](#tutorial)
-      - [**Fluxo normal**](#fluxo-normal)
+- [Synviewer](#synviewer)
+  - [Tutorial](#tutorial)
+    - [**Fluxo normal**](#fluxo-normal)
+      - [**Parsers Tycho**: seleciona esta aba com os parsers desenvolvidos no âmbito do projeto.](#parsers-tycho-seleciona-esta-aba-com-os-parsers-desenvolvidos-no-âmbito-do-projeto)
+        - [**Executar o parser**](#executar-o-parser)
+        - [**Exibir Árvore Sintática**](#exibir-árvore-sintática)
+        - [**Exibir Formato Tycho**](#exibir-formato-tycho)
+      - [**Dependências Universais**](#dependências-universais)
 
 ---
 
-## Caso de uso 08 - Synviewer
+## Tutorial
 
-A plataforma Tycho Brahe oferece uma interface para a geração e visualização de árvores sintáticas, o **Synviewer**. Dentre as funcionalidades, destacam-se a geração de árvores sintáticas com base em parsers baseados em regra desenvolvidos no âmbito do projeto, bem como árvores sintáticas baseadas no banco de Dependências Universais (_Universal Dependencies - UD_). Esta ferramenta facilita o uso dos parser desenvolvidos dentro do projeto, facilitando a visualização, exportação e apresentação dos dados.
-
-**Atores primários**:
-
-1. Usuários em geral (inclusive sem cadastro prévio na plataforma)
-
-**Pré-requisitos:**
-
-1. Sem pré-requisitos
-
-### Tutorial
-
-**Objetivo:**
 Este tutorial tem como objetivo apresentar as funcionalidades do synviewer: geração de árvores com base em parser desenvolvidos no âmbito do projeto ou baseados no banco de Dependências Universais.
 
-#### **Fluxo normal**
+### **Fluxo normal**
 
 1. Acesse a página inicial da plataforma Tycho Brahe no endereço <https://www.tycho.iel.unicamp.br/home>.
 
@@ -50,9 +31,9 @@ Acessando o "Synviewer"
 
 Há duas funcionalidades principais no "Synviewer":
 
-**Parsers Tycho**: seleciona esta aba com os parsers desenvolvidos no âmbito do projeto.
+#### **Parsers Tycho**: seleciona esta aba com os parsers desenvolvidos no âmbito do projeto.
 
-- **Executar o parser**:
+##### **Executar o parser**
 
   1. Selecione a aba "Executar o parser".
   2. Insira a sentença desejada.
@@ -64,7 +45,7 @@ Há duas funcionalidades principais no "Synviewer":
 
   ![Execução parser de regra](../imagens/synviewer/syn_4.png)
 
-- **Exibir Árvore Sintática**:
+##### **Exibir Árvore Sintática**
 
   1. Selecione a aba "Exibir Árvore Sintática".
   2. Insira expressão em notação de parênteses ou colchetes para geração da árvore.
@@ -72,12 +53,15 @@ Há duas funcionalidades principais no "Synviewer":
 
   ![Exibir Árvore sintática](../imagens/synviewer/syn_5.png)
 
-- **Exibir Formato Tycho**:
+##### **Exibir Formato Tycho**
+
   1. Selecionar a aba "Exibir Formato Tycho".
   2. Inserir os dados.
   3. Clicar em "Executar" <!--REVISAR: ESTA FUNCIONALIDADE NÃO APRESENTA COMPORTAMENTO...TALVEZ TENHA TESTADO A ENTRADA ERRADA-->
 
-**Dependências Universais**: parsers do banco de dados de Dependências Universais.
+#### **Dependências Universais**
+
+Parsers do banco de dados de Dependências Universais.
 
 1. Insira a sentença desejada.
 2. Selecione o modelo (parser) desejado.

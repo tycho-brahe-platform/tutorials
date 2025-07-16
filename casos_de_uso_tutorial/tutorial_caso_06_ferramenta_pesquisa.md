@@ -1,43 +1,20 @@
-# DOCUMENTAÇÃO PLATAFORMA TYCHO BRAHE (TYCHO BRAHE PLATAFORM)
+# Ferramenta de Pesquisa
 
-<center>
-<figure>
-<img src="../imagens/logo_tycho1.png" width=220 height=220>
-</figure>
+Índice
 
-<img src = "../imagens/logo_tycho2.png">
-</center>
-
----
-
-SUMÁRIO
-
-- [DOCUMENTAÇÃO PLATAFORMA TYCHO BRAHE (TYCHO BRAHE PLATAFORM)](#documentação-plataforma-tycho-brahe-tycho-brahe-plataform)
-  - [Caso de uso 06 - Ferramenta de Pesquisa](#caso-de-uso-06---ferramenta-de-pesquisa)
-    - [Tutorial](#tutorial)
-      - [**Fluxo normal**](#fluxo-normal)
-  - [](#)
+- [Ferramenta de Pesquisa](#ferramenta-de-pesquisa)
+  - [Tutorial](#tutorial)
+    - [**Fluxo normal**](#fluxo-normal)
+      - [**Pesquisa simples**](#pesquisa-simples)
+      - [**Pesquisa sintática**](#pesquisa-sintática)
+        - [**Modo 1 - Default**](#modo-1---default)
+        - [**Modo 2 - Escreva sua pesquisa**.](#modo-2---escreva-sua-pesquisa)
 
 ---
 
-## Caso de uso 06 - Ferramenta de Pesquisa
+## Tutorial
 
-A Ferramenta de Pesquisa possibilita ao usuário realizar pesquisas nos corpora disponíveis na plataforma Tycho Brahe. Há dois tipos de busca disponíveis na plataforma: **Pesquisa simples** e **Pesquisa sintática**. A Pesquisa Simples possibilita que o usuário utilize a sintaxe de expressões regulares (regex) para realizar buscas. Por outro lado, a Pesquisa Sintática disponibiliza dois modos de busca: um modo direto, utilizando os campos com listas suspensas, que apresentam opções para as seleções pertinentes para a pesquisa; ou um modo que possibilita a escrita livre da busca e posterior conversão do texto livre para o modo anterior.<!--REVISAR: VER COM O LUIS SE É ISSO MESMO QUE UTILIZA - CORPUS SEARCH?-->
-
-**Atores primários**:
-
-1. Usuário (geral). <!--REVISAR: verificar se qualquer pessoa pode realizar busca, sem a necessidade de ser cadastrado na plataforma-->
-
-**Pré-requisitos:**
-
-1. Os corpora devem estar com o status "completed" e serem públicos ("_public_").
-
-### Tutorial
-
-**Objetivo:**
-Este tutorial dem o objetivo de detalhar os procedimentos necessários para a realização de pesquisas nos corpora disponíveis na plataforma Tycho Brahe.
-
-#### **Fluxo normal**
+### **Fluxo normal**
 
 1. Acesse a página _home_ da plataforma Tycho Brahe através do link: <https://www.tycho.iel.unicamp.br/home>.
 2. Na área de "Ferramentas", acesse a Ferramenta "Search".
@@ -47,11 +24,10 @@ Este tutorial dem o objetivo de detalhar os procedimentos necessários para a re
 3. Escolha um dos corpora para realizar a busca.
 
 ![Seleção corpus para pesquisa](../imagens/busca_2.png)
- 
 
 4. Escolha o tipo de pesquisa que deseja realizar: **Pesquisa simples** ou **Pesquisa sintática**.
 
-**Pesquisa simples**:
+#### **Pesquisa simples**
 
    1. Selecione o botão **Pesquisa simples**
    2. Preencha o campo com a expressão de busca utilizando partes de palavra, palavra completa, palavra + POS, múltiplas palavras (não necessariamente em sequência), múltiplas palavras em sequência, múltiplas palavras com etiquetas POS (não necessariamente em sequência), palavra + expressão regular ou múltiplas palavras com expressão regular.
@@ -80,9 +56,11 @@ A pesquisa realizada no exemplo na Figura acima retorna o seguinte resultado no 
 ![Resultado pesquisa](../imagens/busca_9.png)
 Resultado de uma busca simples.
 
-**Pesquisa sintática** - escolha um dos modos da pesquisa Modo 1- Default: este modo disponibiliza listas suspensas com os tipos de tags/pesquisa pré-determinadas (Palavra, Categoria Sintática, Categoria Vazia, Etiqueta POS), uma lista suspensa com o tipo de relação entre os colocados (_dominates, exists hasSister_ etc); Modo 2 - Escreva sua pesquisa: é possível escrever a expressão de pesquisa e converter para o modo anterior antes de realizar a pesquisa):
+#### **Pesquisa sintática**
 
-**Modo 1 - Default**
+Escolha um dos modos da pesquisa Modo 1- Default: este modo disponibiliza listas suspensas com os tipos de tags/pesquisa pré-determinadas (Palavra, Categoria Sintática, Categoria Vazia, Etiqueta POS), uma lista suspensa com o tipo de relação entre os colocados (_dominates, exists hasSister_ etc); Modo 2 - Escreva sua pesquisa: é possível escrever a expressão de pesquisa e converter para o modo anterior antes de realizar a pesquisa):
+
+##### **Modo 1 - Default**
 
    1. Selecione **Pesquisa sintática**.
    2. Selecione quais padrões serão aplicados na busca pelos colocados:
@@ -95,7 +73,9 @@ Resultado de uma busca simples.
    ![Pesquisa sintática](../imagens/busca_8.png)
    Realizando uma Pesquisa Sintática
 
-   **Modo 2 - Escreva sua pesquisa**. É posível abrir um campo livre para preenchimento para executar busca com padrão de sintaxe livre com etiquetas POS:
+##### **Modo 2 - Escreva sua pesquisa**. 
+
+   É posível abrir um campo livre para preenchimento para executar busca com padrão de sintaxe livre com etiquetas POS:
 
    1. Clique em "escreva sua pesquisa".
    2. Preencha o campo com o padão de pesquisa desejado.
@@ -111,4 +91,5 @@ Resultado de uma busca simples.
       5. Definições <!--REVISAR: VERIFICAR QUAIS SÃO AS DEFINIÇÕES POSSÍVEIS AQUI-->
       <!--REVISAR: aguardar reunião com Luiz para entender melhor esta parte de configurações-->
 
-## <!-- REVISAR COM LUIZ: O PADRÃO DE BUSCA NA BUSCA SINTÁTICA LIVRE É CORPUS SEARCH?-->
+ <!-- REVISAR COM LUIZ: O PADRÃO DE BUSCA NA BUSCA SINTÁTICA LIVRE É CORPUS SEARCH?-->
+---

@@ -1,24 +1,8 @@
-# DOCUMENTAÇÃO PLATAFORMA TYCHO BRAHE (TYCHO BRAHE PLATAFORM)
+# Importação e configuração de documentos - interoperabilidade (IO)
 
-<center>
-<figure>
-<img src="../imagens/logo_tycho1.png" width=220 height=220>
-</figure>
+Índice
 
-<img src = "../imagens/logo_tycho2.png">
-</center>
-
----
-
-Esta configuração permite ao usuário criar seções (partes). Após a criação de uma seção na página de admin, o usuário consegue, no eDictor, associar partes dos textos com correspondentes seções, rotulando, assim, as partes de texto selecionadas.
-
-Para criar uma seção:
-
-SUMÁRIO
-
-- [DOCUMENTAÇÃO PLATAFORMA TYCHO BRAHE (TYCHO BRAHE PLATAFORM)](#documentação-plataforma-tycho-brahe-tycho-brahe-plataform)
-  - [Caso de uso 10 - Importação e configuração de documentos - interoperabilidade (IO)](#caso-de-uso-10---importação-e-configuração-de-documentos---interoperabilidade-io)
-    - [Importação de novos documentos - interoperabilidade](#importação-de-novos-documentos---interoperabilidade)
+- [Importação e configuração de documentos - interoperabilidade (IO)](#importação-e-configuração-de-documentos---interoperabilidade-io)
       - [**Fluxo normal**](#fluxo-normal)
         - [**Acesso**](#acesso)
         - [**Upload de arquivos**](#upload-de-arquivos)
@@ -26,33 +10,20 @@ SUMÁRIO
 
 ---
 
-## Caso de uso 10 - Importação e configuração de documentos - interoperabilidade (IO)
+## Tutorial
 
-Este tutorial apresenta o passo a passo para importação de documentos a partir do sistema de interoperabilidade (IO). Este sistema permite ao usuário a importação de documentos em diversos formatos nos corpora selecionados. Durante a importação de documentos, o usuário consegue realizar configurações iniciais, facilitando a preparação do documento para a importação.
+Este tutorial detalha os passos necessários para a importação de novos documentos no catálogo de corpora aos quais o usuário é associado, por meio da ferramenta de interoperabilidade.
 
-Nos tópicos a seguir serem desenvolvidos os principais fluxos envolvidos na importação de novos documentos por meio da ferramento de interoperabilidade.
+### **Fluxo normal**
 
-### Importação de novos documentos - interoperabilidade
+#### **Acesso**
 
-**Objetivo**: Este tutorial detalha os passos necessários para a importação de novos documentos no catálogo de corpora aos quais o usuário é associado, por meio da ferramenta de interoperabilidade.
-
-**Atores primários**:
-
-1. Usuário com permissões de editor ou admin no respectivo corpus
-
-**Pré-requisitos:**
-
-1. Os usuários devem ser previamente cadastrados e ter permissões de administrador ou editor nos corpora a serem editados.
-
-#### **Fluxo normal**
-
-##### **Acesso**
 1. Acesse a página de _IO_  através do link: <https://www.tycho.iel.unicamp.br/io>.
 2. Se for redirecionado para a página de _login_, preencha suas credenciais ou acesse com a conta Google. A página inicial do _IO_ apresenta essas informações:
 
 ![](../imagens/IO/IO_1.png)
 
-##### **Upload de arquivos**
+#### **Upload de arquivos**
 
 1. Para importar um documento, clique em “Import new document”.
 2. Na janela de upload, arraste ou clique para enviar um arquivo.
@@ -64,7 +35,7 @@ Nos tópicos a seguir serem desenvolvidos os principais fluxos envolvidos na imp
    
 ![](../imagens/IO/IO_3.png)
 
-##### **Processamento do arquivo**
+#### **Processamento do arquivo**
 
 1. A primeira ação recomendada nesta fase é a seleção de tipo do arquivo importado. Isso garante que o arquivo seja processado corretamente, que sejam extraídos os metadados (quando se aplicar), páginas, número de sentenças, línguas de tradução etc.  Para selecionar o tipo, clique em "Tipo: selecionar um tipo". Na lista suspensa, selecione o tipo de arquivo correspondente (a extensão do arquivo dá uma dica do tipo).
 
@@ -120,7 +91,5 @@ Após o processamento fica disposto em relação paralela:
    2. Sincronizar com o catálogo: se houver um documento previamente criado no catálogo com a mesma referência do documento importado, o sistema apresenta a opção de vincular o documento importado ao documento do catálogo.
 
 ![](../imagens/IO/IO_13.png)
-  
 
-
-  
+---

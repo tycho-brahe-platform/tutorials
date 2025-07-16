@@ -1,54 +1,22 @@
-# DOCUMENTAÇÃO PLATAFORMA TYCHO BRAHE (TYCHO BRAHE PLATAFORM)
+# Visualizador de corpora
 
-<center>
-<figure>
-<img src="../imagens/logo_tycho1.png" width=220 height=220>
-</figure>
+Índice
 
-<img src = "../imagens/logo_tycho2.png">
-</center>
+- [Visualizador de corpora](#visualizador-de-corpora)
+  - [Tutorial](#tutorial)
+    - [**Fluxo normal**](#fluxo-normal)
 
 ---
 
-SUMÁRIO
+## Tutorial
 
-- [DOCUMENTAÇÃO PLATAFORMA TYCHO BRAHE (TYCHO BRAHE PLATAFORM)](#documentação-plataforma-tycho-brahe-tycho-brahe-plataform)
-  - [Caso de uso 07 - Visualizador de corpora](#caso-de-uso-07---visualizador-de-corpora)
-    - [Tutorial](#tutorial)
-      - [**Fluxo normal**](#fluxo-normal)
-
----
-
-## Caso de uso 07 - Visualizador de corpora
-
-O visualizador de corpora da plataforma Tycho Brahe oferece uma interface acessível e prática para a exploração dos corpora disponíveis. Essa funcionalidade está aberta a todos os usuários, incluindo aqueles que não possuem cadastro na plataforma, promovendo a democratização do acesso aos dados linguísticos desenvolvidos no projeto.
-
-Com o visualizador, é possível:
-
-- Examinar anotações realizadas nos corpora, como etiquetas (POS) e anotações sintáticas.
-- Visualizar e exportar representações gráficas, como árvores sintáticas, diretamente a partir da ferramenta, permitindo maior flexibilidade para estudos e apresentações.
-- Acessar áudios disponíveis (quando se aplicar).
-- Visualizar traduções das sentenças analizadas (quando se aplicar).
-  Essas funcionalidades são ideais para pesquisadores, estudantes e interessados em linguística que desejam explorar os corpora de forma detalhada e aproveitar os recursos sem barreiras iniciais de acesso.
-
-**Atores primários**:
-
-1.Usuários em geral
-
-**Pré-requisitos:**
-
-1.Sem pré-requisitos
-
-### Tutorial
-
-**Objetivo:**
 Este tutorial tem como objetivo guiar os usuários no uso do visualizador de corpora da plataforma Tycho Brahe. Ao final, o usuário será capaz de:
 
 - Acessar o visualizador, mesmo sem cadastro na plataforma.
 - Navegar pelas anotações disponíveis nos corpora.
 - Visualizar e exportar árvores sintáticas desejadas para uso externo.
 
-#### **Fluxo normal**
+### **Fluxo normal**
 
 1. Acesse a página inicial da plataforma Tycho Brahe no endereço <https://www.tycho.iel.unicamp.br/home>.
 
