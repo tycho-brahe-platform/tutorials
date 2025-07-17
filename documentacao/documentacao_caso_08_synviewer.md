@@ -75,7 +75,7 @@ Diagrama de caso de uso Synviewer
 ### Tutorial:
 
 **Objetivo:**
-
+Este tutorial tem como objetivo detalhar apresentar as funcionalidades do synviewer
 #### **Tutorial: Fluxo normal**
 
 1. Acesse a página inicial da plataforma Tycho Brahe no endereço <https://www.tycho.iel.unicamp.br/home>.

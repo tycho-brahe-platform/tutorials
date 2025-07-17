@@ -13,7 +13,7 @@
 SUMÁRIO
 
 - [DOCUMENTAÇÃO PLATAFORMA TYCHO BRAHE (TYCHO BRAHE PLATAFORM)](#documentação-plataforma-tycho-brahe-tycho-brahe-plataform)
-  - [Caso de uso 09.1 - Parser - Edição e gerenciamento das regras dos parsers--\>](#caso-de-uso-091---parser---edição-e-gerenciamento-das-regras-dos-parsers--)
+  - [Caso de uso 09.1 - Parser - Edição e gerenciamento das regras dos parsers](#caso-de-uso-091---parser---edição-e-gerenciamento-das-regras-dos-parsers)
     - [Diagrama do Caso de uso 09 - Parser](#diagrama-do-caso-de-uso-09---parser)
     - [Tutorial:](#tutorial)
       - [**Tutorial: Fluxo normal**](#tutorial-fluxo-normal)
@@ -21,7 +21,7 @@ SUMÁRIO
 
 <!--A FAZER-->
 
-## Caso de uso 09.1 - Parser - Edição e gerenciamento das regras dos parsers-->
+## Caso de uso 09.1 - Parser - Edição e gerenciamento das regras dos parsers
 
 A ferramenta de construção de Parser possibilita a criação, edição e gerenciamento de parsers baseados em regras, construção de casos de teste, inclusão de splitters e flexões e outras configurações como o desenvolvimento de definições e etiquetadores.
 
