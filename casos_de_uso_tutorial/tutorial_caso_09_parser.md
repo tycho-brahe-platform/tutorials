@@ -5,9 +5,13 @@
 - [Parser - Edição e gerenciamento das regras dos parsers](#parser---edição-e-gerenciamento-das-regras-dos-parsers)
   - [Tutorial](#tutorial)
     - [**Fluxo normal**](#fluxo-normal)
+      - [Acesso](#acesso)
       - [**Aba "Parsers"**](#aba-parsers)
+        - [Criação, edição e exclusão de regras](#criação-edição-e-exclusão-de-regras)
       - [**Aba "Casos de teste"**](#aba-casos-de-teste)
+        - [Cenários de testes automatizados](#cenários-de-testes-automatizados)
       - [**Aba "Etiquetas"**](#aba-etiquetas)
+        - [Gerenciamento de regras de POS, morfemas, contrações](#gerenciamento-de-regras-de-pos-morfemas-contrações)
       - [**Aba "Splitters"** ](#aba-splitters-)
       - [**Aba "Flexões"**](#aba-flexões)
       - [**Aba "Configurações"**](#aba-configurações)
@@ -21,6 +25,8 @@
 Este tutorial apresenta as edições possíveis nos parsers. As edições tratadas aqui compreendem: acesso ao parser, edição das regras, edição das definições, configurações de acesso de usuários, debugger etc.
 
 ### **Fluxo normal**
+
+#### Acesso
 
 1. Acesse a página inicial da plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/home>.
 2. Na área "Ferramentas", selecione "Área Reservada" e realize o login com conta Google ou com suas credenciais (se já não estiver logado).
@@ -36,7 +42,9 @@ Este tutorial apresenta as edições possíveis nos parsers. As edições tratad
 
 #### **Aba "Parsers"**
 
-Edição de regras:
+##### Criação, edição e exclusão de regras 
+
+Permite a criação, edição, depuração e visualização da análise sintática passo a passo.
 
 - Selecione uma regra a ser editada ao clicar sobre ela. Apresentam-se campos referentes à regra selecionada (Nome; Node; Query: regra propriamente dita, escrita em sintaxe Corpus Search(Documentação acessível em: <https://corpussearch.sourceforge.net/>)). Além disso, é possível excluir a regra ao clicar no ícone com lixeira e confirmar.
 - Debugger: se desejar, preencha uma sentença a ser analisada para testar o conjunto de regras (é possível adicionar paradas (debugger), em quaisquer das regras, para teste do parser. Para marcar uma parada, clique no círculo à direita da regra - "add/remove breaking point"). É possível incluir a sentença testada nos casos de teste.
@@ -45,6 +53,8 @@ Edição de regras:
 ![Aba Parsers](../imagens/parser/parser_3.png)
 
 #### **Aba "Casos de teste"**
+
+##### Cenários de testes automatizados
 
 - Adicionar caso de teste: clique no botão "+" para adicionar caso de teste; preencha a "expressão" em parênteses, referente à sentença desejada. **Nota:** a expressão deve deve gerar uma árvore que representa o objetivo final esperado de geração pelo parser automático, ensejando uma comparação com o resultado efetivo de aplicação do parser automático. Ao preencher uma expressão, na sub-aba "Expression", uma árvore objetivo é apresentada na sub-aba "Expected".
 - Rodar casos de teste: clique no botão "►" para rodar os casos de teste e comparar o resultado esperado pelo usuário com o efetivamente processado pelo parseamento automático. Esta ação cria uma sub-aba "Output" que apresenta a árvore efetivamente gerada automaticamente pelo parser, possibilitando sua comparação com a árvore esperada.
@@ -57,11 +67,17 @@ Edição de regras:
 
 #### **Aba "Etiquetas"**
 
+##### Gerenciamento de regras de POS, morfemas, contrações
+
 - Selecione tipo de etiqueta entre POS, SYNTACTIC, MORPHEME.
 - Pesquisar etiqueta: preencha o campo para realizar pesquisa de etiquetas.
+![](../imagens/parser/parser_11.png)
 - "Extract": botão para extração de etiquetas de um corpus (CUIDADO! Esta ação exclui todas as etiquetas atualmente salvas - ação irreversível).
+![](../imagens/parser/parser_12.png)
 - "Clone": escolha um corpus do qual clonar todas as etiquetas (CUIDADO!Esta ação deleta todas as etiquetas atuais do parser - ação irreversível).
+![](../imagens/parser/parser_13.png)
 - "+ Add new"(botão para adicionar nova etiqueta (POS, SYNTACTIC ou MORPHEME)): preencha campos referentes a - etiqueta, categoria, descrição etc.
+![](../imagens/parser/parser_14.png)
 
 #### **Aba "Splitters"** <!-- REVISAR: COMO É UTILIZADA ESTA FUNÇÃO? NÃO APARECE ONDE INCLUIR REGRAS DE SPLITTER-->
 

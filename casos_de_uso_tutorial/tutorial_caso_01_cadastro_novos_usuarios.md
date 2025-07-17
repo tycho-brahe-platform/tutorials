@@ -11,6 +11,7 @@
 ---
 
 Este tutorial detalha o processo para o Administrador da plataforma realizar o cadastro de novos usuários em corpora já criados, configurando as permissões necessárias e/ou enviando os convites de acesso. Em um fluxo normal, a coordenação ou professor entra em contato com o Admin previamente avisando a necessidade de cadastrar ou vincular um novo usuário a um determinado corpus (seja via convite para um novo cadastro na plataforma ou associação de um usuário já cadastrado a um novo corpus)
+<!--REVISAR: ver com o Luis se vai haver modificação no processo de solicitação de cadastro-->
 
 ## Tutorial
 
@@ -91,7 +92,7 @@ Ao acessar o “Access Control”, a plataforma apresenta uma página com os atu
 
    !["Cria a configura convite"](../imagens/invites_2.png)
 
-Após a geração do convite, o admin consegue enviar uma notificação automática com o convite para o e-mail cadastrado, copiar o ID do convite. Além disso, é possível reacessar o convite para verificação das informações, reenvio do e-mail etc. 
+Após a geração do convite, o admin consegue enviar uma notificação automática com o convite para o e-mail cadastrado, copiar o ID do convite. Além disso, é possível reacessar o convite para verificação das informações, reenvio do e-mail etc.
 
    ![](../imagens/admin/tycho_admin_56.png)
 

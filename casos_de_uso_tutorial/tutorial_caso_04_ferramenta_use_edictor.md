@@ -1,7 +1,7 @@
 # Ferramenta **Use eDictor**
 
 - [Ferramenta **Use eDictor**](#ferramenta-use-edictor)
-  - [Tutorial:](#tutorial)
+  - [Tutorial](#tutorial)
     - [**Fluxo normal**](#fluxo-normal)
       - [Operações no menu suspenso](#operações-no-menu-suspenso)
         - [**Alterações na sentença no modo edição no eDictor**](#alterações-na-sentença-no-modo-edição-no-edictor)
@@ -14,7 +14,7 @@
 
 ---
 
-## Tutorial:
+## Tutorial
 
 Este tutorial apresenta em detalhes o uso do edictor para edição e revisão dos corpora.
 
@@ -65,7 +65,8 @@ Este tutorial apresenta em detalhes o uso do edictor para edição e revisão do
 7. Etiquetagem e outras edições:
    **Edições manuais** realizadas em cada palavra da sentença. Estas edições são feitas ainda no ambiente de edição o eDictor. Para abrir os campos de edição, clique sobre palavra que deseja editar e realize as edições desejadas:
 
-   **Operações**:</br>
+   **Operações**:
+
    ![Menu operações](../imagens/use_edictor_24.png)
 
    - **Inserir palavras**: selecionada uma palavra da sentença, no menu "Operações" seleciona "inserir". Uma tela com espaço para preencher palavras a serem inseridas se abre. Preencha as palavras que deseja adicionar e confirme. Note que as palavras preenchidas serão inseridas após a palavra selecionada para edição na sentença;

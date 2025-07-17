@@ -19,6 +19,5 @@ O processo de solicitação de cadastro por meio do formulário permite aos usu�
 3. Preencha o formulário com seu Nome, E-mail, Assunto, Mensagem (descrevendo seus interesses e motivos para associar-se, por exemplo).
 
 ![Solicitar cadastro](../imagens/solicitar_cadastro.png)
-Formulário para solicitar cadastro na plataforma
 
 ---

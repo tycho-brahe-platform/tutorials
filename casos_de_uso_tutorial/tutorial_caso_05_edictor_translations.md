@@ -3,28 +3,18 @@
 Índice
 
 - [Ferramenta **eDictor Translations**](#ferramenta-edictor-translations)
-  - [Tutorial:](#tutorial)
+  - [Tutorial](#tutorial)
     - [**Fluxo normal**](#fluxo-normal)
     - [**Fluxo alternativo:**](#fluxo-alternativo)
 
 ---
 
-A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para desenvolvimento de corpora com suas traduções nas línguas configuradas e selecionadas pelo usuário. A habilitação desta ferramenta permite, consequentemente, a apresentação dos corpora de forma paralela, ou seja, com originais e traduções de forma paralela e sincronizada.
-
 <!--[REVISAR: AVALIAR SE FUTURAMENTE VOU INSERIR AS OUTRAS FUNCIONALIDADES DE EDIÇÃO DOS CORPORA AQUI: EDITAR ETIQUETAS DAS DIVERSAS CAMADAS ETC]-->
  <!--[REVISAR: CONSIDERER SUBDIVIDIR OS CASOS?]-->
 
-**Atores primários**:
+## Tutorial
 
-1. Usuário (com acesso admin ao corpus)
-2. Adminstrador
-
-**Pré-requisitos:**
-
-1. Usuário logado (com permissões de edição no corpus)
-2. Corpus previamente criado e o botão de configuração de parâmetros "Use eDictor Translations" habilitado.
-
-## Tutorial:
+A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para desenvolvimento de corpora com suas traduções nas línguas configuradas e selecionadas pelo usuário. A habilitação desta ferramenta permite, consequentemente, a apresentação dos corpora de forma paralela, ou seja, com originais e traduções de forma paralela e sincronizada.
 
 ### **Fluxo normal**
 

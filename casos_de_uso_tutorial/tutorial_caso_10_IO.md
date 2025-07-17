@@ -35,7 +35,9 @@ Este tutorial detalha os passos necessários para a importação de novos docume
    
 ![](../imagens/IO/IO_3.png)
 
-#### **Processamento do arquivo**
+#### **Processamento do arquivo
+
+Configurações do processamento
 
 1. A primeira ação recomendada nesta fase é a seleção de tipo do arquivo importado. Isso garante que o arquivo seja processado corretamente, que sejam extraídos os metadados (quando se aplicar), páginas, número de sentenças, línguas de tradução etc.  Para selecionar o tipo, clique em "Tipo: selecionar um tipo". Na lista suspensa, selecione o tipo de arquivo correspondente (a extensão do arquivo dá uma dica do tipo).
 

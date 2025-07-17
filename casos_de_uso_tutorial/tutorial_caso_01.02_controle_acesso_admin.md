@@ -11,7 +11,7 @@ A plataforma oferece funcionalidades de controle de acesso de usuários já cada
 
 ### **Fluxo normal**
 
-1. Com a aba "Access control" selecionada, são apresentados os usuários que estão atualmente associados ao corpus e os convites gerados para associação ao corpus.
+1. Na página de Admin (https://www.tycho.iel.unicamp.br/admin), com a aba "Access control" selecionada, são apresentados os usuários que estão atualmente associados ao corpus e os convites gerados para associação ao corpus.
 
 ![](../imagens/admin/tycho_admin_22.png)
 

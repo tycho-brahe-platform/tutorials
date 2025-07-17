@@ -17,7 +17,7 @@
 ### **Fluxo normal**
 
 1. Acesse a página _home_ da plataforma Tycho Brahe através do link: <https://www.tycho.iel.unicamp.br/home>.
-2. Na área de "Ferramentas", acesse a Ferramenta "Search".
+2. Na área de "Ferramentas", acesse a Ferramenta "Search". Alternativamente, acesse https://www.tycho.iel.unicamp.br/search diretamente.
 
 ![Ferramenta pesquisa](../imagens/busca_01.png)
 

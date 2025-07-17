@@ -8,12 +8,12 @@
       - [**Fluxo normal**](#fluxo-normal)
     - [Configuração de corpora](#configuração-de-corpora)
       - [**Fluxo normal**](#fluxo-normal-1)
-        - [**Information**](#information)
+        - [**Aba Information**](#aba-information)
           - [**General Information**](#general-information)
           - [**Image Galery**](#image-galery)
           - [**Related Papers**](#related-papers)
           - [GitHub ](#github-)
-        - [**Descriptions**](#descriptions)
+          - [**Descriptions**](#descriptions)
           - [**Featured Descriptions**](#featured-descriptions)
           - [**Other details**](#other-details)
           - [**Public Corpus**](#public-corpus)
@@ -53,17 +53,17 @@ Este tutorial detalha os passos necessários para a configuração dos corpora. 
 
 1. Acesse a página inicial da plataforma Tycho Brahe, através do link: <https://www.tycho.iel.unicamp.br/home> .
 
-2. Navegue até a área "Ferramentas" e selecione "Área Reservada".
+2. No canto superior direito, acesse a "Área Reservada".
 
 ![Acesso área reservada](../imagens/acesso_area_reservada.png)
 
-3. Na página de perfil que se abre, os corpora disponíveis, vinculados ao usuário, são apresentados. Selecione o corpus que deseja configurar e clique no botão "Admin" na área de "Acesso rápido" ou "Admin" na área "Minhas Ferramentas" e selecione o corpus que deseja configurar.
+3. Na página de perfil que se abre, os corpora disponíveis, vinculados ao usuário, são apresentados. Selecione o corpus que deseja configurar e clique no botão "Admin" na área de "Acesso rápido" ou "Admin" na área "Minhas Ferramentas" e selecione o corpus que deseja configurar. Alternativamente, também é possível acessar a página de Admin pelo link (https://www.tycho.iel.unicamp.br/admin)
 
 ![Acesso rápido](../imagens/acesso_rapido_admin.png)
 
 4. Na tela inicial de administração do corpus selecionado, são apresentadas 6 abas de configuração do corpus: **Information, Parâmetros, Access Control, Catalog, e Configurations**. Cada uma delas será detalhada abaixo.
 
-##### **Information**
+##### **Aba Information**
 
 Ao clicar-se nesta aba, aparecem estes campos de informações:
 
@@ -175,7 +175,7 @@ Esta área permite o usuário associar um repositório GitHub.
 
 ![](../imagens/admin/admin_git_1.png)
 
-##### **Descriptions**
+###### **Descriptions**
 
 Esta área dispõe uma descrição resumida sobre o corpus (e sua tradução), contendo, de maneira geral, as seguintes informações: um histórico sobre a língua, objetivos potenciais de compilação do corpus, potencial de uso em ferramentas e impacto social etc:
 
