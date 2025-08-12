@@ -1,8 +1,8 @@
-# Caso de uso 02 - Solicitar cadastro
+# Solicitar cadastro
 
 Índice
 
-- [Caso de uso 02 - Solicitar cadastro](#caso-de-uso-02---solicitar-cadastro)
+- [Solicitar cadastro](#solicitar-cadastro)
   - [Tutorial](#tutorial)
     - [**Fluxo normal**](#fluxo-normal)
 
@@ -18,6 +18,6 @@ O processo de solicitação de cadastro por meio do formulário permite aos usu�
 2. Role a página até chegar na área "Entre em contato".
 3. Preencha o formulário com seu Nome, E-mail, Assunto, Mensagem (descrevendo seus interesses e motivos para associar-se, por exemplo).
 
-![Solicitar cadastro](./images/rr/solicitar-cadastro.png)
+![Solicitar cadastro](./images/rr/request-registration.png)
 
 ---
