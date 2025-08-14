@@ -31,8 +31,9 @@ Uma vez na área de Centro Adminstrativo, o admin do corpus consegue seguir com 
 
 ## Selecionando um Corpus
 
-1. Na interface de Administrador, selecione o corpus ao qual o novo usuário será associado. A Figura a seguir apresenta o catálogo de corpora disponíveis para acesso. Ao clicar em um dos corpora, o usuário é redirecionado ao corpus específico, como apresentado na Figura, como apresentado no topo da página “Corpus: Demonstration”.
-    !["Acessanco corpus pelo Administrador"](./images/rnu/select-demo-corpus.png)
+1. Na interface de Administrador, selecione o corpus ao qual o novo usuário será associado. A Figura a seguir apresenta o catálogo de corpora disponíveis para acesso. Ao clicar em um dos corpora, o usuário é redirecionado ao corpus específico, como apresentado na Figura.
+
+!["Acessanco corpus pelo Administrador"](./images/rnu/select-demo-corpus.png)
 
 ## Acessando a aba "Controle de Acesso"
 
@@ -40,7 +41,7 @@ Na primeira tela de administração do corpus, são apresentadas informações g
 
 ![](./images/rnu/tycho-admin-55.png)
 
-Ao acessar o “Controle de Acesso”, a plataforma apresenta uma página com os atuais usuários com permissões no corpus selecionado, como mostra a Figura a seguir. Com botão “Users” selecionado, é apresentado o usuário com os seguintes campos - “Name”, “status”, “Role”.
+Ao acessar o “Controle de Acesso”, a plataforma apresenta uma página com os atuais usuários com permissões no corpus selecionado, como mostra a Figura a seguir. Com botão "Usuários" selecionado, é apresentado o usuário com os seguintes campos - “Nome”, “Status”, “Função”.
 
 !["Área de controle de acesso"](./images/rnu/access-control-accessed.png)
 
@@ -48,17 +49,17 @@ Ao acessar o “Controle de Acesso”, a plataforma apresenta uma página com os
 
 ### Criando Convite de acesso
 
-Na aba "Controle de Acesso", clique no botão "Invites" e depois em “ + Add new invite”. Uma nova janela se abre para que o admin possa realizar as configurações da permissão:
+Na aba "Controle de Acesso", clique no botão "Convites" e depois em “ + Adicionar novo. Uma nova janela se abre para que o admin possa realizar as configurações da permissão:
 
-1. **Inserir título:** Escolha um título para o convite no campo “Title”
+1. **Inserir título:** Escolha um título para o convite no campo "Título"
 2. **Definir Quantidade de Convites**: Escolha se o convite será para um único usuário ou para múltiplos usuários (o contador de convites disponíveis será atualizado conforme os usuários se registrarem).
-3. **Definir o tipo de permissão:** Selecione o tipo de permissão “Role” que o usuário terá:
+3. **Definir o tipo de permissão:** Selecione o tipo de permissão “Função” que o usuário terá:
     - **Edição**: O usuário poderá editar o corpus.
     - **Admin**: O usuário terá permissões de administrador no corpus.
 4. **Email**: Preencha o email do usuário a ser adicionado ao corpus.
 5. **Status do Usuário**: Selecione o status do usuário:
-    - **Active**: O usuário terá acesso ativo ao corpus.
-    - **Inactive**: O usuário estará registrado, mas sem acesso ativo.
+    - **Ativo**: O usuário terá acesso ativo ao corpus.
+    - **Inativo**: O usuário estará registrado, mas sem acesso ativo.
 6. Após configurar as permissões clicar em "Confirmar".
 
 !["Cria a configura convite"](./images/rnu/invites-2.png)
@@ -83,5 +84,9 @@ Se o usuário já estiver cadastrado na plataforma:
 4. **Configurar Permissões e Confirmar**: Selecione as permissões de "Role" (Adminstrator, Editor, Visitor) e "Status" (Active, Inactive).
 
 ![](./images/rnu/register-user-in-base.png)
+
+Após ser associado a um novo corpus, o usuário terá acesso a ele em sua área reservada, como na figura a seguir.
+
+![](./images/rnu/user_corpora.png)
 
 ---
