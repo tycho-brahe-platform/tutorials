@@ -1,72 +1,40 @@
-# Cadastro de Novos Usuários - Guia do Administrador
+# Cadastro de Novos Usuários nos corpora
 
 Índice
 
-- [Cadastro de Novos Usuários - Guia do Administrador](#cadastro-de-novos-usuários---guia-do-administrador)
-  - [Tutorial](#tutorial)
-    - [**Fluxo normal**](#fluxo-normal)
-      - [**Acesso ao Centro Administrativo**](#acesso-ao-centro-administrativo)
-        - [**Selecionar o Corpus**](#selecionar-o-corpus)
-        - [**Acessar "Controle de Acesso**](#acessar-controle-de-acesso)
-        - [**Criar Convite de acesso**](#criar-convite-de-acesso)
-    - [**Fluxo Alternativo 1 - Usuário já presente na Base de Dados, vinculado a outro corpus**](#fluxo-alternativo-1---usuário-já-presente-na-base-de-dados-vinculado-a-outro-corpus)
+- [Cadastro de Novos Usuários nos corpora](#cadastro-de-novos-usuários-nos-corpora)
+  - [Acessando o Centro Administrativo](#acessando-o-centro-administrativo)
+  - [Selecionando um Corpus](#selecionando-um-corpus)
+  - [Acessando a aba "Controle de Acesso"](#acessando-a-aba-controle-de-acesso)
+  - [Usuário não cadastrado](#usuário-não-cadastrado)
+    - [Criando Convite de acesso](#criando-convite-de-acesso)
+    - [Realizando o Onboarding](#realizando-o-onboarding)
+  - [Usuário cadastrado](#usuário-cadastrado)
 
 ---
 
-Este tutorial detalha o processo para o Administrador da plataforma realizar o cadastro de novos usuários em corpora já criados, configurando as permissões necessárias e/ou enviando os convites de acesso. Em um fluxo normal, a coordenação ou professor entra em contato com o Admin previamente avisando a necessidade de cadastrar ou vincular um novo usuário a um determinado corpus (seja via convite para um novo cadastro na plataforma ou associação de um usuário já cadastrado a um novo corpus)
+Este tutorial detalha o processo para realizar o cadastro de novos usuários em corpora já criados, configurando as permissões necessárias e/ou enviando os convites de acesso. Em um fluxo normal, a coordenação ou professor entra em contato com o Admin previamente avisando a necessidade de cadastrar ou vincular um novo usuário a um determinado corpus (seja via convite para um novo cadastro na plataforma ou associação de um usuário já cadastrado a um novo corpus)
 
 <!--REVISAR: ver com o Luis se vai haver modificação no processo de solicitação de cadastro-->
+Há dois cenários de registro de usuários em um corpus: usuário não cadastrado na plataforma e usuário já cadastrado na plataforma. Antes de registrar um usuário em um corpus, de uma das maneiras, é necessário realizar acesso ao Centro Administrativo, selecionar um corpus, acessar a área de Controle de Acesso, e então gerar um convite (usuário não cadastrado) ou associar um usuário já cadastrado ao corpus.
+Nas seções a seguir são apresentados os passos necessários.
 
-## Tutorial
-
-### **Fluxo normal**
-
-Antes de iniciar o processo de cadastro de um usuário, certifique-se de que o corpus ao qual o usuário será associado já tenha sido criado.
-
-#### **Acesso ao Centro Administrativo**
+## Acessando o Centro Administrativo
 
 Para acessar o sistema de Gerenciamento dos corpora e realizar o registro de novos usuários, é necessário acessar o Centro Adminstrativo de uma das maneiras descritas no [tutorial: Acessando o Centro administrativo](./accessing-admin-center.md).
 
-Todos os corpora disponíveis para o Administrador e Usuário com permissão de admin aparecem na sua página inicial de admin, listados com os campos: Nome, Tipo, Status, No. de documentos, No. de palavras, No. de usuários. Verifique se o corpus que deseja gerenciar está disponível (note que são exibidos 10 resultados por página, e que pode haver várias páginas de corpora - então navegue em todas as páginas para verificar a presença do corpus alvo).
+Todos os corpora disponíveis aparecem na sua página inicial de admin, listados com os campos: Nome, Tipo, Status, No. de documentos, No. de palavras, No. de usuários. Verifique se o corpus que deseja gerenciar está disponível.
 
 !["t"](./images/rnu/tycho-admin-50.png)
 
-Nesta tela, o administrador consegue realizar algumas tarefas de gestão, como:
-
-**Restaurar um corpus**:
-
-1. Clique sobre o botão "Restaurar corpus".
-2. Arraste e solte um arquivo ou clique e selecione para enviar um arquivo e confirme.
-
-![](./images/rnu/tycho-admin-51.png)
-
-**Gerenciar usuários**: verificar informações de usuários na plataforma.
-
-1. Clique sobre o botão “Manage users”: serão apresentados todos os usuários.
-2. Clique sobre um usuário para ver suas informações.
-3. Informações do usuário selecionado: Nome, e-mail, UID, Corpora, Parsers e Léxicos aos quais o usuário é associado.
-    ![](./images/rnu/tycho-admin-52.png)
-
-**Filtrar corpora**: busca corpora, filtrando com base nas informaçõs fornecidas:
-
-1. Clique sobre o botão "Filtro".
-2. Preencha:
-
-    1. **Contendo texto no nome**: retorna os documentos que contenham as palavras informadas no título do documento.
-    2. **Corpus Público**: ao clicar, filtrar corpora públicos ou privados.
-    3. **Limpar**: limpa o filtro e refaz a busca.
-    4. **Buscar**: executa a busca de acordo com os filtros preenchidos.
-
-    ![](./images/rnu/tycho-admin-54.png)
-
 Uma vez na área de Centro Adminstrativo, o admin do corpus consegue seguir com os passos necessários para registrar novos usuários.
 
-##### **Selecionar o Corpus**
+## Selecionando um Corpus
 
-1. Na interface de Administrador, selecione o corpus ao qual o novo usuário será associado. A Figura a seguir apresenta o catálogo de corpora disponíveis para acesso. Ao clicar em um dos corpora, o usuário é redirecionado ao corpus específico, como apresentado na Figura, como apresentado no topo da página “Corpus: Demonstration”.<br>
+1. Na interface de Administrador, selecione o corpus ao qual o novo usuário será associado. A Figura a seguir apresenta o catálogo de corpora disponíveis para acesso. Ao clicar em um dos corpora, o usuário é redirecionado ao corpus específico, como apresentado na Figura, como apresentado no topo da página “Corpus: Demonstration”.
     !["Acessanco corpus pelo Administrador"](./images/rnu/select-demo-corpus.png)
 
-##### **Acessar "Controle de Acesso**
+## Acessando a aba "Controle de Acesso"
 
 Na primeira tela de administração do corpus, são apresentadas informações gerais, como nome, um atalho URL, os parsers etc. No painel do corpus, clique na aba "Controle de Acesso" para gerenciar as permissões de acesso.
 
@@ -76,7 +44,9 @@ Ao acessar o “Controle de Acesso”, a plataforma apresenta uma página com os
 
 !["Área de controle de acesso"](./images/rnu/access-control-accessed.png)
 
-##### **Criar Convite de acesso**
+## Usuário não cadastrado
+
+### Criando Convite de acesso
 
 Na aba "Controle de Acesso", clique no botão "Invites" e depois em “ + Add new invite”. Uma nova janela se abre para que o admin possa realizar as configurações da permissão:
 
@@ -97,17 +67,20 @@ Após a geração do convite, o admin consegue enviar uma notificação automát
 
 ![](./images/rnu/tycho-admin-56.png)
 
-O usuário recém cadastrado deve receber um email automático neste formato e deve clicar em "Join now" para ser redirecionado à página de adesão ao corpus e inserir o código de acesso constante no email.
+### Realizando o Onboarding
+
+O usuário recém cadastrado deve receber um email automático no formato apresentado na figura a seguir e deve clicar em "Join now" para ser redirecionado à página de adesão ao corpus e inserir o código de acesso constante no email.
 
 ![](./images/rnu/invites-4.png)
 
-### **Fluxo Alternativo 1 - Usuário já presente na Base de Dados, vinculado a outro corpus**
+## Usuário cadastrado
 
-Se o usuário já estiver cadastrado em outro corpus, ou seja, já tiver o seu perfil disponível para o Admin na plataforma, siga estas etapas:
+Se o usuário já estiver cadastrado na plataforma:
 
-1. Acesse o Centro Adminstrativo de uma das maneiras descritas no [tutorial: Acessando o Centro administrativo](./accessing-admin-center.md). No painel de "Controle de Acesso", com o botão “Users” selecionado, clique em "+ Add New".
-2. **Selecionar o e-mail do usuário**: Inicie o preenchimento e escolha o e-mail do usuário na lista suspensa (super-usuários e e-mails já cadastrados no corpus não aparecerão como opção).
-3. **Configurar Permissões e Confirmar**: Selecione as permissões de "Role" (Adminstrator, Editor, Visitor) e "Status" (Active, Inactive).
+1. Acesse o Centro Adminstrativo
+2. No painel de "Controle de Acesso", com o botão “Users” selecionado, clique em "+ Add New".
+3. **Selecionar o e-mail do usuário**: Inicie o preenchimento e escolha o e-mail do usuário na lista suspensa (super-usuários e e-mails já cadastrados no corpus não aparecerão como opção).
+4. **Configurar Permissões e Confirmar**: Selecione as permissões de "Role" (Adminstrator, Editor, Visitor) e "Status" (Active, Inactive).
 
 ![](./images/rnu/register-user-in-base.png)
 
