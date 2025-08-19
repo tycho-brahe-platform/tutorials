@@ -1,8 +1,6 @@
 # Ferramenta **eDictor**
 
 - [Ferramenta **eDictor**](#ferramenta-edictor)
-  - [Tutorial](#tutorial)
-    - [**Fluxo normal**](#fluxo-normal)
       - [Operações no menu suspenso](#operações-no-menu-suspenso)
         - [**Alterações na sentença no modo edição no eDictor**](#alterações-na-sentença-no-modo-edição-no-edictor)
         - [**Inserir quebras**](#inserir-quebras)
@@ -14,13 +12,11 @@
 
 ---
 
-## Tutorial
-
 Este tutorial apresenta em detalhes o uso do eDictor para edição e revisão dos corpora.
 
-### **Fluxo normal**
+## Operações básicas no eDictor
 
-1. Verifique (ou Habilite) o **use eDictor** na página de /admin do corpus, na aba de parâmetros.
+1. Verifique (ou Habilite) o **eDictor** na página de /admin do corpus, na aba de parâmetros.
 
    ![Use eDictor habilitado](./images/eu/use-edictor-1.jpg)
 
@@ -75,7 +71,7 @@ Este tutorial apresenta em detalhes o uso do eDictor para edição e revisão do
 
      ![Juntar à próxima](./images/eu/use-edictor-12.jpg)
 
-   - **Spliter**: é possível adicionar ou remover spliter de um par de palavras. <!--[ REVISAR: VER COM O LUIZ COMO FUNCIONA - NÃO PARECE ESTAR EM FUNCIONAMENTO?]-->
+   - **Splitter**: é possível adicionar ou remover spliter de um par de palavras. <!--[ REVISAR crítico: VER COM O LUIZ COMO FUNCIONA - NÃO PARECE ESTAR EM FUNCIONAMENTO?]-->
 
    - **Remover** uma palavra: Selecione a palavra que deseja remover, clique em "remover" e confirme.
 
@@ -123,9 +119,9 @@ Este tutorial apresenta em detalhes o uso do eDictor para edição e revisão do
 
   ![Níveis de edição](./images/eu/use-edictor-22.jpg)
 
-#### Operações no menu suspenso
+## Operações no menu suspenso
 
-##### **Alterações na sentença no modo edição no eDictor**
+### Alterações na sentença no modo edição no eDictor
 
 É possível realizar algumas alterações nas sentenças ainda em modo de edição no eDictor.
 
@@ -159,7 +155,7 @@ Este tutorial apresenta em detalhes o uso do eDictor para edição e revisão do
    1. Remover sentença: clique sobre a sentença com o botão direito para abrir o menu, selecione "Sentença" e "Excluir Sentença". Leia o aviso e confirme a exclusão.
       ![](./images/eu/use-edictor-33.png)
 
-##### **Inserir quebras**
+### **Inserir quebras**
 
 Para inserir quebras de linha e página:
 
@@ -178,7 +174,7 @@ Para inserir quebras de linha e página:
       A quebra de página será adicionada após o token selecionado.
       ![](./images/eu/use-edictor-35.png)
 
-##### **Formatar**
+### **Formatar**
 
 1. Clique com o botão direito sobre palavra (token)que deseja formatar.
 2. Clique em "Formatação" para abrir o menu suspenso.
@@ -186,7 +182,7 @@ Para inserir quebras de linha e página:
 
 ![](./images/eu/use-edictor-36.png)
 
-##### **Seções**
+### **Seções**
 
 Para associar seções a trechos de texto (esta ação pressupões que seções tenham sido criadas previamente - para mais detalhes ver Caso de uso 03 - criação e configuração de corpora, página de admin):
 
@@ -197,83 +193,28 @@ Para associar seções a trechos de texto (esta ação pressupões que seções 
 
 **Nota:** as seções que são disponibilizadas ao usuário no eDictor dependem de uma configuração extra: se a seção for configurada com um "gênero" ela só ficará disponível para rotulação em documentos também associados ao respectivo gênero.
 
-![](./images/eu/section-14.png)
+![](./images/eu/section-4.png)
 
 Após a rotulação com a respectiva seção, o trecho apresenta-se com uma etiqueta no eDictor. No exemplo, o título do texto foi etiquetado como "titulo":
 
-![](./images/eu/section-15.png)
+![](./images/eu/section-5.png)
 
-Para criar seções, ver Caso de uso 03 - criação e configuração de corpora, página de admin.
+Para criar seções, ver [tutorial de criação e configuração de corpora](../../admin/pt-br/corpora-configuration.md)
 
-1. Selecione “Configurations”.
-2. Selecione “Sections”.
-3. Clique no ícone e selecione “+ Create” para criar uma nova categoria.
+1. Selecione "Configurações”.
+2. Selecione “Seções”.
+3. Clique no ícone e selecione "+ Adcionar novo" para criar uma nova categoria.
 4. Na janela que se abre, preencha e clique em “aplicar” para salvar as alterações:
-   1. Order: ordem em que a categoria será disposta;
-   2. Symbol: rótulo da categoria;
-   3. Name(obrigatório): nome da categoria;
-   4. Genre: gênero ao qual a seção é parte integrante.
+   1. Ordem: ordem em que a categoria será disposta;
+   2. Símbolo: rótulo da categoria;
+   3. Nome(obrigatório): nome da categoria;
+   4. Gênero: gênero ao qual a seção é parte integrante.
 5. Clique em “Confirmar”.
 
-![](./images/eu/section-11.png)
+![](./images/eu/section-1.png)
 
-##### **Outras edições realizadas na sentença**
+### **Outras edições e revisões realizadas na sentença**
 
-Há duas maneiras de acessar as sentenças para realizar o _parser_ e revisar/editar manualmente a etiquetagem realizada automaticamente. Ao acessar o catálogo e acessar a área "exibir informações" do documento, selecionar:
-
-###### **"Continuar anotação sintática"**
-
-(Continue a partir da última sentença revisada): Ao acessar esta área, a plataforma apresenta a última sentença revisada do documento (e se o parser já tiver sido aplicado previamente, apresenta também a árvore que corresponde à sentença). É possível navegar entre as sentenças através das setas do lado direito superior.
-
-![](./images/eu/use-edictor-37.png)
-
-1. Para rodar o _parser_ na sentença selecionada é necessário que um parser tenha sido associado ao corpus previamente. Em caso afirmativo, clicar em no ícone de "▶️" no canto superior direito.
-   ![](./images/eu/use-edictor-38.png)
-
-2. É possível editar os nós da árvore sintática: clicar sobre o nó desejado e selecionar a etiqueta adequada.
-   1. Clique sobre um nó para editá-lo.
-   2. Clique sobre o campo de “Tag” para selecionar uma etiqueta na lista suspensa.
-   3. Selecionar uma “Extension” da etiqueta no nó selecionado.
-   4. Clique no ícone "✔" para salvar as as alterações
-      ![](./images/eu/use-edictor-39.png)
-3. Para conectar automaticamente ou remover um nó, clique com o botão direito do mouse sobre um nó para editá-lo.
-   1. “Connect automatically”.
-   2. ”Remove” para remover o nó.
-      ![](./images/eu/use-edictor-40.png)
-4. Para conectaros nós, clique sobre o ponto vermelho sobre o nó e arraste para outro para conectá-los. Para remover a conexão, clique com o botão direito sobre ela e clique em "remover"
-   ![](../images/use-edictor-41.png)
-
-Outras informações a ações são disponibilizadas neste tela: abrir comentários, ver manuais de anotação sintática, salvar, desfazer/refazer, aplicar layout, histórico, juntar à próxima sentença (ação não permitida caso a sentença tenha tradução e/ou áudio correspondentes), debugar _parser_, e por fim, marcar status de revisão de etiquetagem da sentença (a fazer, como pronta, para revisão).<!--REVISAR: EVENTUALMENTE ESTA PARTE DEVE SER MAIS DETALHADA-->
-
-###### **Revisar etiquetas POS**
-
-Ao se acessar esta área, a plataforma apresenta as sentenças do documento para que o usuário possa realizar uma revisão da etiquetagem. Se o _parsing_ já tiver sido previamente realizado nas sentenças, elas apresentam as etiquetas atribuídas. Do contrário, a camada de etiquetagem POS fica com a etiqueta "vazio" atribuída a todos os tokens das sentenças.
-
-![](./images/eu/use-edictor-42.png)
-
-1. Para rodar o parser na sentença desejada (caso a sentença ainda não tenha sido etiquetada), clique no ícone "▶️" do lado esquerdo da sentença alvo.
-   ![](./images/eu/use-edictor-43.png)
-
-É possível também realizar edições manuais em cada uma das etiquetas nas palavras da sentença:
-
-2. Clique sobre o campo com "vazio" (ou etiqueta POS, se quiser editar uma anotação prévia), selecione a etiqueta POS desejada e Inflexão (se aplicável) e clique em "confirmar".
-   ![](../images/use-edictor-44.png)
-3. Ao editar uma etiqueta, é possível anotar outras ocorrências do mesmo token em _batch_, ou seja, dar a mesma etiqueta a todas as ocorrências do mesmo token. No campo de edição e seleção de uma etiqueta:
-   1. Selecione a etiqueta POS desejada e Inflexão.
-   2. Clique em apply all: leia a mensagem (A etiqueta "x" será aplicada a "N" ocorrência(s) da palavra "<TOKEN_SELECIONADO>". Note que as substituições serão aplicadas para todas as correspondências no documento. Se a sentença for etiquetada novamente, essa etiqueta será substituída.)
-
-![](./images/eu/use-edictor-45.png)
-
-4. Revise sentença etiquetada e marque o status desejado (Marcar a fazer, Marcar como etiquetada, Marcar como ignorada.)
-
-![](./images/eu/use-edictor-46.png)
-
-É possível ainda realizar outras ações nesta área:
-
-1. Clique sobre o ícone para desfazer alterações.
-2. Clique sobre o filtro para abrir campos de filtragem por “Contendo texto” ou por status.
-3. Clique em "ABRIR NO EDICTOR" para retornar ao eDictor.
-
-![](./images/eu/use-edictor-47.png)
+Para outras funcionalidades de revisão de estruturas sintáticas e etiquetas POS, acesse o: [tutorial da Ferramenta de Revisão](../../revision/pt-br/revision.md)
 
 ---

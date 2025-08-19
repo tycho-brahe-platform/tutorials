@@ -1,18 +1,8 @@
 # Solicitar cadastro
 
-Índice
-
-- [Solicitar cadastro](#solicitar-cadastro)
-  - [Tutorial](#tutorial)
-    - [**Fluxo normal**](#fluxo-normal)
-
 ---
 
-## Tutorial
-
 O processo de solicitação de cadastro por meio do formulário permite aos usuários iniciar o procedimento de registro na plataforma. Este caso de uso detalha as etapas necessárias para que um novo usuário envie suas informações pessoais, garantindo que os dados sejam avaliados pelos administradores, validados e armazenados corretamente no sistema. Assim, mediante análise, os administradores podem providenciar o processo de cadastramento de novos usuários.
-
-### **Fluxo normal**
 
 1. Acesse a página inicial da plataforma Tycho Brahe, disponível no link: <https://www.tycho.iel.unicamp.br/home>.
 2. Role a página até chegar na área "Entre em contato".

@@ -1,14 +1,6 @@
 # Controle de acesso - usuários cadastrados
 
-- [Controle de acesso - usuários cadastrados](#controle-de-acesso---usuários-cadastrados)
-  - [Tutorial](#tutorial)
-    - [**Fluxo normal**](#fluxo-normal)
-
-## Tutorial
-
 No Centro Adminstrativo, é possível realizar o controle de acesso de usuários com perfis de administrador e editor já cadastrados na plataforma.
-
-### **Fluxo normal**
 
 Após ter acessado o Centro Adminstrativo de uma das maneiras descritas no [tutorial: Acessando o Centro administrativo](./accessing-admin-center.md), selecione um corpus e a aba "Access control": são presentados os usuários que estão atualmente associados e os convites gerados para associação ao corpus.
 

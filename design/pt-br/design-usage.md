@@ -3,8 +3,6 @@
 Índice
 
 - [Ferramenta **eDictor Design**](#ferramenta-edictor-design)
-  - [Tutorial](#tutorial)
-    - [**Fluxo normal**](#fluxo-normal)
       - [Configuração e importação de documento](#configuração-e-importação-de-documento)
       - [Realizar marcações no documento](#realizar-marcações-no-documento)
       - [Transcrições](#transcrições)
@@ -14,15 +12,11 @@
 
 ---
 
-## Tutorial
+Este tutorial apresenta em detalhes o uso da ferramenta **Designer** para edição e revisão de corpora.
 
-Este tutorial apresenta em detalhes o uso da ferramenta **eDictor Design** para edição e revisão de corpora.
+## Configuração e importação de documento
 
-### **Fluxo normal**
-
-#### Configuração e importação de documento
-
-1. Verifique (ou Habilite) o **use Designer** na página de /admin do corpus, na aba de parâmetros.
+1. Verifique (ou Habilite) o **Designer** na página de /admin do corpus, na aba de parâmetros.
 
 ![](./images/du/designer-1.png)
 
@@ -31,7 +25,8 @@ Este tutorial apresenta em detalhes o uso da ferramenta **eDictor Design** para 
    1. Clique em "+Adicionar novo documento".
    2. Preencha o nome do novo documento.
    3. Selecione a Ferramenta de edição desejada para o documento - Para este caso de uso selecione **Design**.
-   4. Seleciona a visibilidade do documento (Público ou Privado) e clique em confirmar.
+   4. Seleciona a visibilidade do documento (Público ou Privado) e clique em confirmar. (Para mais detalhes sobre a criação de documentos nos corpora, ver [tutorial de criação de documentos](../../edictor/pt-br/create-document.md) )
+
       ![](./images/du/designer-2.png)
 
 Para incluir uma imagem de jornal, por exemplo, para iniciar a marcação, transcrição e edição:
@@ -45,7 +40,7 @@ Para incluir uma imagem de jornal, por exemplo, para iniciar a marcação, trans
 
    ![](./images/du/designer-4.png).
 
-#### Realizar marcações no documento
+## Fazer marcações no documento
 
 Após o upload do arquivo, o sistema apresenta o documento e o menu de edições e marcações da imagem (à esquerda):
 Na ordem da esquerda para a direita:
@@ -88,11 +83,11 @@ Na ordem da esquerda para a direita:
 
 ![](./images/du/designer-11.png)
 
-#### Transcrições
+## Transcrições
 
 Após as marcações serem realizadas em todas as áreas com textos, é possível iniciar a transcrição manual ou automática.
 
-##### **Manual**
+### Manual
 
 1. Selecione a página que deseja transcrever (lembre-se que cada marcação na imagem tem uma contrapartida em página, ou seja, a ordem das páginas segue a ordem das marcações);
 2. Clique o botão "Transcrição" para abrir o campo de preenchimento manual do texto na marcação realizada na imagem.
@@ -103,7 +98,7 @@ Após as marcações serem realizadas em todas as áreas com textos, é possíve
 
 Repita para cada página do documento.
 
-##### **Automática**
+### Automática
 
 Para realizar a transcrição automaticamente, extraindo o texto da imagem:
 
@@ -114,7 +109,7 @@ Para realizar a transcrição automaticamente, extraindo o texto da imagem:
 
 ![](./images/du/designer-13.png)
 
-#### Modo edição
+## Modo edição
 
 Após a finalização da transcrição, o texto pode passar para o modo edição, onde passa por tokenização e preparação para receber tratamento computacional (etiquetagem POS, parser etc).
 
@@ -122,6 +117,6 @@ Após a finalização da transcrição, o texto pode passar para o modo edição
 
 ![](./images/du/designer-14.png)
 
-**Nota:** com o texto em modo de edição, é possível, como apresentado no tutorial do use eDictor, realizar etiquetagem e outras edições (Ver Caso de uso 04 - Ferramenta use eDictor, a partir do item 7 do Fluxo normal).
+**Nota:** com o texto em modo de edição, é possível, como apresentado no tutorial do use eDictor, realizar etiquetagem e outras edições (Ver [tutorial de uso do eDictor](../../edictor/pt-br/edictor-usage.md) a partir do item 7).
 
 ---

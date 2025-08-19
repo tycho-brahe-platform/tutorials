@@ -28,11 +28,7 @@ Ou
 
 4. Após _login_ o Usuário é redirecionado à página inicial do perfil, onde são dispostas as áreas **Meu Perfil**, com Informações do usuário, como e-mail, Nome, Informações acadêmicas e Idioma de preferência, que podem eventualmente ser editadas <!-- REVISAR CRÍTICO: avisar ao Luiz que as edições não são persistidos na base, não ficam salvas: ISSUE CRIADA-->, **Meus corpora**, que apresenta os corpora disponíveis associados ao perfil logado e **Minhas Ferrametentas**, que disponibiliza as ferramentas disponíveis para o usuário logado, de acordo com as permissões de acesso configuradas.
 
-!["Tela de perfil do usuário"](./images/si/area-reservada-perfil.jpg)
-
-Observe que para cada um dos corpora disponíveis para trabalho pelo usuário, são também disponibilizados botões de acesso rápido:
-
-!["Botões de acesso rápido"](./images/si/botoes-acesso-rapido.jpg)
+!["Tela de perfil do usuário"](./images/si/area-reservada-perfil.png)
 
 ### **Fluxo Alternativo**
 

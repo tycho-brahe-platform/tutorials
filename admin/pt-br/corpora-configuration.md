@@ -3,35 +3,32 @@
 Índice
 
 - [Criação, configuração e edição dos corpora](#criação-configuração-e-edição-dos-corpora)
-  - [Tutorial](#tutorial)
-    - [Criação de corpora](#criação-de-corpora)
-      - [**Fluxo normal**](#fluxo-normal)
-    - [Configuração de corpora](#configuração-de-corpora)
-      - [**Fluxo normal**](#fluxo-normal-1)
-        - [**Aba Information**](#aba-information)
-          - [**General Information**](#general-information)
-          - [**Image Galery**](#image-galery)
-          - [**Related Papers**](#related-papers)
-          - [GitHub](#github)
-          - [**Descriptions**](#descriptions)
-          - [**Featured Descriptions**](#featured-descriptions)
-          - [**Other details**](#other-details)
-          - [**Public Corpus**](#public-corpus)
-        - [**Aba Parâmetros**](#aba-parâmetros)
-        - [**Aba Access Control**](#aba-access-control)
-        - [**Aba Catalog**](#aba-catalog)
-        - [**Aba Configurations**](#aba-configurations)
-      - [**Fluxo alternativo:**](#fluxo-alternativo)
+  - [Criação de corpora](#criação-de-corpora)
+  - [Configuração de corpora](#configuração-de-corpora)
+    - [**Aba Information**](#aba-information)
+      - [**General Information**](#general-information)
+      - [**Image Galery**](#image-galery)
+      - [**Related Papers**](#related-papers)
+      - [GitHub](#github)
+      - [**Descriptions**](#descriptions)
+      - [**Featured Descriptions**](#featured-descriptions)
+      - [**Other details**](#other-details)
+      - [**Public Corpus**](#public-corpus)
+    - [**Aba Parâmetros**](#aba-parâmetros)
+      - [Ferramentas disponíveis](#ferramentas-disponíveis)
+      - [Parâmetros Gerais](#parâmetros-gerais)
+      - [Parâmetros do EDictor](#parâmetros-do-edictor)
+      - [Parâmetros do Catálogo](#parâmetros-do-catálogo)
+    - [**Aba Access Control**](#aba-access-control)
+    - [**Aba Catalog**](#aba-catalog)
+    - [**Aba Configurations**](#aba-configurations)
+    - [**Fluxo alternativo:**](#fluxo-alternativo)
 
 ---
 
-## Tutorial
-
 Nos tópicos a seguir, serão abordados os principais fluxos de trabalho para a criação e configuração de novos corpora, além de tutoriais detalhados que guiam administradores e usuários no uso eficiente da ferramenta, garantindo uma experiência fluida e colaborativa na gestão dos catálogos.
 
-### Criação de corpora
-
-#### **Fluxo normal**
+## Criação de corpora
 
 1. Acesse o Centro Adminstrativo de uma das maneiras descritas no [tutorial: Acessando o Centro Administrativo](./accessing-admin-center.md).
 2. Ao acessar a página de administrador, uma lista de corpora é disposta. Clique em _"+ Create new corpus"_.
@@ -45,20 +42,18 @@ Esta ação cria um novo corpus, que aparecerá na lista.
 
 **Nota**: este processo apenas cria o corpus. Sua alimentação (importação de dados/transcrição de áudios/extração de dados a partir de textos impressos etc.) pode ser realizada de diferentes formas a depender do tipo de material disponível (textos em papel, áudios, arquivos .txt, arquivos .csv - com ou sem traduções), das configurações estabelecidas (para mais detalhes, ver tutorial de Criação de novo documento no corpus). É necessário que haja uma interação com a equipe responsável pelo desenvolvimento da plataforma para que a melhor estratégia de importação de dados seja escolhida e aplicada. Cada um dos tipos de importação/transcrição de dados linguísticos será discutido separadamente na documentação.
 
-### Configuração de corpora
+## Configuração de corpora
 
 Este tutorial detalha os passos necessários para a configuração dos corpora. As configurações são responsáveis disponibilização de informações iniciais referentes ao corpus, bem como por determinar desde o status dos corpora, grau de privacidade, tipo de display do corpus na plataforma, tipos de ferramentas habilitadas para o corpus etc.
-
-#### **Fluxo normal**
 
 1. Acesse o Centro Adminstrativo de uma das maneiras descritas no [tutorial: Acessando o Centro administrativo](./accessing-admin-center.md), dentre os corpora disponibilizados, vinculados ao usuário, selecione o que deseja configurar.
 2. Na tela inicial de administração do corpus selecionado, são apresentadas 6 abas de configuração do corpus: **Information, Parâmetros, Access Control, Catalog, e Configurations**. Cada uma delas será detalhada abaixo.
 
-##### **Aba Information**
+### **Aba Information**
 
 Ao clicar-se nesta aba, aparecem estes campos de informações:
 
-###### **General Information**
+#### **General Information**
 
 Esta área apresenta informações gerais sobre o corpus, a maioria delas editáveis. Clique sobre os campos para editar.
 
@@ -136,7 +131,7 @@ As seleções têm impacto na apresentação dos documentos na página do corpus
 
 ![](./images/cc/16-image.png)
 
-###### **Image Galery**
+#### **Image Galery**
 
 Esta área apresenta a Galeria de Imagens. São apresentadas images de capa do corpus, bem como imagem do banner do portal principal do corpus.
 
@@ -148,7 +143,7 @@ Esta área apresenta a Galeria de Imagens. São apresentadas images de capa do c
 
 ![](./images/cc/18-image.png)
 
-###### **Related Papers**
+#### **Related Papers**
 
 Esta área apresenta os artigos relacionados ao corpus.
 
@@ -162,7 +157,7 @@ Após preencher os dados e salvar, o artigo adicionado aparece na coluna com as 
 
 ![](./images/cc/19-image.png)
 
-###### GitHub 
+#### GitHub 
 <!--REVISAR: vai ser necessário ter uma reunião com o Luiz para vermos como tudo se conecta com relação ao Git-->
 
 Esta área permite o usuário associar um repositório GitHub.
@@ -173,7 +168,7 @@ Esta área permite o usuário associar um repositório GitHub.
 
 ![](./images/cc/20-image.png)
 
-###### **Descriptions**
+#### **Descriptions**
 
 Esta área dispõe uma descrição resumida sobre o corpus (e sua tradução), contendo, de maneira geral, as seguintes informações: um histórico sobre a língua, objetivos potenciais de compilação do corpus, potencial de uso em ferramentas e impacto social etc:
 
@@ -185,7 +180,7 @@ Esta área dispõe uma descrição resumida sobre o corpus (e sua tradução), c
 
 ![](./images/cc/21-image.png)
 
-###### **Featured Descriptions**
+#### **Featured Descriptions**
 
 Esta área contém um parágrafo resumindo informações do corpus para apresentação na página de corpora em destaque.
 
@@ -199,7 +194,7 @@ O texto editado em "Featured" fica disposto na página inicial da plataforma, na
 
 ![](./images/cc/23-image.png)
 
-###### **Other details**
+#### **Other details**
 
 Área para preenchimento de outras informações pertinentes ao corpus, por exemplo, número de falantes, número de palavras gravadas, outras informações sociodemográficas pertinentes, etc
 
@@ -211,7 +206,7 @@ O texto editado em "Featured" fica disposto na página inicial da plataforma, na
 
 ![](./images/cc/24-image.png)
 
-###### **Public Corpus**
+#### **Public Corpus**
 
 Esta área apresenta os critérios e as configurações básicas para que um corpus possa ser disposto como **Público**.
 Para que um corpus possa ser Público, ele deve apresentar estes requisitos:
@@ -226,58 +221,93 @@ Para que um corpus possa ser Público, ele deve apresentar estes requisitos:
 
 ![](./images/cc/25-image.png)
 
-##### **Aba Parâmetros**
+### **Aba Parâmetros**
 
-1. Clique em "Parâmetros": uma caixa se abre, disponibilizando diversos botões de alternância para configuração do corpus.
+Ao clicarmos em "Parâmetros", uma caixa se abre, disponibilizando diversos botões de alternância para configuração do corpus. Os parâmetros são divididos em **4 tipos**, selecione cada parâmetro de acordo com os objetivos do corpus:
 
 ![Parâmetros do corpus](./images/cc/param-corpus-1.png)
 
-2. Diversos botões de alternância são apresentados. Selecione cada parâmetro de acordo com os objetivos do corpus.
+#### Ferramentas disponíveis
 
-**Use Morphemes**: habilita o uso de campos referentes a morfemas, incluindo glossa, nos corpora.
-![](./images/cc/param-corpus-4.png)
+Parâmetros que habilitam quais ferramentas poderão ser utilizadas nos corpora. Os botões dos Tipos de Ferramentas disponíveis, "eDictor", "Traduções do eDictor", "Designer" e "Transcriber" não são excludentes, i.e., podem ser habilitados ao mesmo tempo em um determinado corpus. Esta ação disponibiliza todas as ferramentas para utilização no corpus.
 
-**Use Sound**: a habilita o suporte a áudio no corpus.
+**eDictor**: o acionamento do botão "eDictor" habilita o uso do eDictor tradicional para transcrição e edição de documentos. Por ser uma ferramenta central na plataforma, demanda um abordagem mais aprofundada, e por isto, os tutoriais sobre o "eDictor" são disponibilizados neste documentos: [uso geral do eDictor](../../edictor/pt-br/edictor-usage.md) e [criação de documento](../../edictor/pt-br/create-document.md).
+
+![](./images/cc/param-corpus-13.png)
+
+**Traduções do eDictor**: Habilita o uso da versão eDictor para apresentação de corpora paralelos, como apresentado nas Figuras a seguir:
+
+![](./images/cc/param-corpus-12.png)
+
+![Use eDictor Translations](./images/cc/config-corpus-useedictortranslations1.jpg)
+
+A configuração do eDictor com Traduções também depende de configurações na aba "Configurations" na pagina de Admin:
+
+1. Acesse o Centro Adminstrativo de uma das maneiras descritas no [tutorial: Acessando o Centro Administrativo](./accessing-admin-center.md).
+2. Ao acessar a página de administrador, uma lista de corpora é disposta. Selecione o corpus que deseja configurar (ou crie um novo corpus em "+ Create New Corpus").
+3. Selecione a aba "Configurations" e "Translations" no canto esquerdo.
+4. Clique em "+ Create": uma caixa com campos de configurações para entradas de tradução abre:
+
+- **Ordem**: aceita números inteiros para configuração da ordem em que as línguas de tradução serão apresentadas;
+- **Símbolo**: preencha com o rótulo desejado;
+- **Nome**: preencha com o nome desejado;
+
+![](./images/cc/admin-use-edct-translation-1.png)
+
+Estas configurações habilitam a apresentação dos corpora paralelos como em [1] na Figura abaixo; Em [2], o usuário pode selecionar qual lingua de tradução deseja que seja apresentada; Em [3], após a seleção de uma sentença em um documento no catálogo, é possível verificar as traduções para a sentença selecionada, além de ser possível realizar edições nas traduções.
+
+![](./images/cc/configura-corpus-admin-translations7.png)
+
+**Designer**: o acionamento deste botão habilita o uso da versão do eDictor para trabalhar com textos de layouts complexos, como jornais antigos, revistas, etc, que não tenham, por exemplo, passado por um processo de digitalização com extração das informações de maneira estruturada previamente (contendo, e.g., apenas fotografia do documento).
+Os tutoriais de uso do designer estão disponíveis neste documento: [uso do Designer](../../design/pt-br/design-usage.md)
+
+![](./images/cc/param-corpus-14.png)
+
+**Transcriber**: este botão habilita o uso da versão do eDictor para trabalhar com transcrição de áudio, permitindo o upload de arquivos de áudio, criação de participantes para associação a trechos de áudios, tap mode (modo de teclas rápidas para alinhamento de participantes a trechos do áudio). Tutorial completo da ferramenta de transcrição esta disponível neste documento: [tutorial transcriber](../../transcriber/pt-br/transcriber-usage.md)
+
+![](./images/cc/param-corpus-15.png)
+
+#### Parâmetros Gerais
+
+**Habilitar Upload de Som**: a habilita o suporte a áudio no corpus.
+
 ![](./images/cc/param-corpus-5.png)
 
 - Como podemos observar na figura abaixo, a seleção do botão "Use Sound" habitila uma seção de Áudio, que permite ao analista incluir o áudio a ser transcrito (ou o áudio correspondente à transcrição da sentença selecionada).
 
 ![Configuração de corpora: botão "Use Sound"](./images/cc/config-corpus-usesound.png)
 
-- O **"Use Sound"** também habilita, na ferramenta "eDictor", um botão de _play_ para tocar os áudios associados às sentenças do documento selecionado, como observamos na figura abaixo:
+- O **"Habilitar Upload de Som"** também habilita, na ferramenta "eDictor", um botão de _play_ para tocar os áudios associados às sentenças do documento selecionado, como observamos na figura abaixo:
   ![Configuração de corpora: botão "Use Sound" 2](./images/cc/config-corpus-usesound2.jpg)
 
-**Use Translations**: o botão "Use Translations" habilita a seção de Traduções no eDictor, como apresentado na figura a seguir:
+**Traduções de Frases**: habilita a seção de Traduções no eDictor e no Transcriber, como apresentado na figura a seguir:
 
 ![](./images/cc/param-corpus-6.png)
 
 ![Configura corpus: Use Translations](./images/cc/config-corpus-usetranslation.png)
 <!--REVISAR: HABILITAR DESABILITAR NÃO PARECE ESTAR SURTINDO NENHUM EFEITO-->
 
-**Use Lexicon**: é utilizado quando há um parser disponível, mas não há um etiquetador automático (que só funciona se houver uma quantidade mínima de palavras para treinamento do etiquetador). No caso de esta condição não estar satisfeita, o analista deve utilizar o léxico para realizar a etiquetagem automática.
+**POS tagger com Léxico**: é utilizado quando há um parser disponível, mas não há um etiquetador automático (que só funciona se houver uma quantidade mínima de palavras para treinamento do etiquetador). No caso de esta condição não estar satisfeita, o analista deve utilizar o léxico para realizar a etiquetagem automática.
 
 ![](./images/cc/param-corpus-7.png)
 <!--REVISAR: talvez precise de uma explicação melhor, ainda está um pouco obscuro pra mim-->
 
-**Use Grid**: ao acessar o catálogo, o usuário tem a possibilidade de apresentação de documentos de duas maneiras: lista, ou grid.
+**Padrão para Dependências Universais**: habilita que o corpus seja configurado para usar Dependências Universais como o framework padrão para edição de sentenças. Ao acessar um documento e uma sentença, o padrão de disposição será em UD.
 
-![](./images/cc/param-corpus-8.png)
+![](./images/cc/param-corpus-17.png)
 
-Ao habilitar o botão "Use Grid", o usuário configura a apresentação em grid como default, como apresentado na Figura abaixo:
+**Atributos CHAT**: habilita a adição de atributos padrão aos participantes de transcrições. Estes atributos são extraídos de arquivos importados no formato CHAT do projeto CHILDES.
 
-![Configura corpus: Use Grid](./images/cc/config-corpus-usegrid.jpg)
+![](./images/cc/param-corpus-18.png)
 
-Se selecionado o formato em lista, os documentos são dispostos desta forma:
+![](./images/cc/atrib-import-chat-1.png)
 
-![](./images/cc/param-corpus-9.png)
+#### Parâmetros do EDictor
 
-**Use Catalog Categories**: este botão habilita a possibilidade de categorização e subcategorização dos corpora (por exemplo, categorização com base em parâmetros demográficos etc). Note-se que a criação dos rótulos para as categorias pode ser realizada por um usuário com permissões de administrador. A criação de categorias pode ser realizada na aba **Configurations** - Categories (como será apresentado abaixo)
+**Habilitar Edição de Morfemas**: habilita o uso de campos referentes a morfemas, incluindo glossa, nos corpora.
+![](./images/cc/param-corpus-4.png)
 
-![](./images/cc/param-corpus-10.png)
-
-![Configuração corpus_ Use Category](./images/cc/config-corpus-usecategory.jpg)
-
-**Use Edition Tiers**<!--[REVISAR COM O LUIz]-->: este botão habilita a disponibilização de diversos níveis de edição para garantir a máxima fidelidade filológica do texto.
+**Habilitar Níveis de Edição Padrão**<!--[REVISAR COM O LUIz]-->: este botão habilita a disponibilização de diversos níveis de edição para garantir a máxima fidelidade filológica do texto.
 
 ![](./images/cc/param-corpus-11.png)
 
@@ -289,66 +319,39 @@ Por exemplo, acessando-se o catálogo, selecione o corpus Tycho Brahe do Portugu
 
 ![Configura corpus: botao Use Edition Tiers 4](./images/cc/config-corpus-useeditiontiers3-4.jpg)
 
-Esta ação abre um painel com uma matriz para edição dos níveis de edição, como mostra a Figura abaixo. Note-se: na mesma tela que seria análoga à sentença com o "Use Morphemes" selecionado, são apresentadas os níveis de edição.
+Esta ação abre um painel com uma matriz para edição dos níveis de edição, como mostra a Figura abaixo. 
 
 ![Matriz para edição: edition tiers](./images/cc/config-corpus-useeditiontiers5.png)
 
-Os botões "Use eDictor Translations"/"Use eDictor"/"Use Designer"/"Use Transcriber" não são excludentes, i.e., podem ser habilitados ao mesmo tempo em um determinado corpus. Esta ação disponibiliza todas as ferramentas para utilização no corpus.
-
-**Use eDictor Translations**: Habilita o uso da versão eDictor para apresentação de corpora paralelos, como apresentado nas Figuras a seguir:
-
-![](./images/cc/param-corpus-12.png)
-
-![Use eDictor Translations](./images/cc/config-corpus-useedictortranslations1.jpg)
-
-A configuração do eDictor Tranlations também depende de configurações na aba "Configurations" na pagina de Admin:
-
-1. Acesse o Centro Adminstrativo de uma das maneiras descritas no [tutorial: Acessando o Centro Administrativo](./accessing-admin-center.md).
-2. Ao acessar a página de administrador, uma lista de corpora é disposta. Selecione o corpus que deseja configurar (ou crie um novo corpus em "+ Create New Corpus").
-3. Selecione a aba "Configurations" e "Translations" no canto esquerdo.
-4. Clique em "+ Create": uma caixa com campos de configurações para entradas de tradução abre:
-
-- **Order**: aceita números inteiros para configuração da ordem em que as línguas de tradução serão apresentadas;
-- **Symbol**: preencha com o rótulo desejado;
-- **Name**: preencha com o nome desejado;
-
-![](./images/cc/admin-use-edct-translation-1.png)
-
-Estas configurações habilitam a apresentação dos corpora paralelos como em [1] na Figura abaixo; Em [2], o usuário pode selecionar qual lingua de tradução deseja que seja apresentada; Em [3], após a seleção de uma sentença em um documento no catálogo, é possível verificar as traduções para a sentença selecionada, além de ser possível realizar edições nas traduções.
-
-![](./images/cc/configura-corpus-admin-translations7.png)
-
-**Use eDictor**: o acionamento do botão "Use eDictor" habilita o uso do eDictor tradicional para transcrição e edição de documentos. Tutoriais sobre o "use eDictor" são disponibilizados neste documentos: [criação de documento](../../edictor/pt-br/create-document.md) e [uso geral do eDictor](../../edictor/pt-br/edictor-usage.md)
-
-![](./images/cc/param-corpus-13.png)
-
-**Use Designer**: o acionamento deste botão habilita o uso da versão do eDictor para trabalhar com textos de layouts complexos, como jornais antigos, revistas, etc, que não tenham, por exemplo, passado por um processo de digitalização com extração das informações de maneira estruturada previamente (contendo, e.g., apenas fotografia do documento).
-Os tutoriais de uso do designer estão disponíveis no documento [uso do designer](../../design/pt-br/design-usage.md)
-![](./images/cc/param-corpus-14.png)
-
-**Use Transcriber**: este botão habilita o uso da versão do eDictor para trabalhar com transcrição de áudio, permitindo o upload de arquivos de áudio, criação de participantes para associação a trechos de áudios, tap mode (modo de teclas rápidas para alinhamento de participantes a trechos do áudio). Tutorial completo da ferramenta de transcrição esta disponível neste documento: [tutorial transcriber](../../transcriber/pt-br/transcriber-usage.md)
-
-![](./images/cc/param-corpus-15.png)
-
-**Allow POS Tag inclusion**: o acionamento deste botão habilita adicionar novas etiquetas POS à lista enquanto o usuário edita sentenças no eDictor. Para incluir uma etiqueta: em uma sentença no eDictor, clique sobre o ícone de lápis para editar uma palavra.Inicie o preenchimento de uma etiqueta. Se ela não estiver na lista, aparecerá “Adicionar <etiqueta>. Pressione e confirme.
+**Permitir inclusão de Tag POS**: o acionamento deste botão habilita adicionar novas etiquetas POS à lista enquanto o usuário edita sentenças no eDictor. Para incluir uma etiqueta: em uma sentença no eDictor, clique sobre o ícone de lápis para editar uma palavra.Inicie o preenchimento de uma etiqueta. Se ela não estiver na lista, aparecerá “Adicionar <etiqueta>. Pressione e confirme.
 
 ![](./images/cc/param-corpus-16.png)
 
-**Default for UD**: habilita que o corpus seja configurado para usar Universal Dependencies como o framework padrão para edição de sentenças. Ao acessar um documento e uma sentença, o padrão de disposição será em UD.
+#### Parâmetros do Catálogo
 
-![](./images/cc/param-corpus-17.png)
+**Exibir Documento em Grade**: ao acessar o catálogo, o usuário tem a possibilidade de apresentação de documentos de duas maneiras: lista, ou grade.
 
-**Use CHAT attributes for Participants**: habilita a adição de atributos padrão aos participantes de transcrições. Estes atributos são extraídos de arquivos importados no formato CHAT do projeto CHILDES.
+Ao habilitar o botão "Exibir Documento em Grade", o usuário configura a apresentação em grade como padrão, como apresentado nas figuras abaixo:
 
-![](./images/cc/param-corpus-18.png)
+![](./images/cc/param-corpus-8.png)
 
-![](./images/cc/atrib-import-chat-1.png)
+![Configura corpus: Use Grid](./images/cc/config-corpus-usegrid.jpg)
 
-##### **Aba Access Control**
+Se selecionado o formato em lista, os documentos são dispostos desta forma:
+
+![](./images/cc/param-corpus-9.png)
+
+**Habilitar Categorias de Documentos**: este botão habilita a possibilidade de categorização e subcategorização dos corpora (por exemplo, categorização com base em parâmetros demográficos etc). Note-se que a criação dos rótulos para as categorias pode ser realizada por um usuário com permissões de administrador. A criação de categorias pode ser realizada na aba **Configurations** - Categories (como será apresentado abaixo)
+
+![](./images/cc/param-corpus-10.png)
+
+![Configuração corpus_ Use Category](./images/cc/config-corpus-usecategory.jpg)
+
+### **Aba Access Control**
 
 As configurações disponíveis para a aba Access Control são tratadas em documentos diferentes: [Controle de acesso de usuários já cadastrados](../../admin/pt-br/access-control.md) e [Cadastro novos usuários](register-new-users.md).
 
-##### **Aba Catalog**
+### **Aba Catalog**
 
 Esta aba dispõe os documentos presentes no corpus selecionado para configurações. Os documentos são dispostos em linhas, e colunas com informações Reference, Name, Status, Category, Added date, num Pages, num Sentences, num Words.
 
@@ -366,7 +369,7 @@ Esta aba dispõe os documentos presentes no corpus selecionado para configuraç�
 
 ![](./images/cc/tycho-admin-31.png)
 
-##### **Aba Configurations**
+### **Aba Configurations**
 
 Esta aba dispõe configurações de meta informações (informações que serão utilizadas e empregadas na edição (eDictor), busca, apresentação dos documentos no catálogo, categoria de morfemas e de palavras, traduções etc ) <!--REVISAR CRÍTICO-->
 
@@ -379,9 +382,9 @@ A área de configuração de metadados habilita campos de preenchimentos de info
 
 ![](./images/cc/tycho-admin-32-33.png)
 
-3.  Para adicionar um novo metadado, clique no ícone de opções no canto superior direito.
+3. Para adicionar um novo metadado, clique no ícone de opções no canto superior direito.
 
-4.  Clique em "Create". Um painel para preenchimento das informações do metadado se abre.
+4. Clique em "Create". Um painel para preenchimento das informações do metadado se abre.
     ![](./images/cc/tycho-admin-34-35.png)
 
     1. **Order:** preencha com um número inteiro que corresponde à ordem em que esse campo vai ser disponibilizado para preenchimento e clique em "Confirmar".
@@ -617,7 +620,7 @@ Os backups realizados ficam disponíveis, com informações de data, nome do arq
 
 ![](./images/cc/backup-2.png)
 
-#### **Fluxo alternativo:**
+### **Fluxo alternativo:**
 
 **A1** - **Acesso direto pelo link de administrador**
 
@@ -626,6 +629,6 @@ Os backups realizados ficam disponíveis, com informações de data, nome do arq
 
 ![Acesso config parâmetors fluxo altern](./images/cc/configura-parametro-FA1.png)
 
-3. Retomar a partir do passo 4 do Fluxo normal e realizar as configurações gerais do corpus.<br>
+3. Retomar a partir do passo 4 e realizar as configurações gerais do corpus.<br>
 
 ---
