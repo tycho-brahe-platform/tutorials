@@ -229,19 +229,19 @@ Ao clicarmos em "Parâmetros", uma caixa se abre, disponibilizando diversos bot�
 
 #### Ferramentas disponíveis
 
-Parâmetros que habilitam quais ferramentas poderão ser utilizadas nos corpora. Os botões dos Tipos de Ferramentas disponíveis, "eDictor", "Traduções do eDictor", "Designer" e "Transcriber" não são excludentes, i.e., podem ser habilitados ao mesmo tempo em um determinado corpus. Esta ação disponibiliza todas as ferramentas para utilização no corpus.
+Parâmetros que habilitam quais ferramentas poderão ser utilizadas nos corpora. Os botões dos Tipos de Ferramentas disponíveis, "Editor", "Traduções do Editor", "Designer" e "Transcriber" não são excludentes, i.e., podem ser habilitados ao mesmo tempo em um determinado corpus. Esta ação disponibiliza todas as ferramentas para utilização no corpus.
 
-**eDictor**: o acionamento do botão "eDictor" habilita o uso do eDictor tradicional para transcrição e edição de documentos. Por ser uma ferramenta central na plataforma, demanda um abordagem mais aprofundada, e por isto, os tutoriais sobre o "eDictor" são disponibilizados neste documentos: [uso geral do eDictor](../../edictor/pt-br/edictor-usage.md) e [criação de documento](../../edictor/pt-br/create-document.md).
+**Editor**: o acionamento do botão "Editor" habilita o uso do Editor tradicional para transcrição e edição de documentos. Por ser uma ferramenta central na plataforma, demanda um abordagem mais aprofundada, e por isto, os tutoriais sobre o "Editor" são disponibilizados neste documentos: [uso geral do Editor](../../edictor/pt-br/edictor-usage.md) e [criação de documento](../../edictor/pt-br/create-document.md).
 
 ![](./images/cc/param-corpus-13.png)
 
-**Traduções do eDictor**: Habilita o uso da versão eDictor para apresentação de corpora paralelos, como apresentado nas Figuras a seguir:
+**Traduções do Editor**: Habilita o uso da versão Editor para apresentação de corpora paralelos, como apresentado nas Figuras a seguir:
 
 ![](./images/cc/param-corpus-12.png)
 
-![Use eDictor Translations](./images/cc/config-corpus-useedictortranslations1.jpg)
+![Use Editor Translations](./images/cc/config-corpus-useedictortranslations1.jpg)
 
-A configuração do eDictor com Traduções também depende de configurações na aba "Configurations" na pagina de Admin:
+A configuração do Editor com Traduções também depende de configurações na aba "Configurations" na pagina de Admin:
 
 1. Acesse o Centro Adminstrativo de uma das maneiras descritas no [tutorial: Acessando o Centro Administrativo](./accessing-admin-center.md).
 2. Ao acessar a página de administrador, uma lista de corpora é disposta. Selecione o corpus que deseja configurar (ou crie um novo corpus em "+ Create New Corpus").
@@ -258,12 +258,12 @@ Estas configurações habilitam a apresentação dos corpora paralelos como em [
 
 ![](./images/cc/configura-corpus-admin-translations7.png)
 
-**Designer**: o acionamento deste botão habilita o uso da versão do eDictor para trabalhar com textos de layouts complexos, como jornais antigos, revistas, etc, que não tenham, por exemplo, passado por um processo de digitalização com extração das informações de maneira estruturada previamente (contendo, e.g., apenas fotografia do documento).
+**Designer**: o acionamento deste botão habilita o uso da versão do Editor para trabalhar com textos de layouts complexos, como jornais antigos, revistas, etc, que não tenham, por exemplo, passado por um processo de digitalização com extração das informações de maneira estruturada previamente (contendo, e.g., apenas fotografia do documento).
 Os tutoriais de uso do designer estão disponíveis neste documento: [uso do Designer](../../design/pt-br/design-usage.md)
 
 ![](./images/cc/param-corpus-14.png)
 
-**Transcriber**: este botão habilita o uso da versão do eDictor para trabalhar com transcrição de áudio, permitindo o upload de arquivos de áudio, criação de participantes para associação a trechos de áudios, tap mode (modo de teclas rápidas para alinhamento de participantes a trechos do áudio). Tutorial completo da ferramenta de transcrição esta disponível neste documento: [tutorial transcriber](../../transcriber/pt-br/transcriber-usage.md)
+**Transcriber**: este botão habilita o uso da versão do Editor para trabalhar com transcrição de áudio, permitindo o upload de arquivos de áudio, criação de participantes para associação a trechos de áudios, tap mode (modo de teclas rápidas para alinhamento de participantes a trechos do áudio). Tutorial completo da ferramenta de transcrição esta disponível neste documento: [tutorial transcriber](../../transcriber/pt-br/transcriber-usage.md)
 
 ![](./images/cc/param-corpus-15.png)
 
@@ -277,10 +277,10 @@ Os tutoriais de uso do designer estão disponíveis neste documento: [uso do Des
 
 ![Configuração de corpora: botão "Use Sound"](./images/cc/config-corpus-usesound.png)
 
-- O **"Habilitar Upload de Som"** também habilita, na ferramenta "eDictor", um botão de _play_ para tocar os áudios associados às sentenças do documento selecionado, como observamos na figura abaixo:
+- O **"Habilitar Upload de Som"** também habilita, na ferramenta "Editor", um botão de _play_ para tocar os áudios associados às sentenças do documento selecionado, como observamos na figura abaixo:
   ![Configuração de corpora: botão "Use Sound" 2](./images/cc/config-corpus-usesound2.jpg)
 
-**Traduções de Frases**: habilita a seção de Traduções no eDictor e no Transcriber, como apresentado na figura a seguir:
+**Traduções de Frases**: habilita a seção de Traduções no Editor e no Transcriber, como apresentado na figura a seguir:
 
 ![](./images/cc/param-corpus-6.png)
 
@@ -323,7 +323,7 @@ Esta ação abre um painel com uma matriz para edição dos níveis de edição,
 
 ![Matriz para edição: edition tiers](./images/cc/config-corpus-useeditiontiers5.png)
 
-**Permitir inclusão de Tag POS**: o acionamento deste botão habilita adicionar novas etiquetas POS à lista enquanto o usuário edita sentenças no eDictor. Para incluir uma etiqueta: em uma sentença no eDictor, clique sobre o ícone de lápis para editar uma palavra.Inicie o preenchimento de uma etiqueta. Se ela não estiver na lista, aparecerá “Adicionar <etiqueta>. Pressione e confirme.
+**Permitir inclusão de Tag POS**: o acionamento deste botão habilita adicionar novas etiquetas POS à lista enquanto o usuário edita sentenças no Editor. Para incluir uma etiqueta: em uma sentença no Editor, clique sobre o ícone de lápis para editar uma palavra.Inicie o preenchimento de uma etiqueta. Se ela não estiver na lista, aparecerá “Adicionar <etiqueta>. Pressione e confirme.
 
 ![](./images/cc/param-corpus-16.png)
 
@@ -371,7 +371,7 @@ Esta aba dispõe os documentos presentes no corpus selecionado para configuraç�
 
 ### **Aba Configurations**
 
-Esta aba dispõe configurações de meta informações (informações que serão utilizadas e empregadas na edição (eDictor), busca, apresentação dos documentos no catálogo, categoria de morfemas e de palavras, traduções etc ) <!--REVISAR CRÍTICO-->
+Esta aba dispõe configurações de meta informações (informações que serão utilizadas e empregadas na edição (Editor), busca, apresentação dos documentos no catálogo, categoria de morfemas e de palavras, traduções etc ) <!--REVISAR CRÍTICO-->
 
 **Metadata**
 A área de configuração de metadados habilita campos de preenchimentos de informações pertinentes aos documentos dos corpora no catálogo. Ao configurar um campo de metadado na página de Admin, é disponibilizado ao usuário o respectivo campo de preenchimento no catálogo. A depender dos atributos habilitados, as informações são exibidas no visualizador e podem ser utilizadas na busca ("used in search"); quando marcado "used in catalog grid", informações aparecem na lista do catálogo; se marcado para "used for importing" as informações são disponibilizadas no IO.
@@ -449,7 +449,7 @@ Os critérios para criação das categorias são discricionários do usuário, o
 ![](./images/cc/tycho-admin-47.png)
 
 **Word Category**
-Esta área permite que o usuario crie rótulo para a camada de palavras que será apresentadas no eDictor
+Esta área permite que o usuario crie rótulo para a camada de palavras que será apresentadas no Editor
 
 Para criar uma nova categoria de palavra:
 
@@ -464,12 +464,12 @@ Para criar uma nova categoria de palavra:
 
 ![](./images/cc/word-category-2.png)
 
-A categoria de palavra criada fica disponível como camada de edição no eDictor:
+A categoria de palavra criada fica disponível como camada de edição no Editor:
 
 ![](./images/cc/word-category-1.png)
 
 **Morpheme Category**
-Esta área permite que o usuario crie rótulos para a camada de morfemas que será apresentadas no eDictor.
+Esta área permite que o usuario crie rótulos para a camada de morfemas que será apresentadas no Editor.
 
 Para criar uma nova categoria de morfema:
 
@@ -484,12 +484,12 @@ Para criar uma nova categoria de morfema:
 
 ![](./images/cc/morpheme-category-1.png)
 
-A categoria de morfema criada fica disponíve como camada de edição no eDictor:
+A categoria de morfema criada fica disponíve como camada de edição no Editor:
 
 ![](./images/cc/morpheme-category-2.png)
 
 **Translation**
-Esta configuração permite ao usuário criar campos que serão preenchidos com traduções no eDictor.
+Esta configuração permite ao usuário criar campos que serão preenchidos com traduções no Editor.
 
 Para criar uma categoria de Tradução:
 
@@ -505,12 +505,12 @@ Para criar uma categoria de Tradução:
 
 ![](./images/cc/translation-1.png)
 
-Os campos com categorias de tradução (línguas alvo de tradução) ficam dispostas para preenchimento do usuário no eDictor:
+Os campos com categorias de tradução (línguas alvo de tradução) ficam dispostas para preenchimento do usuário no Editor:
 
 ![](./images/cc/translation-2.png)
 
 **Universal Dependencies Categories**
-Esta configuração permite ao usuário a criar categorias de dependências universais. Cada categoria criada na página de admin fica disponível para preenchimento pelo usuário na página de sentenças (Selecionado o botão UD no eDictor(translations))
+Esta configuração permite ao usuário a criar categorias de dependências universais. Cada categoria criada na página de admin fica disponível para preenchimento pelo usuário na página de sentenças (Selecionado o botão UD no Editor(translations))
 
 Para criar uma Categoria de Dependência Universal:
 
@@ -527,14 +527,14 @@ Para criar uma Categoria de Dependência Universal:
 
 ![](./images/cc/ud-category-1.png)
 
-Os campos cadastrados na página de admin ficam disponíveis para edição no eDictor, ao selecionar um sentença e o botão UD:
+Os campos cadastrados na página de admin ficam disponíveis para edição no Editor, ao selecionar um sentença e o botão UD:
 
 ![](./images/cc/ud-category-2.png)
 
 <!--**Universal Dependencies Translation** REVISAR: NÃO ENCONTREI ONDE ISSO APARECE APÓS PREENCHIMENTO NO ADMIN, não sei onde isso tem impacto-->
 
 **Sections**
-Esta configuração permite ao usuário criar seções (partes). Após a criação de uma seção na página de admin, o usuário consegue, no eDictor, associar partes dos textos com correspondentes seções, rotulando, assim, as partes de texto selecionadas.
+Esta configuração permite ao usuário criar seções (partes). Após a criação de uma seção na página de admin, o usuário consegue, no Editor, associar partes dos textos com correspondentes seções, rotulando, assim, as partes de texto selecionadas.
 
 Para criar uma seção:
 
@@ -550,7 +550,7 @@ Para criar uma seção:
 
 ![](./images/cc/section-1.png)
 
-As seções criadas na página de configurações no admin ficam disponíveis para seleção no eDictor:
+As seções criadas na página de configurações no admin ficam disponíveis para seleção no Editor:
 
 1. Acesse o catálogo através do link https://www.tycho.iel.unicamp.br/catalog.
 2. Clique no topo superior (nomes dos corpora) para apresentar os corpora disponíveis.
@@ -558,22 +558,22 @@ As seções criadas na página de configurações no admin ficam disponíveis pa
 
 ![](./images/cc/section-2.png)
 
-4. Selecione um documento eDictor.
-5. No menu do lado esquerdo, selecione “Ações”, clique no ícone para selecionar a ferramenta, e escolha “Abrir no eDictor”.
+4. Selecione um documento Editor.
+5. No menu do lado esquerdo, selecione “Ações”, clique no ícone para selecionar a ferramenta, e escolha “Abrir no Editor”.
 
 ![](./images/cc/section-3.png)
 Para acessar, ver
 
-6. No eDictor, selecione a aba de "Edição
+6. No Editor, selecione a aba de "Edição
 7. Sobre a parte que deseja associar a um rótulo de seção, clique com o botão direito do mouse.
 8. No menu que se abre, clique sobre "Seção" e "Adicionar seção"
 9. Clique no menu “Tipo de seção” e escolha uma seção previamente cadastrada.
 
-**Nota:** as seções que são disponibilizadas ao usuário no eDictor dependem de uma configuração extra: se a seção for configurada com um "gênero" ela só ficará disponível para rotulação em documentos também associados ao respectivo gênero.
+**Nota:** as seções que são disponibilizadas ao usuário no Editor dependem de uma configuração extra: se a seção for configurada com um "gênero" ela só ficará disponível para rotulação em documentos também associados ao respectivo gênero.
 
 ![](./images/cc/section-4.png)
 
-Após a rotulação com a respectiva seção, o trecho apresenta-se com uma etiqueta no eDictor. No exemplo, o título do texto foi etiquetado como "titulo":
+Após a rotulação com a respectiva seção, o trecho apresenta-se com uma etiqueta no Editor. No exemplo, o título do texto foi etiquetado como "titulo":
 
 ![](./images/cc/section-5.png)
 

@@ -103,7 +103,7 @@ Clique em "Abrir documento" para abrir o documento da sentença.
 
 1. Clique sobre "Paginas".
 2. Navegue pelas páginas.
-3. Clique sobre uma página para abrir no eDictor.
+3. Clique sobre uma página para abrir no Editor.
 
 ![](./images/vu/visualizador_12.jpg)
 

@@ -7,7 +7,7 @@ Esta funcionalidade permite aos usuários associados aos corpora criarem novos d
 Nos tópicos a seguir serão desenvolvidos os principais fluxos envolvidos na criação de novos documentos.
 
 1. Realize o _sign in_ e acesse a Área Reservada, seguindo o [tutorial de _sign in_](../../home/pt-br/sign-in.md).
-2. Acesse o botão eDictor na área Minhas Ferramentas:
+2. Acesse o botão Editor na área Minhas Ferramentas:
 
 ![](./images/cd/selec-ferramenta-edictor.png)
 

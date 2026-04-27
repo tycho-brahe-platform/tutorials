@@ -61,7 +61,7 @@ Ao se acessar esta área, a plataforma apresenta as sentenças do documento para
 
 1. Clique sobre o ícone para desfazer alterações.
 2. Clique sobre o filtro para abrir campos de filtragem por “Contendo texto” ou por status.
-3. Clique em "ABRIR NO EDICTOR" para retornar ao eDictor.
+3. Clique em "ABRIR NO EDICTOR" para retornar ao Editor.
 
 ![](./images/rev/revision-11.png)
 

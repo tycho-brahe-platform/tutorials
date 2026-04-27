@@ -69,10 +69,10 @@ Para realizar uma transcrição de região marcada:
 1. Clique sobre um trecho associado a um participante.
 2. Use o botão de play para tocar apenas o trecho de áudio.
 3. Realize a Transcrição original do trecho (sentença).
-4. Transcrição normalizada: campo com a transcrição que será efetivamente associada ao eDictor e será usada para análise morfossintática. Clique no botão caso queira copiar exatamente o conteúdo da Transcrição original.
+4. Transcrição normalizada: campo com a transcrição que será efetivamente associada ao Editor e será usada para análise morfossintática. Clique no botão caso queira copiar exatamente o conteúdo da Transcrição original.
 5. Clique para inserir camadas.
 6. Preencha as traduções (se houver).
-7. Abra sentença no eDictor (habilitado quando a Transcrição Normalizada é preenchida).
+7. Abra sentença no Editor (habilitado quando a Transcrição Normalizada é preenchida).
 8. Lembre-se de salvar para não perder seu trabalho (salvamento não é automático).
 9. Clique para remover a transcrição.
 10. Clique para marcar para revisão
@@ -113,7 +113,7 @@ Para editar informações da transcrição:
 - **Dividir arquivo de áudio**: Divida o áudio principal em trechos menores de acordo com os trechos associados aos Participantes no "Modo Tap". Após realizar as transcrições (manualmente ou importando) e salvar.
 
 1. Clique sobre o nome do documento para abrir um menu na lateral esquerda.
-2. Selecione “Acões” e “Dividir arquivo de áudio”. Uma mensagem de sucesso é apresentada se não houver problemas. Abre-se uma tela no eDictor apresentando a transcrição original, Tradução da transcrição (importada) e respectivo trecho de áudio dividido e associado à transcrição.
+2. Selecione “Acões” e “Dividir arquivo de áudio”. Uma mensagem de sucesso é apresentada se não houver problemas. Abre-se uma tela no Editor apresentando a transcrição original, Tradução da transcrição (importada) e respectivo trecho de áudio dividido e associado à transcrição.
 
 ![](./images/tu/transcriber-18.png)
 
