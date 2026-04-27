@@ -1,44 +1,38 @@
-# Controle de acesso - Guia do Administrador
+# Controle de acesso - usuários cadastrados
 
-- [Controle de acesso - Guia do Administrador](#controle-de-acesso---guia-do-administrador)
-  - [Tutorial](#tutorial)
-    - [**Fluxo normal**](#fluxo-normal)
+No Centro Adminstrativo, é possível realizar o controle de acesso de usuários com perfis de administrador e editor já cadastrados na plataforma.
 
-## Tutorial
+Após ter acessado o Centro Adminstrativo de uma das maneiras descritas no [tutorial: Acessando o Centro administrativo](./accessing-admin-center.md), selecione um corpus e a aba "Access control": são presentados os usuários que estão atualmente associados e os convites gerados para associação ao corpus.
 
-A plataforma oferece funcionalidades de controle de acesso de usuários já cadastrados.
+![](./images/ac/01-image.jpg)
 
-### **Fluxo normal**
+1. Para realizar alterações de controle de acesso do usuário, selecione um usuário, clicando sobre o perfil. Uma caixa com as informações do perfil do usuário se abre, com as seguintes informações:
 
-1. Na página de Admin (https://www.tycho.iel.unicamp.br/admin), com a aba "Access control" selecionada, são apresentados os usuários que estão atualmente associados ao corpus e os convites gerados para associação ao corpus.
+    **Profile**: foto, nome e email associado.
 
-![](./images/ac/tycho_admin_22.png)
+    **Corpus Access**: nesta área, o administrador consegue configurar o "Role"(papel) do usuário; o status:
 
-2. Para realizar alterações de controle de acesso do usuário, selecione um usuário, clicando sobre o perfil. Uma caixa com as informações do perfil do usuário se abre, com as seguintes informações:
+    1. Role
 
-**Profile**: foto, nome e email associado.
+        1. Clique sobre o "papel"
+        2. Selecione entre: Administrator, Editor e Visitor.
+        3. Clique em "aplicar" para salvar a seleção.
 
-**Corpus Access**: nesta área, o administrador consegue configurar o "Role"(papel) do usuário; o status:
+    2. Status
+        1. Clique sobre o Status.
+        2. Selecione entre Active e Inactive.
 
-1.  Role
+    **Portal information**: informações que são apresentadas na página do corpus no portal principal.
 
-    1. Clique sobre o "papel"
-    2. Selecione entre: Administrator, Editor e Visitor.
-    3. Clique em "aplicar" para salvar a seleção.
+    3. Display in Portal: clique sobre o campo, selecione "sim" ou "não" na lista suspensa.
+    4. Role: clique no campo e selecione entre Coordinator, Researcher, Collaborator, Principal na lista suspensa.
+    5. Preencha o campo “Profile page link”, com um link de perfil da plataforma desejada (por exemplo, lattes, etc.)
 
-2.  Status
-    1. Clique sobre o Status.
-    2. Selecione entre Active e Inactive.
+    **Available Corpora**: apresenta os corpora aos quais o usuário é associado e estão disponíveis.
 
-**Portal information**: informações que são apresentadas na página do corpus no portal principal.
+    **Revoque access**: na área de corpora disponíveis, ao lado de cada corpus são dispostos botões para "revogar acesso". Para revogar acesso, clique no botão ao lado do corpus alvo.
+![](./images/ac/02-image.jpg)
 
-1.  Display in Portal: clique sobre o campo, selecione "sim" ou "não" na lista suspensa.
-2.  Role: clique no campo e selecione entre Coordinator, Researcher, Collaborator, Principal na lista suspensa.
-3.  Preencha o campo “Profile page link”, com um link de perfil da plataforma desejada (por exemplo, lattes, etc.)
-
-**Available Corpora**: apresenta os corpora aos quais o usuário é associado e estão disponíveis.
-
-**Revoque access**: na área de corpora disponíveis, ao lado de cada corpus são dispostos botões para "revogar acesso". Para revogar acesso, clique no botão ao lado do corpus alvo.
-![](./images/ac/admin_cadastro_2.png)
+Para realizar o registro de novos usuários, acesse este tutorial: [registro de novos usuários](../../admin/pt-br/register-new-users.md)
 
 ---
