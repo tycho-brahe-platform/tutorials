@@ -50,8 +50,8 @@ Após a seleção do tipo de arquivo, o usuário consegue iniciar o processament
 3. Selecione "Acões" na lateral esquerda.
 4. Clique sobre o campo "Clique aqui para alterar as configurações padrão do processo".
    1. Marque/desmarque as seleções de "Sentence Delimiters (Delimitadores de Sentença)": esta configuração determina quais caracteres serão utilizados para que o sistema separe o documento em sentenças.
-   2. Número da página quebra a página: habilitar/desabilitar - elemento de texto com tipo pag_nr no XML do Pré eDictor deve adicionar nova página, é específico para arquivos pré-edictor.
-   3. Tipo de seção que deve adicionar nova página: usado para arquivos pré-edictor. Habilita seções que poderão ser utilizadas no eDictor.
+   2. Número da página quebra a página: habilitar/desabilitar - elemento de texto com tipo pag_nr no XML do Pré Editor deve adicionar nova página, é específico para arquivos pré-edictor.
+   3. Tipo de seção que deve adicionar nova página: usado para arquivos pré-edictor. Habilita seções que poderão ser utilizadas no Editor.
    4. Translations for multiple line text file: importa as traduções em arquivos de texto. Os valores devem ser alinhados aos configurados no corpus (na pg de admin - configurações).
    5. Gloss for multiple line text file: importa atributos de palavra em arquivos de texto. Os valores devem representar categorias de palavras configuradas no corpus (na pg de admin - configurações).
 5. Clique em Confirmar para salvar as alterações.

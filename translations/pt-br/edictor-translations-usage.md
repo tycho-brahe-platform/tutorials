@@ -1,8 +1,8 @@
-# Ferramenta **eDictor Translations**
+# Ferramenta **Editor Translations**
 
 Índice
 
-- [Ferramenta **eDictor Translations**](#ferramenta-edictor-translations)
+- [Ferramenta **Editor Translations**](#ferramenta-edictor-translations)
   - [Tutorial](#tutorial)
     - [**Fluxo normal**](#fluxo-normal)
     - [**Fluxo alternativo:**](#fluxo-alternativo)
@@ -14,7 +14,7 @@
 
 ## Tutorial
 
-A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para desenvolvimento de corpora com suas traduções nas línguas configuradas e selecionadas pelo usuário. A habilitação desta ferramenta permite, consequentemente, a apresentação dos corpora de forma paralela, ou seja, com originais e traduções de forma paralela e sincronizada.
+A ferramenta **Use Editor Translations** habilita o uso da versão Editor para desenvolvimento de corpora com suas traduções nas línguas configuradas e selecionadas pelo usuário. A habilitação desta ferramenta permite, consequentemente, a apresentação dos corpora de forma paralela, ou seja, com originais e traduções de forma paralela e sincronizada.
 
 ### **Fluxo normal**
 
@@ -23,8 +23,8 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
 2. Navegue até a área "Ferramentas" e selecione "Área Reservada".
    !["Acessando área reservada"](./images/etu/acesso_area_reservada.jpg)
 
-3. Na página de perfil que se abre, os corpora disponíveis, vinculados ao usuário, são apresentados. Selecione o corpus que deseja configurar e clique no botão "eDictor" na área de "Acesso rápido" ou "eDictor" na área "Minhas Ferramentas" e selecione o corpus que deseja configurar.
-   !["Selecionando o eDictor"](./images/etu/acesso_rapido_edictor.jpg)
+3. Na página de perfil que se abre, os corpora disponíveis, vinculados ao usuário, são apresentados. Selecione o corpus que deseja configurar e clique no botão "Editor" na área de "Acesso rápido" ou "Editor" na área "Minhas Ferramentas" e selecione o corpus que deseja configurar.
+   !["Selecionando o Editor"](./images/etu/acesso_rapido_edictor.jpg)
 
 4. Com o catálogo aberto, clique sobre o nome do corpus e como em [1] para abrir a lista suspensa com os corpora disponíveis e selecione o corpus que deseja editar [2], como na Figura:
    !["Selecionando um corpus no catálogo"](./images/etu/edictor_selecionando_corpus.jpg)
@@ -32,8 +32,8 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
 5. Após selecionar o corpus que deseja editar, acesse "Exibir informações" clicando no ícone com menu (menu com seis pontos) no documento do corpus.
    !["Acessando "Exibir informações"](./images/etu/edict_trans_exibir_info.jpg)
 
-6. Na aba de "Ações" , na menu que abre à esquerda, no campo "Continuar a edição do documento", clique na seta para abrir o menu de ferramentas de edição: selecionar o "eDictor Translations" (Nota: o botão de configuração de parâmetros "Use eDictor Translations" deve estar habilitado para habilitar a edição através do **eDictor Translations**).
-   !["Abrir edição com "eDictor Translations""](./images/etu/exib_info_selecionando_ferramentas_edicao.jpg)
+6. Na aba de "Ações" , na menu que abre à esquerda, no campo "Continuar a edição do documento", clique na seta para abrir o menu de ferramentas de edição: selecionar o "Editor Translations" (Nota: o botão de configuração de parâmetros "Use Editor Translations" deve estar habilitado para habilitar a edição através do **Editor Translations**).
+   !["Abrir edição com "Editor Translations""](./images/etu/exib_info_selecionando_ferramentas_edicao.jpg)
 
    1. Para inserir textos (sentenças):
 
@@ -55,10 +55,10 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
 
 7. Editar sentenças sincronizadas:
 
-    1. Via botão E - eDictor:
+    1. Via botão E - Editor:
 
        1. Com o corpus já selecionado, selecione um par de sentenças.!["Seleciona sentença"](./images/etu/edictor_edicao_sent_sincronizadas4.jpg)</br></br>
-       2. Selecione botão E (eDictor).!["seleciona E"](./images/etu/edictor_edicao_sent_sincronizadas5.jpg)</br></br>
+       2. Selecione botão E (Editor).!["seleciona E"](./images/etu/edictor_edicao_sent_sincronizadas5.jpg)</br></br>
        3. Para editar o texto original do token: no quadro, clique no ícone de "lápis" (edição) da palavra que desejar, edite a palavra e confirme.
        4. Para editar a tradução: role a página até o campo de "Traduções", edite o campo com o texto e salve.!["editando texto"](./images/etu/edictor_edicao_sent_sincronizadas6.jpg)</br></br>
        5. Para outras edições da palavra: clique em "...":
@@ -99,7 +99,7 @@ A ferramenta **Use eDictor Translations** habilita o uso da versão eDictor para
 
 **A2** - Alternativa para inserção de sentenças
 
-Siga o fluxo normal de 1 a 5, ou o fluxo A1, para acesso à ferramenta eDictor Translations. Para um fluxo alternativo de inserção de novas sentenças:
+Siga o fluxo normal de 1 a 5, ou o fluxo A1, para acesso à ferramenta Editor Translations. Para um fluxo alternativo de inserção de novas sentenças:
 
 1. Selecione um par de sentenças.
 2. Clique no botão "Adicionar nova".

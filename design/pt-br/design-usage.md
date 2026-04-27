@@ -1,8 +1,8 @@
-# Ferramenta **eDictor Design**
+# Ferramenta **Editor Design**
 
 Índice
 
-- [Ferramenta **eDictor Design**](#ferramenta-edictor-design)
+- [Ferramenta **Editor Design**](#ferramenta-edictor-design)
       - [Configuração e importação de documento](#configuração-e-importação-de-documento)
       - [Realizar marcações no documento](#realizar-marcações-no-documento)
       - [Transcrições](#transcrições)
@@ -117,6 +117,6 @@ Após a finalização da transcrição, o texto pode passar para o modo edição
 
 ![](./images/du/designer-14.png)
 
-**Nota:** com o texto em modo de edição, é possível, como apresentado no tutorial do use eDictor, realizar etiquetagem e outras edições (Ver [tutorial de uso do eDictor](../../edictor/pt-br/edictor-usage.md) a partir do item 7).
+**Nota:** com o texto em modo de edição, é possível, como apresentado no tutorial do use Editor, realizar etiquetagem e outras edições (Ver [tutorial de uso do Editor](../../edictor/pt-br/edictor-usage.md) a partir do item 7).
 
 ---

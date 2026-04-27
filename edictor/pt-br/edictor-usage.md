@@ -1,8 +1,8 @@
-# Ferramenta **eDictor**
+# Ferramenta **Editor**
 
-- [Ferramenta **eDictor**](#ferramenta-edictor)
+- [Ferramenta **Editor**](#ferramenta-edictor)
       - [Operações no menu suspenso](#operações-no-menu-suspenso)
-        - [**Alterações na sentença no modo edição no eDictor**](#alterações-na-sentença-no-modo-edição-no-edictor)
+        - [**Alterações na sentença no modo edição no Editor**](#alterações-na-sentença-no-modo-edição-no-edictor)
         - [**Inserir quebras**](#inserir-quebras)
         - [**Formatar**](#formatar)
         - [**Seções**](#seções)
@@ -12,26 +12,26 @@
 
 ---
 
-Este tutorial apresenta em detalhes o uso do eDictor para edição e revisão dos corpora.
+Este tutorial apresenta em detalhes o uso do Editor para edição e revisão dos corpora.
 
-## Operações básicas no eDictor
+## Operações básicas no Editor
 
-1. Verifique (ou Habilite) o **eDictor** na página de /admin do corpus, na aba de parâmetros.
+1. Verifique (ou Habilite) o **Editor** na página de /admin do corpus, na aba de parâmetros.
 
-   ![Use eDictor habilitado](./images/eu/use-edictor-1.jpg)
+   ![Use Editor habilitado](./images/eu/use-edictor-1.jpg)
 
 2. Verifique se o documento que deseja editar está no corpus, ou adicione novo documento para transcrição e edição.
 
    1. Clique em "+Adicionar novo documento".
    2. Preencha o nome do novo documento.
-   3. Selecione a Ferramenta de edição desejada para o documento (dentre use eDictor ou eDictor Translation) - Para este caso de uso selecione o use eDictor.
+   3. Selecione a Ferramenta de edição desejada para o documento (dentre use Editor ou Editor Translation) - Para este caso de uso selecione o use Editor.
 
    ![Adicionar documento](./images/eu/use-edictor-2.png)
 
 3. Realize o upload de um arquivo de imagem de onde pretende realizar a transcrição: do lado esquerdo da página que abre após a criação do documento, clique em "clique aqui para realizar o upload", selecione imagem e confirme.
 
    ![Upload arquivo para transcrição](./images/eu/use-edictor-3.png)
-   Upload de documento para eDictor.
+   Upload de documento para Editor.
 
    ![Confirma arquivo](./images/eu/use-edictor-4.jpg)
 
@@ -53,7 +53,7 @@ Este tutorial apresenta em detalhes o uso do eDictor para edição e revisão do
    ![Selecionando edição](./images/eu/use-edictor-8.jpg)
 
 7. Etiquetagem e outras edições:
-   **Edições manuais** realizadas em cada palavra da sentença. Estas edições são feitas ainda no ambiente de edição o eDictor. Para abrir os campos de edição, clique sobre palavra que deseja editar e realize as edições desejadas:
+   **Edições manuais** realizadas em cada palavra da sentença. Estas edições são feitas ainda no ambiente de edição o Editor. Para abrir os campos de edição, clique sobre palavra que deseja editar e realize as edições desejadas:
 
    **Operações**:
 
@@ -77,11 +77,11 @@ Este tutorial apresenta em detalhes o uso do eDictor para edição e revisão do
 
      ![Remoção de palavra](./images/eu/use-edictor-13.jpg)
 
-   - **Observações**: é possível adicionar observações nas palavras. Clique em "Observações", preencha o campo com as observações desejadas e confirme. As palavras com observações serão grifadas no eDictor e as observações são apresentadas ao usuário passar o cursor sobre a palavra grifada.
+   - **Observações**: é possível adicionar observações nas palavras. Clique em "Observações", preencha o campo com as observações desejadas e confirme. As palavras com observações serão grifadas no Editor e as observações são apresentadas ao usuário passar o cursor sobre a palavra grifada.
 
    ![Observações](./images/eu/use-edictor-14.jpg)
 
-   - **Notas de rodapé**: é possível, também, adicionar notas de rodapé nas palavras. Com a palavra selecionada, clique em "Notas de rodapé". Preencha o campo com as notas desejadas e confirme. O token recebe um índice superior e a nota correspondente aparece no rodapé do eDictor.
+   - **Notas de rodapé**: é possível, também, adicionar notas de rodapé nas palavras. Com a palavra selecionada, clique em "Notas de rodapé". Preencha o campo com as notas desejadas e confirme. O token recebe um índice superior e a nota correspondente aparece no rodapé do Editor.
 
    ![Notas de rodapé](./images/eu/use-edictor-15.jpg)
 
@@ -121,9 +121,9 @@ Este tutorial apresenta em detalhes o uso do eDictor para edição e revisão do
 
 ## Operações no menu suspenso
 
-### Alterações na sentença no modo edição no eDictor
+### Alterações na sentença no modo edição no Editor
 
-É possível realizar algumas alterações nas sentenças ainda em modo de edição no eDictor.
+É possível realizar algumas alterações nas sentenças ainda em modo de edição no Editor.
 
 1. Clique sobre uma sentença com o botão direito do mouse. Um menu se abre:
    ![](./images/eu/use-edictor-23.png)
@@ -186,16 +186,16 @@ Para inserir quebras de linha e página:
 
 Para associar seções a trechos de texto (esta ação pressupões que seções tenham sido criadas previamente - para mais detalhes ver Caso de uso 03 - criação e configuração de corpora, página de admin):
 
-1. No eDictor, selecione a aba de "Edição
+1. No Editor, selecione a aba de "Edição
 2. Sobre a parte que deseja associar a um rótulo de seção, clique com o botão direito do mouse.
 3. No menu que se abre, clique sobre "Seção" e "Adicionar seção"
 4. Clique no menu “Tipo de seção” e escolha uma seção previamente cadastrada.
 
-**Nota:** as seções que são disponibilizadas ao usuário no eDictor dependem de uma configuração extra: se a seção for configurada com um "gênero" ela só ficará disponível para rotulação em documentos também associados ao respectivo gênero.
+**Nota:** as seções que são disponibilizadas ao usuário no Editor dependem de uma configuração extra: se a seção for configurada com um "gênero" ela só ficará disponível para rotulação em documentos também associados ao respectivo gênero.
 
 ![](./images/eu/section-4.png)
 
-Após a rotulação com a respectiva seção, o trecho apresenta-se com uma etiqueta no eDictor. No exemplo, o título do texto foi etiquetado como "titulo":
+Após a rotulação com a respectiva seção, o trecho apresenta-se com uma etiqueta no Editor. No exemplo, o título do texto foi etiquetado como "titulo":
 
 ![](./images/eu/section-5.png)
 
